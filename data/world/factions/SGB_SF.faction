@@ -223,22 +223,17 @@
 		},
 	},
 	"fleetTypeNames":{
-		"smallTrader":"交接联队",
-		"trade":"考察联队",
-		"tradeLiner":"商业联队",
-		"patrolSmall":"游巡联队",
-		"patrolMedium":"风暴联队",
-		"patrolLarge":"淬火联队",
-		"mercScout":"风暴特工队",
-		"mercBountyHunter":"猎手联队",
-		"mercPrivateer":"猎袭联队",
-		"mercPatrol":"打击联队",
-		"mercArmada":"舰队",
-		"taskForce":"特遣联队",
+		"smallTrader":"Transfer Squad",
+		"trade":"Survey Squad",
+		"tradeLiner":"Commercial Squad",
+		"patrolSmall":"Patrol Squad",
+		"patrolMedium":"Storm Squad",
+		"patrolLarge":"Quench Squad",
+		"mercScout":"Storm Agents",
+		"mercBountyHunter":"Hunter Squad",
+		"mercPrivateer":"Raid Squad",
+		"mercPatrol":"Strike Squad",
+		"mercArmada":"Fleet",
+		"taskForce":"Task Force",
 	},
 },
-
-
-
-
-

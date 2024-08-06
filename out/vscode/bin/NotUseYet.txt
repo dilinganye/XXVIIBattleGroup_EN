@@ -1,0 +1,27 @@
+
+greetingSGBTOffNormal,OpenCommLink,"$faction.id == SGB
+!$player.transponderOn
+$entity.relativeStrength >= 0",,"""请打开应答器, 链戍的控制辖区内不允许非法关闭应答器航行。""
+
+这时你的扫描器检测到了对方武器同时启动的大量特征讯号。
+OR
+""请立刻！立刻打开应答器！否则我们有权对您进行处置。""
+
+这时你的扫描器检测到了对方武器同时启动的大量特征讯号。
+OR
+""请立刻打开应答器，链戍的控制辖区内不允许非法关闭应答器航行。""
+
+这时你的扫描器检测到了对方武器同时启动的大量特征讯号。","turnOnTransponder:开启你的应答器
+cutCommLink:切断通讯链接",
+greetingSGBTOffWeaker,OpenCommLink,"$faction.id == SGB
+!$player.transponderOn
+$entity.relativeStrength < 0",,"""请打开应答器, 链戍的控制辖区内不允许非法关闭应答器航行。""
+OR
+""请立刻！立刻打开应答器！否则我们有权对您进行处置。""
+OR
+""请立刻打开应答器， 链戍的控制辖区内不允许非法关闭应答器航行。""","turnOnTransponder:开启你的应答器
+cutCommLink:切断通讯链接 ",
+greetingSGBTOffUnknown,OpenCommLink,"$faction.id == SGB
+!$entity.patrolAllowTOff
+$entity.transponderOffConv score:100
+!$entity.knowsWhoPlayerIs",,,,

@@ -1,22 +1,24 @@
-Location: {Near{Ampoist}Research Fortress
-Date: {Unknown}
+Location: Near Ampoist Research Fortress
+Date: Unknown
 
-The 27th Battle Group only took a year to successfully restart the peripheral Star Forts, rapidly constructing numerous military factories and recklessly exploiting planets. This allowed Shackles Garrison to rebuild a certain military force in a short period of time. Consequently, the revenge for the incident where Tritachyon technology used a large number of mercenaries to surround and suppress Shackles Garrison's retreating fleet gradually emerged from the nebula storm.
+The 27th Battle Group only took a year to successfully restart the peripheral Star Forts, rapidly constructing numerous military factories and recklessly exploiting planets. This allowed Shackles Garrison to rebuild a certain military force in a short period of time. Consequently, the revenge for the incident where Tri-Tachyon Technology used a large number of mercenaries to surround and suppress Shackles Garrison's retreating fleet gradually emerged from the nebula storm.
 
-For the Tritachyon security fleet, this should have been just a routine maintenance operation to check failed communicators. But the hostile signals suddenly appeared all over the visual information screen just after the fleet approached. Tritachyon security commander quickly requested support in a panic, and a large number of security forces quickly gathered and headed to the target location as they wanted, but there was nothing near the communicator.
+The 27th Battle Group took only a year to successfully restart the peripheral Star Forts, rapidly constructing numerous military factories and recklessly exploiting planets. This allowed Shackles Garrison to rebuild a significant military force in a short period of time. Consequently, revenge for the incident where Tri-Tachyon Technology used a large number of mercenaries to surround and suppress Shackles Garrison's retreating fleet gradually emerged from the nebula storm.
+
+For the Tri-Tachyon security fleet, this should have been just a routine maintenance operation to check failed communicators. But the hostile signals suddenly appeared all over the visual information screen just after the fleet approached. Tri-Tachyon security commander quickly requested support in a panic, and a large number of security forces quickly gathered and headed to the target location as they wanted, but there was nothing near the communicator.
 
 And, after some small times of silent for the star, a supernova-level explosion erupted at the communicator site.
 
-A large number of Shackles Garrison's fleets burst in from various gravity wells, quickly clearing all the loose Tritachyon security fleets whom still stand the way, and all assembled towards the Ampoist scientific stronghold. At this point, the Tritachyon senior officials who had ordered the pursuit of Shackles Garrison's withdrawal team finally realized that it was an utterly foolish decision to continue using the peaceful tendency portrait of Shackles Garrison after its former capital was destroyed by Hegemony, and their retreat team been attacked by mercenary of Tritachyon.
+A large number of Shackles Garrison's fleets burst in from various gravity wells, quickly clearing all the loose Tri-Tachyon security fleets whom still stand the way, and all assembled towards the Ampoist scientific stronghold. At this point, the Tri-Tachyon senior officials who had ordered the pursuit of Shackles Garrison's withdrawal team finally realized that it was an utterly foolish decision to continue using the peaceful tendency portrait of Shackles Garrison after its former capital was destroyed by Hegemony, and their retreat team been attacked by mercenary of Tri-Tachyon.
 
-According to the report from the previously missing Tritachyon security fleet - Shackles Garrison seemed to have brought some warships that had never appeared before and were not recorded in any documents, and they were numerous. The Tritachyon participants urgently mobilized the remaining nearby patrol teams and sent out distress signals to other star systems about Shackles Garrison's re-entry into the core star domain, trying to hold out until reinforcements arrived.
+According to the report from the previously missing Tri-Tachyon security fleet - Shackles Garrison seemed to have brought some warships that had never appeared before and were not recorded in any documents, and they were numerous. The Tri-Tachyon participants urgently mobilized the remaining nearby patrol teams and sent out distress signals to other star systems about Shackles Garrison's re-entry into the core systems, trying to hold out until reinforcements arrived.
 
-For Shackles Garrison, this victory would not only fully avenge their compatriots who had been attacked but also allow them to re-enter the core star domain and use it as a springboard, ready to take their next steps at any time.
+For Shackles Garrison, this victory would not only fully avenge their compatriots who had been attacked but also allow them to re-enter the core systems and use it as a springboard, ready to take their next steps at any time.
 
 ——————
 ==For a better experience, please enable campaign BGM==
 You can activate in-game BGM by entering a campaign, immediately exiting the campaign, and then re entering the campaign without switching campaigns
 Just click on the SGB-test-Campaign to close BGM - this method is relatively stable.
 ——————
-[After the battle is completed, the scientific fortress of Ampoise in the core star domain will be occupied by Shackles Garrison]
+[After the battle is completed, the scientific fortress of Ampoise will be occupied by Shackles Garrison]
 [Score>50% is considered successful]

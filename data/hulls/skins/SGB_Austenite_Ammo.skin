@@ -1,7 +1,7 @@
 {
     "baseHullId":"SGB_Austenite",
     "skinHullId":"SGB_Austenite_Ammo",
-    "hullName":"奥氏体",
+    "hullName":"Austenite",
     "descriptionId":"SGB_Austenite",
     "systemId":"SGB_Austenite_System_Ammo",
     "removeBuiltInWeapons":[

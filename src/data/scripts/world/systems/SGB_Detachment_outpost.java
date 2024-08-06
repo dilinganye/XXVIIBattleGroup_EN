@@ -72,7 +72,7 @@ public class SGB_Detachment_outpost {
         system.addRingBand(star, "misc", "rings_dust0", 256f, 1, Color.white, 256f, 4000, 120f);
         system.addRingBand(star, "misc", "rings_dust0", 256f, 2, Color.white, 256f, 4100, 160f);
         //行星（势力、圆心、引用、类型；设置星球简介以及归属
-        SectorEntityToken ring = system.addTerrain(Terrain.RING, new BaseRingTerrain.RingParams(600 + 256, 400, null, "尘埃团"));
+        SectorEntityToken ring = system.addTerrain(Terrain.RING, new BaseRingTerrain.RingParams(600 + 256, 400, null, "Limort Accretion Ring"));
         ring.setCircularOrbit(star, 0, 0, 100);
         PlanetAPI planet1 = system.addPlanet(
                 "SGB_planet1", //行星ID
@@ -181,7 +181,7 @@ public class SGB_Detachment_outpost {
         system.addRingBand(star, "misc", "rings_dust0", 256f, 0, Color.white, 256f, 4700, 80f);
         system.addRingBand(star, "misc", "rings_dust0", 256f, 1, Color.white, 256f, 4800, 100f);
         system.addRingBand(star, "misc", "rings_dust0", 256f, 2, Color.white, 256f, 4900, 130f);
-        ring = system.addTerrain(Terrain.RING, new BaseRingTerrain.RingParams(200 + 256, 4800, null, "尘埃团"));
+        ring = system.addTerrain(Terrain.RING, new BaseRingTerrain.RingParams(200 + 256, 4800, null, "Postun Accretion Ring"));
         ring.setCircularOrbit(star, 0, 0, 100);
         //行星（势力、圆心、引用、类型；设置星球简介以及归属
         PlanetAPI planet2 = system.addPlanet(
@@ -321,7 +321,7 @@ public class SGB_Detachment_outpost {
         planet6.getSpec().setCloudColor(new Color(245, 255, 254, 195));
 
         SectorEntityToken STR = system.addCustomEntity("corvus_abandoned_station",
-                "前哨站", "station_side04", "neutral");
+                "Aosnit Abandoned Station", "station_side04", "neutral");
 
         STR.setCircularOrbitPointingDown(system.getEntityById("SGB_planet6"), 45, 300, 30);
         STR.setCustomDescriptionId("SGB_planet6_platform");
@@ -339,7 +339,7 @@ public class SGB_Detachment_outpost {
             STR.getMarket().getSubmarket(Submarkets.SUBMARKET_STORAGE).getCargo().addItems(RESOURCES,"organs",71f);
             STR.getMarket().getSubmarket(Submarkets.SUBMARKET_STORAGE).getCargo().addItems(RESOURCES,"drugs",28f);
             STR.getMarket().getSubmarket(Submarkets.SUBMARKET_STORAGE).getCargo().addItems(RESOURCES,"heavy_machinery",55f);
-            STR.getMarket().getSubmarket(Submarkets.SUBMARKET_STORAGE).getCargo().addMothballedShip(FleetMemberType.SHIP, "SGB_Austenite_Assault_In_Campain", "未完全损毁的舰船");
+            STR.getMarket().getSubmarket(Submarkets.SUBMARKET_STORAGE).getCargo().addMothballedShip(FleetMemberType.SHIP, "SGB_Austenite_Assault_In_Campain", "Partially-Damaged Ship");
         }
          /*
           七号行星————————————————————————————————————————————————————————————————————————
@@ -367,7 +367,7 @@ public class SGB_Detachment_outpost {
         planet7.getSpec().setCloudColor(new Color(200, 200, 200, 150));
 
         //为星系生成指定跳跃点
-        JumpPointAPI jumpPoint = Global.getFactory().createJumpPoint("inside_point", "SGB Jump-point");
+        JumpPointAPI jumpPoint = Global.getFactory().createJumpPoint("inside_point", "Aosnit Inner-System Jump Point");
         OrbitAPI orbit = Global.getFactory().createCircularOrbit(planet1, 0, 1000, 30);
         jumpPoint.setOrbit(orbit);
         jumpPoint.setRelatedPlanet(planet1);
@@ -375,7 +375,7 @@ public class SGB_Detachment_outpost {
         system.addEntity(jumpPoint);
 
         //为星系生成指定跳跃点
-        JumpPointAPI jumpPoint2 = Global.getFactory().createJumpPoint("inside_point2", "SGB Jump-point");
+        JumpPointAPI jumpPoint2 = Global.getFactory().createJumpPoint("inside_point2", "Ougest Gravity Well");
         OrbitAPI orbit2 = Global.getFactory().createCircularOrbit(star, 40, 3500, 360);
         jumpPoint2.setOrbit(orbit2);
         jumpPoint2.setRelatedPlanet(planet1);
@@ -389,12 +389,12 @@ public class SGB_Detachment_outpost {
         NebulaEditor editor = new NebulaEditor(plugin);
         float minRadius = plugin.getTileSize() * 2f;
         float radius = system.getMaxRadiusInHyperspace();
-        //editor.clearArc(system.getLocation().x, system.getLocation().y, 0, radius + minRadius * 0.5f, 0, 360f);
-        //editor.clearArc(system.getLocation().x, system.getLocation().y, 0, radius + minRadius, 0, 360f, 0.25f);
+        editor.clearArc(system.getLocation().x, system.getLocation().y, 0, radius + minRadius * 0.5f, 0, 360f);
+        editor.clearArc(system.getLocation().x, system.getLocation().y, 0, radius + minRadius, 0, 360f, 0.25f);
 
         //生成星门
         SectorEntityToken gate = system.addCustomEntity("SGB_gate", // unique id 设置星门id
-                "星门", // name - if null, defaultName from custom_entities.json will be used 设置你星门的名字
+                "Aosnit Gate", // name - if null, defaultName from custom_entities.json will be used 设置你星门的名字
                 "inactive_gate", // type of object, defined in custom_entities.json 设置标签（让系统识别这是个星门）根据custom_entities.json设置
                 null); // faction
 
@@ -402,11 +402,11 @@ public class SGB_Detachment_outpost {
         gate.setCircularOrbit(star, 5, 3080f, 350f);
 
         //设置你星系的永久稳定点建筑
-        SectorEntityToken A = system.addCustomEntity("SGB_A", "中继通讯基座", "comm_relay", "SGB");
+        SectorEntityToken A = system.addCustomEntity(null,null, "comm_relay", "SGB");
         A.setCircularOrbit(star, 180f, 2900f, 365f);
-        SectorEntityToken B = system.addCustomEntity("SGB_B", "中继导航浮标", "nav_buoy", "SGB");
+        SectorEntityToken B = system.addCustomEntity(null,null, "nav_buoy", "SGB");
         B.setCircularOrbit(star, 220f, 2500f, 365f);
-        SectorEntityToken C = system.addCustomEntity("SGB_C", "中继传感器阵列", "sensor_array", "SGB");
+        SectorEntityToken C = system.addCustomEntity(null,null, "sensor_array", "SGB");
         C.setCircularOrbit(star, 240f, 2900f, 365f);
 
     }

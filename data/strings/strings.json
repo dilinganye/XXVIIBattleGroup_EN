@@ -5,12 +5,12 @@
       "SGB_AsAboveSoBelow_FluxSpeed": "Weapon flux generated -",
       "SGB_AsAboveSoBelow_EngineSpeed": "Increase Engine output",
 
-      "HullMods_XXVII_SpecialWingGroup_Above": "Change the LPC of Shackles Garrison in to specialized version - %s",
+      "HullMods_XXVII_SpecialWingGroup_Above": "Change the LPC of Shackles Garrison to specialized version - %s",
       "HullMods_XXVII_SpecialWingGroup_DogFight": "Dominance version",
       "HullMods_XXVII_SpecialWingGroup_Coop": "Coordination version",
       "HullMods_XXVII_SpecialWingGroup_Assault": "Strike version",
       "HullMods_XXVII_SpecialWingGroup_All": "All version",
-      "HullMods_XXVII_SpecialWingGroup_Carrier_01": "Shackles Garrison has always attached great importance to the construction of carrier, which based aircraft systems and used them as the spearhead of the entire fleet's vanguard attack, thus given rise to the theory of the Shackles Garrison fighter theory.",
+      "HullMods_XXVII_SpecialWingGroup_Carrier_01": "Shackles Garrison has always attached great importance to the construction of carriers, which based aircraft systems and used them as the spearhead of the entire fleet's vanguard attack, thus given rise to the theory of the Shackles Garrison fighter theory.",
       "HullMods_XXVII_SpecialWingGroup_Carrier_02": "%s LPC of Shackles Garrison can get those bonus",
       "HullMods_XXVII_SpecialWingGroup_Carrier_03": "can only be install on the carrier of Shackles Garrison",
       "HullMods_XXVII_SpecialWingGroup_Carrier_04": "Already used",
@@ -36,7 +36,7 @@
             "Austenite_System_temporalDrive_4": "Time flow change",
 
             "Mission_TheLongestDay_FleetTagline_Player": "Andelon & Erubolie with SGB Evacuation team-Remaining troops",
-            "Mission_TheLongestDay_FleetTagline_Enemy": "Bounty group? Goddamn tritachyon bastard!",
+            "Mission_TheLongestDay_FleetTagline_Enemy": "Bounty group? Goddamn Tri-Tachyon bastard!",
 
             "Mission_TheLongestDay_BriefingItem1": "Tip: Your flagship is a very special ship, and it is also your own battleship - do not be disabled;",
             "Mission_TheLongestDay_BriefingItem2": "Do not immerse in the battle, make sure your own fleet can evacuate first; The enemy's equipment is be aimed to killing your transport, don't give them the chance to approach your rear services units.",
@@ -52,7 +52,7 @@
             "HullMods_AllForHuman1": "This is the core plugin of the 27th Battle Group.",
             "HullMods_AllForHuman2": "The 27th Battle Group, also known as the Shackles Garrison, has ships with superior transition capabilities compared to other ships;",
             "HullMods_AllForHuman3": "Furthermore, their ships have a better missile locate system, which will self tune to increase the sensitivity of the missile, that is, to enhance the missile's guidance ability.",
-            "HullMods_AllForHuman4": "Shackles Garrison Mobile theory - is the main combat style of the 27th Battle Group; Unlike the decisive doctrine of the predecessor of the hegemony, the 14th Battle Group, the Shackles Garrison emphasized the strike ways more, which led to their ships being mostly designed with missile launch modules and rapid maneuverability in zero amplitude state.",
+            "HullMods_AllForHuman4": "Shackles Garrison Mobile theory - is the main combat style of the 27th Battle Group; Unlike the decisive doctrine of the predecessor of the Hegemony, the 14th Battle Group, the Shackles Garrison emphasized the strike ways more, which led to their ships being mostly designed with missile launch modules and rapid maneuverability in zero amplitude state.",
 
             "HullMods_Austenite_Wings": "This plugin is the main wing module plugin of Austenite.",
             "HullMods_Austenite_DrivenWing1": "When using ships for strike action, this type of wing can perfectly achieve the 'Hit And Run' tactic;",
@@ -77,7 +77,7 @@
 
             "HullMods_Austenite_Engine_Wing": "This plugin is the tail wing module plugin of Austenite.",
             "HullMods_Austenite_Engine_Wing_BackLoad1": "A fairly streamlined engine control device that can be effectively maintained and deployed without the need for professional technical personnel;",
-            "HullMods_Austenite_Engine_Wing_BackLoad2": "Edge Dislocation - Recharge Module can accelerate the recovery speed of ship systems and increase ship CR。",
+            "HullMods_Austenite_Engine_Wing_BackLoad2": "Edge Dislocation - Recharge Module can accelerate the recovery speed of ship systems and increase ship CR.",
             "HullMods_Austenite_Engine_Wing_BackLoad3": "The blade dislocation module is an extension and extension of the ship system module, playing a role similar to external antenna detectors and additional rechargeable batteries. This is why it can accelerate the charging speed or quantity of the ship system.",
 
             "HullMods_Austenite_Engine_Wing_Polarization_1": "This type of tail wing is relatively thick and equipped with a device to control polarization damage to the engine;",
