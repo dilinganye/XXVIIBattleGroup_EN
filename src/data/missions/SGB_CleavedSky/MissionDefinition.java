@@ -33,12 +33,13 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		// Set up the fleets so we can add ships and fighter wings to them.
 		api.initFleet(FleetSide.PLAYER, "HSS", FleetGoal.ATTACK, false, 30);
 		api.initFleet(FleetSide.ENEMY, "SGB", FleetGoal.ATTACK, true, 30);
-		api.setFleetTagline(FleetSide.PLAYER, "北河三打击力量 XIV 拦截舰队");
-		api.setFleetTagline(FleetSide.ENEMY, "链戍集团军 XXVII 颈钩复仇舰队");
+		api.setFleetTagline(FleetSide.PLAYER, "Pollux Strike Force XIV Intercept Fleet");
+		api.setFleetTagline(FleetSide.ENEMY, "Shackles Garrison XXVII Neck Hook Revenge Fleet");
 
-		api.addBriefingItem("提示：敌人为巨型航母编队，请尽力确保制空");
-		api.addBriefingItem("链戍舰队杀红了眼，他们的行为十分激进，确保击溃他们足够多的舰船来让他们清醒过来");
-		api.addBriefingItem("此战役分数 > 25 即视作成功");
+		api.addBriefingItem("Tip: The enemy is a giant carrier formation, please do your best to ensure your air superiority");
+		api.addBriefingItem("Enemy fleet has gone berserk, their actions are extremely aggressive.");
+		//make sure to cripple enough of their ships to bring them back to their senses
+		api.addBriefingItem("Score of this campaign > 25 is considered as successful");
 
 		// Set up the player's fleet.
 
