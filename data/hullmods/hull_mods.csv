@@ -1,132 +1,138 @@
 name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
-Shackles Garrison Mobile theory,SGB_AllForHuman,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_AllForHuman,"From personnel training to the systems within the ship, extensive and personalized modifications have been made. Incorporating the engine control system developed by the Shackles Garrison, this ship further emphasizes the mobile combat doctrine style of Shackles Garrison as a whole.
+Shackles Garrison Mobile Theory,SGB_AllForHuman,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_AllForHuman,"From personnel training to the systems within the ship, extensive and personalized modifications have been made. Incorporating the engine control system developed by the Shackles Garrison, this ship further emphasizes the mobile combat doctrine style of Shackles Garrison as a whole.
 
-Based on ship class:
-Increase the zero-flux top speed of ships %s/%s/%s/%s, while also enhancing the missile guidance capability by %s ;
-
-Within the first %s of the ship's peak cr duration:
-Depending on the ship class, zero-flux acceleration can be triggered when the flux level is below %s/%s/%s/%s.",+机动、幅能；但增大维护需求,graphics/hullmods/SGB_AllForHuman.png
-Shackles Garrison fighter theory,XXVII_SpecialWingGroup_Carrier,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.XXVII_SpecialWingGroup_Carrier,This plugin is built-in to all Shackles Garrison carriers,链戍航母内插,graphics/hullmods/XXVII_SpecialWingGroup_Carrier.png
-Collaborative Disruption Theory,XXVII_SpecialWingGroup_Coop,1,,Shackles Garrison,"no_build_in,SGB_HullMods",,9500,,,,5,5,10,10,data.hullmods.XXVII_SpecialWingGroup_Coop,Collaborative series,协同系列,graphics/hullmods/XXVII_SpecialWingGroup_Coop.png
-Regional Air Control Theory,XXVII_SpecialWingGroup_DogFight,2,,Shackles Garrison,"no_build_in,SGB_HullMods",,10000,,,,5,5,10,10,data.hullmods.XXVII_SpecialWingGroup_DogFight,Air superiority series,制空系列,graphics/hullmods/XXVII_SpecialWingGroup_DogFight.png
-Continuous Strike Theory,XXVII_SpecialWingGroup_Assault,1,,Shackles Garrison,"no_build_in,SGB_HullMods",,10500,,,,5,5,10,10,data.hullmods.XXVII_SpecialWingGroup_Assault,Assault Series,突击系列,graphics/hullmods/XXVII_SpecialWingGroup_Assault.png
+Increases the zero-flux top speed of ships by %s/%s/%s/%s.
+Enhances missile guidance capability by %s.
+Within the first %s of the ship's peak performance duration, enables zero-flux acceleration bonus when the flux level is below %s/%s/%s/%s.","+mobility, flux; but increases maintenance needs",graphics/hullmods/SGB_AllForHuman.png
+Shackles Garrison Fighter Theory,XXVII_SpecialWingGroup_Carrier,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.XXVII_SpecialWingGroup_Carrier,This plugin is built-in to all Shackles Garrison carriers.,This plugin is built-in to all Shackles Garrison carriers.,graphics/hullmods/XXVII_SpecialWingGroup_Carrier.png
+Collaborative Disruption Theory,XXVII_SpecialWingGroup_Coop,1,,Shackles Garrison,"no_build_in,SGB_HullMods",,9500,,,,5,5,10,10,data.hullmods.XXVII_SpecialWingGroup_Coop,Collaborative series,Collaborative series,graphics/hullmods/XXVII_SpecialWingGroup_Coop.png
+Regional Air Control Theory,XXVII_SpecialWingGroup_DogFight,2,,Shackles Garrison,"no_build_in,SGB_HullMods",,10000,,,,5,5,10,10,data.hullmods.XXVII_SpecialWingGroup_DogFight,Air superiority series,Air superiority series,graphics/hullmods/XXVII_SpecialWingGroup_DogFight.png
+Continuous Strike Theory,XXVII_SpecialWingGroup_Assault,1,,Shackles Garrison,"no_build_in,SGB_HullMods",,10500,,,,5,5,10,10,data.hullmods.XXVII_SpecialWingGroup_Assault,Assault Series,Assault Series,graphics/hullmods/XXVII_SpecialWingGroup_Assault.png
 #chassis_storage,,,,,,,,,,,,,,,,,,
-Quenching Squad,SGB_QuenchGroup,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.FighterChassisStorage,"The wolf follows you under the shadow, and the squadron will always follow you.",淬火联队,graphics/hullmods/SGB_QuenchGroup.png
+Quenching Squad,SGB_QuenchGroup,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.FighterChassisStorage,"The wolf follows you under the shadow, and the squadron will always follow you.",Quench Group,graphics/hullmods/SGB_QuenchGroup.png
 ,,,,,,,,,,,,,,,,,,
-#奥氏体,,,,,,,,,,,,,,,,,,
-Modular Quenching Core,SGB_Austenite_Core,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_Core,"This ship is a specialized frigate-class combat vessel of the 27th Battle Group, with its specialized internal weapon modules can support certain exclusive weapons. The system of this ship has been tuned to a certain extent, and pushing it further may require additional costs.
+#Austenite
+Modular Quenching Core,SGB_Austenite_Core,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_Core,"This ship is a specialized frigate-class combat vessel of the 27th Battlegroup, capable of supporting certain exclusive weapons with its specialized internal weapon modules. Additionally, the system of this ship has been tuned to a certain extent, and pushing it further may require additional costs.
 
-When equipped with %s/%s, it will further reduce the ship's peak cr time.
+When equipped with %s/%s, peak performance time will be further reduced.
 
-When equipped with %s, the ship will additionally lose %s armor and structure; at the same time, it will also increase the damage of  energy weapons/ballistic weapons/missile weapons by %s.
+When equipped with %s, the ship will additionally lose %s armor and structure, while simultaneously increasing the damage of energy, ballistic, and missile weapons by %s.
 
 When equipped with %s, the engine will take an additional %s damage, while increasing the maximum speed by %s.
 
-This ship can be salvaged under any non-fatal injuries.",,graphics/hullmods/SGB_Austenite_Core.png
+This ship can always be recovered if recovery is possible.",,graphics/hullmods/SGB_Austenite_Core.png
 ,,,,,,,,,,,,,,,,,,
 #固溶度：某种激光武器，具体不确定/再结晶：一种安超风格的近距离爆发武器,,,,,,,,,,,,,,,,,,
-Left-WMP: Ferromagnetism MRM Module,SGB_Austenite_Rocket_L,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_Rocket_L,The built-in modular weapons can be swapped as needed.,,graphics/hullmods/SGB_Austenite_Rocket.png
-Left-WMP: Straightening MRA,SGB_Austenite_Gun_L,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_Gun_L,The built-in modular weapons can be swapped as needed.,,graphics/hullmods/SGB_Austenite_Gun.png
-Left-WMP: Polarizability HEP,SGB_Austenite_Weapon_Blast_L,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_Weapon_Blast_L,The built-in modular weapons can be swapped as needed.,,graphics/hullmods/SGB_Austenite_Weapon_Blast.png
+Left-WMP: Ferromagnetism MRM Module,SGB_Austenite_Rocket_L,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_Rocket_L,Built-in modular weapon; cycle between alternatives by removing this hullmod.,,graphics/hullmods/SGB_Austenite_Rocket.png
+Left-WMP: Straightening MRA,SGB_Austenite_Gun_L,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_Gun_L,Built-in modular weapon; cycle between alternatives by removing this hullmod.,,graphics/hullmods/SGB_Austenite_Gun.png
+Left-WMP: Polarizability HEP,SGB_Austenite_Weapon_Blast_L,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_Weapon_Blast_L,Built-in modular weapon; cycle between alternatives by removing this hullmod.,,graphics/hullmods/SGB_Austenite_Weapon_Blast.png
 ,,,,,,,,,,,,,,,,,,
-Right-WMP: Ferromagnetism MRM Module,SGB_Austenite_Rocket_R,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_Rocket_R,The built-in modular weapons can be swapped as needed.,,graphics/hullmods/SGB_Austenite_Rocket.png
-Right-WMP: Straightening MRA,SGB_Austenite_Gun_R,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_Gun_R,The built-in modular weapons can be swapped as needed.,,graphics/hullmods/SGB_Austenite_Gun.png
-Right-WMP: Polarizability HEP,SGB_Austenite_Weapon_Blast_R,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_Weapon_Blast_R,The built-in modular weapons can be swapped as needed.,,graphics/hullmods/SGB_Austenite_Weapon_Blast.png
+Right-WMP: Ferromagnetism MRM Module,SGB_Austenite_Rocket_R,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_Rocket_R,Built-in modular weapon; cycle between alternatives by removing this hullmod.,,graphics/hullmods/SGB_Austenite_Rocket.png
+Right-WMP: Straightening MRA,SGB_Austenite_Gun_R,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_Gun_R,Built-in modular weapon; cycle between alternatives by removing this hullmod.,,graphics/hullmods/SGB_Austenite_Gun.png
+Right-WMP: Polarizability HEP,SGB_Austenite_Weapon_Blast_R,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_Weapon_Blast_R,Built-in modular weapon; cycle between alternatives by removing this hullmod.,,graphics/hullmods/SGB_Austenite_Weapon_Blast.png
 ,,,,,,,,,,,,,,,,,,
 #贝氏体：血量越低跑的越快，但是输出同样和血量直线挂钩,,,,,,,,,,,,,,,,,,
-Wing Module: Martensite,SGB_Austenite_HeavyWing,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_HeavyWing,"The modular wings of the ship can be modified according to requirements.
+Wing Module: Martensite,SGB_Austenite_HeavyWing,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_HeavyWing,"Built-in modular hullmod; cycle between alternatives by removing this hullmod.
 
-Increase the ship's armor by %s, increase armor resistance by %s, and increase the ship's HP by %s;
-Reduce the ship's maximum speed by %s, decrease mobility by %s.",,graphics/hullmods/SGB_Austenite_HeavyWing.png
-Wing Module: Ferrite,SGB_Austenite_DrivenWing,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_DrivenWing,"The modular wings of the ship can be modified according to requirements.
+Increases armor by %s;
+Increases armor resistance by %s; 
+Increases hull integrity by %s;
+Reduces maximum speed by %s; 
+Decreases mobility by %s.",,graphics/hullmods/SGB_Austenite_HeavyWing.png
+Wing Module: Ferrite,SGB_Austenite_DrivenWing,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_DrivenWing,"Built-in modular hullmod; cycle between alternatives by removing this hullmod.
 
-Increase the maximum speed of the ship by %s, enhancing the maneuverability of the ship;
-Increase the high-explosive damage received by the ship's hull/armor by %s, reducing the armor by %s points.",,graphics/hullmods/SGB_Austenite_DrivenWing.png
-Wing Module: Pearlite,SGB_Austenite_NormalWing,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_NormalWing,"The modular wings of the ship can be modified according to requirements.
+Increases the maximum speed of the ship by %s;
+Increases the high-explosive damage received by the ship's hull/armor by %s, reducing the armor by %s points.",,graphics/hullmods/SGB_Austenite_DrivenWing.png
+Wing Module: Pearlite,SGB_Austenite_NormalWing,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_NormalWing,"Built-in modular hullmod; cycle between alternatives by removing this hullmod.
 
-The standard model of the wing reduces the monthly maintenance requirements by %s.",,graphics/hullmods/SGB_Austenite_NormalWing.png
+Reduces maintenance cost by %s.",,graphics/hullmods/SGB_Austenite_NormalWing.png
 ,,,,,,,,,,,,,,,,,,
 #多滑移：短时间进入相位、或者以类似的方式进行机动/伪共晶：给予船体抗性，伤害减免后化为软幅能,,,,,,,,,,,,,,,,,,
-System Module: Metastable,SGB_Austenite_System_Drive,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_System_Drive,"The modular system of the ship can be changed as needed, and after the system is turned on, the ship gains the following capabilities:
+System Module: Metastable,SGB_Austenite_System_Drive,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_System_Drive,"Built-in modular system; cycle between alternatives by removing this hullmod. On activation, has the following effect:
 
 Immediately freeze time, time flow will then be slowly restored overtime.",,graphics/hullmods/SGB_Austenite_System_Drive.png
-System Module: Twin System ,SGB_Austenite_System_Ammo,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_System_Ammo,"The modular system of the ship can be changed as needed, and after the system is turned on, the ship gains the following capabilities:
+"System Module: Twin System ",SGB_Austenite_System_Ammo,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_System_Ammo,"Built-in modular system; cycle between alternatives by removing this hullmod. On activation, has the following effect:
 
-Ballistic weapon firing rate increased by %s, Ballistic and missile weapon ammo recovery rate increased by %s;
+Ballistic weapon firing rate increased by %s;
+Ballistic and missile weapon ammo recovery rate increased by %s;
 Ballistic weapon flux cost reduced by %s.",,graphics/hullmods/SGB_Austenite_System_Ammo.png
-System Module: Recrystallization,SGB_Austenite_System_Repair,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_System_Repair,"The modular system of the hull can be changed as needed and have the following impacts:
+System Module: Recrystallization,SGB_Austenite_System_Repair,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_System_Repair,"Built-in modular system; cycle between alternatives by removing this hullmod. 
 
-Increase the ship's HP by %s , decrease the ship's armor by %s ;
-At the same time, when the ship is not firing, it repairs %s of its existing HP per second and reduces the repair time of weapons and engines by %s.
-Regardless of the hullmods used, the maximum amount of HP that can be repaired is %s, and the hull can only be repaired to up to %s in battle.
+Increases hull integrity by %s;
+Decreases armor by %s;
+When not firing, repairs %s of existing hull integrity per second and reduces the repair time of weapons and engines by %s;
+Limits the maximum hull integrity that can be repaired in a single combat (by all hullmods with a repair effect) to %s. This hullmod can only repair up to %s hull integrity in a single combat.
 
-After the ship system is activated, the ship gains the following abilities:
-Disable weapons and shields, and within a short duration, reduce all incoming damage by %s .",,graphics/hullmods/SGB_Austenite_System_Repair.png
-System Module: Current Carrier[READ],SGB_Austenite_System_Wing,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_System_Wing,"The modular system of the ship can be changed as needed and have the following impacts:
+On activation, has the following effect:
+Disables weapons and shields, and for a short duration, reduces all incoming damage by %s.",,graphics/hullmods/SGB_Austenite_System_Repair.png
+System Module: Current Carrier[READ],SGB_Austenite_System_Wing,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_System_Wing,"Built-in modular system; cycle between alternatives by removing this hullmod. 
 
-Reduce the HP of ship by %s;
-Add flight decks, reduce the fighter replacement rate reduction by %s , increase combat range of strike crafts by %s ;
+Reduces hull integrity by %s;
+Adds two fighter bays;
+Reduces the fighter replacement rate reduction by %s;
+Increase combat range of fighters by %s. This range bonus is reduced as flux level increases.
+All LPCs not created by the ship system will immediately be destroyed.
 
-In battle, this range bonus will be reduced as flux level increases.
-
-All LPC not created by the ship system will immediately be destroyed.
-
-After the ship system is turned on, the ship gains the following abilities:
+On activation, has the following effect:
 Immediately replenish lost strikecrafts.",,graphics/hullmods/SGB_Austenite_System_Wing.png
-代码实现: 僚机计划探测1,SGB_Austenite_System_Wingman_CORED1,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_System_Wingman_CORED,"The modular system of the body can be changed according to requirements and have the following impacts:
+System Module: Wingman 1,SGB_Austenite_System_Wingman_CORED1,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_System_Wingman_CORED,"The modular system of the body can be changed according to requirements and have the following impacts:
 SGB_Austenite_System_Wingman_CORED
-无论如何你也不应该看见这个，这个是制作mod时的探测用船插，无任何效果
-一号位",,graphics/hullmods/SGB_Austenite_Core.png
-代码实现: 僚机计划探测2,SGB_Austenite_System_Wingman_CORED2,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_System_Wingman_CORED,"The modular system of the body can be changed according to requirements and have the following impacts:
+
+YOU SHOULD NOT SEE THIS (USED FOR DEV ONLY)",,graphics/hullmods/SGB_Austenite_Core.png
+System Module: Wingman 2,SGB_Austenite_System_Wingman_CORED2,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_System_Wingman_CORED,"The modular system of the body can be changed according to requirements and have the following impacts:
 SGB_Austenite_System_Wingman_CORED
-无论如何你也不应该看见这个，这个是制作mod时的探测用船插，无任何效果
-二号位",,graphics/hullmods/SGB_Austenite_Core.png
-代码实现: 僚机计划探测3,SGB_Austenite_System_Wingman_CORED3,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_System_Wingman_CORED,"The modular system of the body can be changed according to requirements and have the following impacts:
+
+YOU SHOULD NOT SEE THIS (USED FOR DEV ONLY)",,graphics/hullmods/SGB_Austenite_Core.png
+System Module: Wingman 3,SGB_Austenite_System_Wingman_CORED3,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_System_Wingman_CORED,"The modular system of the body can be changed according to requirements and have the following impacts:
 SGB_Austenite_System_Wingman_CORED
-无论如何你也不应该看见这个，这个是制作mod时的探测用船插，无任何效果
-三号位",,graphics/hullmods/SGB_Austenite_Core.png
+
+YOU SHOULD NOT SEE THIS (USED FOR DEV ONLY)",,graphics/hullmods/SGB_Austenite_Core.png
 ,,,,,,,,,,,,,,,,,,
-Wingman: Strike,SGB_Austenite_System_Wing_Attack,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_System_Wing_Attack,"The modular system of ship can be changed as needed, and after the ship system is turned on, the ship gains the following capabilities:
+Wingman: Strike,SGB_Austenite_System_Wing_Attack,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_System_Wing_Attack,"Built-in modular system; cycle between alternatives by removing this hullmod. On activation, has the following effect:
 
-Change the built-in aircraft to a strike wings;
-Reduce the Austenite's actual engine speed by %s .",,graphics/hullmods/SGB_Austenite_System_Wing_Attack.png
-Wingman: Assault,SGB_Austenite_System_Wing_Assault,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_System_Wing_Assault,"The modular system of ship can be changed as needed, and after the ship system is turned on, the ship gains the following capabilities:
+Changes built-in aircraft to strike wings;
+Reduces the Austenite's engine speed by %s.",,graphics/hullmods/SGB_Austenite_System_Wing_Attack.png
+Wingman: Assault,SGB_Austenite_System_Wing_Assault,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_System_Wing_Assault,"Built-in modular system; cycle between alternatives by removing this hullmod. On activation, has the following effect:
 
-Change the built-in aircraft to assault wings;
-Reduce the damage of all shipborne weapons in Austenite - class by %s.",,graphics/hullmods/SGB_Austenite_System_Wing_Assault.png
-Wingman: Support,SGB_Austenite_System_Wing_Support,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_System_Wing_Support,"The modular system of ship can be changed as needed, and after the ship system is turned on, the ship gains the following capabilities:
+Changes built-in aircraft to assault wings;
+Reduces the damage of built-in weapons by %s.",,graphics/hullmods/SGB_Austenite_System_Wing_Assault.png
+Wingman: Support,SGB_Austenite_System_Wing_Support,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_System_Wing_Support,"Built-in modular system; cycle between alternatives by removing this hullmod. On activation, has the following effect:
 
-Change the built-in aircraft to a support wings;
-Reduce base range of all shipborne weapons in Austenite - class by %s .",,graphics/hullmods/SGB_Austenite_System_Wing_Support.png
+Changes built-in aircraft to support wings;
+Reduce the range of built-in weapons by %s.",,graphics/hullmods/SGB_Austenite_System_Wing_Support.png
 ,,,,,,,,,,,,,,,,,,
 #应变时效：根据附近抛射体数量改变自身时间流速，上限3倍，抛射体越少CR掉越快/枝晶偏析：幅能和伤害与盾效成正比，但护盾缩为30度,,,,,,,,,,,,,,,,,,
-Hull Module: Cottrell Atmosphere,SGB_Austenite_Head_Empty,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_Head_Empty,"The {main framework} of the ship can be changed as needed and have the following impacts:
+Hull Module: Cottrell Atmosphere,SGB_Austenite_Head_Empty,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_Head_Empty,"Built-in modular hullmod; cycle between alternatives by removing this hullmod.
 
-Ship armor reduced by %s, HP reduced by %s;
-Flux capacity increased by %s, flux dissipation increased by %s;
-Zero-flux acceleration limit raised to %s flux.",,graphics/hullmods/SGB_Austenite_Head_Empty.png
-Hull Module: Grain Boundary Segregation,SGB_Austenite_Head_Armor,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_Head_Armor,"The {main framework} of the ship can be changed as needed and have the following impacts:
+Reduces armor by %s;
+Reduces hull integrity by %s;
+Increases flux capacity by %s;
+Increases flux dissipation by %s;
+Activates zero-flux acceleration bonus while below %s flux.",,graphics/hullmods/SGB_Austenite_Head_Empty.png
+Hull Module: Grain Boundary Segregation,SGB_Austenite_Head_Armor,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_Head_Armor,"Built-in modular hullmod; cycle between alternatives by removing this hullmod.
 
-Ship HP increased by %s, EMP resistance increased by %s, weapon repair rate increased by %s;
-Armor and structural resistance increased by %s;
-Reduce flux dissipation rate by %s.",,graphics/hullmods/SGB_Austenite_Head_Armor.png
-Hull Module: Peritectoid Reaction,SGB_Austenite_Head_Assault,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_Head_Assault,"The {main framework} of the ship can be changed as needed and have the following impacts:
+Increases hull integrity by %s
+Increases EMP resistance by %s, 
+Increases weapon repair rate by %s;
+Increases Armor and structural resistance by %s;
+Reduces flux dissipation rate by %s.",,graphics/hullmods/SGB_Austenite_Head_Armor.png
+Hull Module: Peritectoid Reaction,SGB_Austenite_Head_Assault,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_Head_Assault,"Built-in modular hullmod; cycle between alternatives by removing this hullmod.
 
-Ballistic weapon damage increased by %s, the rate of fire of Ballistic weapons increased by %s;
-Shield efficiency increased by %s, while the range of ballistic and missile weapons decreased by %s.",,graphics/hullmods/SGB_Austenite_Head_Assault.png
+Increases ballistic weapon damage by %s, 
+Increases rate of fire for ballistic weapons by %s;
+Increases shield efficiency by %s, 
+Decreases range of ballistic and missile weapons by %s.",,graphics/hullmods/SGB_Austenite_Head_Assault.png
 ,,,,,,,,,,,,,,,,,,
-Engine Module: Periodic,SGB_Austenite_Engine_Wing_Unstable,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_Engine_Wing_Unstable,"The modular tail wing of the ship can be modified as needed and has the following impacts:
+Engine Module: Periodic,SGB_Austenite_Engine_Wing_Unstable,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_Engine_Wing_Unstable,"Built-in modular hullmod; cycle between alternatives by removing this hullmod.
 
-Based on the current travel speed of the ship, gain %s additional flux dissipation speed;
+Increases flux dissipation speed by up to %s, increasing with current travel speed.
+When above 50% flux, increases top speed by up to %s, increasing with current flux level.",,graphics/hullmods/SGB_Austenite_Engine_Wing_Unstable.png
+Engine Module: Edge Dislocation,SGB_Austenite_Engine_Wing_BackLoad,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_Engine_Wing_BackLoad,"Built-in modular hullmod; cycle between alternatives by removing this hullmod.
 
-When the ship's flux exceeds half of its max capacity, the top speed of the ship is increased %s based on the actual flux level of the ship.",,graphics/hullmods/SGB_Austenite_Engine_Wing_Unstable.png
-Engine Module: Edge Dislocation,SGB_Austenite_Engine_Wing_BackLoad,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_Engine_Wing_BackLoad,"The modular tail wing of the ship can be modified as needed and has the following impacts:
+Increases system recharge rate by up to %s, increasing with current flux level;
+If the ship's system cannot store multiple uses (ie charges), this hullmod enables the ship to store up to %s uses;
+Increases the ship's max CR by %s.",,graphics/hullmods/SGB_Austenite_Engine_Wing_BackLoad.png
+Engine Module: Number Coordination,SGB_Austenite_Engine_Wing_Polarization,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_Engine_Wing_Polarization,"Built-in modular hullmod; cycle between alternatives by removing this hullmod.
 
-Based on the actual flux level of the ship, ship system's recharge rate is increased by %s .
-
-When the ship's system does not have charges, the system's max use is increased by %s ;
-
-Also increase the ship's max CR by %s.",,graphics/hullmods/SGB_Austenite_Engine_Wing_BackLoad.png
-Engine Module: Number Coordination,SGB_Austenite_Engine_Wing_Polarization,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_Engine_Wing_Polarization,"The modular tail wing of the ship can be modified as needed and has the following impacts:
-
-Based on the current peak CR time, increase the ship's maneuverability by up to %s and apply a significant damage reduction to the ship's engine before the peak CR time is reduced to zero.",,graphics/hullmods/SGB_Austenite_Engine_Wing_Polarization.png
+During peak operation time, increases the ship's maneuverability by up to %s, increasing with the ship's total time in peak operation during this combat;
+During peak operation time, significantly reduces damage to engines.",,graphics/hullmods/SGB_Austenite_Engine_Wing_Polarization.png

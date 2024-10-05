@@ -1,0 +1,171 @@
+
+        //SWITCH those WINGs, and might can custom in future.
+        if (!runOnceWing && switchWingman) {
+            int NowWingman = 0;
+            boolean Cleard = false;
+            List<String> wingList = stats.getVariant().getWings();
+
+            if (!runOnceWing && wingList.size()>=1) {
+                String FirWing = wingList.get(0);
+                String SecWing = wingList.get(1);
+                Global.getLogger(this.getClass()).info("==the WINGMAN PROJECT job==");
+                Global.getLogger(this.getClass()).info("WingList(before="+wingList);
+                Global.getLogger(this.getClass()).info("FirWing="+FirWing);
+                Global.getLogger(this.getClass()).info("WINGMAN_WINGS_GET.get(FirWing)="+WINGMAN_WINGS_GET.get(FirWing));
+                Global.getLogger(this.getClass()).info("SecWing="+SecWing);
+                /*Not auto
+                "SGB_Austenite_Wingman_Attack_wing"
+                "SGB_Austenite_Wingman_Assault_wing"
+                "SGB_Austenite_Wingman_Intercepter_wing"*/
+
+                if (wingList.contains("SGB_Austenite_Wingman_Attack_wing")) {
+                    NowWingman = 1;
+                }if (wingList.contains("SGB_Austenite_Wingman_Assault_wing")) {
+                    NowWingman = 2;
+                }if (wingList.contains("SGB_Austenite_Wingman_Intercepter_wing")) {
+                    NowWingman = 0;
+                }
+                //IF AND IF, I CANT AUTO IT!
+                //clear the wings to replace
+                if (FirWing !=null){
+                    if (SecWing !=null){
+                        if (!WINGMAN_WINGS_GET.containsKey(FirWing)||!WINGMAN_WINGS_GET.containsKey(SecWing)) {
+                            stats.getVariant().getFittedWings().clear();
+                            Global.getLogger(this.getClass()).info("WingList(after clear FittedWings=" + wingList);
+                            stats.getVariant().getWings().clear();
+                            Cleard = true;
+                        }
+                    }
+                    else {
+                        if (!WINGMAN_WINGS_GET.containsKey(FirWing)){
+                            stats.getVariant().getFittedWings().clear();
+                            Global.getLogger(this.getClass()).info("WingList(after clear FittedWings="+wingList);
+                            stats.getVariant().getWings().clear();
+                            Cleard = true;
+                        }
+                    }
+                }
+                if (SecWing !=null){
+                    if (FirWing !=null){
+                        if (!WINGMAN_WINGS_GET.containsKey(FirWing)||!WINGMAN_WINGS_GET.containsKey(SecWing)) {
+                            stats.getVariant().getFittedWings().clear();
+                            Global.getLogger(this.getClass()).info("WingList(after clear FittedWings=" + wingList);
+                            stats.getVariant().getWings().clear();
+                            Cleard = true;
+                        }
+                    }
+                    else {
+                        if (!WINGMAN_WINGS_GET.containsKey(SecWing)){
+                            stats.getVariant().getFittedWings().clear();
+                            Global.getLogger(this.getClass()).info("WingList(after clear FittedWings="+wingList);
+                            stats.getVariant().getWings().clear();
+                            Cleard = true;
+                        }
+                    }
+                }
+                //Do it clear?
+                if (Cleard){
+                    NowWingman = MathUtils.getRandomNumberInRange(0, WINGMAN_WINGS_GET.size() - 1);
+
+                    String toInstallAllWingman = WINGMAN_WINGS.get(NowWingman);
+
+                    wingList.set(0, toInstallAllWingman);
+                    wingList.set(1, toInstallAllWingman);
+                }
+                else {
+                    //add next hullmod
+                    stats.getVariant().addMod(WINGMAN_MOD.get(NowWingman));
+                    Global.getLogger(this.getClass()).info("add next HullMods=" + WINGMAN_MOD.get(NowWingman));
+
+                    //select and place those wings
+                    String toInstallAllWingman = WINGMAN_WINGS.get(NowWingman);
+                    /*  I cant let it get in to an auto code, whatever.*/
+                /*
+                if (FirWing != null && SecWing!= null) {
+                    //Normally this "if" and "else if" will be run when you change system to Wingman or change those Hullmods
+                    if (stats.getVariant().getHullMods().contains("SGB_Austenite_System_Wing")
+                            && WINGMAN_WINGS_GET.get(FirWing) !=null) {
+                        Global.getLogger(this.getClass()).info("==the 1 job==");
+                        NowWingman = WINGMAN_WINGS_GET.get(FirWing);
+                        Global.getLogger(this.getClass()).info("NowWingman(The number in WINGMAN_WINGS_GET for this wing)="+NowWingman);
+                        //stats.getVariant().addMod("SGB_Austenite_System_Wingman_CORED1");
+
+                    }if (stats.getVariant().getHullMods().contains("SGB_Austenite_System_Wing")
+                            && WINGMAN_WINGS_GET.get(FirWing) ==null) {
+                        Global.getLogger(this.getClass()).info("==the 2 job==");
+                        NowWingman = MathUtils.getRandomNumberInRange(0, WINGMAN_WINGS_GET.size() - 1);
+                        Global.getLogger(this.getClass()).info("NowWingman(The number in WINGMAN_WINGS_GET for this wing)="+NowWingman);
+
+                        //stats.getVariant().addMod("SGB_Austenite_System_Wingman_CORED2");
+                    }
+                    //Mostly wont run "else"
+                } else {
+                    Global.getLogger(this.getClass()).info("==the 3 job==");
+                    NowWingman = MathUtils.getRandomNumberInRange(0, WINGMAN_WINGS_GET.size() - 1);
+                    Global.getLogger(this.getClass()).info("NowWingman(The number in WINGMAN_WINGS_GET for this wing)="+NowWingman);
+
+                    //stats.getVariant().addMod("SGB_Austenite_System_Wingman_CORED3");
+                }
+
+                //add next hullmod
+                stats.getVariant().addMod(WINGMAN_MOD.get(NowWingman));
+                Global.getLogger(this.getClass()).info("add next HullMods="+WINGMAN_MOD.get(NowWingman));
+
+                //clear the wings to replace
+                stats.getVariant().getFittedWings().clear();
+                Global.getLogger(this.getClass()).info("WingList(after clear FittedWings="+wingList);
+                stats.getVariant().getWings().clear();
+                Global.getLogger(this.getClass()).info("WingList(after clear Wings="+wingList);
+                //select and place those wings
+                String toInstallAllWingman = WINGMAN_WINGS.get(NowWingman);
+                Global.getLogger(this.getClass()).info("toInstallAllWingman(Which Wing is now for the re-put)="+toInstallAllWingman);
+
+                wingList.set(0, toInstallAllWingman);
+                Global.getLogger(this.getClass()).info("WingList(after add to 0 bar="+wingList);
+                wingList.set(1, toInstallAllWingman);
+                Global.getLogger(this.getClass()).info("WingList(after add to 1 bar="+wingList);
+                for (int AllWings = 0; AllWings < Math.max(stats.getNumFighterBays().getModifiedInt()-1,0); AllWings++) {
+                    if (wingList.size() != 0) {
+                        wingList.set(AllWings, toInstallAllWingman);
+
+                        Global.getLogger(this.getClass()).info("==the 4 job==");
+                        Global.getLogger(this.getClass()).info("AllWings(Which Bay is now for the re-put)="+AllWings);
+                        Global.getLogger(this.getClass()).info("toInstallAllWingman(Which Wing is now for the re-put)="+toInstallAllWingman);
+                        Global.getLogger(this.getClass()).info("stats.getNumFighterBays().getModifiedInt-1=" + (stats.getNumFighterBays().getModifiedInt()-1));
+                        Global.getLogger(this.getClass()).info("WingList(after add to bar="+wingList);
+                        //NeedWingmanMod = false;
+                        stats.getVariant().addMod("SGB_Austenite_System_Wingman_CORED4");
+                    }
+                    //Mostly will run "else", but better still use "if" for careful
+                    else{
+                        wingList.add(AllWings, toInstallAllWingman);
+                        Global.getLogger(this.getClass()).info("==the 5 job==");
+                        stats.getVariant().addMod("SGB_Austenite_System_Wingman_CORED5");
+                        Global.getLogger(this.getClass()).info("WingList(after add to bar="+wingList);
+                    }
+                }
+                  */
+
+                    wingList.set(0, toInstallAllWingman);
+                    Global.getLogger(this.getClass()).info("WingList(after add to 0 bar=" + wingList);
+                    wingList.set(1, toInstallAllWingman);
+
+                    runOnceWing = true;
+                    Global.getLogger(this.getClass()).info("==WING JOB HAS BEEN DONE==");
+                    switchWingman = false;
+                }
+            }
+            if (!runOnceWing && wingList.size()<1 && stats.getVariant().getHullMods().contains("SGB_Austenite_System_Wing")) {
+
+                NowWingman = MathUtils.getRandomNumberInRange(0, WINGMAN_WINGS_GET.size() - 1);
+
+                String toInstallAllWingman = WINGMAN_WINGS.get(NowWingman);
+                stats.getVariant().addMod(WINGMAN_MOD.get(NowWingman));
+                Global.getLogger(this.getClass()).info("add next HullMods=" + WINGMAN_MOD.get(NowWingman));
+
+                wingList.set(0, toInstallAllWingman);
+                wingList.set(1, toInstallAllWingman);
+            }
+            Global.getLogger(this.getClass()).info("runOnceWing_Over="+runOnceWing);
+        }
+        Global.getLogger(this.getClass()).info("========================"+runOnceWing);

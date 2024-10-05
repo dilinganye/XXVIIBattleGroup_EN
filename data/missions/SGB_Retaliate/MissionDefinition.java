@@ -32,11 +32,11 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.initFleet(FleetSide.PLAYER, "SGB", FleetGoal.ATTACK, false, 30);
 		api.initFleet(FleetSide.ENEMY, "TTS", FleetGoal.ATTACK, true, 30);
 		api.setFleetTagline(FleetSide.PLAYER, "Shackles Garrison - Topaz Revenge Fleet");
-		api.setFleetTagline(FleetSide.ENEMY, "Tritachyon Ampoist Research Fortress");
+		api.setFleetTagline(FleetSide.ENEMY, "Tri-Tachyon Ampoist Research Fortress");
 
 		api.addBriefingItem("Tip: Try using cruise missiles to forcefully open the enemy space station's shield system");
-		api.addBriefingItem("Destroy enemy and send Tritachyon back to the Stone Age");
-		//This contains a large amount of scientific research achievements of Tritachyon.
+		api.addBriefingItem("Destroy enemy and send Tri-Tachyon back to the Stone Age");
+		//This contains a large amount of scientific research achievements of Tri-Tachyon.
 		api.addBriefingItem("Campaign Score>50 is considered successful");
 
 		// Set up the player's fleet.

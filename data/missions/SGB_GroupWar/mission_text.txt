@@ -1,24 +1,24 @@
-Location: {Form{Tia}To{Aouintes
-Date: {Unknown}
+Location: From Tia to Aouintes
+Date: Unknown
 
-The predecessor of {Shackles Garrison} was the {27th Combat Group}, which was once believed to be lost - and after a long period of aimless drifting, these abandoned fleets eventually arrived at {Perseus}.
+The predecessor of Shackles Garrison was the 27th Combat Group, which was once believed to be lost - and after a long period of aimless drifting, these abandoned fleets eventually arrived at Perseus.
 
-Unlike the {Hegemony}, the {Shackles Garrison} does not care about whether the {Dominion of Man} is legitimate - because they were not retrieved after being lost, which made them indifferent to ensuring the rule of the {Dominion of Man}; they also have no interest in galactic hegemony and are very willing to build good cooperative relationships with various forces, as cooperation often solves disputes.
+Unlike the Hegemony, the Shackles Garrison does not care about whether the Dominion of Man is legitimate - because they were not retrieved after being lost, which made them indifferent to ensuring the rule of the Dominion of Man; they also have no interest in galactic hegemony and are very willing to build good cooperative relationships with various forces, as cooperation often solves disputes.
 
-But for the chaotic {Perseus}, not taking sides is absolutely not taking sides; moreover, the {Hegemony} holds great prejudice against defectors who do not support the rule of the {Dominion of Man}. Thus, local conflicts occurred frequently, eventually turning into a major battle fought simultaneously across multiple star sectors.
+But for the chaotic Perseus, not taking sides is absolutely not taking sides; moreover, the Hegemony holds great prejudice against defectors who do not support the rule of the Dominion of Man. Thus, local conflicts occurred frequently, eventually turning into a major battle fought simultaneously across multiple star sectors.
 
-The {Hegemony} attacked the still-developing colonies of {Shackles Garrison} from multiple positions, and for {Shackles Garrison}, which was also engaged in various local conflicts with {Tritachyon} at the time, it was undoubtedly a severe blow. Many troops had to be urgently recalled to defend the colonies, during which many fleets were intercepted by the blockade forces of the Hegemony, and one fleet even forcefully entered Tia's gravity well to reach the capital as quickly as possible, facing directly against a Hegemony blockade fleet within the planet.
+The Hegemony attacked the still-developing colonies of Shackles Garrison from multiple positions, and for Shackles Garrison, which was also engaged in various local conflicts with Tri-Tachyon at the time, it was undoubtedly a severe blow. Many troops had to be urgently recalled to defend the colonies, during which many fleets were intercepted by the blockade forces of the Hegemony, and one fleet even forcefully entered Tia's gravity well to reach the capital as quickly as possible, facing directly against a Hegemony blockade fleet within the planet.
 Although a significant portion of the fleet eventually broke through the hegemon's blockade and nearly annihilated the internal Hegemony fleet that had not evacuated in time; the emerging colony had already turned into a sea of flames.
 
-The {Hegemony} claimed externally that this was a tactical bombing carried out to ensure the rule of the {Dominion of Man} and to disable the free ports.
+The Hegemony claimed externally that this was a tactical bombing carried out to ensure the rule of the Dominion of Man and to disable the free ports.
 
 Countless shockwaves formed by orbital bombardment created a forest of mushroom clouds on the surface, and the induced detonation of ammunition depots from the planetary defense system almost instantly annihilated the surrounding cities. Rare gases and organic matter within the mines surged out together, forming strange light spots in the atmosphere like oil reflections. The explosions of various underground facilities also included the planet's own molten lava and other crimson materials, irreversibly destroying the entire colony on the planet. The debris of countless missiles and spacecraft left a large amount of nebulous material here for a considerable period of time, which did not completely dissipate for a long time.
 
-In the end, the {Hegemony} won this war but paid a heavy price - both in terms of ships and diplomacy. However, since {Tritachyon technology} also rejects {Shackles Garrison}'s involvement in core star systems, this matter ultimately ended like {Mayasura} for various reasons. For {Shackles Garrison}, although several local victories broke through the {Hegemon}'s blockade, they did not reverse the outcome of the war - the capital planet was {completely destroyed}, and they were also forced to withdraw from the {core star systems}; the entire group army's internal structure was subsequently filled with a wave of {nihilism}, which constantly impacted this turbulent organization...
+In the end, the Hegemony won this war but paid a heavy price - both in terms of ships and diplomacy. However, since Tri-Tachyon technology also rejects Shackles Garrison's involvement in core star systems, this matter ultimately ended like Mayasura for various reasons. For Shackles Garrison, although several local victories broke through the Hegemon's blockade, they did not reverse the outcome of the war - the capital planet was completely destroyed, and they were also forced to withdraw from the core star systems; the entire group army's internal structure was subsequently filled with a wave of nihilism, which constantly impacted this turbulent organization...
 
 ——————
 ==For a better experience, please enable campaign BGM==
 You can activate in-game BGM by entering a campaign, immediately exiting the campaign, and then re entering the campaign without switching campaigns
 Just click on the SGB-test-Campaign to close BGM - this method is relatively stable.
 ——————
-[Whether the campaign is completed or not will determine the number and status of debris in the former capital of SGB and core star domain {Tia}]
+[Whether the campaign is completed or not will determine the number and status of debris in the former capital of SGB and core system Tia]

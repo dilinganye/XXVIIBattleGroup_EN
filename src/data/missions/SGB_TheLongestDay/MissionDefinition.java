@@ -60,7 +60,7 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		 */
 
 		api.setFleetTagline(FleetSide.PLAYER, "Andelon & Erubolie and SGB Evacuation Fleet Remnants");
-		api.setFleetTagline(FleetSide.ENEMY, "Unknown bounty team? - Those damn Tritachyon bastards");
+		api.setFleetTagline(FleetSide.ENEMY, "Unknown bounty team? - Those damn Tri-Tachyon bastards");
 
 		api.addBriefingItem("Tip: Your flagship is a very special ship and also your own warship - do not die;");
 		//Don't be obsessed with war, prioritize ensuring your own evacuation;
@@ -351,27 +351,27 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 				switch (Nub) {
 					case 1:
 						Prs = "Andelon:";
-						Wds = "Erubolie，我已经竭尽全力把这只队伍整合起来了。";
+						Wds = "Erubolie, I have done everything I can to integrate this team.";
 						break;
 					case 2:
 						Prs = "Andelon:";
-						Wds = "Erubolie？收到请立即回复！";
+						Wds = "Erubolie? Reply immediately upon receipt!";
 						break;
 					case 3:
 						Prs = "Erubolie:";
-						Wds = "Erubolie收到，刚刚敌人的蚊子群让我分身乏术，我们得快点离开这个包围圈！";
+						Wds = "Erubolie here. The enemy's swarm of mosquitoes just kept me extremely busy. We need to get out of this encirclement quickly!";
 						break;
 					case 4:
 						Prs = "Andelon:";
-						Wds = "该死的...让那些水牛驾驶员不想死就把那天杀的引擎速度提起来！";
+						Wds = "Damn... Tell those Buffalo pilots to speed up those damn engines if they don't want to die!";
 						break;
 					case 5:
 						Prs = "Erubolie:";
-						Wds = "天哪...这帮速子杂种到底有多少...";
+						Wds = "My God... How many of these Suzi bastards are there...";
 						break;
 					case 6:
 						Prs = "Andelon:";
-						Wds = "也许他们真的很需要那几千万的星币...我并不想别人拿走我的脑袋！";
+						Wds = "Maybe they really need those millions of credits... I don't want anyone taking my head!";
 				}
 				Words.getCombatUI().addMessage(1, Color.yellow, "", Color.white, "");
 			}
@@ -383,7 +383,7 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 				switch (Nub) {
 					case 7:
 						Prs = "Erubolie:";
-						Wds = "长官，场上好像多了些讨人厌的家伙，一些相位舰船，我们得小心行事！";
+						Wds = "Sir, there seem to be some annoying guys on the field, some phase ships. We need to proceed with caution!";
 						PersonAPI TRI_ISS_Phaseor = OfficerManagerEvent.createOfficer(
 								Global.getSector().getFaction("tritachyon"),
 								6,
@@ -438,15 +438,15 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 						break;
 					case 8:
 						Prs = "Andelon:";
-						Wds = "所有单位，小心那艘厄运-级，对面威胁度比后面的追兵高得多！";
+						Wds = "All units, watch out for that Doom-class ship. The threat level on the other side is much higher than the pursuers behind!";
 						break;
 					case 9:
 						Prs = "Andelon:";
-						Wds = "快！快！快！现在大概还来得及，有战力的负责继续掩护！";
+						Wds = "Hurry! Hurry! Hurry! There might still be time. Those with combat power, continue to cover!";
 						break;
 					case 10:
 						Prs = "Andelon:";
-						Wds = "我们就快离开这里了，快！";
+						Wds = "We're almost out of here, move quickly!";
 				}
 				Words.getCombatUI().addMessage(1, Color.yellow, "", Color.white, "");
 			}

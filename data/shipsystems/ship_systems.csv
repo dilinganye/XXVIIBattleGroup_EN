@@ -11,7 +11,7 @@ Spatioo Overload-Drive Module,SGB_SpatiootemporalDrive,200,,,,,,,,,2,1,0,8,,,,TR
 Sensor Drone,SGB_drone_sensor,,,,,,,,6,,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_sensor.png
 4x Swarm Drone,SGB_drone_pd_x4,,,,,,,,12,0.0333,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
 3x Vulcan Drone,SGB_drone_pd_x3,,,,,,,,12,0.0333,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
-#奥氏体,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Austenite,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Metastable System,SGB_SpatiootemporalDrive_Austenite,100,,,,,,,1,0.065,2,1.5,0,4,,,TRUE,TRUE,,,,,,,,,
 Twin System Ammo Feeder,SGB_Austenite_System_Ammo,,,,,,0.05,,3,0.075,1.0,2,1.0,1,,,,TRUE,,,,,,,,,
 Recrystallization Damper,SGB_Austenite_System_Repair,-100,,,,,,,,,0.25,1.5,0.75,4,,,,,TRUE,,,,TRUE,,,,

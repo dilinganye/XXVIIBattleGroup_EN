@@ -2,189 +2,189 @@ id,trigger,conditions,script,text,options,notes
 # SGB fleet greeting lines,,,,,,
 greetingSGBFriendly,OpenCommLink,"$faction.id == SGB
 $faction.friendlyToPlayer","$menuState = fleetConvMain 0
-FireAll PopulateOptions","""Your $shipOrFleet Has been Scanned and confirmed, wishing you the aviation lights never go out, comrade.""The $personRank of Shackles Garrison gave you a standard military salute.
+FireAll PopulateOptions","""Your identities have been verified, confirming your authorization to operate in this space. Burn brightly, comrade,"" the $personRank of Shackles Garrison says, giving you a standard military salute.
 OR
-""Wishing you a smooth sailing and always serving as your shield, comrade $playerName.""The $personRank of Shackles Garrison gave you a standard military salute.
+""Wishing you smooth sailing and always serving as your shield, comrade $playerName,"" the $personRank of Shackles Garrison gives you a standard military salute.
 OR
-""For the battle group! Comrade.""The $personRank of Shackles Garrison gave you a standard military salute.
+""For the Battlegroup, comrade!"" the $personRank of Shackles Garrison gives you a standard military salute.
 OR
-""Comrade $playerName, all for the battle group, always ready to support your actions.""The $personRank of Shackles Garrison gave you a standard military salute.
+""Comrade $playerName, all for the Battlegroup, always ready to support your actions,"" the $personRank of Shackles Garrison gives you a standard military salute.
 OR
-""Comrade $personName.""The $personRank of Shackles Garrison gave you a standard military salute.
+""Comrade $playerName,"" the $personRank of Shackles Garrison gives you a standard military salute.
 OR
-""Comrade, this is $personRank $personName, we will contribute to the battle group just like you.""",,
+""Comrade, this is $personRank $personName; we will stand by your side.""",,
 greetingSGBHostileWeaker,OpenCommLink,"$faction.id == SGB
 $faction.hostileToPlayer
-$relativeStrength < 0",$ignorePlayerCommRequests = true 1,"""FOR The Shackles Garrison !!!""
+$relativeStrength < 0",$ignorePlayerCommRequests = true 1,"""For the Shackles Garrison!""
 
-The communication link was severed prior to your response.
+The communication link is severed before you have a chance to respond.
 
-Despite the opponent's ship being less powerful than your fleet, your scanner nonetheless detected the characteristic signal indicative of the opponent's weapon activation.
+Despite the other fleet appearing less powerful than your own, your scanner nonetheless detects their weapons powering up.
 OR
-""You disgusted rebel, the battle group will never forget my contribution! Absolutely not!""$personRank Shouting at you loudly, as you saw form the screen.
+""You disgusting rebel - the Battlegroup will never forget my contribution!"" $personRank $personName shouts at you loudly through the comms link.
 
-The communication link was severed prior to your response.
+The communication link is severed before you have a chance to respond.
 
-Despite the opponent's ship being less powerful than your fleet, your scanner nonetheless detected the characteristic signal indicative of the opponent's weapon activation.
+Despite the other fleet appearing less powerful than your own, your scanner nonetheless detects their weapons powering up.
 OR
-""...For the Shackles Garrison.""
+""...for the Shackles Garrison.""
 
-The communication link was severed prior to your response.
+The communication link is severed before you have a chance to respond.
 
-Despite the opponent's ship being less powerful than your fleet, your scanner nonetheless detected the characteristic signal indicative of the opponent's weapon activation.",cutCommLink:Cut the comm link,
+Despite the other fleet appearing less powerful than your own, your scanner nonetheless detects their weapons powering up.",cutCommLink:Cut the comm link,
 greetingSGBHostileWeakerDefiant,OpenCommLink,"$faction.id == SGB
 $faction.hostileToPlayer
 $relativeStrength < 0
-$weakerThanPlayerButHolding",$ignorePlayerCommRequests = true 1,"""We will eliminate you, absolutely. "" The other person gritted their teeth and said,
+$weakerThanPlayerButHolding",$ignorePlayerCommRequests = true 1,"""We will absolutely eliminate you,"" the other person grits their teeth and says.
 
-The communication link was severed prior to your response.
+The communication link is severed before you have a chance to respond.
 OR
-The other fleet refused your communication.
+The other fleet refuses your communication.
 OR
-""Be prepared to pay the price, disobedient. ""
+""Be prepared to pay the price, disobedient.""
 
-The communication link was cut off after this word.
+The communication link is severed before you have a chance to respond.
 OR
-""Violators have only one fate. ""
+""Violators have only one fate.""
 
-The communication link was cut off before you responded.
+The communication link is severed before you have a chance to respond.
 
-Your scanner has detected the characteristic signal of the opponent's weapon activation.",cutCommLink:Cut the comm link,
+Your scanner detects the other fleet's weapons powering up.",cutCommLink:Cut the comm link,
 greetingSGBHostileStronger,OpenCommLink,"$faction.id == SGB
 $faction.hostileToPlayer
-$relativeStrength >= 0",$ignorePlayerCommRequests = true 1,"Your communication request has been rejected.
+$relativeStrength >= 0",$ignorePlayerCommRequests = true 1,"Your communication request is rejected.
 OR
-""Those who defy the Chain Garrison Army have only one fate. ""
+""Those who defy the Chain Garrison Army have only one fate.""
 
-The communication link was cut off before you responded.
+The communication link is severed before you have a chance to respond.
 OR
-""Violators have only one fate. ""
+""Violators have only one fate.""
 
-The communication link was cut off before you responded.
+The communication link is severed before you have a chance to respond.
 OR
-Your communication request has been ignored, and the other fleet is gradually approaching you.
+You attempt to establish a comms link with the other fleet but receive no response. Meanwhile, it appears that the other fleet has begun to slowly advance towards your position.
 
-At this point, your scanner detected a large number of characteristic signals from the opponent's weapons simultaneously activated.
+Your scanner detects many of the other fleet's weapons powering up simultaneously.
 OR
-You attempted to establish a communication connection with the other fleet, but did not receive a response.
+You attempt to establish a comms link with the other fleet but receive no response.
 OR
-""$playerName, We can do this the easy way or the hard way, but... It's your choice.""
+""$playerName, we can do this the easy way or the hard way - it's your choice.""
 
-The communication link was cut off before you responded.
+The communication link is severed before you have a chance to respond.
 OR
-The other fleet ignored your communication request, and your scanner detected a large number of characteristic signals from the other party's weapons simultaneously activated.
+You attempt to establish a comms link with the other fleet but receive no response. Meanwhile, your scanner detects many of the other fleet's weapons powering up simultaneously.
 OR
-""Ready to die, since we won't take prisoners. ""
+""Prepare to meet your end; we take no prisoners.""
 
-The communication link was cut off before you responded.
+The communication link is severed before you have a chance to respond.
 OR
-After a brief wait, your connection request was accepted.
+After a brief wait, your connection request is accepted.
 
-The communication link was cut off before you responded.",cutCommLink:Cut the comm link,
+The communication link is severed before you have a chance to respond.",cutCommLink:Cut the comm link,
 greetingSGBTOffNormal,OpenCommLink,"$faction.id == SGB
 !$player.transponderOn
-$entity.relativeStrength >= 0",,"""Turn on the transponder, unauthorized deactivation of the transponder is not allowed in Shackles Garrison's jurisdiction.""
+$entity.relativeStrength >= 0",,"""Activate your transponder, now. Operating a ship with the transponder off is prohibited within Shackles Garrison's jurisdiction.""
 
-At this point, your scanner detected a large number of characteristic signals from the opponent's weapons simultaneously activated.
+Your scanner detects many of the other fleet's weapons powering up simultaneously.
 OR
-""Now! Open the responder immediately! Or we have the right to choose another way to eliminate potential threats.""
+""Now! Activate your transponder, or your ship will be considered a potential threat and dealt with accordingly.""
 
-At this point, your scanner detected a large number of characteristic signals from the opponent's weapons simultaneously activated.
+Your scanner detects many of the other fleet's weapons powering up simultaneously.
 OR
-""Turn on your god damn transponder, RIGHT NOW! Unauthorized deactivation of the transponder is not allowed in Shackles Garrison's jurisdiction.""
+""Turn on your goddamn transponder, now! Operating a ship with the transponder off is prohibited within Shackles Garrison's jurisdiction.""
 
-At this point, your scanner detected a large number of characteristic signals from the opponent's weapons simultaneously activated.","turnOnTransponder:Turn your transponder on
+Your scanner detects many of the other fleet's weapons powering up simultaneously.","turnOnTransponder:Turn your transponder on
 cutCommLink:Cut the comm link",
 greetingSGBTOffWeaker,OpenCommLink,"$faction.id == SGB
 !$player.transponderOn
-$entity.relativeStrength < 0",,"""Please turn on the transponder, unauthorized deactivation of the transponder is not allowed in Shackles Garrison's jurisdiction.""
+$entity.relativeStrength < 0",,"""Please activate your transponder. Operating a ship with the transponder off is prohibited within Shackles Garrison's jurisdiction.""
 OR
-""Open the responder immediately! Now! Or your fleet will be classify in to potential threats.""
+""Activate your transponder immediately, or your ship will be considered a potential threat and dealt with accordingly.""
 OR
-""Unauthorized deactivation of the transponder is not allowed in Shackles Garrison's jurisdiction.""
+""Operating a ship with the transponder off is prohibited within Shackles Garrison's jurisdiction.""
 
-""So for both of us, turn on your transponder, now.""","turnOnTransponder:Turn your transponder on
+""For both of our sakes, turn on your transponder, now.""","turnOnTransponder:Turn your transponder on
 cutCommLink:Cut the comm link ",
 greetingSGBNeutral,OpenCommLink,"$faction.id == SGB
 $faction.neutralToPlayer","$menuState = fleetConvMain 0
-FireAll PopulateOptions","""Your identities have been scanned and identified. If there is no doubt, we will not spending more time into this. $personRank Out.""
+FireAll PopulateOptions","""Your identities have been verified; confirming your authorization to operate in this space - $personName out.""
 
-The communication link was cut off before you responded.
+The communication link is severed before you have a chance to respond.
 OR
-This $personRank looks a bit impatient. ""Is there any urgent situation that needs to be reported? "" ""No? Then let's continue on the road. Out. ""
+The $personRank looks a bit impatient. ""Do you have an urgent matter to report? "" ""No? Then I have more important matters to attend to. $personName out. ""
 
-The communication link was cut off before you responded.
+The communication link is severed before you have a chance to respond.
 OR
-""Your $shipOrFleet has been scanned and identified, everything is normal. Wishing you a smooth sailing and completion. Out.""
+""Your $shipOrFleet has been identified, everything is normal. Wishing you a smooth journey - $personName out.""
 
-The communication link was cut off before you responded.
+The communication link is severed before you have a chance to respond.
 OR
-""Your identities have been scanned, please keep your distance. Out.""
+""Your identities have been scanned, please keep your distance - $personName out.""
 
-The communication link was cut off before you responded.",,
+The communication link is severed before you have a chance to respond.",,
 ,,,,,,
 aiCores_turnInOptionSelSGB,DialogOptionSelected,"$option == aiCores_startTurnIn
-$faction.id == SGB",FireAll PopulateCoresTurnInOptions,"""You can't just hang around with this thing outside! If you come across any, please hand it over to us, and we will take care of it carefully.""
+$faction.id == SGB",FireAll PopulateCoresTurnInOptions,"""AI cores can be very dangerous. If you come across any, please hand them over to us, and we will ensure they are handled carefully.""
 OR
-""AI core? This is a very dangerous thing, and I hope you can hand it over to us for your consideration.""",,
-aiCores_turnInResponseSGB,AICoresTurnedIn,$faction.id == SGB,FireAll PopulateOptions,"""Outstanding decision, comrade $playerName. The group will not forget your contribution。"" $personRank of Shackles Garrison gave you a standard military salute.
+""AI core? This is a very dangerous thing, and I hope you can place it in our care for safekeeping.""",,
+aiCores_turnInResponseSGB,AICoresTurnedIn,$faction.id == SGB,FireAll PopulateOptions,"""Outstanding decision, comrade $playerName. The group will not forget your contribution."" $personRank of Shackles Garrison gives you a standard military salute.
 
-Before you left, $personRank stopped you, and then said, ""Comrade, you have chosen the right path. ""
+Before you leave, $personRank stops you and says, ""Comrade, you have chosen the right path.""
 OR
-""Outstanding decision, comrade $playerName. The group will not forget your contribution。"" $personRank of Shackles Garrison gave you a standard military salute.
+""Outstanding decision, comrade $playerName. The group will not forget your contribution."" $personRank of Shackles Garrison gives you a standard military salute.
 
-Before you left, $personRank stopped you, and then said, ""$playerName comrade, you have omy respect.""
+Before you leave, $personRank stops you and says, ""Comrade $playerName, you have my respect.""
 OR
-""Outstanding decision, comrade $playerName. The group will not forget your contribution。"" $personRank of Shackles Garrison gave you a standard military salute.
+""Outstanding decision, comrade $playerName. The group will not forget your contribution."" $personRank of Shackles Garrison gives you a standard military salute.
 
-Before you left, $personRank stopped you, and then said, ""$playerName comrade, this is exactly what sets us apart from those scattered pieces of tritachyon hyenas.""
+Before you leave, $personRank stops you and says, ""Comrade $playerName, this is exactly what sets us apart from those Tri-Tachyon hyenas.""
 OR
-""Outstanding decision, comrade $playerName. The group will not forget your contribution。"" $personRank of Shackles Garrison gave you a standard military salute.
+""Outstanding decision, comrade $playerName. The group will not forget your contribution."" $personRank of Shackles Garrison gives you a standard military salute.
 
-Before you left, $personRank stopped you, and then said, ""Comrade $playerName, thank you for your contributions to the Chain Garrison Group Army. I deeply admire you.""",,
+Before you leave, $personRank stops you and says, ""Comrade $playerName, thank you for your contributions to the Chain Garrison Group Army. I deeply admire you.""",,
 ,,,,,,
 relLevelNeutralSGB,RelationshipLevelDesc,"$faction.rel == NEUTRAL
 $faction.id == SGB",,"Most officers of $theFaction will treat you as a nobody, and you won't receive any special treatment, but that's not necessarily a bad thing.",,
 relLevelFavorableSGB,RelationshipLevelDesc,"$faction.rel == FAVORABLE
-$faction.id == SGB",,"Some officers from $theFaction have heard of you and will give you more than a passing glance, but they still won't cut you any slack - just... maybe.",,
+$faction.id == SGB",,"Some officers from $theFaction have heard of you and will give you more than a passing glance, but they still probably won't cut you any slack.",,
 relLevelWelcomingSGB,RelationshipLevelDesc,"$faction.rel == WELCOMING
 $faction.id == SGB",,"Your contributions to $theFaction have been recognized by some high-ranking officials. Often, you will receive extra attention from the group, and many have already begun to consider you as one of them.",,
 relLevelFriendlySGB,RelationshipLevelDesc,"$faction.rel == FRIENDLY
-$faction.id == SGB",,"You have been given numerous documents by $theFaction, and almost everyone will address you as ""comrade."" Seems you are already become a part of them.",,
+$faction.id == SGB",,"You have received many commendations by $theFaction, and almost everyone will address you as ""comrade."" It seems you have already become a part of them.",,
 relLevelCooperativeSGB,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
-$faction.id == SGB",,"You have now appeared on the propaganda posters of the $faction. You have become an important figure who is fully trusted by the group.
+$faction.id == SGB",,"Sometimes, you'll do a double-take upon glancing at one of $theFaction's propaganda posters, recognizing your own face. You have become an important figure who is fully trusted by the group.
 
 Thank you for your efforts, comrade.",,
 relLevelSuspiciousSGB,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
 $faction.id == SGB",,"Some customs and patrol teams have already expressed dissatisfaction with you, and you can clearly sense that their indifference towards you has been further compounded by a strong sense of mistrust, although no one has taken any action against you yet.
-If you seize the opportunity to do something, $Faction might consider you not as someone who likes to stir up trouble.",,
+If you give them further reason to, $theFaction might begin to consider you as someone who likes to stir up trouble.",,
 relLevelInhospitableSGB,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
-$faction.id == SGB",,"Your movement analysis report has been synchronized to all patrol teams, intercepting you has become a priority event. If it weren't for your informants secretly handling some more troublesome eyewitness reports, you might have already been branded as untrustworthy. Currently, the official port of $Faction is required to ban trade with you, and you need to think of other ways to sneak in.",,
+$faction.id == SGB",,"Your movement analysis report has been synchronized to all patrol teams, and intercepting you has become a priority event. If it weren't for your informants secretly handling some more troublesome eyewitness reports, you might have already been branded as untrustworthy. Currently, the official port of $theFaction is prohibited from trading with you, and you need to think of other ways to sneak in.",,
 relLevelHostileSGB,RelationshipLevelDesc,"$faction.rel == HOSTILE
-$faction.id == SGB",,"For $Faction, the only fate for an enemy is death. All fleets can engage you in battle without question, and all their official markets are prohibited from trading with you. Your informants have been struggling to handle these issues. Additionally, $Faction has completely severed ties with you, making it extremely difficult to change this situation now; convincing them to change their attitude towards you is practically impossible.",,
+$faction.id == SGB",,"For $theFaction, the only fate for an enemy is death. All fleets can engage you in battle without question, and official markets are prohibited from trading with you. Your informants have been struggling to handle these issues, with little success. Additionally, $theFaction has completely severed ties with you, making it practically impossible to convince them to change their attitude towards you at this point.",,
 relLevelVengefulSGB,RelationshipLevelDesc,"$faction.rel == VENGEFUL
-$faction.id == SGB",,"You are a public enemy of $theFaction, and you have appeared on the group's promotional posters. Writing your death report in person has become a target for many officers and civilians. For $Faction, your presence is a huge obstacle on its path to revival, in other words: they are always ready to cause trouble for you. To make matters worse, you have lost contact with your eyeliner, and now you must prepare for the worst.",,
+$faction.id == SGB",,"You are a public enemy of $theFaction, appearing on many wanted posters; writing your death report in person has become an aspiration for many. Your continued existence represents a significant thorn in $theFaction's side, and they are actively strategizing how to best dispose of you.",,
 ,,,,,,
-bar_descSGB,BarPrintDesc,$faction.id == SGB,ShowImageVisual SGB_Bar,"Unlike most local taverns, this one is more like a legal drunk zone, where people of all kinds indulge in it - including high-ranking officials of the chain defense.
+bar_descSGB,BarPrintDesc,$faction.id == SGB,ShowImageVisual SGB_Bar,"Unlike most local taverns, this one is more like a legal drunk zone, where people of all kinds are known to indulge somewhat in excess - sometimes, even including high-ranking officials of the Chain Guard.
 
-The rows of buildings on the side are also taverns, or even more shocking legal drug trading venues.Several of your bodyguards were almost dragged into the red-light district by the ladies who were trying to cheat them - not just once, but many more people who thoughtlessly fell into the embrace of debauchery.As you might expect, addiction is the main theme here, and it's no wonder that the Lud Church has issued a formal condemnation of Chain Guard.
+Neighboring establishments are of similar or lesser repute, a few of them even offering ""legal"" purchase of substances that you recall not quite fitting that description. Several of your bodyguards were almost dragged into the red-light district by enterprising temptresses, and your eyes regularly come to rest on individuals in varied states of altered consciousness - many, many people who have fallen into the embrace of excess - each surely with their own story, you reflect, yet their paths have nonetheless led them here.
 
-People are drunk and celebrating, and you do not know when will this scene having an end.",,
+You find yourself in a seemingly never-ending carnival of debauchery.",,
 ,,,,,,
 flavorTextMarketSGB,TradePanelFlavorText,"$global.tradePanelMode == MARKET
-$faction.id == SGB","AddText ""The surface doesn't look as militarized as one might expect; rather, the opposite. While the environment here is not top-notch, if you are willing to head to the central area, you will discover a plethora of flashy markets, massive commercial districts, and clubs that cater to entertainment until death. This place has what most places have, just more concentrated."" marketFlavorTextColor
-AddText ""You entered a special reception area - this is a window specifically prepared for foreign captains. The staff did not hand you the familiar Tripad, but a list."" marketFlavorTextColor
-AddText ""Above there are items that can be traded."" marketFlavorTextColor",,,
+$faction.id == SGB","AddText ""The surface doesn't look as militarized as one might expect; rather, the opposite. While the area isn't exactly classy, if you are willing to head to the central area, you will discover a plethora of flashy markets, massive commercial districts, and clubs that cater to any and all desires. This place has what most places have, just more concentrated."" marketFlavorTextColor
+AddText ""You enter a reception area specifically reserved for foreign captains. The staff does not hand you the familiar Tri-Pad, but a list."" marketFlavorTextColor
+AddText ""Above are items available for purchase."" marketFlavorTextColor",,,
 flavorTextMarketSGBCore,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $faction.id == SGB
-$market.id == SGB_planet1_market score:100","AddText ""You're glad you took the executive officer's advice and wore your hard suit onto the shuttle."" marketFlavorTextColor
-AddText ""The entire plant is under complete militarized management, with only countless industrial military facilities that obscure the sky in sight - pollution on the planet even cannot simply spread with the heavy storm - all emissions are blocked by those buildings; the toxic fumes that can kill instantly plummet straight from the chimneys into the crowds, including you, and then penetrate deep into the planet's core through a dense network of walkways."" marketFlavorTextColor
-AddText ""You have been thoroughly questioned several times by fully armed patrol teams, and fortunately, a relatively friendly official came to your rescue. Otherwise, you would have been directly taken away by certain skeleton shoulder badge groups in black attire."" marketFlavorTextColor
+$market.id == SGB_planet1_market score:100","AddText ""You're glad you took your security officer's advice and wore your hard suit onto the shuttle."" marketFlavorTextColor
+AddText ""The entire plant is under completely militarized management, with only countless industrial military facilities that obscure the sky in sight. Due to the planet's unique jetstreams (or lack thereof), pollution does not disperse as it would on most other colonized planets, instead remaining concentrated around its source. People regularly go about their day (including you, for the time being) in a sea of toxic fumes so noxious that they would kill in seconds if inhaled without respiratory protection; these fumes cascade through a dense network of walkways deep into the planet's core."" marketFlavorTextColor
+AddText ""You have been thoroughly questioned several times by fully armed patrol teams, and fortunately, each time a relatively friendly official has came to your rescue. Otherwise, you fear that you would have been whisked away by the ever-present guards in black attire, each bearing a shoulder badge depicting a skull in menacing detail."" marketFlavorTextColor
 AddText ""<I know you're not a dissenter, but you should go to the visitor's area instead of wandering around. I'll show you where you need to go.>"" marketFlavorTextColor
-AddText ""So, just as you later told your deputy, it was at that moment you finally figured out where the damn visitor area was amidst those identical buildings."" marketFlavorTextColor",,,
+AddText ""And so it was that you finally figured out where the damn visitor area was amidst those identical buildings."" marketFlavorTextColor",,,
 flavorTextMarketSGBSneak,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $faction.id == SGB
-$player.transponderOn == false","AddText ""Your shuttle made a great effort to fly down from the orbit, swaying - any spaceships without identifiers would be shot down directly, and you are sure that the patrol team that just failed to shoot you down is trying to blockade this area, no matter what you want to do."" marketFlavorTextColor
+$player.transponderOn == false","AddText ""Your shuttle descended from orbit with no small effort, as the pilot tensely conveyed authorization codes to the ground defenses. You're sure that any spaceships without identifiers would be shot down immediately, and you have the sense that, despite your presence being officially permitted, your welcome is very very temporary."" marketFlavorTextColor
 AddText ""You'd better hurry up."" marketFlavorTextColor",,,
 ,,,,,,
 ,,,,,,

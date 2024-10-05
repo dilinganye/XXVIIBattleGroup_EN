@@ -1,7 +1,7 @@
 {
     "baseHullId":"SGB_Austenite",
     "skinHullId":"SGB_Austenite_Drive",
-    "hullName":"奥氏体",
+    "hullName":"Austenite",
     "descriptionId":"SGB_Austenite",
     "systemId":"SGB_SpatiootemporalDrive_Austenite",
     "removeBuiltInWeapons":[

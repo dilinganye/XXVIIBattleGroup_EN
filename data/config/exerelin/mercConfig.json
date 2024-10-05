@@ -9,8 +9,8 @@
 		#Poisoning-毒杀小队=====
 		#Aloof-上风小队=====
 		"arrayItegratedUnits":{
-			"name":"Aloof}Squad",
-			"desc":"The Shackles Garrison Army has deployed these hunting teams in many edge galaxies, and these teams are in great need of some Source of funds; You know, if you frequently carry out missions to destroy various power research stations, it will be difficult to receive some good official deals. So it is not uncommon to obtain contact information for groups that have been disbanded, disbanded, or simply want to earn extra money. These experienced mercenary teams are generally referred to as' upwind 'teams, which have the meaning of staying out of the matter.",
+			"name":"{Aloof}Squad",
+			"desc":"Mercenary teams commissioned by the Shackles Garrison Army primarily for unsavory tasks to be conducted at arms' length. Known for their lack of scruples, these experienced mercenaries tend to be excluded from consideration for tasks requiring a modicum of respectability, resulting in most employment offers being for jobs that other mercenaries refuse to be associated with. Known as 'upwind' or 'aloof' teams, they leave very little standing in the aftermath of completing their assigned tasks.",
 			"logo":"graphics/factions/SGB_SF.png",
 			"shipNamePrefix":"ALB",
 			"feeUpfront":90000,
@@ -21,7 +21,7 @@
 			"ships":[
 				["SGB_Wiesios_Assault", "SGB_Quench_Clo_ACE"],
 				["SGB_Wiesios_Assault", "SGB_Quench_Fri_Commando"],
-				["SGB_Quench_Clo_ACE", "SGB_Quench_Fri_Commando"],
+				["SGB_Quench_Clo_ACE", "SGB_Quench_Fri_Commando"]
 			],
 			"extraFP":15,
 			"doctrineSizeOverride":2,	# overrides faction doctrine setting for ship size

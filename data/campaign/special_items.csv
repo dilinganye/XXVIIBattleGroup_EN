@@ -1,2 +1,2 @@
 name,id,tags,rarity,base price,stack size,cargo space,icon,sound id,sound id drop,plugin,plugin params,desc,order
-Shackles Garrison Blue-Print,SGB_package,package_bp,,25000,1000,1,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,SGB_bp,使重工业设施能够制造{审判联盟}的常规船体、重置船体以及战机LPC。,777.3
+Shackles Garrison Blue-Print,SGB_package,package_bp,,25000,1000,1,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,SGB_bp,Enable heavy industrial facilities to manufacture the standard hulls and fighter LPCs for the {Shackles Garrison}.,777.3

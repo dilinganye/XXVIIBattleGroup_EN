@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="ExerelinCore1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../Self-Workshop/Jar/ExerelinCore.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Self-Workshop/Jar/LazyLib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Self-Workshop/Jar/lwjgl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Self-Workshop/Jar/lwjgl_util.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Self-Workshop/Jar/MagicLib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Self-Workshop/Jar/starfarer.api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Self-Workshop/Jar/xstream-1.4.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../Self-Workshop/Jar/ExerelinCore.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Self-Workshop/Jar/LazyLib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Self-Workshop/Jar/LazyLib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Self-Workshop/Jar/MagicLib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Self-Workshop/Jar/MagicLib.jar!/" />
+    </SOURCES>
+  </library>
+</component>

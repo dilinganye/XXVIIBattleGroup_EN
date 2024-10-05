@@ -1,27 +1,27 @@
 id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value
-SGB_Drone_Mining_wing,SGB_Drone_Mining,"support0, drone, iirt_all_bp, SGB_bp, auto_fighter",1,0.2,3,1,CLAW,0,500,,5,FIGHTER,探矿无人机,8,2000
-SGB_Drone_IR_wing,SGB_Drone_IR,"rapid_reform, fighter1, fighter, drone, iirt_all_bp, SGB_bp, auto_fighter",1,0.2,2,2,BOX,2000,600,,3,FIGHTER,IR无人机,8,2000
-SGB_Drone_Vulcan_wing,SGB_Drone_Vulcan,"rapid_reform, interceptor0, interceptor, drone, iirt_all_bp, SGB_bp, auto_fighter",1,0.2,2,1,V,2000,500,,3,INTERCEPTOR,火神无人机,8,1500
-SGB_Drone_Missile_wing,SGB_Drone_Missile,"fighter0, interceptor, drone, iirt_all_bp, SGB_bp, auto_fighter",1,0.2,2,1,BOX,2000,2000,-100,3,ASSAULT,蜂群无人机,8,3500
-SGB_Drone_MachineGun_wing,SGB_Drone_MachineGun,"rapid_reform, fighter1, fighter, drone, iirt_all_bp, SGB_bp, auto_fighter",1,0.2,2,1,CLAW,2000,600,,2,ASSAULT,轻机无人机,8,1750
-SGB_Drone_Lazer_wing,SGB_Drone_Lazer,"rapid_reform, interceptor, drone, iirt_all_bp, SGB_bp, auto_fighter",1,0.05,2,2,CLAW,2000,500,,1,INTERCEPTOR,劣化无人机,8,1000
-,,,,,,,,,,,,
-SGB_Agatha_wing,SGB_Agatha_Fighter,"fighter3, fighter, iirt_all_bp, SGB_bp",1,,5,10,V,4000,500,50,3,ASSAULT,重型战斗机,10,6000
-SGB_Agatha_Coop_wing,SGB_Agatha_Coop_Assault,"rapid_reform, no_drop, no_sell, fighter4, fighter, iirt_all_bp, restricted",1,0,5,10,CLAW,4000,600,50,4,ASSAULT,重型游猎改型,10,6000
-SGB_Agatha_DogFight_wing,SGB_Agatha_DogFight_Assault,"rapid_reform, no_drop, no_sell, fighter4, interceptor, iirt_all_bp, restricted",1,0,5,10,V,6000,300,,3,INTERCEPTOR,重型空优改型,8,6000
-SGB_Agatha_Assault_wing,SGB_Agatha_Assault_Assault,"rapid_reform, no_drop, no_sell, fighter4, interceptor, iirt_all_bp, restricted",1,0,5,10,CLAW,4000,1100,5,2,ASSAULT,重型反舰改型,15,6000
-SGB_Ares_wing,SGB_Ares_Fighter,"interceptor2, interceptor, iirt_all_bp, SGB_bp",2,,6,8,V,4000,500,100,3,ASSAULT,战斗机,8,7000
-SGB_Ares_Coop_wing,SGB_Ares_Coop_Coop,"rapid_reform, fighter2, fighter, iirt_all_bp, restricted, no_drop, no_sell",2,0,6,8,CLAW,4000,700,,4,INTERCEPTOR,高速战斗机,10,7000
-SGB_Ares_DogFight_wing,SGB_Ares_DogFight_Elite,"interceptor3, interceptor, iirt_all_bp, restricted, no_drop, no_sell",2,0,6,8,BOX,6000,1000,20,2,INTERCEPTOR,精英截击机,8,7000
-SGB_Ares_Assault_wing,SGB_Ares_Assault_Assault,"rapid_reform, fighter2, fighter, iirt_all_bp, restricted, no_drop, no_sell",2,0,6,8,V,4000,800,50,2,ASSAULT,精英战斗机,15,7000
-SGB_Axio_wing,SGB_Axio_Normal,"bomber3, bomber, iirt_all_bp, SGB_bp",1,,5,15,V,4000,2000,750,2,BOMBER,轰炸机,18,7000
-SGB_Axio_Coop_wing,SGB_Axio_Coop_Blast,"rapid_reform, no_drop, no_sell, bomber3, bomber, iirt_all_bp, restricted",1,0,5,15,CLAW,4000,2000,300,3,BOMBER,猎手改型,18,7000
-SGB_Axio_DogFight_wing,SGB_Axio_DogFight_SkyGuard,"rapid_reform, no_drop, no_sell, interceptor4, interceptor, iirt_all_bp, restricted",1,0,5,15,BOX,6000,450,,2,INTERCEPTOR,机动禁区改型,15,7000
-SGB_Axio_Assault_wing,SGB_Axio_Assault_Bomber,"rapid_reform, no_drop, no_sell, bomber3, bomber, iirt_all_bp, restricted",1,0,5,15,CLAW,4000,2000,75,1,BOMBER,爆束打击改型,35,7000
-SGB_Argion_Bomber_wing,SGB_Argion_Bomber,"fighter3, interceptor, iirt_all_bp, SGB_bp",2,,4,12,V,4000,2500,600,2,BOMBER,累速轰炸机,12,9000
-SGB_Quench_Assault_wing,SGB_Quench_Assault,"no_drop, no_sell, rapid_reform, leader_no_swarm, wingmen_no_swarm, independent_of_carrier",4,0,6,10,V,10000,400,600,1,ASSAULT,ACE,30,10000
-SGB_Quench_Anvil_wing,SGB_Quench_Anvil,"no_drop, no_sell, rapid_reform, leader_no_swarm, wingmen_no_swarm, independent_of_carrier",4,0,6,50,V,10000,400,600,1,ASSAULT,ACE,30,10000
+SGB_Drone_Mining_wing,SGB_Drone_Mining,"support0, drone, iirt_all_bp, SGB_bp, auto_fighter",1,0.2,3,1,CLAW,0,500,,5,FIGHTER,Mining Drone,8,2000
+SGB_Drone_IR_wing,SGB_Drone_IR,"rapid_reform, fighter1, fighter, drone, iirt_all_bp, SGB_bp, auto_fighter",1,0.2,2,2,BOX,2000,600,,3,FIGHTER,Recon Drone,8,2000
+SGB_Drone_Vulcan_wing,SGB_Drone_Vulcan,"rapid_reform, interceptor0, interceptor, drone, iirt_all_bp, SGB_bp, auto_fighter",1,0.2,2,1,V,2000,500,,3,INTERCEPTOR,Vulcan Drone,8,1500
+SGB_Drone_Missile_wing,SGB_Drone_Missile,"fighter0, interceptor, drone, iirt_all_bp, SGB_bp, auto_fighter",1,0.2,2,1,BOX,2000,2000,-100,3,ASSAULT,Swarm Drone,8,3500
+SGB_Drone_MachineGun_wing,SGB_Drone_MachineGun,"rapid_reform, fighter1, fighter, drone, iirt_all_bp, SGB_bp, auto_fighter",1,0.2,2,1,CLAW,2000,600,,2,ASSAULT,Light Combat Drone,8,1750
+SGB_Drone_Lazer_wing,SGB_Drone_Lazer,"rapid_reform, interceptor, drone, iirt_all_bp, SGB_bp, auto_fighter",1,0.05,2,2,CLAW,2000,500,,1,INTERCEPTOR,Degraded Drone,8,1000
 ,,,,,,,,,,,,,,,
-SGB_Austenite_Wingman_Assault_wing,SGB_Austenite_Wingman_Assault,"no_drop, no_sell, fighter2, interceptor, restricted",4,0,4,0,BOX,1000,450,100,1,ASSAULT,僚机,30,10000
-SGB_Austenite_Wingman_Attack_wing,SGB_Austenite_Wingman_Attack,"no_drop, no_sell, bomber3, bomber, restricted",4,0,4,0,V,1000,400,200,1,BOMBER,僚机,30,10000
-SGB_Austenite_Wingman_Intercepter_wing,SGB_Austenite_Wingman_Intercepter,"no_drop, no_sell, interceptor3, interceptor, restricted",4,0,4,0,CLAW,1000,200,100,1,INTERCEPTOR,僚机,30,10000
+SGB_Agatha_wing,SGB_Agatha_Fighter,"fighter3, fighter, iirt_all_bp, SGB_bp",1,,5,10,V,4000,500,50,3,ASSAULT,Heavy Fighter,10,6000
+SGB_Agatha_Coop_wing,SGB_Agatha_Coop_Assault,"rapid_reform, no_drop, no_sell, fighter4, fighter, iirt_all_bp, restricted",1,0,5,10,CLAW,4000,600,50,4,ASSAULT,Heavy Raider,10,6000
+SGB_Agatha_DogFight_wing,SGB_Agatha_DogFight_Assault,"rapid_reform, no_drop, no_sell, fighter4, interceptor, iirt_all_bp, restricted",1,0,5,10,V,6000,300,,3,INTERCEPTOR,Heavy Anti-Fighter,8,6000
+SGB_Agatha_Assault_wing,SGB_Agatha_Assault_Assault,"rapid_reform, no_drop, no_sell, fighter4, interceptor, iirt_all_bp, restricted",1,0,5,10,CLAW,4000,1100,5,2,ASSAULT,Heavy Anti-Ship,15,6000
+SGB_Ares_wing,SGB_Ares_Fighter,"interceptor2, interceptor, iirt_all_bp, SGB_bp",2,,6,8,V,4000,500,100,3,ASSAULT,Fighter,8,7000
+SGB_Ares_Coop_wing,SGB_Ares_Coop_Coop,"rapid_reform, fighter2, fighter, iirt_all_bp, restricted, no_drop, no_sell",2,0,6,8,CLAW,4000,700,,4,INTERCEPTOR,High-Speed Fighter,10,7000
+SGB_Ares_DogFight_wing,SGB_Ares_DogFight_Elite,"interceptor3, interceptor, iirt_all_bp, restricted, no_drop, no_sell",2,0,6,8,BOX,6000,1000,20,2,INTERCEPTOR,Elite Interceptor,8,7000
+SGB_Ares_Assault_wing,SGB_Ares_Assault_Assault,"rapid_reform, fighter2, fighter, iirt_all_bp, restricted, no_drop, no_sell",2,0,6,8,V,4000,800,50,2,ASSAULT,Elite Fighter,15,7000
+SGB_Axio_wing,SGB_Axio_Normal,"bomber3, bomber, iirt_all_bp, SGB_bp",1,,5,15,V,4000,2000,750,2,BOMBER,Bomber,18,7000
+SGB_Axio_Coop_wing,SGB_Axio_Coop_Blast,"rapid_reform, no_drop, no_sell, bomber3, bomber, iirt_all_bp, restricted",1,0,5,15,CLAW,4000,2000,300,3,BOMBER,Hunter,18,7000
+SGB_Axio_DogFight_wing,SGB_Axio_DogFight_SkyGuard,"rapid_reform, no_drop, no_sell, interceptor4, interceptor, iirt_all_bp, restricted",1,0,5,15,BOX,6000,450,,2,INTERCEPTOR,Mobility Denial,15,7000
+SGB_Axio_Assault_wing,SGB_Axio_Assault_Bomber,"rapid_reform, no_drop, no_sell, bomber3, bomber, iirt_all_bp, restricted",1,0,5,15,CLAW,4000,2000,75,1,BOMBER,Strike,35,7000
+SGB_Argion_Bomber_wing,SGB_Argion_Bomber,"fighter3, interceptor, iirt_all_bp, SGB_bp",2,,4,12,V,4000,2500,600,2,BOMBER,Momentum Bomber,12,9000
+SGB_Quench_Assault_wing,SGB_Quench_Assault,"no_drop, no_sell, rapid_reform, leader_no_swarm, wingmen_no_swarm, independent_of_carrier",4,0,6,10,V,10000,400,600,1,ASSAULT,Ace,30,10000
+SGB_Quench_Anvil_wing,SGB_Quench_Anvil,"no_drop, no_sell, rapid_reform, leader_no_swarm, wingmen_no_swarm, independent_of_carrier",4,0,6,50,V,10000,400,600,1,ASSAULT,Ace,30,10000
+,,,,,,,,,,,,,,,
+SGB_Austenite_Wingman_Assault_wing,SGB_Austenite_Wingman_Assault,"no_drop, no_sell, fighter2, interceptor, restricted",4,0,4,0,BOX,1000,450,100,1,ASSAULT,Support,30,10000
+SGB_Austenite_Wingman_Attack_wing,SGB_Austenite_Wingman_Attack,"no_drop, no_sell, bomber3, bomber, restricted",4,0,4,0,V,1000,400,200,1,BOMBER,Support,30,10000
+SGB_Austenite_Wingman_Intercepter_wing,SGB_Austenite_Wingman_Intercepter,"no_drop, no_sell, interceptor3, interceptor, restricted",4,0,4,0,CLAW,1000,200,100,1,INTERCEPTOR,Support,30,10000

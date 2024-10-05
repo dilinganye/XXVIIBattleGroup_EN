@@ -1,21 +1,21 @@
-Location: Around{Aztlan}about the{Capital of Hegemony{chicomoztoc}
-Date: {Unknown}
+Location: Near Chicomoztoc (Hegemony Capital), Aztlan System
+Date: Unknown
 
-The urgent communication sent by {Tritachyon} was not encrypted, and news of Shackles Garrison's rearmament and push back into the core sector spread rapidly. The many patrol squads of the {Hegemony} were also informed; the Hegemony, having once conducted an orbital bombardment on the homeworld of the deserters led by the 27th Battle Group, would undoubtedly face retaliation at any cost, something the Hegemony, unlike the {Tritachyon technology}, was very aware of.
+The urgent communication sent by Tri-Tachyon was not encrypted, and news of Shackles Garrison's rearmament and push back into the core sector spread rapidly. The many patrol squads of the Hegemony were also informed; the Hegemony, having once conducted an orbital bombardment on the homeworld of the deserters led by the 27th Battle Group, would undoubtedly face retaliation at any cost, something the Hegemony, unlike the Tri-Tachyon technology, was very aware of.
 
-As the {Ampoist} research fortress officially came under siege, a large number of hostile signals were suddenly detected outside the gravity well of the Aztlan system; no one knew how the {Shackles Garrison} managed to bypass the alerted peripheral patrols or resolve the battle before they could issue an alarm. But in any case, Shackles Garrison's direct strike on {Aztlan}, controlled by the {Hegemony}, made the Hegemony realize the goal of {Shackles Garrison} --
-to destroy the capital of the {Hegemony} with orbital bombardment and even more brutal methods.
+As the Ampoist research fortress officially came under siege, a large number of hostile signals were suddenly detected outside the gravity well of the Aztlan system; no one knew how the Shackles Garrison managed to bypass the alerted peripheral patrols or resolve the battle before they could issue an alarm. But in any case, Shackles Garrison's direct strike on Aztlan, controlled by the Hegemony, made the Hegemony realize the goal of Shackles Garrison --
+to destroy the capital of the Hegemony with orbital bombardment and even more brutal methods.
 
-The massive carrier-based aircraft of Shackles Garrison descended upon {chicomoztoc}, sweeping past the interstellar fortresses that were desperately trying to stop the invasion fleet of {Shackles Garrison}, and precisely deployed a large number of antimatter fuel tanks and highly radioactive pollutant gases in low Earth orbit, aiming almost entirely at residential areas and heavy industrial zones that could cause severe explosions and casualties.
+The massive carrier-based aircraft of Shackles Garrison descended upon Chicomoztoc, sweeping past the interstellar fortresses that were desperately trying to stop the invasion fleet of Shackles Garrison, and precisely deployed a large number of antimatter fuel tanks and highly radioactive pollutant gases in low Earth orbit, aiming almost entirely at residential areas and heavy industrial zones that could cause severe explosions and casualties.
 
-Ordered by the Supreme Hegemony, all {Hegemony} fleets across the star domain received this message, but most were intercepted by more {Shackles Garrison} on the periphery. Those fleets that broke through the defense could only stand beside the jump point, preventing subsequent maddened {Shackles Garrison revenge fleets} from causing further damage to {chicomoztoc}.
+Ordered by the Supreme Hegemony, all Hegemony fleets across the sector received this message, but most were intercepted by more Shackles Garrison on the periphery. Those fleets that broke through the defense could only stand beside the jump point, preventing subsequent maddened Shackles Garrison revenge fleets from causing further damage to Chicomoztoc.
 
-According to historians, the actual numbers of fleets involved in this battle, as well as the specific intensity of the conflict, are unverifiable, and both {Shackles Garrison} and {Hegemony} have since been actively avoiding escalating conflict. However, judging from the current state of {chicomoztoc}, either the {Hegemony} quickly recovered after the war, or the {Hegemony} fleet successfully annihilated the {Shackles Garrison revenge fleet} to contain further reactions from {Shackles Garrison}.
+According to historians, the actual numbers of fleets involved in this battle, as well as the specific intensity of the conflict, are unverifiable, and both Shackles Garrison and Hegemony have since been actively avoiding escalating conflict. However, judging from the current state of Chicomoztoc, either the Hegemony quickly recovered after the war, or the Hegemony fleet successfully annihilated the Shackles Garrison revenge fleet to contain further reactions from Shackles Garrison.
 
 ——————
 ==For a better experience, please enable campaign BGM==
 You can activate in-game BGM by entering a campaign, immediately exiting the campaign, and then re entering the campaign without switching campaigns
 Just click on the SGB-test-Campaign to close BGM - this method is relatively stable.
 ——————
-After the battle is completed, a large number of warship remains will be generated around the periphery of Aztlan in the core star domain
+After the battle is completed, a large number of warship remains will be generated around the periphery of Aztlan system.
 [Score>25% is considered as successful]
