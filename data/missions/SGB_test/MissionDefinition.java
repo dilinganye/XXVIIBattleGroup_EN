@@ -15,6 +15,7 @@ import com.fs.starfarer.api.mission.MissionDefinitionPlugin;
 
 public class MissionDefinition implements MissionDefinitionPlugin {
 
+	static int missionType = 0;
 
 	@Override
 	public void defineMission(MissionDefinitionAPI api) {
@@ -22,13 +23,11 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		// Set up the fleets so we can add ships and fighter wings to them.
 		// In this scenario, the fleets are attacking each other, but
 		// in other scenarios, a fleet may be defending or trying to escape
-		api.initFleet(FleetSide.PLAYER, "SGB", FleetGoal.ATTACK, false);
-		api.initFleet(FleetSide.ENEMY, "ISS", FleetGoal.ATTACK, true);
+		api.initFleet(FleetSide.ENEMY, "TAR", FleetGoal.ATTACK, true);
 
 		// Set a small blurb for each fleet that shows up on the mission detail and
 		// mission results screens to identify each side.
 
-		api.setFleetTagline(FleetSide.PLAYER, "Test");
 		api.setFleetTagline(FleetSide.ENEMY, "Target");
 		
 		Global.getSoundPlayer().pauseCustomMusic();
@@ -45,6 +44,14 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 
 
 
+		switch (missionType) {
+			case 0:
+			case 1:
+			case 2:
+			case 3:
+
+				api.initFleet(FleetSide.PLAYER, "SGB", FleetGoal.ATTACK, false);
+				api.setFleetTagline(FleetSide.PLAYER, "Shackles Garrison Ships");
 		api.addToFleet(FleetSide.PLAYER, "SGB_Duplin_Assault", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.PLAYER, "SGB_Ceaies_Assault", FleetMemberType.SHIP, false);
 
@@ -53,6 +60,7 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.addToFleet(FleetSide.PLAYER, "SGB_Wiesios_Assault", FleetMemberType.SHIP, false);
 
 		api.addToFleet(FleetSide.PLAYER, "SGB_Felix_Assault", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "SGB_Felix_Overload", FleetMemberType.SHIP, false);
 
 		api.addToFleet(FleetSide.PLAYER, "SGB_Sumner_Assault", FleetMemberType.SHIP, false);
 
@@ -78,13 +86,17 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.addToFleet(FleetSide.PLAYER, "SGB_Aligate_Assault", FleetMemberType.SHIP, false);
 
 
+		api.addToFleet(FleetSide.PLAYER, "SGB_Achilles_Artillery", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.PLAYER, "SGB_Achilles_Assault", FleetMemberType.SHIP, false);
 
 		api.addToFleet(FleetSide.PLAYER, "SGB_Davington_Attack", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "SGB_Snapdragon_Assault", FleetMemberType.SHIP, false);
 
 		api.addToFleet(FleetSide.PLAYER, "SGB_Ogent_Assault", FleetMemberType.SHIP, false);
 
 		api.addToFleet(FleetSide.PLAYER, "SGB_Carving_Assault", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "SGB_Carving_SD_Overload", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "SGB_Carving_SD_Assault", FleetMemberType.SHIP, false);
 
 		api.addToFleet(FleetSide.PLAYER, "SGB_Falcon_Support", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.PLAYER, "SGB_Falcon_2_Support", FleetMemberType.SHIP, false);
@@ -115,6 +127,8 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 
 		api.addToFleet(FleetSide.PLAYER, "SGB_Forgnace_Battle_Assault", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.PLAYER, "SGB_Forgnace_Battle_Artillery", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "SGB_Forgnace_Battle_2_Assault", FleetMemberType.SHIP, false);
+
 		api.addToFleet(FleetSide.PLAYER, "SGB_Forgnace_Fortress", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.PLAYER, "SGB_Forgnace_Fortress_AI", FleetMemberType.SHIP, false);
 
@@ -137,6 +151,46 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.addToFleet(FleetSide.PLAYER, "SGB_Austenite_Rocket", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.PLAYER, "SGB_Austenite_Assault", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.PLAYER, "SGB_Austenite_Carrier", FleetMemberType.SHIP, false);
+
+				break;
+			case 4:
+
+				api.initFleet(FleetSide.PLAYER, "???", FleetGoal.ATTACK, false);
+				api.setFleetTagline(FleetSide.PLAYER, "Unknown - How many time do you beat this mission?");
+		api.addToFleet(FleetSide.PLAYER, "SGB_Undervoltage_AntiShield", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "SGB_Undervoltage_Attack", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "SGB_Undervoltage_Missile", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "SGB_Undervoltage_Support", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "SGB_Undervoltage_AntiArmor", FleetMemberType.SHIP, false);
+
+		api.addToFleet(FleetSide.PLAYER, "SGB_Overcurrent_AntiShield", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "SGB_Overcurrent_Attack", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "SGB_Overcurrent_Missile", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "SGB_Overcurrent_Support", FleetMemberType.SHIP, false);
+
+		api.addToFleet(FleetSide.PLAYER, "SGB_Misalignment_AntiShield", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "SGB_Misalignment_Attack", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "SGB_Misalignment_Missile", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "SGB_Misalignment_Support", FleetMemberType.SHIP, false);
+
+		api.addToFleet(FleetSide.PLAYER, "SGB_LargeGrain_AntiShield", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "SGB_LargeGrain_Attack", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "SGB_LargeGrain_Missile", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "SGB_LargeGrain_Support", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "SGB_LargeGrain_AntiArmor", FleetMemberType.SHIP, false);
+
+
+		api.addToFleet(FleetSide.PLAYER, "SGB_Carbonization_AntiShield_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.PLAYER, "SGB_Carbonization_Attack_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.PLAYER, "SGB_Carbonization_Missile_wing", FleetMemberType.FIGHTER_WING, false);
+		api.addToFleet(FleetSide.PLAYER, "SGB_Carbonization_Support_wing", FleetMemberType.FIGHTER_WING, false);
+
+				break;
+			default:
+				break;
+		}
+
+
 
 
 		// Set up the enemy fleet.
@@ -161,5 +215,8 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.addPlanet(-500f, 500f, 5f, StarTypes.YELLOW, 50f, true);
 
 		api.addNebula(-400, 2100, 200f);
+		missionType++;
+		if (missionType > 4) {
+			missionType = 0;}
 	}
 }

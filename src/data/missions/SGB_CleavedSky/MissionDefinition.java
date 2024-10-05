@@ -33,13 +33,12 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		// Set up the fleets so we can add ships and fighter wings to them.
 		api.initFleet(FleetSide.PLAYER, "HSS", FleetGoal.ATTACK, false, 30);
 		api.initFleet(FleetSide.ENEMY, "SGB", FleetGoal.ATTACK, true, 30);
-		api.setFleetTagline(FleetSide.PLAYER, "Pollux Strike Force XIV Intercept Fleet");
-		api.setFleetTagline(FleetSide.ENEMY, "Shackles Garrison XXVII Neck Hook Revenge Fleet");
+		api.setFleetTagline(FleetSide.PLAYER, "北河三打击力量 XIV 拦截舰队");
+		api.setFleetTagline(FleetSide.ENEMY, "链戍集团军 XXVII 颈钩复仇舰队");
 
-		api.addBriefingItem("Tip: The enemy is a giant aircraft carrier formation, please do your best to ensure air superiority");
-		api.addBriefingItem("The SGB fleet has gone berserk, their actions are extremely aggressive.");
-		//make sure to cripple enough of their ships to bring them back to their senses
-		api.addBriefingItem("Score of this campaign > 25 is considered as successful");
+		api.addBriefingItem("提示：敌人为巨型航母编队，请尽力确保制空");
+		api.addBriefingItem("链戍舰队杀红了眼，他们的行为十分激进，确保击溃他们足够多的舰船来让他们清醒过来");
+		api.addBriefingItem("此战役分数 > 25 即视作成功");
 
 		// Set up the player's fleet.
 
@@ -53,9 +52,11 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.addToFleet(FleetSide.PLAYER, "dominator_XIV_Elite", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.PLAYER, "falcon_xiv_Escort", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.PLAYER, "falcon_xiv_Escort", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "falcon_xiv_Escort", FleetMemberType.SHIP, false);
 
 		api.addToFleet(FleetSide.PLAYER, "condor_Support", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.PLAYER, "condor_Support", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "vanguard_Attack", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.PLAYER, "vanguard_Attack", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.PLAYER, "vanguard_Attack", FleetMemberType.SHIP, false);
 
@@ -68,16 +69,12 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		// Set up the enemy fleet.
 		api.addToFleet(FleetSide.ENEMY, "SGB_Ductility_2_Attack", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
 		api.addToFleet(FleetSide.ENEMY, "SGB_Ductility_2_DogFight", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
-		//api.addToFleet(FleetSide.ENEMY, "SGB_Ductility_Attack", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
+		api.addToFleet(FleetSide.ENEMY, "SGB_Ductility_Attack", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
 		api.addToFleet(FleetSide.ENEMY, "SGB_Ductility_Assault", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
-		api.addToFleet(FleetSide.ENEMY, "SGB_Ductility_Coop", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
-		api.addToFleet(FleetSide.ENEMY, "SGB_Ductility_Coop", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
 
 		api.addToFleet(FleetSide.ENEMY, "SGB_Anvil_Coop", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
 		api.addToFleet(FleetSide.ENEMY, "SGB_Anvil_Coop", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
-		api.addToFleet(FleetSide.ENEMY, "SGB_Anvil_Coop", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
 		api.addToFleet(FleetSide.ENEMY, "SGB_Anvil_Attack", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
-		//api.addToFleet(FleetSide.ENEMY, "SGB_Anvil_Attack", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
 
 		api.addToFleet(FleetSide.ENEMY, "SGB_Ascaedy_Assault", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
 		api.addToFleet(FleetSide.ENEMY, "SGB_Aligate_Assault", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
@@ -89,10 +86,6 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.addToFleet(FleetSide.ENEMY, "SGB_Ares_Coop_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "SGB_Ares_Coop_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "SGB_Ares_Coop_wing", FleetMemberType.FIGHTER_WING, false);
-		api.addToFleet(FleetSide.ENEMY, "SGB_Ares_Coop_wing", FleetMemberType.FIGHTER_WING, false);
-		api.addToFleet(FleetSide.ENEMY, "SGB_Ares_Coop_wing", FleetMemberType.FIGHTER_WING, false);
-		api.addToFleet(FleetSide.ENEMY, "SGB_Ares_Coop_wing", FleetMemberType.FIGHTER_WING, false);
-		api.addToFleet(FleetSide.ENEMY, "SGB_Ares_Coop_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "SGB_Ares_Assault_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "SGB_Ares_Assault_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "SGB_Ares_Assault_wing", FleetMemberType.FIGHTER_WING, false);
@@ -102,36 +95,20 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.addToFleet(FleetSide.ENEMY, "SGB_Ares_DogFight_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "SGB_Ares_DogFight_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "SGB_Ares_DogFight_wing", FleetMemberType.FIGHTER_WING, false);
-		api.addToFleet(FleetSide.ENEMY, "SGB_Ares_DogFight_wing", FleetMemberType.FIGHTER_WING, false);
-		api.addToFleet(FleetSide.ENEMY, "SGB_Ares_DogFight_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "SGB_Ares_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "SGB_Ares_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "SGB_Ares_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "SGB_Ares_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "SGB_Ares_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "SGB_Ares_wing", FleetMemberType.FIGHTER_WING, false);
-		api.addToFleet(FleetSide.ENEMY, "SGB_Agatha_Assault_wing", FleetMemberType.FIGHTER_WING, false);
-		api.addToFleet(FleetSide.ENEMY, "SGB_Agatha_Assault_wing", FleetMemberType.FIGHTER_WING, false);
-		api.addToFleet(FleetSide.ENEMY, "SGB_Agatha_Assault_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "SGB_Agatha_Assault_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "SGB_Agatha_DogFight_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "SGB_Agatha_DogFight_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "SGB_Agatha_Coop_wing", FleetMemberType.FIGHTER_WING, false);
-		api.addToFleet(FleetSide.ENEMY, "SGB_Agatha_Coop_wing", FleetMemberType.FIGHTER_WING, false);
-		api.addToFleet(FleetSide.ENEMY, "SGB_Agatha_wing", FleetMemberType.FIGHTER_WING, false);
-		api.addToFleet(FleetSide.ENEMY, "SGB_Agatha_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "SGB_Agatha_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "SGB_Agatha_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "SGB_Axio_DogFight_wing", FleetMemberType.FIGHTER_WING, false);
 		api.addToFleet(FleetSide.ENEMY, "SGB_Axio_DogFight_wing", FleetMemberType.FIGHTER_WING, false);
-		api.addToFleet(FleetSide.ENEMY, "SGB_Axio_DogFight_wing", FleetMemberType.FIGHTER_WING, false);
-		api.addToFleet(FleetSide.ENEMY, "SGB_Axio_DogFight_wing", FleetMemberType.FIGHTER_WING, false);
-		api.addToFleet(FleetSide.ENEMY, "SGB_Argion_Bomber_wing", FleetMemberType.FIGHTER_WING, false);
-		api.addToFleet(FleetSide.ENEMY, "SGB_Argion_Bomber_wing", FleetMemberType.FIGHTER_WING, false);
-		api.addToFleet(FleetSide.ENEMY, "SGB_Argion_Bomber_wing", FleetMemberType.FIGHTER_WING, false);
-		api.addToFleet(FleetSide.ENEMY, "SGB_Argion_Bomber_wing", FleetMemberType.FIGHTER_WING, false);
-		api.addToFleet(FleetSide.ENEMY, "SGB_Argion_Bomber_wing", FleetMemberType.FIGHTER_WING, false);
-		api.addToFleet(FleetSide.ENEMY, "SGB_Argion_Bomber_wing", FleetMemberType.FIGHTER_WING, false);
 
 
 		// Set up the map.

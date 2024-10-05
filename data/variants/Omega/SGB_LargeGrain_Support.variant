@@ -1,0 +1,34 @@
+{
+  "variantId": "SGB_LargeGrain_Support",
+  "hullId": "SGB_LargeGrain",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "turretgyros",
+    "targetingunit",
+    "ecm",
+    "autorepair"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "SGB_MatealDisper",
+        "WS0002": "shockrepeater",
+        "WS0003": "SGB_DisinRadia"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

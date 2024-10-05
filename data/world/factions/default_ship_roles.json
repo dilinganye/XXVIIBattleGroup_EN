@@ -4,19 +4,40 @@
 		"SGB_Ceaies_Assault": 5,
 		"SGB_Redmond_Support": 5,
 		"SGB_Wiesios_Assault": 5,
-		"SGB_Felix_Assault": 5,
+		"SGB_Felix_Assault": 3,
+		"SGB_Felix_Overload": 2,
 		"SGB_Sumner_Assault": 5,
 		"SGB_Posmous_Assault": 4,
 		"SGB_Ogent_Assault": 2
 	},
+
+
 	"combatSmall": {
 		"SGB_Duplin_Assault": 5,
 		"SGB_Ceaies_Assault": 5,
 		"SGB_Redmond_Support": 5,
 		"SGB_Wiesios_Assault": 5,
 		"SGB_Whip_Support": 5,
-		"SGB_Felix_Assault": 5,
+		"SGB_Felix_Assault": 3,
+		"SGB_Felix_Overload": 2,
 		"SGB_Sumner_Assault": 5,
+
+		"SGB_Undervoltage_AntiShield":1,
+		"SGB_Undervoltage_Attack": 1,
+		"SGB_Undervoltage_Missile": 1,
+		"SGB_Undervoltage_Support": 1,
+		"SGB_Undervoltage_AntiArmor": 1,
+
+		"SGB_Overcurrent_AntiShield": 1,
+		"SGB_Overcurrent_Attack": 2,
+		"SGB_Overcurrent_Missile": 1,
+		"SGB_Overcurrent_Support": 1,
+
+		"SGB_Misalignment_AntiShield": 1,
+		"SGB_Misalignment_Attack": 2,
+		"SGB_Misalignment_Missile": 1,
+		"SGB_Misalignment_Support": 1,
+
 		"fallback":{"combatMedium":0.75},
 		"fallback2":{"combatLarge":0.5}
 	},
@@ -28,32 +49,45 @@
 		"SGB_Davington_Attack": 3,
 		"SGB_Ogent_Assault": 5,
 
-
 		"SGB_Hydrargyri_Overload": 1,
 		"SGB_Hydrargyri_Assault": 1,
+
+
+		"SGB_LargeGrain_AntiShield": 1,
+		"SGB_LargeGrain_Attack": 1,
+		"SGB_LargeGrain_Missile": 1,
+		"SGB_LargeGrain_Support": 1,
+		"SGB_LargeGrain_AntiArmor": 1,
 
 		"fallback":{"combatSmall":1},
 		"fallback2":{"combatLarge":0.5}
 	},
 	"combatLarge": {
+		"SGB_Snapdragon_Assault": 5,
 		"SGB_Falcon_Support": 5,
 		"SGB_Falcon_2_Support": 1,
 		"SGB_Eagle_Support": 5,
 		"SGB_Eagle_2_Support": 1,
-		"SGB_Achilles_Assault": 5,
+		"SGB_Achilles_Assault": 2,
+		"SGB_Achilles_Artillery": 3,
 		"SGB_Ascaedy_Assault": 5,
 		"SGB_Anvil_Overload": 2,
 		"SGB_Anvil_Assault": 3,
+		"SGB_Carving_Assault": 5,
+		"SGB_Carving_SD_Overload": 2,
+		"SGB_Carving_SD_Assault": 3,
 
 		"fallback":{"combatMedium":1},
 		"fallback2":{"combatCapital":0.5}
 	},
 	"combatCapital": {
-		"SGB_Onslaught_Normal": 5,
+		"SGB_Onslaught_Normal": 3,
+		"SGB_Onslaught_Elite": 2,
 		"SGB_Stress_Assault": 5,
 		"SGB_Stress_2_Assault": 1,
 		"SGB_Forgnace_Battle_Assault": 2,
 		"SGB_Forgnace_Battle_Artillery": 3,
+		"SGB_Forgnace_Battle_2_Assault": 2,
 		"fallback":{"combatSmall":1},
 		"fallback2":{"combatMedium":1}
 	},
@@ -64,7 +98,8 @@
 		"SGB_Alicuty_Assault": 3
 	},
 	"combatFreighterLarge": {
-		"SGB_Achilles_Assault": 3,
+		"SGB_Achilles_Assault": 2,
+		"SGB_Achilles_Artillery": 3,
 		"SGB_Ascaedy_Assault": 3,
 		"SGB_Forgnace_Battle_Assault": 3
 	},

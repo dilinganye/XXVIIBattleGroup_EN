@@ -342,16 +342,33 @@ public class SGB_PD_MissileAI implements MissileAIPlugin, GuidedMissileAI {
                         SGB_Color.SGBpurple
                 );
             }
-            engine.applyDamage(
-                    missile,
-                    missile.getLocation(),
-                    missile.getHitpoints() * 0.55f,
-                    DamageType.ENERGY,
-                    0f,
-                    false,
-                    false,
-                    missile
-            );
+
+            if(missile.getWeapon().getId().equals("SGB_Shackles_MissileLauncher")
+                    && missile.getWeapon().getShip() != null
+                    && missile.getWeapon().getShip().getHullSpec().getBaseHullId().equals("SGB_Whip")){
+                engine.applyDamage(
+                        missile,
+                        missile.getLocation(),
+                        missile.getHitpoints() * 0.26f,
+                        DamageType.ENERGY,
+                        0f,
+                        false,
+                        false,
+                        missile
+                );
+            }
+            else {
+                engine.applyDamage(
+                        missile,
+                        missile.getLocation(),
+                        missile.getHitpoints() * 0.55f,
+                        DamageType.ENERGY,
+                        0f,
+                        false,
+                        false,
+                        missile
+                );
+            }
         } else {
             engine.removeEntity(missile);
         }

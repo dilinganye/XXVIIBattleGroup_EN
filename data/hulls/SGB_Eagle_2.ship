@@ -3,7 +3,7 @@
   "hullId": "SGB_Eagle_2",
   "hullSize": "CRUISER",
   "spriteName": "graphics/ships/SGB_Eagle_2.png",
-  "style": "SGB_TECH",
+  "style": "SGB_TECH_XXVII",
   "height": 217,
   "width": 168,
   "center": [84, 108.5],

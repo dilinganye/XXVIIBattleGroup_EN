@@ -11,9 +11,9 @@
 	"explosionColor":[255,165,50,255],  # purely visual, will get a white additively blended core on top of this color
 	"explosionRadius":60, # purely visual
 	"fadeTime":1, # fadeout duration
-	"engineSpec":{"turnAcc":1720,
-				  "turnRate":240,
-				  "acc":2500,
+	"engineSpec":{"turnAcc":250,
+				  "turnRate":175,
+				  "acc":2000,
 				  "dec":800},			  
 	"engineSlots":[{"id":"ES1",
 					"loc":[-10, 0],

@@ -39,7 +39,6 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.addBriefingItem("Tip: The enemy is a giant aircraft carrier formation, please do your best to ensure air superiority");
 		api.addBriefingItem("The SGB fleet has gone berserk, their actions are extremely aggressive, make sure to cripple enough of their ships to bring them back to their senses.");
 		api.addBriefingItem("Score of this campaign > 25 is considered as successful");
-
 		// Set up the player's fleet.
 
 		api.addToFleet(FleetSide.PLAYER, "onslaught_xiv_Elite", FleetMemberType.SHIP, true);

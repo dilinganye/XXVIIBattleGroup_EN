@@ -1,0 +1,44 @@
+{
+  "id": "SGB_MatealDisper",
+  "specClass": "projectile",
+  "projectileSpecId": "SGB_MatealDisper_shot",
+  "type": "SYNERGY",
+  "size": "MEDIUM",
+  "everyFrameEffect": "data.weapons.SGB_MatealDisper_FireEffect",
+  "turretSprite": "graphics/weapons/Omega/SGB_MatealDisper_A.png",
+  "turretGlowSprite": "graphics/weapons/Omega/SGB_MatealDisper_A_L.png",
+  "hardpointSprite": "graphics/weapons/Omega/SGB_MatealDisper_H.png",
+  "turretOffsets": [
+    4,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    10.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 8,
+    "particleSizeRange": 8,
+    "cloudParticleCount": 36,
+    "cloudDuration": 1,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 4,
+    "blowbackDuration": 2,
+    "blowbackLength": 0,
+    "blowbackSpread": 4,
+    "particleColor": [
+      30,
+      20,
+      30,
+      75
+    ]
+  }
+}

@@ -66,6 +66,24 @@
       "arc": 7,
       "angle": 0,
       "locations": [5.5, 0.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 7,
+      "angle": 90,
+      "locations": [-2, -3.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 7,
+      "angle": 90,
+      "locations": [1, -3.5]
     }
   ],
   "engineSlots": [

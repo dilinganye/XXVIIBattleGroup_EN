@@ -99,7 +99,8 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.addToFleet(FleetSide.ENEMY, "aurora_Retaliate", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
 		api.addToFleet(FleetSide.ENEMY, "aurora_Retaliate", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
 		api.addToFleet(FleetSide.ENEMY, "aurora_Retaliate", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
-		//api.addToFleet(FleetSide.ENEMY, "aurora_Retaliate", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
+		api.addToFleet(FleetSide.ENEMY, "aurora_Retaliate", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
+		api.addToFleet(FleetSide.ENEMY, "aurora_Retaliate", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
 
 		api.addToFleet(FleetSide.ENEMY, "hyperion_Strike", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.ENEMY, "hyperion_Strike", FleetMemberType.SHIP, false);
@@ -108,9 +109,12 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.addToFleet(FleetSide.ENEMY, "wolf_Strike", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.ENEMY, "wolf_Strike", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.ENEMY, "wolf_Strike", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "wolf_Strike", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "wolf_Strike", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.ENEMY, "tempest_Attack", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.ENEMY, "tempest_Attack", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.ENEMY, "tempest_Attack", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "omen_PD", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.ENEMY, "omen_PD", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.ENEMY, "omen_PD", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.ENEMY, "omen_PD", FleetMemberType.SHIP, false);

@@ -1,10 +1,7 @@
 {
 	# The following hull style ids are reserved and can not be used:
 	# "sounds", "DEFAULT", "FIGHTER", "FRIGATE", "DESTROYER", "CRUISER", "CAPITAL_SHIP"
-	
-	
-	
-	
+
 
 	"SGB_TECH":{
 		"hyperspaceJitterColor":[255, 237, 158,200],
@@ -15,10 +12,12 @@
 		"weaponDisabledExplosionColor":[246, 174, 102,255],
 		"shieldRingColor":[250,209,21,200],
 		"shieldInnerColor":[166,161,152,100],
-		"fluxVentCoreColor":[134,134,134,210],
-		"fluxVentFringeColor":[250,209,21,200],
-		"fluxVentTextureSheet":"graphics/fx/fx_clouds00.png",				# optional, this is the default value
-		"fluxVentRadialTexture":"graphics/fx/fx_clouds01.png", 			# optional, this is the default value
+
+		"fluxVentTextureSheet":"graphics/fx/SGB_fx_clouds01.png",				# optional, this is the default value
+		"fluxVentCoreColor":[185,185,185,200],
+		"fluxVentRadialTexture":"graphics/fx/SGB_fx_clouds02.png", 			# optional, this is the default value
+		"fluxVentFringeColor":[167,166,156,145],
+
 		"engineLoopSet":"engine_loop", 					# id of entry in sounds.json
 		"engineAccelerateSet":"engine_accelerate",				# id of entry in sounds.json
 		"empLoopSet":"emp_loop",						# id of entry in sounds.json
@@ -44,6 +43,47 @@
 		"dHullOverlayMedium":"graphics/damage/dmod_overlay_midline_medium.png",
 		"dHullOverlayHeavy":"graphics/damage/dmod_overlay_midline_heavy.png",
 	},
+
+"SGB_TECH_XXVII":{
+"hyperspaceJitterColor":[255,237,158,200],
+"baseCampaignExplosionColor":[255, 221, 61,255],
+"baseCombatExplosionColor":[255, 221, 61,255],
+"fighterRepairFlickerColor":[255, 221, 61,255],
+"fighterChipIconColor":[255, 221, 61,255],
+"weaponDisabledExplosionColor":[246, 174, 102,255],
+"shieldRingColor":[250,209,21,200],
+"shieldInnerColor":[166,161,152,100],
+
+"fluxVentTextureSheet":"graphics/fx/SGB_fx_clouds01_mix.png",				# optional, this is the default value
+"fluxVentCoreColor":[215,215,205,200],
+"fluxVentRadialTexture":"graphics/fx/SGB_fx_clouds02.png", 			# optional, this is the default value
+"fluxVentFringeColor":[207,200,156,155],
+
+"engineLoopSet":"engine_loop", 					# id of entry in sounds.json
+"engineAccelerateSet":"engine_accelerate",				# id of entry in sounds.json
+"empLoopSet":"emp_loop",						# id of entry in sounds.json
+"fluxLoopSet":"flux_loop",						# id of entry in sounds.json
+"ventFluxSet":"vent_flux",						# id of entry in sounds.json
+"shieldBurnoutSet":"shield_burnout",					# id of entry in sounds.json
+"shieldLowerSet":"shield_lower",					# id of entry in sounds.json
+"shieldRaiseSet":"shield_raise",						# id of entry in sounds.json
+"explosionShipSet":"explosion_ship",					# id of entry in sounds.json
+"damageDecalSheet":"graphics/damage/damage_decal_sheet_base.png",
+"damageDecalGlowSheet":"graphics/damage/damage_decal_sheet_glow.png",
+
+"coversColorShiftAmount":1,  # 0 to 1
+"coversMatchShipBrightness":true,
+"slotCoverSmallTurret":"graphics/weapons/covers/cover_turret_midline_small.png",
+"slotCoverSmallHardpoint":"graphics/weapons/covers/cover_hardpoint_midline_small.png",
+"slotCoverMediumTurret":"graphics/weapons/covers/cover_turret_midline_medium.png",
+"slotCoverMediumHardpoint":"graphics/weapons/covers/cover_hardpoint_midline_medium.png",
+"slotCoverLargeTurret":"graphics/weapons/covers/cover_turret_midline_large.png",
+"slotCoverLargeHardpoint":"graphics/weapons/covers/cover_hardpoint_midline_large.png",
+
+"dHullOverlayLight":"graphics/damage/dmod_overlay_midline_light.png",
+"dHullOverlayMedium":"graphics/damage/dmod_overlay_midline_medium.png",
+"dHullOverlayHeavy":"graphics/damage/dmod_overlay_midline_heavy.png",
+},
 	"SGB_WING_TECH":{
 		"hyperspaceJitterColor":[255, 237, 158,200],
 		"baseCampaignExplosionColor":[255, 221, 61,255],
@@ -53,10 +93,10 @@
 		"weaponDisabledExplosionColor":[246, 174, 102,255],
 		"shieldRingColor":[220,210,40,200],
 		"shieldInnerColor":[166,161,152,100],
-		"fluxVentCoreColor":[134,134,134,210],
-		"fluxVentFringeColor":[250,209,21,200],
-		"fluxVentTextureSheet":"graphics/fx/fx_clouds00.png",				# optional, this is the default value
-		"fluxVentRadialTexture":"graphics/fx/fx_clouds01.png", 			# optional, this is the default value
+		"fluxVentTextureSheet":"graphics/fx/SGB_fx_clouds01_mix.png",				# optional, this is the default value
+		"fluxVentCoreColor":[175,175,175,200],
+		"fluxVentRadialTexture":"graphics/fx/SGB_fx_clouds02.png", 			# optional, this is the default value
+		"fluxVentFringeColor":[167,166,156,125],
 		"engineLoopSet":"engine_loop", 					# id of entry in sounds.json
 		"engineAccelerateSet":"engine_accelerate",				# id of entry in sounds.json
 		"empLoopSet":"emp_loop",						# id of entry in sounds.json

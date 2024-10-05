@@ -3,7 +3,7 @@
   "hullId": "SGB_Hydrargyri",
   "hullSize": "DESTROYER",
   "spriteName": "graphics/ships/SGB_hydrargyri.png",
-  "style": "SGB_TECH",
+  "style": "SGB_TECH_XXVII",
   "height": 161,
   "width": 134,
   "center": [67, 80.5],

@@ -1,0 +1,52 @@
+{
+  "id": "SGB_DisinRadia",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/Omega/SGB_DisinRadia_A.png",
+  "turretGlowSprite": "graphics/weapons/Omega/SGB_DisinRadia_A_L.png",
+  "hardpointSprite": "graphics/weapons/Omega/SGB_DisinRadia_H.png",
+  "hardpointGlowSprite": "graphics/weapons/Omega/SGB_DisinRadia_H_L.png",
+  "beamEffect":"data.weapons.SGB_DisinRadia_Beam_Effect",
+  "glowColor": [
+    89,
+    108,
+    170,
+    195
+  ],
+  "hitGlowRadius": 20,
+  "turretOffsets": [
+    9,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    13.5,
+    0.5
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    234,
+    244,
+    255,
+    179
+  ],
+  "coreColor": [
+    89,
+    108,
+    141,
+    225
+  ],
+  "darkCore": true,
+  "width": 4,
+  "textureType": WEAVE,
+  "textureScrollSpeed": -100,
+  "pixelsPerTexel": 1,
+  "fireSoundTwo":"cryoflamer_hit_light"
+}

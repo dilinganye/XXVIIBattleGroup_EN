@@ -47,14 +47,14 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		// Set up the fleets so we can add ships and fighter wings to them.
 		api.initFleet(FleetSide.PLAYER, "SGB", FleetGoal.ESCAPE, false, 15);
 		api.initFleet(FleetSide.ENEMY, "ISS", FleetGoal.ATTACK, true, 30);
-		Global.getCombatEngine().setMaxFleetPoints(FleetSide.ENEMY, 300);
+		Global.getCombatEngine().setMaxFleetPoints(FleetSide.ENEMY, 300);;
 		api.setFleetTagline(FleetSide.PLAYER, "Andelon & Erubolie and SGB Evacuation Fleet - Remnants of the Transport Escort");
-		api.setFleetTagline(FleetSide.ENEMY, "Unknown bounty team?- Even ghosts know it's those damn Tachyonic bastards");
+		api.setFleetTagline(FleetSide.ENEMY, "Unknown bounty team?- Everyone know it's those damn Tri-Tachyon bastards");
 
-		api.addBriefingItem("Tip: Your flagship is a very special ship and also your own warship - do not die;");
+		api.addBriefingItem("Tip: Your flagship is a special ship and also your own ship - don't die with it;");
 		//Don't be obsessed with war, prioritize ensuring your own evacuation;
-		api.addBriefingItem("All non Anchao ships' CR will not quickly drop below 45.");
-		api.addBriefingItem("The enemy is a seasoned mercenary, prepare for the worst things!");
+		api.addBriefingItem("All non  ships' CR will not quickly drop below 45.");
+		api.addBriefingItem("The enemys are thirst for your blood, Prepare for the worst outcome!");
 
 		//add Person
 		FactionAPI SGB = Global.getSettings().createBaseFaction("SGB");

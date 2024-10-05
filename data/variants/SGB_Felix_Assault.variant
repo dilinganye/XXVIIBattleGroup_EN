@@ -3,16 +3,23 @@
   "hullId": "SGB_Felix",
   "displayName": "Assault",
   "goalVariant": true,
-  "fluxCapacitors": 8,
-  "fluxVents": 2,
+  "fluxCapacitors": 1,
+  "fluxVents": 10,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "eccm",
-    "auxiliarythrusters",
     "armoredweapons"
   ],
   "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "lightneedler",
+        "WS0005": "lightneedler"
+      }
+    },
     {
       "autofire": false,
       "mode": "LINKED",
@@ -22,18 +29,9 @@
       }
     },
     {
-      "autofire": true,
+      "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0004": "railgun"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0005": "lightag"
-      }
+      "weapons": {}
     }
   ],
   "modules": [],

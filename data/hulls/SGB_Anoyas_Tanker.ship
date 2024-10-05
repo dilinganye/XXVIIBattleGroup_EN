@@ -155,20 +155,20 @@
       "style": "LOW_TECH"
     },
     {
-      "location": [43, 26],
+      "location": [43, 26.5],
       "length": 7.5,
       "width": 19,
       "angle": 90,
       "contrailSize": 128,
-      "style": "LOW_TECH"
+      "style": "SGB_TECH"
     },
     {
-      "location": [43, -26],
+      "location": [43, -26.5],
       "length": 7.5,
       "width": 19,
       "angle": -90,
       "contrailSize": 128,
-      "style": "LOW_TECH"
+      "style": "SGB_TECH"
     }
   ],
   "bounds": [

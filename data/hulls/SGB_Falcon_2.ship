@@ -3,7 +3,7 @@
   "hullId": "SGB_Falcon_2",
   "hullSize": "CRUISER",
   "spriteName": "graphics/ships/SGB_Falcon_2.png",
-  "style": "SGB_TECH",
+  "style": "SGB_TECH_XXVII",
   "height": 217,
   "width": 160,
   "center": [80, 91],
@@ -15,7 +15,7 @@
     "SGB_AllForHuman"
   ],
   "builtInWeapons": {
-    "WS0011": "SGB_Shackles_MissileLauncher",
+    "WS0011": "SGB_Shackles_MissileLauncher_L",
     "WS0012": "SGB_Wings_Missile",
     "WS0013": "SGB_Wings_Missile",
     "WS0014": "SGB_Wings_Missile",
@@ -125,10 +125,10 @@
       "id": "WS0011",
       "size": "MEDIUM",
       "type": "BUILT_IN",
-      "mount": "HARDPOINT",
-      "arc": 7,
+      "mount": "TURRET",
+      "arc": 0,
       "angle": 0,
-      "locations": [7, -0]
+      "locations": [22, -0]
     },
     {
       "id": "WS0012",

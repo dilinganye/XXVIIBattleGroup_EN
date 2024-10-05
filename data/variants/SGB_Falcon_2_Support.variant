@@ -3,7 +3,7 @@
   "hullId": "SGB_Falcon_2",
   "displayName": "Support",
   "goalVariant": true,
-  "fluxCapacitors": 15,
+  "fluxCapacitors": 16,
   "fluxVents": 15,
   "quality": 1,
   "permaMods": [],
@@ -38,14 +38,16 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0008": "atropos",
-        "WS0009": "atropos"
+        "WS0008": "heatseeker",
+        "WS0009": "heatseeker"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0011": "SGB_Shackles_MissileLauncher_L"
+      }
     },
     {
       "autofire": true,
@@ -60,9 +62,7 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0011": "SGB_Shackles_MissileLauncher"
-      }
+      "weapons": {}
     }
   ],
   "modules": [],

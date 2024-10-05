@@ -1,0 +1,53 @@
+{
+	"id":"SGB_MatealDisper_shot_NEW",
+	"specClass":"missile",
+	"missileType":"MISSILE",
+	"spawnType":"PLASMA",
+	"sprite":"graphics/missiles/am_srm.png",
+	"size":[15,15],
+	"center":[8,8],
+	"collisionRadius":8,
+	"collisionClass":"MISSILE_NO_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"explosionColor":[151,122,212,200],  # purely visual, will get a white additively blended core on top of this color
+	#"onHitEffect":"data.weapons.SGB_MatealDisper_OnHitEffect",
+	#"onFireEffect":"data.weapons.SGB_MatealDisper_OnHitEffect",
+	"width":50.0,
+	"fadeTime":0.5,
+	"hitGlowRadius":60,
+	"fringeColor":[255,100,100,100],
+	"coreColor":[255,0,0,255],
+	"glowColor":[150,100,255,75],
+	"glowRadius":47,
+	"alwaysAccelerate":true,
+	"fizzleOnReachingWeaponRange":true,
+	"useHitGlowWhenDestroyed":true,
+	"reduceDamageWhileFading":true,
+	"passThroughMissiles":true,
+	"passThroughFighters":true,
+	"engineSpec":{"turnAcc":70,
+				  "turnRate":120,
+				  "acc":2000,
+				  "dec":200},
+	"engineSlots":[{"id":"ES1",
+					"loc":[0, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[150,100,255,0],
+						"glowSizeMult":0,
+						"glowAlternateColor":[150,100,255,0],
+						"contrailDuration":0,
+						"contrailWidthMult":0,
+						"contrailWidthAddedFractionAtEnd":0,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":0, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":.5, # how far away from engine it starts
+						"contrailColor":[70,100,155,0],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":10.0,
+				    "length":50.0,
+				    "angle":180.0}]
+}

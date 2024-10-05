@@ -29,6 +29,10 @@
 			"SGB_Bar":"graphics/illustrations/SGB_Bar.png",
 		},
 	   "fx":{
+		   "SGB_Va_Explosion_ring":"graphics/fx/explosion_ring0.png",
+		   "SGB_Va_Explosion":"graphics/fx/explosion0.png",
+		   "SGB_Va_Smoke":"graphics/fx/particlealpha_textured.png",
+
 		   "SGB_plasma_red":"graphics/fx/SGB_plasma_red.png",
 		   "SGB_Lightning_beam":"graphics/fx/SGB_Lightning_beam.png",
 		   "SGB_Cloud_64":"graphics/fx/SGB_Cloud_64.png",
@@ -50,8 +54,15 @@
 		   "SGB_Tex_Fire05C":"graphics/fx/Flame/Tex_Fire05C.png",
 
 		   "SGB_AE_Wave":"graphics/fx/SGB_AE_Wave.png",
-		   "SGB_Wave":"graphics/fx/SGB_Wave.png"
-	},
+		   "SGB_Wave":"graphics/fx/SGB_Wave.png",
+
+		   "SGB_fx_clouds_EX":"graphics/fx/SGB_fx_clouds_EX.png",
+		   "SGB_fx_clouds01":"graphics/fx/SGB_fx_clouds01.png",
+		   "SGB_fx_clouds02":"graphics/fx/SGB_fx_clouds02.png",
+		   "SGB_fx_clouds03":"graphics/fx/SGB_fx_clouds03.png",
+		   "SGB_fx_cloudsClrd":"graphics/fx/SGB_fx_cloudsClrd.png",
+		   "SGB_fx_clouds01_mix":"graphics/fx/SGB_fx_clouds01_mix.png"
+	   },
        "blueprint_packages":{
 			"SGB_package":"graphics/icons/cargo/SGB_package.png",
 		},		

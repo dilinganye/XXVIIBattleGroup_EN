@@ -11,14 +11,10 @@
 	"explosionColor":[255,165,50,255],  # purely visual, will get a white additively blended core on top of this color
 	"explosionRadius":60, # purely visual
 	"fadeTime":1, # fadeout duration
-	"engineSpec":{"turnAcc":1720,
-				  "turnRate":240,
-				  "acc":2500,
-				  "dec":800},
-	#"engineSpec":{"turnAcc":240,
-	#			  "turnRate":120,
-	#			  "acc":400,
-	#			  "dec":400},				  
+	"engineSpec":{"turnAcc":450,
+				  "turnRate":225,
+				  "acc":4500,
+				  "dec":1050},
 	"engineSlots":[{"id":"ES1",
 					"loc":[-6, 0],
 				    #"style":"MISSILE_MIDLINE",

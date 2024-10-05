@@ -22,8 +22,8 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS 001": "vulcan",
-        "WS 002": "vulcan"
+        "WS 001": "SGB_Pin",
+        "WS 002": "SGB_Pin"
       }
     }
   ],

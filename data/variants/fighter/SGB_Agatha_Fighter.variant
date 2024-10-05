@@ -18,10 +18,9 @@
       }
     },
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "ALTERNATING",
       "weapons": {
-        "WS0003": "SGB_Wings_Missile",
         "WS0004": "SGB_Wings_Missile"
       }
     }

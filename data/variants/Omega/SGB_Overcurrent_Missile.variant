@@ -1,0 +1,26 @@
+{
+  "variantId": "SGB_Overcurrent_Missile",
+  "hullId": "SGB_Overcurrent",
+  "displayName": "Missile",
+  "goalVariant": true,
+  "fluxCapacitors": 11,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "amsrm",
+        "WS0002": "amsrm"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

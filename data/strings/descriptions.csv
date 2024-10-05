@@ -1,230 +1,288 @@
-id,type,text1,text2,text3,notes,Column 07
-,,,,,,
+id,type,text1,text2,text3,notes
+,,,,,
 #星球/地图建筑描述,,,,,,
-,,,,,,
-SGB_planet1_description,CUSTOM,"As a star fortress which been abandoned long times ago, many military installations lay dormant when the Shackles Garrison first discovered this planet. After a long period of restoration work by the 27th Group, the vast majority of facilities in this star fortress have resumed operation, including the energy-consuming planetary shield.
+,,,,,
+SGB_planet1_description,CUSTOM,"作为在不知多久前遗弃的星堡，这里遍布大量的军事废墟，经过链戍集团军漫长的恢复工作，这座星堡的绝大多数设施都已经恢复运行，包括那耗能巨大的行星护盾。
 
-The core of the Shackles Garrison is located here, and ships are completed day and night from the shipyard. A large amount of mineral deposits are rapidly consumed, and everything on the entire planet is prepared for revenge.
+链戍集团军的总核心便设立于此处，舰船不分昼夜的从船厂内竣工而出，大量的矿藏被这样快速消耗，整颗行星的一切都是为了复仇而做准备。
 
-Due to its strong militarized management, the black market does not exist on this planet.",,"The red planet shield wraps around the entire planet like a spider web. The planet was originally an abandoned starcastle, but was ultimately commandeered by the Shackles Garrison Army. You can see a large number of ships being cast in various parts of the planet, and the entire planet's minerals being recklessly mined. Countless buildings are disorderly but orderly, filling all the gaps. You heard that all of this was completed in less than one ephemeris year.
+由于其强势的军事化管理，黑市不存在于此星球。",,"红色的行星护盾如同蜘蛛网一样把整个星球包裹在其中，星球原本是一颗被废弃的星堡，但最终还是被链戍集团军的烈焰所驱动。你能看见大量舰船在星球各地被铸造，整个星球的矿产在被不计后果的开采，无数建筑物凌乱但却充满秩序的填充着所有缝隙，你听说这一切都是在不到一个星历年内所完成的。
 
-This is the new capital of the Shackles Garrison Army Group.
+这里就是 链戍集团军 的新首都。
 
-Because there is an extremely terrifying regulatory system here, no pirate can survive for two days after successfully infiltrating. Most Luddite individuals live in various places where they will kill themselves to continue achieving their goals - you are certain that no black market can be formed here.
+因为这里有着极为可怕的监管体系，就没有海盗成功混进来后能活到两天过。大多数卢德分子则是生活在各种会把自己弄死的地方来继续达成他们的目标 - 你很确信这里没法形成什么黑色产业链。
 
-This planet once witnessed the end of an era; And now it has witnessed the rise of the Shackles Garrison Army Group. Here, the Shackles Garrison may regain the title of their name of Battle Group and create their new history.",,
-SGB_planet3_description,CUSTOM,"The weather here is incredibly hot, and the entire planet's residential areas heavily rely on habitats deep underground for their livelihoods. Most transactions and external communication are conducted through space stations in orbit.",,"You feel as though you're on the verge of experiencing a hallucination.
+这颗星球曾见证了一个时代的终结；而现在它见证了链戍集团军的崛起。在这里，链戍集团军或许会重拾打击战斗群的称号，并创造新的历史。",
+SGB_planet3_description,CUSTOM,这里的天气热的惊人，整个星球的居住区都强烈依靠地下深层的居住区来进行生活。大多数的交易以及对外沟通则是依靠轨道上的空间站进行。,,"你感觉你要看到幻觉了。
 
-The planet's atmosphere exhibits a peculiar transparency under the intense heat, causing everything to appear distorted - before you've even descended in the shuttle.
+整个星球的大气层在炽热之下呈现一股诡异的透视感。所有的东西都是扭曲的 - 你甚至还没搭乘穿梭艇往下开。
 
-The weather is unbelievably hot, with numerous sandstorms and waves of acid dust sweeping the globe, forming vast, shifting mountain ranges in the sky. The planet's settlements heavily depend on life support systems deep underground. Most transactions and external communications are conducted through space stations in orbit.",,
-SGB_resourcesPlanet_description,CUSTOM,"Some planets have already been surveyed, but have not been developed by the Shackles Garrison Army.",,,,
-SGB_planet_aouintes_Mission_Finish,CUSTOM,"The former capital of the Shackles Garrison Group Army, when the Shackles Garrison Group Army was engaged in a local conflict with Tri-Tachyon, the Hegemony fleet took advantage of the situation and launched orbital bombings here.
+这里的天气热的惊人，大量沙尘暴和席卷全球的酸尘热浪在行星上空形成一股巨大的移动山脉。整个星球的居住区都强烈依靠地下深层的居住区来进行生活。而大多数的交易以及对外沟通则是依靠轨道上的空间站进行。",
+SGB_resourcesPlanet_description,CUSTOM,"一些已经被勘测过的行星，但是并没有被 链戍集团军 所开发。",,,
+SGB_planet_aouintes_Mission_Finish,CUSTOM,"链戍集团军 的旧首都，当 链戍集团军 正在和 速子科技 进行着局部冲突时，霸主 的舰队趁虚而入，并对这里进行了轨道轰炸。
 
-The unit of Shackles Garrison - codenamed Forging Hammer Mobile Group - quickly responded, but when they broke through the blockade and reached the orbit of the planet-
-They only saw a sea of flames filling the entire planet.
+链戍的部队 - 代号为 锻锤机动组 的小组迅速进行了反应，但等他们突破封锁线并到达星球轨道之上时 -
+他们只看见了整个星球的漫天火海。
 
-The angry remnants of the Shackles Garrison launched a decisive battle against the Hegemony main fleet - with the sole purpose of killing enemy ships, without considering their own survival. Although the Hegemony fleet effortlessly cleared this desperate fleet, it still lost several dozen warships.
+愤怒的残余链戍部队向着霸主主力舰队发起了一次决死地战斗 - 目的以只为杀伤敌方舰船，不考虑自我死活。虽然霸主舰队则毫不费力地扫清了这支绝望的舰队，但仍旧损失了几十余条战舰。
 
-The atmosphere of the planet has been depleted in that disaster, and the previously abundant organic matter has turned into lava on the surface or smoke and dust in the sky. At the same time, a large amount of minerals that were once mined have become powder mixed with the air, forming this pink glow under the Tyndall effect - but also causing lethal levels of atmospheric pollution.
+星球的大气层已经在那次灾难中消耗殆尽，而原本充足的有机物则变成了地表的熔岩亦或是漫天的烟尘，同时大量曾经开采的矿物变成了粉末糅杂于空气之中，在丁达尔效应下形成了这粉红的光芒 - 但也形成了致死级别的大气污染。
 
-According to the official explanation from the Hegemony, it was a tactical bombing.",,,,
-SGB_planet_aouintes,CUSTOM,"The former capital of the Shackles Garrison Group Army, when the Shackles Garrison Group Army was engaged in a local conflict with Tri-Tachyon, the Hegemony fleet took advantage of the situation and launched orbital bombings here.
+而根据 霸主 官方的辩解，那是一次战术轰炸。",,,
+SGB_planet_aouintes,CUSTOM,"链戍集团军 的旧首都，当 链戍集团军 正在和 速子科技 进行着局部冲突时，霸主 的舰队趁虚而入，并对这里进行了轨道轰炸。
 
-The troops stationed along the Shackles Garrison had not had time to react before the entire planet was destroyed by the overlord's bombing.
+链戍的部队根本还没来得及反应，整个星球就已经被霸主的轰炸所捣毁。
 
-The planet's atmosphere had been exhausted in that disaster, and the originally abundant organic matter had completely disappeared in the burning. A large amount of previously mined minerals had turned into powder and mixed with the air, forming a deadly level of atmospheric pollution.
+星球的大气层已经在那次灾难中消耗殆尽，而原本充足的有机物则在那场燃烧中彻底消失不见，大量曾经开采的矿物变成了粉末糅杂于空气之中 - 形成了致死级别的大气污染。
 
-According to the official explanation from the Hegemony, it was a tactical bombing.",,,,
-SGB_planet6_platform,CUSTOM,"This outpost is located in a relatively remote location and is expected to fall into its parent star due to magnetic field effects in the near future. Although it has been abandoned, its exterior maintenance is quite good. But of course, for you, this is an ideal storage space that can avoid the trouble of warehouse tariffs.",,"There are still the necessary facilities for ship maintenance inside, and most of the cabins remain in good condition. You speculate that someone must have used this place before.
+根据 霸主 官方的说法，那是一次战术轰炸。",,,
+SGB_planet6_platform,CUSTOM,"一个位置有些许偏远的前哨站，根据推测大概会在百年内因磁场作用而坠入母星；虽然现已被废弃，但至少外观上仍旧维护良好，对你而言这是可以避免仓库关税的好地方。",,"内部仍旧有着必要的些许舰船维护设施，并且大多数舱室仍旧保持良好，你推测这里曾经有人使用过。
 
-As your survey team delves deeper into exploration, fragmented bodies marked with the logo of employees from Suzi Technology start to appear in areas that are poorly maintained. There are also numerous signs of ships making emergency takeoffs - several gaping wounds torn from the inside by chain guns and traces of antimatter engine burns left on them, while some of the ships seem not to have taken off successfully.
+随着你的勘测小队愈发深入探索，有着速子科技雇员标志的残缺尸体便显露在一些维护较差的地方，这里也有着不少舰船紧急起飞的痕迹 - 几个被链炮从内部撕裂的创口以及其上留下的反物质引擎灼烧痕迹，而他们的其中一些舰船似乎没能成功起飞。
 
-There were also many personnel who appeared to belong to the 27th Battle Group - this was learned after the exploration team scanned more identity cards of the drifting bodies in the deeper areas.
+这里曾经也有着不少似乎从属于第二十七战斗群的人员 - 这是在探索小队扫描了更多飘在更深处的尸体身份卡得知的。
 
-Perhaps a major battle took place here, or maybe a mutiny? But regardless, they seem to have left something behind, and you are certain that these items will be far more helpful to you than those ancient stories.
+也许这里发生过一场大战，亦或是一场哗变？但不论怎么样，他们似乎留下了点东西，而你确信这些东西对你的帮助远比那些古老的故事有趣的多。
 
-[Upon first arrival at this storage point, you can obtain some resources left by predecessors]
-You can maintain your ship here, or store a large amount of items.",,
-,,,,,,
-SGB_Ampoist_station,CUSTOM,"The research fortress, once struck by Shackles Garrison, is still able to operate barely normally today. Before the attack, it could regularly produce certain scientific research results.
+[第一次到达此储存点时可以从中获取一些前人留下的资源]
+你可以在此处维护你的舰船，亦或是存储大量物品。",
+,,,,,
+SGB_Ampoist_station,CUSTOM,"曾经受过链戍的打击的科研要塞，现如今仍旧能够勉强正常运作，而在受袭之前，这里总能定期产出一定的科研成果。
 
-However, with the strike from Shackles Garrison, a large number of scientific research facilities were irreversibly damaged, and now, this place is essentially non-existent in name only.",,"The fortress is riddled with numerous patches, and many areas still bear signs of ongoing construction. The battle that took place there was said to be extremely fierce. The shock ammunition used by the 27th combat group directly overloaded the space station's shield system, causing a massive electrical backflow that nearly completely incinerated the internal research modules.
+但随着链戍的那次打击，大量科研设施被不可逆损坏，现如今这里已经名存实亡。",,"要塞内有着大量的补丁，许多地方仍旧有着正在施工的标志。那次战斗据说非常惨烈，链戍所使用的冲击弹药直接过载了空间站的护盾系统，并导致的大量电路逆流几乎彻底将内部科研模块烧了个一干二净。
 
-Following this, a large number of fighter jets acted entirely on the principle of extermination measures, turning all the shuttles attempting to evacuate into explosions mixed of flesh and blood under the barrage of Vulcan cannons.
+而紧随而来的大量战机则是完全本着灭绝措施而行动，无数火神炮将试图撤离的穿梭机全部打成夹杂着血肉的爆炸烟花。
 
-After that incident, Suzi ceased to invest much capital in this space station.",,
-SGB_Ampoist_station_Capt,CUSTOM,"The research fortress, once struck by Shackles Garrison, has undergone extensive militarization adjustments after being seized by the 27th Battle Group. It has now completely transformed into a combat fortress.
+在那之后，速子就对这个空间站没有多少资金投入了。",
+SGB_Ampoist_station_Capt,CUSTOM,"曾经受过链戍的打击的科研要塞，在被链戍夺取后，经过大量的军事化调整，这里已经变成了彻彻底底的战斗要塞。
 
-The former research facilities have been stripped of residual information, and the excess parts have been melted into metal plates for the production of ships and ammunition.",,"The fortress is riddled with numerous patches, and many areas still bear signs of ongoing construction. The battle that took place there was said to be extremely fierce. The shock ammunition used by the 27th combat group directly overloaded the space station's shield system, causing a massive electrical backflow that nearly completely incinerated the internal research modules.
+曾经的科研设施已经被提取残余信息，而多余的部分则被融成金属板用于制作舰船和弹药。",,"要塞内虽相当拥挤，但却被布置的十分合理。那次战斗据说非常惨烈，链戍所使用的冲击弹药直接过载了空间站的护盾系统，并导致的大量电路逆流几乎彻底将内部科研模块烧了个一干二净。
 
-Following this, a large number of fighter jets acted entirely on the principle of extermination measures, turning all the shuttles attempting to evacuate into explosions mixed of flesh and blood under the barrage of Vulcan cannons.
+而紧随而来的大量战机则是完全本着灭绝措施而行动，无数火神炮将试图撤离的穿梭机全部打成夹杂着血肉的爆炸烟花。
 
-After that, this area underwent extensive militarization and was attempted to be used by its owner as a tactical deployment springboard for the core systems.",,
+在那之后，这里便接受了大量军事化改造，并被持有者试图作为核心星域的战术部署跳板。",
 #势力介绍,,,,,,
-SGB,FACTION,"Shackles Garrison is comprised of the remnants of the XXVII Battlegroup, disillusioned with human rule after being left adrift for an extended period of time after the Collapse, seeing themselves as abandoned by the rest of humanity. Their arrival in the Sector was originally marked by a willingness to collaborate, but the geopolitically volatile environment of the Sector caused them to embroiled in significant conflict with both Tri-Tachyon Technology and the Hegemony. These conflicts resulted in the annihilation of the Garrison's capital planet and significant fleet losses, forcing the faction to retreat to a small star system outside of the Core Worlds.
+SGB,FACTION,"
+链戍集团军是中科风格的战斗群，一度被认为失联，但由于当时发生了重大的事件 - 大崩塌事件。这使得并没有任何组织有想过或是有能力去寻找他们，但对于不清楚具体原因的链戍集团军来说，他们只是在一次极为普通的演习后就被抛弃在星海之中的一小撮舰队罢了。这最终导致链戍集团军抛弃了他们原本的头衔 - 链戍打击队伍第二十七战斗群，并成为了一伙极度正规的逃兵；虽然随着链戍集团军内部的研究，历史逐渐明朗 - 自身被”抛弃“的缘由并非是来自人之领的恶意，但长久的遗留问题并不是短时间就能纠正的 - 最终链戍集团军决定遗忘这一切，并集体前往附近的星域度过余生。
 
-The net effect of these conflicts was to transform the Shackles Garrison from a disillusioned, somewhat cynical, but fundamentally collaborative faction with a decently-sized military force into a civilization driven almost exclusively by revenge. Specifically, a cold, patient, seething determination to exact vengeance on those who ultimately killed billions of their people, after they had arrived in the Sector with cooperative intentions. For now, they were weak, beaten, unthreatening - but they would bide their time, marshal their forces, sharpen their blades - and then there would be hell to pay.",,,,
-,,,,,,
+与霸主不同，链戍并不在意人之领是否为正统 - 因为他们在失联后并没有被找回, 这让他们对确保人之领统治这件事丝毫不上心; 他们对星系霸权也没有任何想法，并很乐意与各个势力构建良好合作关系，毕竟往往合作才能解决争端问题。
+
+但对于混乱的英仙座来说，站队不绝对就是绝对不站队；在一系列大大小小的局部冲突后，愤怒的链戍集团军正式宣布向速子科技以及霸主宣战，但仍旧与英仙座联盟保持了较为正常的外交关系。最终由于双线作战，导致链戍集团军受到了巨大的损失，并不得不退出了核心星域，退守到一个由他们所控制的小型军事星系之中伺机待发。",,,
+,,,,,
 #武器,,,,,,
-SGB_Quench_Rocket,WEAPON,"The Quench SRM unit is distinguished by its ability to efficiently replenish missiles after exhausting its original supply - this enables it to be particularly suited for sustained suppression needs, while its short-term explosive capability remains formidable.",,,,
-SGB_Quench_Chaingun_L,WEAPON,"The Quench Chain Gun Module is essentially a chain gun device that slightly accelerates the firing rate. Due to its smaller size, it is quite difficult to maintain. But in the battlefield environment, this chain gun is still very reliable.",,,,
-SGB_Quench_Chaingun_R,WEAPON,"The Quench Chain Gun Module is essentially a chain gun device that slightly accelerates the firing rate. Due to its smaller size, it is quite difficult to maintain. But in the battlefield environment, this chain gun is still very reliable.",,,,
-,,,,,,
-SGB_Shackles_MissileLauncher,WEAPON,"The Whiplash MRM launcher, as a built-in missile launch platform, has suppressive long-range defense capabilities. Although these missiles deal limited damage against armored hull, they are particularly capable against unarmored fighters and missiles. The self-tracking system of the Whiplash MRM launcher has been specialized for small and medium-sized missile targets; its ability to lock onto ships was disabled after displaying an alarming propensity for friendly fire during testing.",,,,
-SGB_MeltingMold_Launcher,WEAPON,"Melting-Mold EDL Launcher is a miniature plasma gun, and its miniaturization process greatly limits its actual output. The unique charging requirements also make it impossible to mass produce or load during combat; But setting aside these factors, the unique launch mode of investment EDL gives it a unique backflow capability - once the projectile comes into contact with the ship, a large amount of unstable amplitude energy flow will rapidly sweep the entire ship.",,,,
-#SGB_Shackles_MissileLauncher,WEAPON,鞭绽 SRM 发射器最开始曾被设计为一种瘫痪类型的导弹，但在链戍发现这种导弹具有良好的载荷能力后，便对其进行了一定程度上的改造 - 移除臃肿的EMP发生装置，并进一步强化导弹的持久能力以及防护；将其变成了一个彻彻底底的追踪钢管发射器，并对敌人的护盾产生相对良好的压制效益。,,,,
-SGB_Argion_Rocket,WEAPON,"Argion's missile hangar benefits from sufficient raw material carrying, and the missile launcher on the ship has been designed with a certain degree of self recovery system. When combined with Argion's Hit&Run, it can always throw missiles everywhere and then smash them from all directions towards enemies without omnidirectional shields.",,,,
-SGB_Axio_Rocket,WEAPON,"Throw away your old rocket launcher! The Axio Den Hanger has a total of 16 missiles, and these ferocious little ones will directly charge towards the enemy after launch, without the need for aiming and prediction like Annihilators. They can always unleash terrifying power on the adept assault ship's body.",,,,
-SGB_Wings_Missile,WEAPON,"Den missiles possess the capability to exert pressure on enemies within a certain distance. However, this hardpoint only carries one such missile. Although it can be reloaded slowly by the ammunition loader, its actual performance may not be as prominent as that of the Den SRM unit.",,,,
-SGB_Ship_Red_Missile,WEAPON,"Lupus missiles possesses excellent guidance and high-speed strike capabilities. However, this mounting point only carries one such missile. Although it can be slowly reloaded by the ammunition loading machine, its actual performance may not be as outstanding as that of the Lupus MRM unit.",,,,
-XXVII_den_Redmond_L,WEAPON,"The Den SRM unit is capable of pressuring the enemy at a certain distance, relying on sufficient ammunition to create a barrage towards the enemy throughout the entire battle; the threat of its individual missiles is not prominent, but becomes extremely dangerous in numbers.",,,,
-XXVII_den_Redmond_R,WEAPON,"The Den SRM unit is capable of pressuring the enemy at a certain distance, relying on sufficient ammunition to create a barrage towards the enemy throughout the entire battle; the threat of its individual missiles is not prominent, but becomes extremely dangerous in numbers.",,,,
-XXVII_den_Felix_L,WEAPON,"The Den SRM unit is capable of pressuring the enemy at a certain distance, relying on sufficient ammunition to create a barrage towards the enemy throughout the entire battle; the threat of its individual missiles is not prominent, but becomes extremely dangerous in numbers.",,,,
-XXVII_den_Felix_R,WEAPON,"The Den SRM unit is capable of pressuring the enemy at a certain distance, relying on sufficient ammunition to create a barrage towards the enemy throughout the entire battle; the threat of its individual missiles is not prominent, but becomes extremely dangerous in numbers.",,,,
-XXVII_den_Anvil_L,WEAPON,"The Den SRM unit is capable of pressuring the enemy at a certain distance, relying on sufficient ammunition to create a barrage towards the enemy throughout the entire battle; the threat of its individual missiles is not prominent, but becomes extremely dangerous in numbers.",,,,
-XXVII_den_Anvil_R,WEAPON,"The Den SRM unit is capable of pressuring the enemy at a certain distance, relying on sufficient ammunition to create a barrage towards the enemy throughout the entire battle; the threat of its individual missiles is not prominent, but becomes extremely dangerous in numbers.",,,,
-,,,,,,
-XXVII_den_Anvil_ML,WEAPON,"The Forging MRM Hangar has the capability to apply pressure on enemies at a greater distance; it can also rely on its terrifying barrage of volleys to inflict heavy damage on the opponent, while its ample payload allows it to easily destroy smaller enemies.",,,,
-XXVII_den_Anvil_MR,WEAPON,"The Forging MRM Hangar has the capability to apply pressure on enemies at a greater distance; it can also rely on its terrifying barrage of volleys to inflict heavy damage on the opponent, while its ample payload allows it to easily destroy smaller enemies.",,,,
-,,,,,,
-XXVII_den_Ogent_F,WEAPON,"The Rolling-Steel MRM Module can slowly produce batches of steel needle carriers containing high-density micro-shaped solid steel needles that can violently impact enemy shields. In some cases, these aggressive steel needles can also directly penetrate enemy armor and damage internal structures.",,,,
-XXVII_den_Achilles_L,WEAPON,The Lupus MRM unit possesses excellent guidance and high-speed strike capabilities. A salvo from Lupus is sufficient to pose a significant threat to most buff-unstable ships.,,,,
-XXVII_den_Achilles_R,WEAPON,The Lupus MRM unit possesses excellent guidance and high-speed strike capabilities. A salvo from Lupus is sufficient to pose a significant threat to most buff-unstable ships.,,,,
-,,,,,,
-XXVII_den_Onslaught_LL,WEAPON,"The Den MRM Hangar is capable of pressuring the enemy at a certain distance, relying on sufficient ammunition to create a barrage towards the enemy throughout the entire battle; the threat of its individual missiles is not prominent, but becomes extremely dangerous in numbers.",,,,
-XXVII_den_Onslaught_RL,WEAPON,"The Den MRM Hangar is capable of pressuring the enemy at a certain distance, relying on sufficient ammunition to create a barrage towards the enemy throughout the entire battle; the threat of its individual missiles is not prominent, but becomes extremely dangerous in numbers.",,,,
-XXVII_den_Onslaught_LF,WEAPON,"The Forging MRM Launcher directly connects to the missile forging core inside the ship, giving it a terrifying endurance ability; however, its actual combat effectiveness is greatly restricted due to its narrow firing arc.",,,,
-XXVII_den_Onslaught_RF,WEAPON,"The Forging MRM Launcher directly connects to the missile forging core inside the ship, giving it a terrifying endurance ability; however, its actual combat effectiveness is greatly restricted due to its narrow firing arc.",,,,
-,,,,,,
-SGB_Nuke_Launch_L,WEAPON,"The exact contents of this weapon's payload remain a tightly guarded secret, but the numerous shipwrecks produced by this formidable armament attest to its capabilities as a slow yet sturdy missile containing vast amounts of energy that enable it to navigate far distances independently to wreak havoc on its foe. The substantial payload and its extreme endurance capabilities do not interfere with each other. Upon hitting an enemy, a single piece of stibnite can completely shred the enemy's shields, and the subsequent second strike will kick away all the armor on the enemy's ship.",,,,
-SGB_Nuke_Launch_R,WEAPON,"The exact contents of this weapon's payload remain a tightly guarded secret, but the numerous shipwrecks produced by this formidable armament attest to its capabilities as a slow yet sturdy missile containing vast amounts of energy that enable it to navigate far distances independently to wreak havoc on its foe. The substantial payload and its extreme endurance capabilities do not interfere with each other. Upon hitting an enemy, a single piece of stibnite can completely shred the enemy's shields, and the subsequent second strike will kick away all the armor on the enemy's ship.",,,,
+SGB_Quench_Rocket,WEAPON,淬火 SRM 单元具备快速的导弹恢复能力，其能以稳定的速率生产导弹并自行装填，无论是短时间的爆发能力还是长久的压制，它都能完美的完成任务。,,,
+SGB_Quench_Chaingun_L,WEAPON,淬火 链炮 模块本质上便是略微加快了发射速率的链炮装置，由于实际上体型更小，所以它维护起来相当麻烦。但在战场环境中，这挺链炮还是十分可靠的。,,,
+SGB_Quench_Chaingun_R,WEAPON,淬火 链炮 模块本质上便是略微加快了发射速率的链炮装置，由于实际上体型更小，所以它维护起来相当麻烦。但在战场环境中，这挺链炮还是十分可靠的。,,,
+,,,,,
+SGB_Resonance,WEAPON,“磁共振 重轨炮使用了一种更为极端的能量爆矢推进系统，依靠短时释放的空间引导场，弹头可以以极端的速度裹挟着大量能量高速掠袭到敌方的面前，并在持续的发射下强迫敌人只能看着自己的护盾维持系统逐渐报警、崩塌、熔毁。“
+SGB_Shackles_MissileLauncher,WEAPON,"鞭绽 MRM 发射器作为一种内置的导弹发射台，其具备压制性的远距反导能力；虽然正常情况下这些发射出去的导弹只能造成一定的破片损伤，但在面对密集或是并不密集的导弹时都可以依靠连爆来发挥出恐怖的制空能力；鞭绽 MRM 发射器所具备的自追踪系统对中小型导弹目标进行了特化，但其对舰锁定的能力已在一次测试后被强制锁定 - 为了防止对己方受损舰船的误击。",,,
+SGB_Shackles_MissileLauncher_L,WEAPON,"鞭绽 MRM 发射仓将与其同名的鞭绽导弹进行额外的适配以进行安置，但相比于更小型化的发射仓，此版本在载荷、射程以及供弹方面都要差上许多。
+
+其具备压制性的远距点防能力；虽然正常情况下这些发射出去的导弹只能造成一定的破片损伤，但在面对未成体系的舰载机以及并不密集的导弹时可以发挥出恐怖的制空能力；
+
+鞭绽所具备的自追踪系统对中小型导弹目标进行了特化，但其对舰锁定的能力已在一次测试后被强制锁定 - 为了防止对己方受损舰船的误击。",,,
+SGB_MeltingMold_Launcher,WEAPON,"熔模 EDL 能量密度载荷是一种微缩的等离子炮，小型化的过程使其实际输出受到了极大限制，独特的充能要求也使得它无法量产，也不能在战斗中装填；但抛开这些因素，熔模 EDL的独特发射模式让它拥有了独特的倒灌能力 - 弹体一旦接触到舰船，内涵的大量不稳定幅能流将飞速席卷整艘舰船。"
+#SGB_Shackles_MissileLauncher,WEAPON,鞭绽 SRM 发射器最开始曾被设计为一种瘫痪类型的导弹，但在链戍发现这种导弹具有良好的载荷能力后，便对其进行了一定程度上的改造 - 移除臃肿的EMP发生装置，并进一步强化导弹的持久能力以及防护；将其变成了一个彻彻底底的追踪钢管发射器，并对敌人的护盾产生相对良好的压制效益。
+SGB_Argion_Rocket,WEAPON,阿尔贞的导弹挂仓，得益于充足的原材料携带，舰体的导弹发射器在经过设计后便拥有了一定程度上的自恢复系统，配合阿尔贞的{Hit&Run 时总能将导弹扔的到处都是，随后从各个方向砸向没有全向护盾的敌人。,,,
+SGB_Axio_Rocket,WEAPON,扔掉老旧的歼灭者火箭发射器吧！阿克西奥 渊薮挂仓具有整整 16 发渊薮导弹，这些凶残的小家伙会在发射后直接冲向敌人，而不需要像歼灭者一样瞄准和预判，在善于突击的舰载机身上总能爆发出恐怖的威力。,,,
+SGB_Wings_Missile,WEAPON,渊薮导弹具备在一定距离内向敌人施压的能力，不过此挂点只携带了一枚此种导弹，虽然可以依靠装弹机缓慢装填，但其实际发挥不一定有渊薮 SRM 单元那么突出。,,,
+SGB_Ship_Red_Missile,WEAPON,狼疮导弹具备良好的制导高速打击能力，不过此挂点只携带了一枚此种导弹，虽然可以依靠装弹机缓慢装填，但其实际发挥不一定有狼疮 MRM 单元那么突出。,,,
+XXVII_den_Redmond_L,WEAPON,渊薮 SRM 单元具备在一定距离内向敌人施压的能力，其能依靠充足的载弹在整场战斗中向敌人制造弹幕；其单个导弹的威胁并不突出，但形成数量后则会变得极为危险。,,,
+XXVII_den_Redmond_R,WEAPON,渊薮 SRM 单元具备在一定距离内向敌人施压的能力，其能依靠充足的载弹在整场战斗中向敌人制造弹幕；其单个导弹的威胁并不突出，但形成数量后则会变得极为危险。,,,
+XXVII_den_Felix_L,WEAPON,渊薮 SRM 单元具备在一定距离内向敌人施压的能力，其能依靠充足的载弹在整场战斗中向敌人制造弹幕；其单个导弹的威胁并不突出，但形成数量后则会变得极为危险。,,,
+XXVII_den_Felix_R,WEAPON,渊薮 SRM 单元具备在一定距离内向敌人施压的能力，其能依靠充足的载弹在整场战斗中向敌人制造弹幕；其单个导弹的威胁并不突出，但形成数量后则会变得极为危险。,,,
+XXVII_den_Anvil_L,WEAPON,渊薮 SRM 单元具备在一定距离内向敌人施压的能力，其能依靠充足的载弹在整场战斗中向敌人制造弹幕；其单个导弹的威胁并不突出，但形成数量后则会变得极为危险。,,,
+XXVII_den_Anvil_R,WEAPON,渊薮 SRM 单元具备在一定距离内向敌人施压的能力，其能依靠充足的载弹在整场战斗中向敌人制造弹幕；其单个导弹的威胁并不突出，但形成数量后则会变得极为危险。,,,
+,,,,,
+XXVII_den_Anvil_ML,WEAPON,锻铸 MRM 单元具备向更远距离的敌人施压的能力，同时也能依靠自身可怕的齐射弹幕重创对方；而充足的载荷让它也能轻易摧毁小型敌人。,,,
+XXVII_den_Anvil_MR,WEAPON,锻铸 MRM 单元具备向更远距离的敌人施压的能力，同时也能依靠自身可怕的齐射弹幕重创对方；而充足的载荷让它也能轻易摧毁小型敌人。,,,
+,,,,,
+XXVII_den_Ogent_F,WEAPON,轧钢 MRM 模块能够较为缓慢的生产成批的钢针运载器，其搭载的高密度的微子形固稳钢针能暴力的冲击敌人的护盾，在部分情况下，这些暴躁的钢针也能直接扎穿敌人的护甲，伤及内部结构。,,,
+XXVII_den_Achilles_L,WEAPON,狼疮 MRM 单元具备超乎想象的斩杀能力，来自狼疮的齐射足以让任何被阿基里斯-级的火力压制住护盾的目标，敌舰将难以迅速逃离这片斩杀范围，并在随后的火力之下宣告死亡。,,,
+XXVII_den_Achilles_R,WEAPON,狼疮 MRM 单元具备超乎想象的斩杀能力，来自狼疮的齐射足以让任何被阿基里斯-级的火力压制住护盾的目标，敌舰将难以迅速逃离这片斩杀范围，并在随后的火力之下宣告死亡。,,,
+,,,,,
+XXVII_den_Onslaught_LL,WEAPON,渊薮 MRM 挂仓具备在一定距离内向敌人施压的能力，其能依靠充足的载弹在整场战斗中向敌人制造弹幕；其单个导弹的威胁并不突出，但形成数量后则会变得极为危险。,,,
+XXVII_den_Onslaught_RL,WEAPON,渊薮 MRM 挂仓具备在一定距离内向敌人施压的能力，其能依靠充足的载弹在整场战斗中向敌人制造弹幕；其单个导弹的威胁并不突出，但形成数量后则会变得极为危险。,,,
+XXVII_den_Onslaught_LF,WEAPON,锻钉 MRM 射仓直接连接至舰体内部的导弹锻造核心之中，让它具备了恐怖的续航能力；其实际输出能力由于射角而受到了极大制约，这仍是需要指出的一点。,,,
+XXVII_den_Onslaught_RF,WEAPON,锻钉 MRM 射仓直接连接至舰体内部的导弹锻造核心之中，让它具备了恐怖的续航能力；其实际输出能力由于射角而受到了极大制约，这仍是需要指出的一点。,,,
+,,,,,
+SGB_Nuke_Launch_L,WEAPON,辉锑矿 反应聚爆弹 发射架具体搭载的东西没多少人搞得清，唯一确定的是，这种缓慢但坚固的导弹内部蕴含的大量能量能令其具备独自远航的能力；而大量的载荷和其极端的续航能力互不影响，在命中敌人时，一颗辉锑矿完全可以撕碎敌人的护盾，而那紧接的第二发将踹开敌人身上的全部护甲。,,,
+SGB_Nuke_Launch_R,WEAPON,辉锑矿 反应聚爆弹 发射架具体搭载的东西没多少人搞得清，唯一确定的是，这种缓慢但坚固的导弹内部蕴含的大量能量能令其具备独自远航的能力；而大量的载荷和其极端的续航能力互不影响，在命中敌人时，一颗辉锑矿完全可以撕碎敌人的护盾，而那紧接的第二发将踹开敌人身上的全部护甲。,,,
 #战机联队,,,,,,
-SGB_Drone,SHIP,"A rather basic type of drone, widely used on many ships in Shackles Garrison - mostly for logistics and transport, with very few actually militarized enough to be directly deployed on the battlefield; the weapons carried by this drone entirely depend on what weapons were readily available at the time of production, making it hard to define its actual role on the battlefield. Its most distinctive features are the small thermal decoy launcher and the entire body's power grid being utilized to supply a small-scale shipborne weapon, which almost renders it devoid of flux production, speed, and virtually everything else.",,,,
-SGB_Agatha,SHIP,"This type of LPC can activate modifications on other models aboard the Shackles Garrison carrier. The Agatha-class is a versatile asset, equipped with an integrated decoy launcher that can divert defensive fire away from itself or high-value targets. Additionally, it carries two Den missiles capable of penetrating armor to a certain extent. Pin has endowed it with effective capabilities against light armor, while the light machine gun retains its efficacy against shields.",,,,
-SGB_Ares,SHIP,"This type of LPC can activate modifications of other models on the Shackles Garrison carrier. The Ares-class multi-machine decoy launcher will greatly interfere with the enemy's point defense system, allowing it to have more robust and sustained output when seizing air superiority and suppressing enemy shields. Two Pins can quickly evaporate targets that have lost their armor from the battlefield, while the Den carried by the machine helps it to quickly penetrate the enemy's armor.",,,,
-SGB_Axio,SHIP,"This LPC can activate modifications of other models on the Shackles Garrison carrier. The unique rotary-wing engine of the Axio-class gives it extremely strong mobility. Compared to rockets, the designers of Shackles Garrison unsurprisingly chose missiles as the mounted ammunition. All these are designed to ensure that this fighter jet can preserve itself as much as possible in the battlefield full of gunfire and cause as much effective damage as possible.",,,,
-SGB_Argion,SHIP,"The Argion-class's unique modular system allows for various configuration models. Specialized bodies can accumulate gradually accelerating energy — essentially becoming faster over time. This often enables the effective execution of hit-and-run tactics. Moreover, thanks to its unique missile self-production system, it doesn't need to return to the ship for replenishment like other bombers. All pilots operating this type of carrier-based aircraft must understand reverse maneuvers to ensure the smooth recovery of both the aircraft and pilots after battle.",,,,
-SGB_Quench,SHIP,"The Quench-class hunter has a quite unique body structure, equipped with a large number of weapons and a pair of missile modules that rapidly produce ammunition. In most cases, this fighter is rarely seen, and only certain special ships have the facilities to produce them.",,,,
-SGB_Quench_Fri,SHIP,"The lead aircraft of the Quench Squad, the Quench-class hunter has a rather unique body structure. It is equipped with an abundance of weaponry and a pair of missile modules that rapidly produce ammunition. Under most circumstances, this type of fighter aircraft is rarely seen, only appearing in extremely rare cases when special production ships are involved - or when facing the Quench formation directly.",,,,
-SGB_Quench_Clo,SHIP,"The lead aircraft of the Quench Squad is only eligible to be piloted by the aces from various Quench squadrons. This Quench-class hunter has undergone extensive personalization modifications. It not only carries a large number of weapons, but also further strengthens its armor structure and shielding effects. As the top lead aircraft in each formation group, the support of a small team is indispensable.",,,,
-#战机变种,,,,,,
-SGB_Ares_Coop,SHIP,"The Ares collaborative model, codenamed Ares-C04, boasts its greatest advantage in the two broad-spectrum side-mounted machine guns it carries, capable of quickly suppressing enemy shields. Additionally, the mounted ion cannon can also paralyze the enemy ship's engine in critical moments, or gain an upper hand during interception.",,,,
-SGB_Ares_DogFight,SHIP,"The Ares air superiority model, codenamed Ares-S79; this carrier-based aircraft bears little resemblance to its original model, with substantial changes in its appearance and system making it a completely different entity at various levels - an aerial mine interceptor.",,,,
-SGB_Ares_Assault,SHIP,"The Ares strike model, designated as Ares-A08; compared to the original model, it sacrifices some top speed in exchange for more powerful protection and even more terrifying firepower. Small ships are insignificant in front of its three built-in grenade guns, and when facing heavily armored ships, it can quickly become a thorn in their side with the help of a magazine accelerator.",,,,
-SGB_Agatha_Coop,SHIP,"Agatha's collaborative model, codenamed Agatha-C09; although its side-mounted degradation device is called a blatant rip-off of the ion beam, in terms of actual production cost and practicality for fighter jets, it far surpasses the achievements set by its predecessor. In aerial combat and against ships, it always leaves enemies struggling to counteract.",,,,
-SGB_Agatha_DogFight,SHIP,"Agatha's air defense model, code-named Agatha-D30, is designed for saturation anti-aircraft defense. Relying on its three needle-sentinels, a turret system with no fixed slots, and an extra-tuned point defense AI system, the Agatha-D30 can quickly vaporize a large number of passing missiles and lightly armored targets in aerial combat.",,,,
-SGB_Agatha_Assault,SHIP,"Agatha's strike model, codenamed Agatha-S71; This carrier-based aircraft has little to do with the original model, and its substantial changes in shape and system have made it something completely different at all levels - an extreme gunship. In order to quickly evaporate the enemy's exposed armor, each carrier-based aircraft is equipped with two small cannons, these single-shot stable weapons can pose a serious threat to targets with thicker armor.",,,,
-SGB_Axio_Coop,SHIP,"The collaborative model of Axio, codenamed Axio-S02; this carrier-based aircraft bears almost no resemblance to the original model. Its significant changes in appearance and system make it an entirely different entity at every level - an extreme energy projector. However, due to this weapon still being too space-occupying for bombers, it still needs to get close to within nearly 300su before it can fire on carrier-based aircraft.",,,,
-SGB_Axio_DogFight,SHIP,"Axio's air superiority model, codenamed Axio-D51; this carrier-based aircraft has discarded the original model's bomber armament and has been forcibly welded with numerous anti-aircraft weapons such as anti-aircraft guns, allowing it to assist the fleet in interception like an external gun turret.",,,,
-SGB_Axio_Assault,SHIP,"Axio's striker model , codenamed Axio-K02; this carrier-based aircraft has little to do with its original model. Its extensive changes in appearance and system have made it a completely different entity at every level - a large melting beam gunboat. Its primary combat style is to rely on strong defensive capabilities to forcibly approach enemy ships, and to instantly melt enemy ships with built-in terrifying beams.",,,,
-SGB_Pin,WEAPON,A simple but extremely miniaturized Vulcan gun that carries a more dangerous unstable steel warhead to achieve a more extreme exit velocity.,,,,
-SGB_PinTwi,WEAPON,"A simple, but extremely miniaturized twin cannon with two barrels for firing unstable steel bullets.",,,,
-SGB_ShockerShade,WEAPON,"An extreme energy emitter that produces a large number of ion clusters that, if they come into contact with any physical target before dissipating, will produce a great disruptive reaction, followed by countless electrons that will present a chemical reaction that will reliably creates discontent amongst the mechanical crew.",,,,
-SGB_FerricOxide,WEAPON,"It is almost a miniaturized ion beam, and although the large exposed structure makes it not very attractive, it can quickly reduce the possibility of weapons overheating and self melting by relying on this most primitive means.",,,,
-SGB_Temperom,WEAPON,"A black box weapon with unknown principles, but can be produced; The particle beam it emits is destructive to most existing armor layers, and its massive energy particles will destroy the stability of the armor molecule structure, followed by disintegration and melting.",,,,
-SGB_Curlor,WEAPON,"A steel needle launcher specifically designed for fighter jets, invented by a company that closed down several decades ago due to losing a commercial lawsuit, but this weapon is still being used by the Shackles Garrison.",,,,
-SGB_Barb,WEAPON,"A type of small artillery, equipped with a self reactive warhead, since then, it still can exhibit a relatively stable trajectory and considerable lethality at this size.",,,,
-SGB_Screws,WEAPON,"A more effective rigid warhead small light machine gun, with screws that are basically similar to light machine guns circulating on the market, but the latter's weapon AI system prioritizes point defense, unlike the former - screws focus on their actual job, which is to prioritize anti shield strikes.",,,,
-SGB_ScrewsTwi,WEAPON,"A more effective rigid warhead small double barreled light machine gun, with twin screws that are basically similar to the light double barreled machine guns circulating on the market, but the latter's weapon AI system prioritizes point defense, unlike the former - twin screws focus on its actual job, which is to perform anti shield strike tasks first.",,,,
-SGB_AirGrenade,WEAPON,"A well-designed joint air laser silo system, due to the loss of corresponding ammunition production blueprints in the chain defense, can only carry the most common Stinger Class air mine on the market after certain processing; In practical terms, throwing many air mines on a single plane to blow up enemy carrier based aircraft will never go out of style.",,,,
-SGB_SGL,WEAPON,"A small railgun used to shoot high explosive grenades at a high speed. Because of the size, it is mainly mounted on carrier based aircraft.",,,,
-SGB_HighSpeed_flarelauncher,SHIP_SYSTEM,A system which can release a large amount of wide-range flares with excellent tracking. It will take about five seconds to complete a reload.,,,,
-SGB_Fighter_damper,SHIP_SYSTEM,"By utilizing strong spatial resonance to block nearby particles, the damage received by this ship's strike crafts can be reduced by about 30% for a very short period of time, but those crafts cannot fire during this period.",,,,
+SGB_Drone,SHIP,一种相当基础的无人机，在链戍集团军的许多舰船上都有所应用 - 大多都是后勤搬运，而真的经过了军事化改造还能被直接拉到战场上的少之又少；这种无人机携带的武器完全取决于生产时恰好赶上了什么武器溢价，其在战场上很难说有什么实际定位，其最大的特色就是那个小小的热诱弹发射器，以及全身的电网都被用于供给的那个小号的舰载武器，而这几乎也让它失去了幅能、移速以及几乎所有其他东西。,,,
+SGB_Agatha,SHIP,这种LPC在链戍航母上可以激活其他型号的改造，阿加莎-级是良好的多能手，其内置的诱饵发射器可使防御火力远离自身亦或高价值目标，而携带的两枚渊薮导弹可以同时起到一定程度的破甲作用，头钉给予了它良好的对轻甲能力，同时轻机枪则保留了它一定的对盾效能。,,,
+SGB_Ares,SHIP,这种LPC在链戍航母上可以激活其他型号的改造，阿瑞斯-级多机编组的诱饵发射器将极大干扰敌方的点防系统，使其在和敌军战机夺取制空以及压制敌方护盾时可以拥有更稳健、持久的输出，两门头钉可以将失去护甲的目标迅速从战场上蒸发，而机体所携带的渊薮导弹则帮助它快进击穿敌方护甲的过程。,,,
+SGB_Axio,SHIP,这种LPC在链戍航母上可以激活其他型号的改造，阿克西奥-级的设计和{镰状剑有许多相似之处，相比于{镰状剑，阿克西奥独特的自旋翼引擎给予了它极强的机动能力，而比起火箭，链戍集团军的设计师毫不意外的选择了导弹来作为挂载弹药，这些都是为了保证这种战机能在炮火连天的战场中尽量保存自身，并造成尽可能多的有效杀伤而设计的。,,,
+SGB_Argion,SHIP,阿尔贞-级所具备的特殊模块系统使得它具有多种不同配置型号，经过特化的机体可以积累逐渐加速的能量——也就是会越开越快，这使得它往往可以很好的执行{Hit&Run 战术，并且得益于其独特的导弹自产系统，它不必像其他轰炸机一样返舰补给。所有驾驶此种舰载机的驾驶员必须了解反向机动以确保舰载机和驾驶员在战后的顺利回收。,,,
+SGB_Quench,SHIP,淬火-级猎机具备相当独特的机体构造，其搭载有大量武器装备，以及一对快速生产弹药的导弹模块，大多数情况下都无法见到这种战机的出现，只有某些特殊舰船才具有他们的生产设施。,,,
+SGB_Quench_Fri,SHIP,"淬火联队的长机，淬火-级猎机具备相当独特的机体构造，其搭载有丰富的武器装备，以及一对快速生产弹药的导弹模块，大多数情况下都无法见到这种战机的出现，只有极少数情况下才能在特殊的生产舰船介入 - 亦或是直面淬火编队 - 时才能得以窥见。",,,
+SGB_Quench_Clo,SHIP,"淬火联队的领机，只有各个淬火联队的{ACE 才有资格驾驶，这架淬火-级猎机经过了大量个性化改造，其不仅搭载有大量武器装备，而且还进一步强化了其护甲结构以及盾效，作为每一个编队组的头号领机，一组小队的支援也是必不可少的。",,,
+#战机变种
+SGB_Ares_Coop,SHIP,阿瑞斯的协同型号，代号为Ares-C04；其最大的优势便是它携带的两挺可以迅速压制敌方护盾的广射界侧挂机枪，同时挂载的一门离子炮也能在紧要关头瘫痪敌舰的引擎，亦或是在拦截过程中夺得先机，堪称一把全能手 - 除了自身脆弱的结构在面对大范围防空时会产生大量伤亡这一点。
+SGB_Ares_DogFight,SHIP,阿瑞斯的制空型号，代号为Ares-S79；这种舰载机几乎和原型号不搭边，其大幅度的外形和体系更改都在各个层面上让它成为了一种全然不同的东西 - 一种空雷拦截机，内置的投射仓安装了市面上常见的毒刺-级空雷，为了防止因战机速度使得高速空雷滞存造成的误伤，此武器被限制为只能在点防需求下进行开火。
+SGB_Ares_Assault,SHIP,阿瑞斯的打击型号，代号为Ares-A08；比起原型号，它牺牲了部分极速，换取了更加强大的防护以及更加骇人听闻的火力，小型舰船那轻薄的护甲在它那三门内置榴弹枪的爆发之下显得微不足道，而面对重甲舰船，它也可以依靠填弹加速器迅速成为对方的眼中钉；但必须指出的是 - 由于短时间内的大量开火，战机会很快过热，并进入一定时间的疲软期来从中恢复。
+SGB_Agatha_Coop,SHIP,阿加莎的协同型号，代号为Agatha-C09；其侧挂的劣化仪曾被称作是对离子束赤裸裸的抄袭，但在实际生产价格和实际适配度上远超它的前辈所创下的战绩；在空战和对舰上，Agatha-C09十分擅长于依靠自身的劣化仪来保持足够的距离，并依靠自身良好的翻滚能力时刻确保其命中目标。
+SGB_Agatha_DogFight,SHIP,阿加莎的制空型号，代号为Agatha-D30；其设计目标就是在饱和防空的同时，填补防空系列之中缺少的反舰能力，依靠其配有的三挺头针-哨戒炮、无固定槽的速转力臂系统炮塔以及额外调试的点防御AI系统，Agatha-D30总是能迅速在空战中蒸发大量路过的轻甲目标，并在集群时依靠可怕的爆发能力在数个回合内摧毁敌方落单的倒霉鬼。
+SGB_Agatha_Assault,SHIP,阿加莎的打击型号，代号为Agatha-S71；这种舰载机几乎和原型号不搭边，其大幅度的外形和体系更改都在各个层面上让它成为了一种全然不同的东西 - 一种极端的火炮舰载机，为了迅速蒸发敌人裸露的护甲，每艘舰载机都携带了两门小型火炮，这些单发载荷优秀的家伙能稳定对护甲较为厚重的目标产生足够严重的威胁，其内置的护盾也能在一定程度上保证他在大量破片防空下的生存能力。
+SGB_Axio_Coop,SHIP,阿克西奥的协同型号，代号为Axio-S02；这种舰载机几乎和原型号不搭边，其大幅度的外形和体系更改都在各个层面上让它成为了一种全然不同的东西 - 一种极端的幅能投射器。然而由于这种武器对于轰炸机而言还是过于挤占空间，并严重影响了理论精度，导致这种武器在舰载机上仍旧需要抵近到将近300su内可以准备开火。
+SGB_Axio_DogFight,SHIP,阿克西奥的制空型号，代号为Axio-D51；此舰载机丢弃了原型号作为轰炸机的武备，并强行焊接了防空炮等诸多防空武器，让它像一座外置炮塔一样辅助舰队进行拦截。
+SGB_Axio_Assault,SHIP,阿克西奥的打击型号，代号为Axio-K02；这种舰载机几乎和原型号不搭边，其大幅度的外形和体系更改都在各个层面上让它成为了一种全然不同的东西 - 一种大型的熔解束炮艇，其主要作战风格便是依靠强大的防护能力强行抵近敌舰，并在随后依靠内置的黑箱武器瞬间熔解对方。
+SGB_Pin,WEAPON,一种简单的，但是经过极致微缩化的火神炮，携带更加具有危害性的不稳定钢弹头来达到更极限的出膛速度。
+SGB_PinTwi,WEAPON,一种简单的，但是经过极致微缩化的双联火神炮，拥有整整两挺用来发射不稳定钢弹头的枪管。
+SGB_ShockerShade,WEAPON,极端的能量体发射器，其打出的大量离子团若在消散前接触到任何实体目标，就将产生极大的扰乱反应，随后无数电子就会呈现出让机修部很不开心的化学反应。
+SGB_FerricOxide,WEAPON,几乎就是缩小化的离子束，大量外露的结构虽让它不太美观，而且它的实际单体效果也实在难以恭维，但依靠这种最原始的减压手段能几乎规避任何由于武器小型化而导致光束节点快速过热自熔毁的可能性。
+SGB_Temperom,WEAPON,"一种黑箱武器，原理不明，但是可以被生产；其发射的粒子束对现有的大多数装甲层都是毁灭性的，其庞大的能量粒子会摧毁装甲分子结构的稳定性，随后崩解熔毁。",1071.294659596
+SGB_Curlor,WEAPON,原本是一种专门为战机设计的钢针发射器，由于发明企业已经在几十个星历年前因为输掉了商业官司而关门大吉，各种进一步小型化的数据已经不再可考，不过这种武器仍旧还在被链戍以阵列式成批装载到舰船上进行使用。
+SGB_Barb,WEAPON,小型速射火炮，装载的弹头采用自反应原理，所以仍能在这种大小下呈现出比较稳定的弹道和可观的杀伤力。
+SGB_Screws,WEAPON,一种更有效的刚性弹头小型轻机枪，螺钉基本上和市面上流通的轻机枪类似，但后者的武器AI系统更优先选择进行点防，并不像前者 - 螺钉则专注它的实际本职工作，也就是优先执行反护盾打击任务。
+SGB_ScrewsTwi,WEAPON,一种更有效的刚性弹头小型双联轻机枪，为了联发而缩小化了弹头的实际大小，双联螺钉基本上和市面上流通的轻型双管机枪类似，但后者的武器AI系统更优先选择进行点防，并不像前者 - 双联螺钉则专注它的实际本职工作，也就是优先执行反护盾打击任务。
+SGB_AirGrenade,WEAPON,一种设计较为古老的联发空雷射仓系统，由于链戍丢失了对应弹药的生产蓝图，导致这种射仓只能在经过一定处理后搭载市面上最常见的毒刺-级空雷；从实战上讲，将许多空雷丢在一个飞机上来把敌舰载机炸的皮开肉绽永远不会过时。
+SGB_SGL,WEAPON,一种小型轨道枪，用于把高爆榴弹以较高的速度打出去，得益于其微小的体型，其主要被列装在舰载机上。
+SGB_HighSpeed_flarelauncher,SHIP_SYSTEM,一次释放大量具有优良追踪性能的广域诱饵弹，大约需要十秒才能完成二次装填。
+SGB_Fighter_damper,SHIP_SYSTEM,利用强烈的空间共振来阻滞附近的粒子，在极短时间内降低约30%舰载机所受伤害，舰载机不能在这段时间内开火。
+SGB_Decoy,WEAPON,一次释放大量具有优良追踪性能的广域诱饵弹，会追击其作用范围内的敌对目标予以拦截，可以十分有效的提前解决袭击落单舰船的舰载机小队。
+SGB_Coahuilite,WEAPON,"陨铁阵列能够快速发射大量亚常规口径的小型破片榴弹，这使得此武器能在不增加幅能系统压力的前提下快速制造一片弹幕。由于炮管在高速射击时事故频出，最终导致武器从一开始的双联变成了四联以增加炮管寿命 - 但仍旧遗传了那差的要命的精度问题。
+
+炮台内室除保养以及维修时间外都不应有任何人员进入，以杜绝因可能的气压剧变造成非战斗人员损伤。"
 #船只简介,,,,,,
-SGB_Anoyas,SHIP,"The Anoyas-class was originally a small modular transport ship, bearing some resemblance to the Bison. Shackles Garrison made adjustments to the original combat vessel and transformed it into an extremely efficient transport ship, modified for cargo transport. Its ample armament makes it less susceptible to pirate attention. However, regardless - the Anoyas-class remains merely a civilian-grade vessel, with its heavy weapon load significantly impairing its mobility. It requires a brief overload of the power system to respond adequately. When the missiles are depleted, the end is near for the Anoyas-class.",,,,
-SGB_Anoyas_Tanker,SHIP,"The Anoyas-class was originally a small modular transport ship, bearing some resemblance to the Bison. Shackles Garrison made adjustments to the original combat vessel and transformed it into an extremely efficient transport ship, modified for fuel transportation. Its ample armament makes it less susceptible to pirate attention. However, regardless - the Anoyas-class remains merely a civilian-grade vessel, with its heavy weapon load significantly impairing its mobility. It requires a brief overload of the power system to respond adequately. When the missiles are depleted, the end is near for the Anoyas-class.",,,,
-SGB_Buffalo,SHIP,"Currently, the Persean sector is not only filled with risks and violence, but the majority of conflicts often erupt instantly due to a mere speck of resources or slight disdain. Since military-grade ships cannot always arrive at the scene in time, some clever engineers have turned to modifying originally non-threatening civilian hulls to meet these needs.
+SGB_Anoyas,SHIP,"盎亚斯-级原本是一种小型模块化运输舰船，和水牛有着一些相似之处，链戍集团军在原战斗舰船的基础上进行了调整，并将其改造成一种极为高效的运输船，而这艘经过了货物运输改造。充足的武备使得其不会那么容易被各路海盗盯上。但无论如何 - 盎亚斯-级仍旧只是民用级别的舰船，大量搭载的武器严重影响了其机动能力，需要短时间过载动力系统才能做出一定的反应，当导弹消耗完毕的时候，就是盎亚斯-级命不久矣的时候。",,,
+SGB_Anoyas_Tanker,SHIP,"盎亚斯-级原本是一种小型模块化运输舰船，和水牛有着一些相似之处，链戍集团军在原战斗舰船的基础上进行了调整，并将其改造成一种极为高效的运输船，而这艘经过了燃料运输改造。充足的武备使得其不会那么容易被各路海盗盯上。但无论如何 - 盎亚斯-级仍旧只是民用级别的舰船，大量搭载的武器严重影响了其机动能力，需要短时间过载动力系统才能做出一定的反应，当导弹消耗完毕的时候，就是盎亚斯-级命不久矣的时候。",,,
+SGB_Buffalo,SHIP,"基于水牛-级货舰的衍生舰种。在适当的军事化后，将部分货舱改为舰载机仓来对试图埋伏运输队的敌人倾泻货物 - 当然，这些货物往往是舰载机所搭载的炮弹。
 
-Although it was improved from the Buffalo-class hull frame, its modification range is quite bizarre, hence this ship is also recognized as a vessel of no use. Relying on the space carved out from transport effectiveness for carrier-based aircraft, it fails to perform well in transportation tasks, yet can only play a minimal role in combat.",,,,
-SGB_SoftMelting,SHIP,"As a reinforced version of the Phaeton-class, the Softmelt-class possesses superior protective capabilities that its predecessor lacked. These additional armors have occupied much of the space originally designed for old turrets and broadside tubes, but they also equipped it with an automatic loading missile system. For safety reasons, the storage for flammable and explosive materials - heat decoys, was replaced with more stable engine facilities, enabling the Softmelt-class to possess strategic relocation capabilities in perilous battlefields.
+目前，星域中不仅充斥着风险与暴力，且绝大数冲突经常都是因为一丁点的资源或轻微的蔑视而瞬间爆发起来的。由于军用级舰船有时并不能及时达现场，因此一些聪明的工程师转而对那些原本毫无威胁的民用船体进行改造，以满足这方面的需求。
 
-That said, fundamentally, the addition of extensive armor is not a very reasonable operation. This modification has somewhat reduced the already limited cargo hold capacity of this ship, as well as its poor broadside performance.",,,,
-SGB_Mould,SHIP,"The Mould-class is a well-known variant of the heavy freighter, equipped with numerous missile launchers and an integrated drilling shockwave for mining operations. Its built-in Lupus missile magazine is directly connected to the internal nanoforge, allowing the Mould-class to provide support from a distance when transport fleets are attacked.",,,,
-SGB_Ceaies,SHIP,"To address the growing issue of piracy in the outlying star systems, the 27th Battle Group has approved an armament reform for the Duplin-class. The resulting design, the Ceaies-class corvette, has been mass-produced. Compared to its predecessor, it features significant changes, including a well-isolated engine, a more industrial appearance, modular design for easy maintenance, and numerous weapon slots that have successfully endowed it with a degree of excellent escort capabilities.",,,,
-SGB_Duplin,SHIP,"The Duplin-class underwent extensive modifications from the Kite-class, as streamlined designs are not as significant in a zero-gravity environment. The designers of the Chain Guard Corps made sweeping changes to the interior space of the Kite-class, adding two gun emplacements and incorporating a pair of machine guns for counterattacks against enemies. However, the top-mounted turret was ultimately removed to allocate space occupied by the new weaponry within the ship.",,,,
-SGB_Redmond,SHIP,"This vessel is not large in size, but its internal space planning is quite interesting. At the same time, its small missile launch module can allow it to target enemy small ships to a certain extent. However, as a transport ship itself, it is not sturdy - once its armor is penetrated, any artillery fire can quickly evaporate its highly efficient structure.",,,,
-SGB_Felix,SHIP,"The spatial planning within the Felix-class is quite intriguing, and it comes equipped with a pair of missile modules - when paired with ships that can apply pressure to enemy shields, the Felix-class always finds the opportunity to unleash a barrage of fire.",,,,
-SGB_Wiesios,SHIP,"Thanks to the entire ship being designed around its extremely volatile engine, the Wiesios-class boasts superior speed among escort ships. Additionally, its weapon system utilizes a control module similar to that of the Hammer-class, enabling the Wiesios-class to harass the enemy with burst fire when facing certain firepower, and assist friendly capital ships. A group of Wiesios-class ships can occasionally also directly take out isolated enemy vessels.",,,,
-SGB_Sumner,SHIP,"The Sumner-class boasts a plethora of slots and excellent armor among frigates. It excels at harassing the enemy with powerful missile projectile fire; however, some captains prefer to pilot it directly into the face of the enemy, utilizing its efficient burst capability to instantly destroy opponents.",,,,
-SGB_Posmous,SHIP,"The Posmous-class is equipped with a pair of railguns at the front of the ship. This is also the main reason it was ultimately classified as a light destroyer - length. Thanks to the unique engine design of the Posmous-class, it has good maneuverability in combat, and its specially tuned shields can react more quickly. Generally, this type of ship is mainly used for support and torpedo launching, but due to its simple deployment characteristics, it is quite versatile in practical application.",,,,
-SGB_Hammies,SHIP,"The Hammies-class has inherited the advantages of its prototype, the Hammer-class, and further enhanced its protective capabilities. Although this has somewhat reduced maneuverability, the isolated engine design minimizes issues with ship engines disconnecting due to fighter interference, while still maintaining the ship's top speed unchanged compared to its prototype. The Cambridge located at the front of the ship has been moved to the rear, providing a better field of view and allowing for a new weapon mount point at the front. This makes it more adept at engaging in ship combat tasks within groups of fighters.",,,,
-SGB_Ogent,SHIP,"Ogent-Class's most distinctive feature is its unique built-in missile. This high-strength armor-piercing steel needle will pose a threat to the enemy no matter what - hitting the shield or directly damaging the structure. The ship itself has good cruising speed, and it always has a good effect when pursuing and killing enemy ships. In most cases, it will work with wolves to quickly tear apart enemy's large ships.",,,,
-SGB_Davington,SHIP,"=Should have been kicked off= The Davington-Class possesses fierce missile projection capabilities. An experienced captain will drive this ship to fiercely pursue and annihilate enemy ships, but will choose the right timing, as the Davington-Class does not have an excellent point defense system. Its built-in Typhoon-Class Reaper Torpedo is a major weapon for securing victory.",,,,
-SGB_Whip,SHIP,"The Whip-Class features a unique built-in missile launcher, excelling in providing combat support from the rear of the battlefield. It can also charge into the fray carrying massive endgame strike torpedoes, pushing through enemy ships torn apart by these torpedoes; in most cases, the Whip-Class's distinctive defensive missile launchers can handle a large number of missiles or fighter squadrons from the enemy, thereby creating favorable conditions for assaults by other ships.",,,,
-SGB_Aligate,SHIP,"The Aligate-Class and the Alicuty-Class are very similar, but different from the latter. This ship leans more towards an aircraft carrier role, with its deck and maintenance facilities easily supporting the needs of two squadrons of fighter jets.",,,,
-SGB_Alicuty,SHIP,"The Alicuty-Class and the Aligate-Class are very similar, yet distinct from the latter. This ship is more inclined towards a destroyer position, with its compressed deck space only able to support the deployment of one squadron of fighter jets. However, the additional gun turrets and the freed-up internal space allow it to perform more diversely in battle.",,,,
-SGB_Falcon,SHIP,"It is evident from the appearance that its base design is a Falcon-Class light cruiser. This Falcon-Class received a system reconstruction and modification from Shackles Garrison, which somewhat compromised the ship's theoretical top speed and energy limit. However, thanks to the specialized engines from Shackles Garrison, the ship's full-speed maneuverability before an engagement slightly outperforms the older models. Yet, once engaged with the enemy, it struggles to disengage quickly.",,,,
-SGB_Falcon_2,SHIP,"The appearance clearly indicates that its base design is a Falcon-Class light cruiser. This particular Falcon-Class underwent system reconstruction and modification from Shackles Garrison in its early stages. Subsequent restorative construction also brought back the ship's fundamental performance metrics. Additionally, it was equipped with defensive missiles - Whip. Thanks to the specialized engines from Shackles Garrison, the ship's full-speed maneuverability before an engagement significantly surpasses that of the older models from the 27th.",,,,
-SGB_Eagle,SHIP,"At first glance, it is evident that its base design is an Eagle-Class cruiser. This Eagle-Class has undergone a system overhaul from Shackles Garrison, which to some extent diminishes the ship's theoretical top speed and energy capacity limits. However, thanks to the specialized engines from Shackles Garrison, the ship's full-speed maneuverability before engaging in battle slightly outperforms the older models. Yet, once it gets entangled with the enemy, it struggles to disengage quickly.",,,,
-SGB_Eagle_2,SHIP,"At first glance, it is evident that its base design is an Eagle-Class cruiser. This Eagle-Class vessel underwent a systemic rebuild by Shackles Garrison in its early stages, and subsequent restorative constructions have restored the ship's fundamental performance metrics. The ship has also been equipped with additional small defensive missiles. Thanks to the specialized engines from Shackles Garrison, the ship's full-speed maneuverability in pre-combat situations is superior to the older models of the 27th.",,,,
-SGB_Carving,SHIP,"The Carving-Class possesses an unreasonable size among cruisers, serving as a special option for the Shackles Garrison to evade regulations on large ships. After this class of ship was officially commissioned, many captains found that the systems of the Carving-Class were not complex - at least not as difficult to modify as those of the main battleships. Therefore, in the fleet, many captains were willing to modify the security system circuits of this ship. The authorities introduced strict laws in response - because such illegal modifications could damage the lifespan of the ship and seriously, blatantly expose the true combat capabilities of the Shackles Garrison disguised by this vessel.",,,,
-SGB_Achilles,SHIP,"Thanks to its ample slots, the Plasma Burst Drive allows it to easily approach enemy small ships and destroy them in an instant; On the battlefield, Achilles-Class ships are often piloted by the most aggressive captains, who frequently use various techniques to overtake them and turn them into a terrifying high-speed hunter on the battlefield.",,,,
-SGB_Ascaedy,SHIP,"The Ascaedy-Class boasts a concentrated and dense weapon configuration, while also sparing space for carrier-based aircraft. The built-in gun turret spiral system endows it with exceptionally superior reaction capabilities. As a type of aviation cruiser, the role of the Ascaedy-Class on the battlefield is straightforward - charge to the front line, then attempt to tear open a gap in the enemy's formation with its intense firepower.",,,,
-#SGB_Anvil,SHIP,铸砧-级具备优异的导弹投射能力，其火力配置极为凶残 - 搭载了大量高速装填导弹系统，并具备相当罕见的淬火部署系统；设计上，铸砧-级往往应该位于前线附近提供支援，但几乎所有舰长都更乐意冲上去使用其搭载的凶残炮火快速解决问题。得益于其具备的大量高速装填导弹模块，铸砧-级即使在面对小船集群时也有着相当快速且主动的应对能力。,,,,
-SGB_Anvil,SHIP,"The Anvil-Class, serving as a military logistics transport ship, possesses an unimaginably superior missile deployment capability. Its Quench Deploy is extremely fierce - equipped with numerous high-speed missile nests and a rather rare quenching deployment system; in design, the Anvil-Class often acts as a slow fire support point, temporarily unloading cargo when necessary, and relying on its own armor to forcefully charge into enemy lines with the assistance of other ships. Thanks to its large number of high-speed reload missile modules, small escort wolf packs find it difficult to inflict decisive damage on the Anvil-Class without paying a price.",,,,
-SGB_Stress,SHIP,"Stress-Class further extends the glory of the Eagle family, with its good mobility and diverse assembly methods allowing it to take on many roles on the battlefield - although in most cases it assumes the position of long-range suppression, and immediately changes position in emergencies; under the tactical transformation of the 27th, it can break into the center of the battlefield alongside cruiser-Class ships in an encounter, and then establish a solid bridgehead.
+虽由水牛-级船体框架改进而来，但因改造范围相当怪异，因此该舰也被公认为是一种毫无用途的舰船。依靠从运输效果上砍出的舰载机空间，使其在运输方面不能较好的达成任务，却只能在战斗时起到极少的作用。",,,
+SGB_SoftMelting,SHIP,"作为经过一系列加固措施的辉腾-级改型，软熔-级具有它的前辈所不具备的良好防护能力，这些额外加装的护甲挤占了大量老旧的炮塔和排幅管设计，但也同样为其装载了自动填弹的导弹机；出于对安全的考虑，存放易燃易爆物品的仓库 - 热诱弹，被替换成了更稳定的发动机设施，让软熔-级能在危机四伏的战场上具备战略转移的能力。
 
-The design of the Stress-Class was completed while Shackles Garrison was en route to Perseus, with initial verification and mass production taking place at the capital Aouintes. The existing blueprints were lost following the Hegemony's strike operation against the capital. This ship represents an original model that still possesses its initial theoretical combat capabilities. Often, the Stress-Class is considered robust enough to serve as an upper-tier successor to the Eagle-Class, despite the consequent increase in maintenance costs, which are, however, entirely within acceptable limits compared to other battleships. While the slot allocations in many flagships might seem modest, the Stress-Class's decent base amplitude, coupled with its mobility, ensures stable firepower for these slots and pursuit effectiveness under special circumstances.
+虽然这么说，但本质上大量护甲的加装并不是多么合理的操作，这种改造在一定程度上降低了这条舰船本就不多的货舱载荷以及那少的可怜的散幅绩效。"
+SGB_Mould,SHIP,"浇铸-级是巨像-级重型货舰的改型版本，浇铸-级安置了大量的导弹发射仓，并内置了一门用于采矿作业的钻探冲击波；而其内置的狼疮导弹供弹设备直接连接至舰体内部的生产纳米炉，当运输队遇袭时，浇铸-级能远远的为整个队伍提供支援。",,,
+SGB_Ceaies,SHIP,"为应对边缘星系日益增长的海盗骚扰，链戍集团军 通过了对杜普利-级的一次武装化改革，凯斯-级准护卫舰作为最终设计产物得以量产，相较于原型，其变化巨大，良好的隔离性发动机、更加工业风的外观、易于维修的模块化处理，以及大量的武装槽成功的令其具备了一定程度上的优秀护卫能力。",,,
+SGB_Duplin,SHIP,"杜普利-级在风筝-级的基础上进行了大范围改造，毕竟在失重环境中，流线型设计的意义并没有多大，所以链戍集团军的设计师们对风筝-级的内部空间进行了大刀阔斧的改革，使得它拥有了两个炮台位，并内置了一对机枪用来对敌人还击，但顶置炮台最终还是被挪除，用于分配被新炮台挤占的舰内空间。
 
-Its biggest issue, and a frequent complaint from logistics personnel, pertains to the demand for armor maintenance - primarily painting and regular upkeep of protective layers. This necessity arises from its wing engines, fully integrated within the armor on both sides, and the constant heat they generate, almost clinging to the ship's armor layer. Consequently, it has earned the dubious distinction of being nicknamed ""Self-Destructive Armor Class"" among maintenance crews across the galaxy.
+其亦具有强大的引擎，不过同样的：在失重环境且并未开启机动推进器的情况下，其机动性能仍有所欠缺。",,,
+SGB_Redmond,SHIP,"这种舰艇的个头并不大，但其内部的空间规划相当有趣，同时其具备的小型导弹发射模块能让他一定程度上针对敌方的小型舰船。但其本身作为一种运输船，它并不坚固 - 一旦它的护甲被击穿，随便什么炮火就可以迅速蒸发掉它那高效利用的结构。",,,
+SGB_Felix,SHIP,"费利克斯-级内部的空间规划相当有趣，同时其内置了一对导弹模块 - 在配合能对敌人护盾施加压力的舰船时，费利克斯-级总能找准机会发射一片弹幕。",,,
+SGB_Wiesios,SHIP,"得益于全舰都在围绕那极度暴躁的引擎而设计，维索斯-级具备护卫舰之中优异的速度，同时其武器系统采用了类似锤头-级的操控模块，这使得其在面对一定火力时仍旧可以依靠优秀的爆发骚扰敌方，并协助己方大型舰船。携带的追踪诱饵弹也能让维索斯-级具备良好的生存能力，成组的维索斯-级也可以强行吃掉不成形的敌人非主力舰队。",,,
+SGB_Sumner,SHIP,"萨姆纳-级拥有丰富的槽位以及护卫舰中优秀的护甲。善于依靠强大的导弹投射火力对敌人进行骚扰打击；但某些舰长更喜欢驾驶它冲到敌人的面前，并利用其高效的爆发能力瞬间击毁敌人。",,,
+SGB_Posmous,SHIP,"波斯摩斯-级内置了一对轨道炮在舰体正前方。这也是最终导致其被分类为轻型驱逐舰的主要原因 - 长度。得益于波斯摩斯-级独特的发动机设计方案，在战斗中它具备着良好的机动能力，同时其经过特化调谐的护盾可以更迅速的进行反应。一般情况下，这种舰体主要运用于支援以及鱼雷发射，但因其部署简单的特性，所以实际应用起来相当广泛。",,,
+SGB_Hammies,SHIP,"海姆斯-级继承了原型锤头-级的优点，并进一步加强了防护能力 - 虽然这一定程度上减少了机动性 - 隔离式发动机减少了因战斗机的干扰而导致舰船引擎掉线的问题，同时仍旧保持了舰船的极速相较于原型不变。位于舰船前端的剑桥被移至后方，获得更好视野的同时，令前端得以放下一处新的武器挂点。使得其更擅长于在战机群中执行对舰战斗任务。",,,
+SGB_Ogent,SHIP,"欧贞特-级最大的特色在于其模块化的生产维护方式，这使得其异常易于生产部署，其具备良好的巡航速度，作战风格趋向于利用大量实弹武器追击敌方舰船，并以绝对的狼群数量撕碎敌方的大型舰船。",,,
+SGB_Davington,SHIP,"达文波特-级拥有着凶残的导弹投射能力，经验丰富的舰长会驾驶这艘舰船凶猛的追击对方的舰船并斩杀敌方，但会选择好时间，因为达文波特-级并不具备很优秀的点防系统。其内置的台风级死神鱼雷是其制胜的一大法宝。",,,
+SGB_Whip,SHIP,"鞭绽-级具有独特的内置导弹发射台，其善于在战场中后方进行作战支援 - 亦或是携带足够庞大的终结打击鱼雷杀入战场，并随后顶开敌人那被死神鱼雷撕裂的船身继续前进;大多数情况下，鞭绽-级那独特的防御导弹发射台可以应对大量来自敌人的导弹或战机编队，从而为其他舰船的突击创造有利条件。",,,
+SGB_Aligate,SHIP,"阿利盖特-级和阿利库替-级非常类似，但与后者不同。这艘舰船更偏向于航母定位，其具备的甲板以及维护设施可轻松支持两个编队的战机需求。",,,
+SGB_Alicuty,SHIP,"阿利库替-级和阿利盖特-级非常类似，但与后者不同。这艘舰船更偏向于驱逐定位，其被压缩的甲板空间只可支持一组编队战机部署，但额外配置的炮台以及空出的内部空间使得它可以在战场上有更丰富的表现。",,,
+SGB_Achilles,SHIP,"得益于内置的装弹系统，阿基里斯-级无论是作为一柄锤或是一把弩，都能将它的威力稳稳地释放在敌人的舰船之上，内置的狼疮导弹也能在紧要关头迅速扭转局面；虽然此舰设计美学并不讨喜，但在战场上往往由激进的舰长们要求驾驶，并狠狠重击他们所面对的敌人。",,,
+SGB_Snapdragon,SHIP,"火钳-级的其前半部分原本是甲板，在经过改造后变成了新的炮塔位 - 这种操作进一步挤占了舰船内的空间，使得火钳-级在接受私人化调整时略微有些棘手，难以支撑住大量的插件改造。此舰在理论上拥有着不亚于雄鹰-级的凶残火力，并且夸张的大量混合槽位可以支持各类能被各路舰长想出的各种邪门配置，用以最大限度的膈应敌人。
 
-Although it is a Battleship form Shackles Garrison, there is no build-in missiles, a novel thing it is.",,,,
-SGB_Stress_2,SHIP,"This Stress-Class ship is a rare original model from the early days of Shackles Garrison, having undergone only the necessary adjustments to accommodate contemporary weaponry. Compared to most existing Stress-Class ships, this vessel boasts significantly enhanced attributes across the board; its exceptional maneuverability and a wealth of adaptive tactics enable it to fulfill multiple roles on the battlefield - whether in support, suppression, or elimination. Under the tactical modifications of the 27th, it can charge into the heart of the battle alongside cruiser-Class ships during skirmishes and subsequently establish a solid bridgehead.
+火钳-级其实并非链戍自己原创的设计类型，其原型是链戍曾经从核心星域撤离时，来自{英仙座联盟}的护卫援助舰队之中大量携带的一种舰船 - 这些曾经援助链戍的舰船有相当一部分被英仙座联盟赠与了当时衰败的链戍用以进行一定的基础护卫工作。此后，这些在如此重要历史节点中的舰船给链戍军民留下了非常良好的印象，并在诸多倡议下被采购、改造、乃至最终得到了链戍的反向破译 - 而英仙座联盟也并未对此多说些什么。此后火钳-级逐渐在链戍的军舰队伍之中崭露头角，并让不少赏金猎人在接到来自速子和霸主的最新请求后厌烦的破口大骂。
 
-The design of the Stress-Class was completed while Shackles Garrison was en route to Perseus, with initial verification and mass production taking place at the capital Aouintes. The existing blueprints were lost following the Hegemony's strike operation against the capital. This ship represents an original model that still possesses its initial theoretical combat capabilities. Often, the Stress-Class is considered robust enough to serve as an upper-tier successor to the Eagle-Class, despite the consequent increase in maintenance costs, which are, however, entirely within acceptable limits compared to other battleships. While the slot allocations in many flagships might seem modest, the Stress-Class's decent base amplitude, coupled with its mobility, ensures stable firepower for these slots and pursuit effectiveness under special circumstances.
+但此舰设计改造也导致许多维护人员会对曾经是甲板仓的火控舱室破口大骂 - 毕竟为了不影响舰船设计，内部大量为航母服务于舰载机的舰船内部架构被大量遗留，但又充斥了火控系统的大量管线和探测设施，可谓是狠狠的膈应到了几乎所有被分配到火钳-级上的后勤人员，他们也戏称自己为{钳炉灰 - 毫无价值，遍地都是，而且浑身被灰尘搞得乌漆嘛黑的可替代品。"
+SGB_Falcon,SHIP,"在外观上就能明显的看出其底稿为猎鹰-级轻型巡洋舰，这艘猎鹰-级接受了来自链戍集团军的系统重建改造，这在一定程度上削弱了舰船原本理论上的极速和幅能极限，但得益于链戍集团军的特异化引擎，舰船在遭遇战之前的全速机动仍旧相比老型号略胜一筹。"
+SGB_Falcon_2,SHIP,"在外观上就能明显的看出其底稿为猎鹰-级轻型巡洋舰，这艘猎鹰-级在早期就接受了来自链戍集团军的系统重建改造，后续的一系列恢复性建设也拉回了此舰船应有的基础面板效能，此舰还额外加装了鞭绽-级支援舰上的防御导弹，同时得益于链戍集团军的特异化引擎，舰船在遭遇战前的全速机动则全面优胜于老型号。"
+SGB_Eagle,SHIP,"在外观上就能明显的看出其底稿为雄鹰-级巡洋舰，这艘雄鹰-级接受了来自链戍集团军的系统重建改造，这在一定程度上削弱了舰船原本理论上的极速和幅能极限，但得益于链戍集团军的特异化引擎，舰船在遭遇战之前的全速机动仍旧相比老型号略胜一筹。"
+SGB_Eagle_2,SHIP,"在外观上就能明显的看出其底稿为雄鹰-级巡洋舰，这艘雄鹰-级在早期就接受了来自链戍集团军的系统重建改造，后续的一系列恢复性建设也拉回了此舰船应有的基础面板效能，此舰还额外加装了小型防御导弹，同时得益于链戍集团军的特异化引擎，舰船在遭遇战前的全速机动则全面优胜于老型号。"
+SGB_Carving,SHIP,"若不是因为其采用了巡洋级的修改适配端口，雕锻-级绝不可能被称呼为一艘巡洋舰。雕锻-级内置的防空阵列虽然有着令人惊愕的后坐力，但也正因如此，雕锻-级同样能以恐怖的效率将其面朝的大片空域划作禁飞区，将一切小型导弹集群以及护甲不优秀的LPC中队瞬间溺死在破片海之中。
 
-Its biggest issue, and a frequent complaint from logistics personnel, pertains to the demand for armor maintenance - primarily painting and regular upkeep of protective layers. This necessity arises from its wing engines, fully integrated within the armor on both sides, and the constant heat they generate, almost clinging to the ship's armor layer. Consequently, it has earned the dubious distinction of being nicknamed ""Self-Destructive Armor Class"" among maintenance crews across the galaxy.",,,,
-SGB_Ductility,SHIP,"The stock of Ductility-Class ships is quite scarce, with all blueprints in Perseus lost. All existing Ductility-Class vessels are merely relics from ancient times. These unique hubs possess terrifying fighter projection capabilities; their highly complex black box systems can replicate a large number of shipborne aircraft after filling the amplitude energy conduits - and automatically automate these LPCs - projecting them across the entire battlefield.
+在这种舰船正式服役后，许多舰长发现雕锻-级那巡洋级的系统并不复杂 - 至少不像主力舰一样难以更改。所以在舰队中，修改舰船的安全系统线路成了很多激进舰组的乐趣，这种行为最终导致军部出台了相应的严苛法案 - 因为这种违规操作有损舰船寿命，而且严重、赤裸的暴露了链戍伪装这艘舰船实际战力的目的。"
+SGB_Carving_SD,SHIP,"这艘雕锻出现的场合以及它身上的涂装就能让人能十分清楚的了解到这艘舰船的归属权 - 或者真的是这样吗？在经过一定的数据诊断后，很容易就可以发现这艘舰船并没有经过任何来自辛达强权方面的军委部门以及某位领袖的监督，甚至它的大多数系统后门都与标准版没有任何区别。
 
-The existing Ductility-Class has undergone extensive modernization, yet it remains an irreproducible ancient stock.",,,,
-SGB_Ductility_2,SHIP,"This Ductility-Class ship is a rare early original model, having only undergone the necessary adjustments to accommodate modern weaponry. Compared to most existing Ductility-Class vessels, this ship boasts superior maneuverability and additional deck areas, enabling it to deploy more swarms of drones to overwhelm all enemies.
+更何况这与辛达强权现有的改造相比，几乎就是明智改装 - 由此可以确认此类舰船绝非出自于辛达强权的船坞内。关于此舰船的来历，许多道听途说的理由都指向链戍和辛达强权的不为人知的合作。
 
-The stock of Ductility-Class ships is quite scarce, with all blueprints in Perseus lost. All existing Ductility-Class vessels are merely relics from ancient times. These unique hubs possess terrifying fighter projection capabilities; their highly complex black box systems can replicate a large number of shipborne aircraft after filling the amplitude energy conduits - and automatically automate these LPCs - projecting them across the entire battlefield.
+若不是因为其采用了巡洋级的修改适配端口，雕锻-级绝不可能被称呼为一艘巡洋舰。雕锻-级内置的防空阵列虽然有着令人惊愕的后坐力，但也正因如此，雕锻-级同样能以恐怖的效率将其面朝的大片空域划作禁飞区，将一切小型导弹集群以及护甲不优秀的LPC中队瞬间溺死在破片海之中。
 
-The existing Ductility-Class has undergone extensive modernization, yet it remains an irreproducible ancient stock.",,,,
-SGB_Onslaught,SHIP,"A design of historical renown. Thanks to the Onslaught-Class's simple maintenance system, mass production and deployment remained feasible; as Shackles Garrison focused more on the construction of Onslaught doctrines, this variant of the Onslaught-Class sacrificed a lot of armor and internal resistance structures in favor of mobility and numerous missile strike modules. However, thanks to its modified superior engines, the Onslaught-Class could always arrive at the front lines in time, breaking through enemy lines with a barrage and missiles that outnumbered the enemy's by several times.
+在这种舰船正式服役后，许多舰长发现雕锻-级那巡洋级的系统并不复杂 - 至少不像主力舰一样难以更改。所以在舰队中，修改舰船的安全系统线路成了很多激进舰组的乐趣，这种行为最终导致军部出台了相应的严苛法案 - 因为这种违规操作有损舰船寿命，而且严重、赤裸的暴露了链戍伪装这艘舰船实际战力的目的。"
+SGB_Ascaedy,SHIP,"阿斯凯迪-级浓缩密集的武器配置，同时还盈余出了舰载机的空间。内置的炮台螺旋系统可以使其具备极度优秀的反应能力。作为一种航空巡洋舰，阿斯凯迪-级在战场上的发挥很简单 - 突击到最前线，随后用自身密集的火力试着在敌人阵线上撕开一个口子。",,,
+#SGB_Anvil,SHIP,"铸砧-级具备优异的导弹投射能力，其火力配置极为凶残 - 搭载了大量高速装填导弹系统，并具备相当罕见的淬火部署系统；设计上，铸砧-级往往应该位于前线附近提供支援，但几乎所有舰长都更乐意冲上去使用其搭载的凶残炮火快速解决问题。得益于其具备的大量高速装填导弹模块，铸砧-级即使在面对小船集群时也有着相当快速且主动的应对能力。",,,
+SGB_Anvil,SHIP,"铸砧-级作为一艘军用级后勤运输舰船，其具有着难以想象的优异导弹投射能力，其火力配置极为凶残 - 在拥有大量高速导弹巢的同时，也配置了相当罕见的淬火部署系统；设计上，铸砧-级往往作为一种缓慢的火力支点，在必要的情况下临时卸载货物，并在其他舰船的协同下依靠自身的装甲来强行冲击敌人。得益于其具备的大量高速装填导弹模块，小型的护卫舰狼群难以在不付出代价的前提下来对铸砧-级造成决定性损伤。",,,
+SGB_Stress,SHIP,"应力-级进一步延申了鹰系家族的荣耀，其良好的机动性以及较为多样的装配手段能使其在战场上担任诸多定位 - 虽说在大多情况下其都是承担远程压制这一职位，并在紧急时刻立即转场；其在链戍教本的作用下，能在遭遇战中与巡洋级舰船一同突入战场中央，并随后建立一座稳固的桥头堡。
 
-When the Onslaught-Class was first launched from the orbital shipyard, this colossus, dwarfing surrounding ships, caused the entire sector to tremble. There were even rumors that they were created in a long-forgotten war to serve as the mainstay against alien species. Later, engineers from the Domain of Man improved its blueprints by not only adding shield systems and upgrading hyperdrive engines but also reducing the number of necessary crew members through automation and iterative engineering. Even with other more advanced capital ship blueprints available, the Onslaught-Class remains one of the easiest capital ships to produce today due to its extremely simple system.
+应力-级的设计是在链戍前往英仙座的途中完成的，并在首都 Aouintes 完成了初试校验与量产，现存蓝图已在霸主针对首都的打击行动后遗失，现存舰船只有极少数仍具有其初始理论战力；在许多时候，应力-级都被视为足够硬朗的，具备一定控场效能的雄鹰-级上位 - 即使维护也因此水涨船高,但对比起其他的战列舰，应力-级的维护则是完全在可接受范围内；应力-级的槽位在诸多主力舰中略显贫庸，但并不算差的基础幅能则能在自身机动力的加持下保证这些槽位的稳定火力，以及特殊情况下的追击效能。
 
-This warship, which did not consider shields in its design, could rely solely on reliable armor to protect the crew to the greatest extent while enduring fierce firepower and organizing effective counterattacks, thus winning the affection of officers and crew members. Despite relying on a large amount of ammunition supply for logistics, its unparalleled frontal firepower allows the Onslaught-Class to destroy entire fleets within minutes.",,,,
-SGB_Forgnace_Battle,SHIP,"The Forge-Class, an exceptionally adept maneuvering battleship, was designed from the outset to form high-speed strike teams that could rapidly breach enemy defenses and achieve tactical objectives before the enemy could respond. Notably, its built-in Stibene-reaction shaped charge serves as a specialized missile for targeting large enemy vessels, capable of forcibly breaking through defensive lines led by enemy flagships in many situations. The most criticized aspect of the Forge-Class is that its extensive internal structures, exposed for dispersion purposes, make the seemingly thick armor difficult to utilize effectively.
+其最大的问题与来自后勤人员的诟病便是其自身的装甲维护需求 - 主要是喷漆以及防护层的定期维护，这一切都是因为他那完全内置于装甲内部的左右侧翼引擎，以及其喷射而出的近乎紧贴舰船护甲层的常年灼热所导致的，这也为其在全星系的维护人员中赢得了 装甲自残-级 的良好恶名。
 
-The design of the Forge-Class dates back to before the collapse of the Stargate, when Shackles Garrison was still serving under the military system of Humanity's domain. Under urgent combat requirements, it developed a firepower ship exclusive to the 27th Army Group. At that time, the Forge-Class carried a large number of interstellar missiles that are now impossible to replicate. Due to the loss of manufacturing techniques, all current Forge-Class ships have adopted a new form of cruise missile - with equal power but limited quantity.",,,,
-SGB_Forgnace,SHIP,"Forge Fortress-Class is an experimental derivative design of the Forge-Class, essentially a fusion between a capital ship and an aerial fortress, equipped with as diverse an armament as possible without significantly compromising reliability. The Forge Fortress-Class is reportedly removed from the Shackles Garrison's organization, yet there are still a few reports claiming that in extremely rare instances - a Shackles Garrison fleet led by an intact Forge Fortress-Class still undertakes certain secret missions in outer star systems.
-The design of the Forge Fortress-Class was spearheaded by an unverifiable research group following the resounding success of the Forge-Class and the Malleability-Class designs. Judging solely by the outcome, if logistical issues causing serious problems are disregarded, they must have achieved success.",,,,
-#炼金术,,,,,,
-SGB_Hydrargyri,SHIP,"The Hydrargyri-Class mounts the Taiyi system - a black box device designed in the era of the Dominion of Man, a prize that drives all researchers in the Persean sector mad. 
+尽管作为一艘链戍集团军的主力舰，却并没有内置导弹发射器，这倒的确是一件新颖的事情。",,,
+SGB_Stress_2,SHIP,"这艘应力-级是极为少见的早期原装舰船，其只经过了必要的调整来适配如今的武器装备，相比于大多数现存的应力-级，此舰船有着几乎全面提升的优良属性；极为优秀的机动性以及丰富的应变手段能使其在战场上担任诸多定位 - 无论是支援、压制还是斩杀；其在链戍教本的作用下，能在遭遇战中与巡洋级舰船一同突入战场中央，并随后建立一座稳固的桥头堡。
 
-Due to the loss of many important maintenance devices during XXVII Battle Group's exile, the only remaining ship capable of carrying this facility is the Hydrargyri-Class. Furthermore, the entire ship's flux dispersion network has been integrated into the Taiyi system, meaning that during the activation and cooling period of this system, the ship will be extremely vulnerable.
+应力-级的设计是在链戍前往英仙座的途中完成的，并在首都 Aouintes 完成了初试校验与量产，现存蓝图已在霸主针对首都的打击行动后遗失，这艘舰船便是仍具有其初始理论战力的原装型号；在许多时候，应力-级都被视为足够硬朗的，具备一定控场效能的雄鹰-级上位 - 即使维护也因此水涨船高,但对比起其他的战列舰，应力-级的维护则是完全在可接受范围内；应力-级的槽位在诸多主力舰中略显贫庸，但并不算差的基础幅能则能在自身机动力的加持下保证这些槽位的稳定火力，以及特殊情况下的追击效能。
 
-The name of the Taiyi System is said to derive from extremely ancient alchemical technology, and the entire research on the Gold Element by Shackles Garrison is built upon this foundation.",,,,
-XXVII_flak_Felix,SHIP_SYSTEM,Firing a large number of electromagnetic proximity explosives in front of the ship to suppress enemy strike craft.,,,,
-XXVII_Quench,SHIP_SYSTEM,Deploy two Quench-Class hunters simultaneously and execute a long-range missile salvo the moment the squadron leaves the launch bay. This process will consume approximately 4% of the mothership's combat readiness. This can be used up to five times in a battle.,,,,
-SGB_SpatiootemporalDrive_Light,SHIP_SYSTEM,"The further simplification of an experimental mobility system, can create an extreme twist in space time around the ship for a short time.",,,,
-SGB_SpatiootemporalDrive,SHIP_SYSTEM,"The further optimized experimental mobility system, can create an extreme twist in space time around the ship for a short time.",,,,
-SGB_SpatiootemporalDrive_Austenite,SHIP_SYSTEM,"The further optimized experimental mobility system that also come equipped with a charge storage; can create an extreme twist in space time around the ship for a short time.
-",,,,
-SGB_drone_pd_x3,SHIP_SYSTEM,Release three drones equipped with Vulcan cannons to gain extra point defense capabilities.,,,,
-SGB_drone_pd_x4,SHIP_SYSTEM,"Deploy four drones equipped with small IR pulse cannon, thereby gaining additional close-range strike capabilities.",,,,
-SGB_Austenite_System_Ammo,SHIP_SYSTEM,This built-in overdriven high-speed ammo-feeder can maximize the rate of fire of ballistic weapons.,,,,
-SGB_Austenite_System_Repair,SHIP_SYSTEM,"Forcibly increase structural integrity of the ship, prohibit the use of weapon while the effect lasts.",,,,
-SGB_RepairWings,SHIP_SYSTEM,"Relying on the built-in magnetic resonance effect to rapidly pulverize steel materials, thus 'carving' out a new strike craft for immediate use. It can charge and store energy required for one use of this system once per half a minute, up to two charges can be stored",,,,
-SGB_ConstructWing,SHIP_SYSTEM,"Based on the number of strike crafts, different numbers of unmanned combat squadrons are generated. These squadrons will ignore the size of the enemy in battle and continue to fight until either the enemy or themselves are destroyed.",,,,
-SGB_AsAboveSoBelow,SHIP_SYSTEM,"Enhance the fire rate of the weapons mounted on this ship and additionally activate an auxiliary propulsion network. This process completely ignores the normal energy consumption of weapons, except for missiles.",,,,
-SGB_damper,SHIP_SYSTEM,"By utilizing strong spatial resonance to impede nearby particles, this process interferes with the ship's weapon systems, preventing them from firing during this period.",,,,
-,,,,,,
-SGB_Mission_station3_hightech,SHIP,"Tri-Tachyon's research site, which contains a large amount of scientific data, was under attack by the Shackles Garrison when an advanced meeting was being held inside. Some of the attendees were the leaders who had previously ordered the pursuit of the retreating Lian Shu team. This is precisely why the Lian Shu must take this site, by either destroying the space station or capturing them alive; these individuals must pay for their past actions.",,,,
-SGB_Austenite,SHIP,"The special fighter designated as Austenite-Class - Although it is recognized as a standard escort ship in terms of rank, it has the function of modular customization. Originally, it was part of the 27th Battle Group as an assault formation ship, but most of the blueprints have been lost over the years, and the few remaining Austenite-Class ships are extremely rare to encounter across star regions.",,,,
-SGB_Austenite_Carrier,SHIP,"The special fighter designated as Austenite-Class - Although it is recognized as a standard escort ship in terms of rank, it has the function of modular customization. Originally, it was part of the 27th Battle Group as an assault formation ship, but most of the blueprints have been lost over the years, and the few remaining Austenite-Class ships are extremely rare to encounter across star regions.",,,,
-SGB_Austenite_Weapon_Gun_L,WEAPON,"Austenitic-Class built-in weapon, it can fire a rapid high-energy payload that effectively strips away enemy armor and structure - and can even penetrate enemy shields when their energy levels remain high.",,,,
-SGB_Austenite_Weapon_Gun_R,WEAPON,"Austenitic-Class built-in weapon, it can fire a rapid high-energy payload that effectively strips away enemy armor and structure - and can even penetrate enemy shields when their energy levels remain high.",,,,
-SGB_Austenite_Weapon_Rocket_L,WEAPON,"The Austenite-Class built-in weapon quickly produces a large number of energy resonance missiles with certain tracking performance, which gives it better versatility - whether it is suppressing the enemy at a distance or directly carrying out strike missions.",,,,
-SGB_Austenite_Weapon_Rocket_R,WEAPON,"The Austenite-Class built-in weapon quickly produces a large number of energy resonance missiles with certain tracking performance, which gives it better versatility - whether it is suppressing the enemy at a distance or directly carrying out strike missions.",,,,
-SGB_Austenite_Weapon_Blast_L,WEAPON,"Austenitic-Class built-in weapon, which generates high-energy electron clusters with a higher amplitude energy demand, thereby burning enemy shipborne equipment crisp in a burst of dazzling light.",,,,
-SGB_Austenite_Weapon_Blast_R,WEAPON,"Austenitic-Class built-in weapon, which generates high-energy electron clusters with a higher amplitude energy demand, thereby burning enemy shipborne equipment crisp in a burst of dazzling light.",,,,
-SGB_Austenite_Rocket_L,WEAPON,"The built-in secondary weapon for Austenite-Class, it can rapidly and continuously produce a large number of high-explosive missiles to suppress the enemy - sometimes it is also used as individual armor-piercing torpedoes.",,,,
-SGB_Austenite_Rocket_R,WEAPON,"The built-in secondary weapon for Austenite-Class, it can rapidly and continuously produce a large number of high-explosive missiles to suppress the enemy - sometimes it is also used as individual armor-piercing torpedoes.",,,,
-SGB_Axio_Rocket_2,WEAPON,"Throw away your old rocket launcher! The Axio Den Hanger has a total of 20 missiles, and these ferocious little ones will directly charge towards the enemy after launch, without the need for aiming and prediction like annihilators. They can always unleash terrifying power on the adept assault ship's body.",,,,
-SGB_Austenite_Wingman_Ship,SHIP,"The Austenite-Class subordinate machine possesses unique combat effects and tactical diversity; it is merely a set of replacement parts for the Austenite-Class, but thanks to its modular assembly system, it can deploy many support machines after certain post-adjustments.",,,,
-SGB_Austenite_Wingman_Assault,SHIP,"The Austenite-Class subordinate machine possesses unique combat effects and tactical diversity; it is merely a set of replacement parts for the Austenite-Class, but thanks to its modular assembly system, it can deploy many support machines after certain post-adjustments.",,,,
+其最大的问题与来自后勤人员的诟病便是其自身的装甲维护需求 - 主要是喷漆以及防护层的定期维护，这一切都是因为他那完全内置于装甲内部的左右侧翼引擎，以及其喷射而出的近乎紧贴舰船护甲层的常年灼热所导致的，这也为其在全星系的维护人员中赢得了 装甲自残-级 的良好恶名。",,,
+SGB_Ductility,SHIP,"延性-级的存量相当稀少，在英仙座的图纸已全部丢失。现存的所有延性-级都只是远古时代的存货。这些独特的枢纽具备恐怖的战机投射能力，其内部具有的极为复杂的黑箱系统在占满幅能管道后能够复制大量舰载机 - 并且会自动无人化这些LPC - 并投射到整个战场。
+
+现存的延性-级经过了大量现代化改造，但其本身仍旧是不可重新制造的远古存货。"
+SGB_Ductility_2,SHIP,"这艘延性-级是极为少见的早期原装舰船，其只经过了必要的调整来适配如今的武器装备，相比于大多数现存的延性-级，此舰船具有更好的机动能力以及额外的甲板区域，这使得它能投放更多的无人机蜂群来淹没所有敌人。
+
+延性-级的存量相当稀少，在英仙座的图纸已全部丢失。现存的所有延性-级都只是远古时代的存货。这些独特的枢纽具备恐怖的战机投射能力，其内部具有的极为复杂的黑箱系统在占满幅能管道后能够复制大量舰载机 - 并且会自动无人化这些LPC - 并投射到整个战场。
+
+现存的延性-级经过了大量现代化改造，但其本身仍旧是不可重新制造的远古存货。"
+SGB_Onslaught,SHIP,"历史悠久的著名设计。由于攻势-级那简易的维护系统，大量生产部署仍旧成为了可能；因链戍集团军更加专注于打击学派的建设，所以这种变体的攻势-级为了机动和大量的导弹打击模块牺牲了不少护甲和船体内部的抗性结构，但得益于改造后的优异引擎，攻势-级总能及时到达前线，并用数倍于敌人的大量弹幕和导弹硬生生的砸开敌人的阵线。
+
+当攻势-级第一次从轨道船坞发射升空时，这艘让周遭舰船相形见绌的庞然大物让整片星域都为之震颤。甚至有传言称它们是在一场早被遗忘的战争中被制造用以对抗异种的中流砥柱。后来，人之领 工程师对其蓝图进行了改进，不仅增加了护盾系统、升级了超光速引擎、还通过自动化和迭代工程减少必要船员的数量。即使有其它更先进的主力舰蓝图，但由于系统极其简单，故攻势-级仍然当今最容易生产的主力舰之一。
+
+这艘在设计时就未曾考虑护盾的战舰仅凭可靠装甲就能在承受猛烈炮火的同时，最大程度保护船员们的安全并组织有效反击，因而深受军官和船员们的爱戴。尽管在后勤方面需依赖大量的弹药补给，但凭借其无与伦比的正面火力，让攻势-级可在数分钟内摧毁整支舰队。",,,
+SGB_Forgnace_Battle,SHIP,"极为擅长游走的主力舰，锻炉-级自设计之初就被用于构造高速打击小组迅速突破敌人的防御阵线，并在敌人做出反应前完成战术目标。不得不提到的，其内置的 辉锑矿-反应聚爆弹 作为一种针对敌方大型目标的特化飞弹，能在诸多情况下强行撬开由敌人主力舰所牵头的防线。锻炉-级最令人诟病的点在于 - 为了散幅而裸露的大量内部结构让那看起来厚重的装甲很难用到实处。
+
+锻炉-级的设计需要追溯到星门坍塌以前，当时的链戍集团军仍旧服役于人之领的军事体系之下，当时的链戍军事设计局在加急的战斗需求下设计出了独属于第二十七集团军的火力舰。当时的锻炉-级携带了大量如今无法仿制的星际飞弹，而由于制作工艺的缺失，现如今的所有锻炉-级都采用了一种新形式的巡航导弹 - 同样的威力，但数量受到了限制。",,,
+SGB_Forgnace_Battle_2,SHIP,"这艘锻炉-级是极为少见的早期原装舰船，其只经过了必要的调整来适配如今的武器装备，相比于大多数现存的锻炉-级，此舰船具有更坚固的防护装甲，这种坚实且轻薄的装甲难以大批量进行维护，所以只在较少的舰船上能够被列装。
+
+极为擅长游走的主力舰，锻炉-级自设计之初就被用于构造高速打击小组迅速突破敌人的防御阵线，并在敌人做出反应前完成战术目标。不得不提到的，其内置的 辉锑矿-反应聚爆弹 作为一种针对敌方大型目标的特化飞弹，能在诸多情况下强行撬开由敌人主力舰所牵头的防线。锻炉-级最令人诟病的点在于 - 为了散幅而裸露的大量内部结构让那看起来厚重的装甲很难用到实处。
+
+锻炉-级的设计需要追溯到星门坍塌以前，当时的链戍集团军仍旧服役于人之领的军事体系之下，当时的链戍军事设计局在加急的战斗需求下设计出了独属于第二十七集团军的火力舰。当时的锻炉-级携带了大量如今无法仿制的星际飞弹，而由于制作工艺的缺失，现如今的所有锻炉-级都采用了一种新形式的巡航导弹 - 同样的威力，但数量受到了限制。",,,
+SGB_Forgnace,SHIP,"锻炉要塞-级是锻炉-级设计的衍生实验产物，基本上可以概括为将一艘主力舰和航空要塞进行融合，并在不严重影响可靠性的情况下搭载尽可能多样的武备。锻炉要塞-级据悉已被从链戍的编制中剔除，但仍有少量报告声称在极为稀有的情况下 - 由完好无损的锻炉要塞-级带头的链戍舰队仍会在外围星系执行某些秘密任务。
+
+锻炉要塞-级的设计是在锻炉-级以及延性-级的设计大获成功后，由一伙不可考的科研组所牵头进行的。仅仅从结果上而言，若排除后勤所导致的严重问题，想必他们一定获得了成功。",,,
+#炼金术
+SGB_Hydrargyri,SHIP,"令所有英仙座科学研究者为之疯狂的水银形-级，搭载了人之领时期所设计的黑箱装置 - 太一系统。由于链戍在流亡过程中遗失了许多重要的维护设备，现如今能搭载此设施的舰体仅剩下了水银形，而此舰船全舰的幅散网络都被并入了太一系统，也就代表着在开启此系统以及冷却期间内，此舰船都会极为脆弱。
+
+太一系统的名字据说来自于极其遥远的炼金术科技，而链戍的整个 金元素 研究，就建立于此之上。",,,
+XXVII_flak_Felix,SHIP_SYSTEM,"向自身前方发射大量电磁近炸炸药，以压制敌舰载机。",,,
+XXVII_Quench,SHIP_SYSTEM,同时部署两艘 淬火-级 猎机，并在编队出舱瞬间进行一次长途导弹齐射。此过程会消耗母舰约4%的战备。一场战斗最多使用5次。,,,
+SGB_SpatiootemporalDrive_Light,SHIP_SYSTEM,进一步简化的实验性机动装置，能在短时间内将机体时空扭转至一个极端的水准之上。,,,
+SGB_SpatiootemporalDrive,SHIP_SYSTEM,进一步优化的实验性机动装置，能在短时间内将机体时空扭转至一个极端的水准之上。,,,
+SGB_SpatiootemporalDrive_Austenite,SHIP_SYSTEM,进一步优化的时空驱动模块，同时设置了额外的充能仓；开启后能在短时间内将机体时空扭转至一个极端的水准之上。,,,
+SGB_drone_pd_x3,SHIP_SYSTEM,释放三只携带了火神炮的无人机，从而获得额外的点防御能力。,,,
+SGB_drone_pd_x4,SHIP_SYSTEM,释放四只携带了IR脉冲炮的无人机，从而获得额外的近距打击能力。,,,
+SGB_Austenite_System_Ammo,SHIP_SYSTEM,机体内置的强速率超驰装填器，能将实弹配置的武器发挥到极致。,,,
+SGB_Austenite_System_Repair,SHIP_SYSTEM,强制在短时间内增强结构抗性，此过程会禁用武器。,,,
+SGB_RepairWings,SHIP_SYSTEM,依靠内置的磁共振效应快速粉碎钢铁材料，从而‘雕刻’出一艘新的舰载机并立刻投入使用，可每半分钟积攒一次使用所消耗的能源，最多积攒两次。,,
+SGB_ConstructWing,SHIP_SYSTEM,根据舰载机数量的不同，生成不同数量的无人化战机编队，编队将会无视自身索敌大小，并持续战斗到敌人或自己死亡。此系统再次释放时，若有上次释放的轰炸机仍旧存活，将会予以自毁，对于其他类型的战机则予以一定加成；此系统只能在上一编队全部阵亡后重新启用。系统在搭载一些特殊、编码错误的LPC时无法起作用。,,
+SGB_AsAboveSoBelow,SHIP_SYSTEM,增强自身所搭载的武器射速并额外开启辅助推进网络，此过程完全忽视武器正常幅能消耗，导弹类除外。,,
+SGB_damper,SHIP_SYSTEM,利用强烈的空间共振来阻滞附近的粒子，此过程会干涉舰船武器系统，导致其不能在这段时间内开火。
+,,,,,
+SGB_Mission_station3_hightech,SHIP,"速子科技的研究站点，内部含有大量科技资料，在被链戍袭击时，内部正在举行高级会议 - 其中的部分与会成员就是曾经下令追击链戍撤离队伍的领头人。而这也是链戍无论如何也要拿下这里的原因，无论是摧毁空间站还是活捉，这些人必须为他们曾经的所作所为付出代价。"
+SGB_Austenite,SHIP,"代号为奥氏体-级的特殊战机 - 虽然在级别上已经公认为一种标准护卫舰，但具有模块化定制的功能。其原本作为第二十七战斗群的一种突击组编制舰船，但大多数蓝图已在漫长的岁月之中流失，而仅存的几十架奥氏体-级也已经极难在星域间遇见。",,,
+SGB_Austenite_Carrier,SHIP,"代号为奥氏体-级的特殊战机 - 虽然在级别上已经公认为一种标准护卫舰，但具有模块化定制的功能。其原本作为第二十七战斗群的一种突击组编制舰船，但大多数蓝图已在漫长的岁月之中流失，而仅存的几十架奥氏体-级也已经极难在星域间遇见。",,,
+SGB_Austenite_Weapon_Gun_L,WEAPON,"奥氏体-级的内置武器，其能发射快速发射一种高能量弹药，并使其高效洗掉敌人的装甲和结构 - 甚至也能在敌人幅能居高不下时击穿敌人的护盾。",,,
+SGB_Austenite_Weapon_Gun_R,WEAPON,"奥氏体-级的内置武器，其能发射快速发射一种高能量弹药，并使其高效洗掉敌人的装甲和结构 - 甚至也能在敌人幅能居高不下时击穿敌人的护盾。",,,
+SGB_Austenite_Weapon_Rocket_L,WEAPON,"奥氏体-级的内置武器，快速生产大量具有一定追踪性能的能量共振导弹，这让它具有更好的通用性 - 无论是在远处压制敌方还是直接执行打击任务。",,,
+SGB_Austenite_Weapon_Rocket_R,WEAPON,"奥氏体-级的内置武器，快速生产大量具有一定追踪性能的能量共振导弹，这让它具有更好的通用性 - 无论是在远处压制敌方还是直接执行打击任务。",,,
+SGB_Austenite_Weapon_Blast_L,WEAPON,"奥氏体-级的内置武器，以较高的幅能需求来产生高能电子团，从而在一阵耀眼的光芒中把敌人的舰载设备烧个焦脆。",,,
+SGB_Austenite_Weapon_Blast_R,WEAPON,"奥氏体-级的内置武器，以较高的幅能需求来产生高能电子团，从而在一阵耀眼的光芒中把敌人的舰载设备烧个焦脆。",,,
+SGB_Austenite_Rocket_L,WEAPON,"奥氏体-级的内置副武器，能快速并持续的生产大量高爆导弹压制敌人 - 有些时候也会做为散装的破甲鱼雷来使用。",,,
+SGB_Austenite_Rocket_R,WEAPON,"奥氏体-级的内置副武器，能快速并持续的生产大量高爆导弹压制敌人 - 有些时候也会做为散装的破甲鱼雷来使用。",,,
+SGB_Axio_Rocket_2,WEAPON,扔掉老旧的歼灭者火箭发射器吧！渊薮 速射挂仓具有整整 20发 渊薮导弹，这些凶残的小家伙会在发射后直接冲向敌人，而不需要像歼灭者一样瞄准和预判，在善于突击的舰载机身上总能爆发出恐怖的威力;作为额外适配了奥氏体之翼的渊薮挂仓型号，其具有相对更优的导弹效果。,,,
+SGB_Austenite_Wingman_Ship,SHIP,"奥氏体-级的子机，具有独特的作战效果以及战术多样性；其本身只是奥氏体-级的一些替换零部件，但得益于模块化组装系统，只需经过一定的后期调整就能部署出不少的协助机体。",,,
+SGB_Austenite_Wingman_Assault,SHIP,"奥氏体-级的子机，具有独特的作战效果以及战术多样性；其本身只是奥氏体-级的一些替换零部件，但得益于模块化组装系统，只需经过一定的后期调整就能部署出不少的协助机体。",,,
+#未知
+SGB_Carbonization,SHIP,"""说真的，这种东西最值得研究的是它前面的那些小玩意，但是为什么我们组会被划给研究这么个破推进器上？整整两个月过去了我们连这玩意他妈的是怎么开起来的都没搞明白。""",不明舰船,"未知条目
+
+根据链戍的遭遇报告，此子型号具有一定跃进能力，需要进行一定防范。
+预计威胁指数：较低。",,
+SGB_Undervoltage,SHIP,"""逆熵的东西在人之领科技里面已经有不少了，但是我一直搞不明白这是怎么办到的。""",不明舰船,"未知条目
+
+根据链戍的遭遇报告，此子型号具有逆熵能力，表层坚固难以破坏。
+预计威胁指数：中等。",,
+SGB_Overcurrent,SHIP,"""对于这些残骸的收容简直就是个灾难，如果它们的质量到达一定的阈值，那么它们就会直接活过来 - 就如同记录里的一样。""",不明舰船,"未知条目
+
+根据链戍的遭遇报告，此型号极端不可控，且难以被约束。
+预计威胁指数：未知。",,
+SGB_Misalignment,SHIP,"""请求更多资金，我们没能成功找出突破口。""",不明舰船,"未知条目
+
+根据链戍的遭遇报告，此子型号具有一定突进能力，需要注意其对战线可能的切割划分。
+预计威胁指数：中等。",,
+SGB_LargeGrain,SHIP,"""老天，我真的很好奇，记录里它们那独特的...结构 - 就如同结缔组织一样，这东西难道是活的？""",不明舰船,"未知条目
+
+根据链戍的遭遇报告，此子型号可能携带极端武器，且较为坚固难以击穿。需要集中火力才能击毁。
+预计威胁指数：中等。",,
+SGB_DisinRadia,WEAPON,"""我-没-疯，还要说多少次你们才能相信我？那条暗淡的光束真的只是在接触的一瞬间，就让在终端后 Korean 舰长那和我对话的脑袋液化了一半。""",- Korries Loamos，舰队指挥官,
+SGB_MatealDisper,WEAPON,"""熵探测，物质解离，P空间驱动转换，亦或是什么超空间虚幻物质 - 整个现场科学小组直到撤离前都没能搞明白多余的能量到底被送去了哪里。""",- 熔毁 遭遇战的事后报告，数据已归档,
+SGB_PlasDicGener,WEAPON,"""随着时间的推移，强行虹吸至现实的P空间压缩物质会越来越不稳定 - 随后那坚不可摧的固态外壳就会被任何细小的触碰所引爆。在预算部那两个活阎王下来清算前，这玩意已经炸坏了好几个宝贵的隔离设施了。""",- 未知数据碎片,

@@ -16,8 +16,6 @@ import com.fs.starfarer.api.fleet.FleetMemberAPI;
 import com.fs.starfarer.api.loading.FighterWingSpecAPI;
 import com.fs.starfarer.api.loading.HullModSpecAPI;
 
-import static data.utils.sgb.SGB_stringsManager.txt;
-
 public class XXVII_SpecialWingGroups_Base{
     public ShipAPI ship;
     public static final List<FleetMemberAPI> XXVII_SpecialWingGroup_Coop_List = new ArrayList<FleetMemberAPI>(); //存储Coop系列LPC的ship文件
@@ -278,19 +276,16 @@ public class XXVII_SpecialWingGroups_Base{
         }
          */
         if(whatSpIsThis == null){
-            whatSpIsThis = txt("HullMods_XXVII_SpecialWingGroup_All");
+            whatSpIsThis = "某种";
             if(ship.getVariant().hasHullMod(XXVII_SpecialWingGroup_Coop.XXVII_SpecialWingGroup_Coop)){
-                whatSpIsThis = txt("HullMods_XXVII_SpecialWingGroup_Coop");
+                whatSpIsThis = "协同";
             }
             else if(ship.getVariant().hasHullMod(XXVII_SpecialWingGroup_DogFight.XXVII_SpecialWingGroup_DogFight)){
-                whatSpIsThis = txt("HullMods_XXVII_SpecialWingGroup_DogFight");
-            }
-            else if(ship.getVariant().hasHullMod(XXVII_SpecialWingGroup_Assault.XXVII_SpecialWingGroup_Assault)){
-                whatSpIsThis = txt("HullMods_XXVII_SpecialWingGroup_Assault");
+                whatSpIsThis = "制空";
             }
         }
         if ((!ship.getVariant().hasHullMod(XXVII_SpecialWingGroup_Carrier.XXVII_SpecialWingGroup_Carrier))) {
-            return txt("HullMods_XXVII_SpecialWingGroup_Carrier_03");
+            return "只能安装在链戍航母上";
         }
         float i = 0;
         for (String weaponId : ship.getVariant().getHullMods() ) {
@@ -299,11 +294,11 @@ public class XXVII_SpecialWingGroups_Base{
             }
         }
         if(i>=numberOfCount){
-            return txt("HullMods_XXVII_SpecialWingGroup_Carrier_04")+whatSpIsThis+txt("HullMods_XXVII_SpecialWingGroup_Carrier_05");
+            return "已经使用了"+whatSpIsThis+"航空教本，不能重叠使用";
         }
 
 
-        return whatSpIsThis+"Ready";
+        return whatSpIsThis+"准备好了";
     }
     public static boolean XXVII_SpecialWingGroups_isApToShip(ShipAPI ship, float numberOfCount, HullModSpecAPI spec, Set<String> weaponKind) {
         float i = 0;

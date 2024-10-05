@@ -18,12 +18,7 @@
 	"shipNamePrefix":"SGBSF",
 	"showInIntelTab":false,
 	"shipNameSources":{
-		"AZTEC":1,
-		"BEASTS":1,
-		"NORSE":1,
-		"CELTIC":1,
-		"SPACE":1,
-		"GENERAL":1,
+		"SGB_FORGING":1,
 	},
 	"names":{
 		"fringe":1,
@@ -50,17 +45,20 @@
 			"buffalo2":0,
 			"gremlin":0,
 			"venture":0,
+			"SGB_Carving_SD":0,
 		},
 	},
 	# ships the faction gets access to when importing S&W out-of-faction
 	"shipsWhenImporting":{
-		"tags":["SGB_bp"],
+		"tags":["SGB_XXVII_bp"],
 		"hulls":[
+			"SGB_Anvil"
 		],
 	},
 	"knownShips":{
-		"tags":["midline_bp", "SGB_bp", "SGB_XXVII_bp"],
+		"tags":["SGB_bp", "SGB_XXVII_bp"],
 		"hulls":[
+			"SGB_Anvil"
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
@@ -237,3 +235,8 @@
 		"taskForce":"Task Force",
 	},
 },
+
+
+
+
+

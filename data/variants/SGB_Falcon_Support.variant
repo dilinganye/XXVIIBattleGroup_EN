@@ -3,8 +3,8 @@
   "hullId": "SGB_Falcon",
   "displayName": "Support",
   "goalVariant": true,
-  "fluxCapacitors": 17,
-  "fluxVents": 18,
+  "fluxCapacitors": 30,
+  "fluxVents": 8,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -61,6 +61,6 @@
   ],
   "modules": [],
   "wings": [
-    "SGB_Ares_wing"
+    "SGB_Agatha_wing"
   ]
 }

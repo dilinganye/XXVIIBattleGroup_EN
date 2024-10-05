@@ -3,7 +3,7 @@
   "hullId": "SGB_Austenite",
   "hullSize": "FRIGATE",
   "spriteName": "graphics/ships/SGB_Austenite/SGB_Austenite_Main.png",
-  "style": "SGB_TECH",
+  "style": "SGB_TECH_XXVII",
   "height": 139,
   "width": 129,
   "center": [64.5, 65],

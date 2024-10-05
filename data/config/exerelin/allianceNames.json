@@ -1,0 +1,14 @@
+{
+	"staticNames":{
+		"SGB":{
+			"hegemony":["Domain of Man Corp"],
+			"luddic_church":["Development Accord"],
+			"luddic_path":["Terror ism"],
+			"persean":["NeoPersean Federation"],
+			"sindrian_diktat":["Domination Front"],
+			"tritachyon":["Anti-Domain Foundation"],
+			"independent":["ThePeople's Front"],
+			"pirates":["Chaos Protocol"],
+		},
+	},
+}

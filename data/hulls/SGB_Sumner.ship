@@ -141,6 +141,22 @@
       "angle": 176.5,
       "contrailSize": 128,
       "style": "MIDLINE"
+    },
+    {
+      "location": [-47, -0],
+      "length": 1.5,
+      "width": 52,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "SGB_TECH_QUAD"
+    },
+    {
+      "location": [-51, -0],
+      "length": 0.5,
+      "width": 36,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "SGB_LESS_SMOKE_TECH"
     }
   ],
   "bounds": [

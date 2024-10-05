@@ -1,0 +1,167 @@
+{
+	"SGB_Clo": {
+		"trigger_marketFaction_any": ["tritachyon"],
+		"trigger_marketFaction_alliedWith": true,
+		"trigger_player_minLevel": 4,
+		"trigger_weight_mult": 0.75,
+
+		"job_name": "Sin Squadron",
+		"job_description": "The company has learned that the LianShu Army Group has deployed an experimental fighter squadron in various locations. We have received numerous reports of asset damage caused by this squadron. Due to the targeted nature of LianShu Army Group's actions, Suzi Tech Fleet has difficulty tracking them with official ships. The board wishes to obtain a record of engagement and destruction of this squadron.",
+		"job_comm_reply": "Oh, please avoid any conflict. Thank you for your cooperation. By the way, have you seen the Suzi Tech convoy?",
+		"job_intel_success": "The board sincerely thanks you for resolving the issue. The relevant payment will be credited to your account by the Free Fleet within a star day. Company personnel will immediately analyze the report you provided and will counteract the competitive actions of the LianShu Army Group in due course.",
+		
+		"job_forFaction": "tritachyon",
+		"job_deadline": 160,
+		"job_credit_reward": 200000,
+		"job_reward_scaling": 0.65,
+		"job_reputation_reward": 5,
+		
+		"job_type": "neutralisation",
+		"job_show_type": true,
+		"job_show_captain": false,
+		"job_show_fleet": "text",
+		"job_show_distance": "vanillaDistance",
+		"job_difficultyDescription": "Using various decoys, we have lured a group of fighter squadrons and their support ships. The actual combat style and capabilities of the enemy are quite unknown. Please proceed with caution.",
+		"job_memKey": "$SGB_Clo",
+		"job_item_reward": {
+	        },
+
+		"target_first_name": "Als",
+		"target_last_name": "Moraens",
+		"target_gender": "FEMALE",
+		"target_rank": "spaceCommander",
+		"target_post": "aristocrat",
+		"target_personality": "steady",
+		"target_level": 5,
+		"target_elite_skills": 2,
+		"target_skill_preference": "NO_ENERGY_YES_BALLISTIC_YES_MISSILE_YES_DEFENSE",
+		
+		"fleet_name": "LianShu Fighter Squadron",
+		"fleet_faction": "SGB_SF",
+		"fleet_flagship_variant": "SGB_Quench_Fri_Commando",
+		"fleet_flagship_name": "Bench Locker",
+		"fleet_flagship_recoverable": false,
+		"fleet_preset_ships": {
+			"SGB_Quench_Fri_Commando": 2,
+			"SGB_Anvil_Overload": 1
+		},
+		"fleet_preset_autofit": true,
+		"fleet_scaling_multiplier": 0.4,
+		"fleet_min_FP": 70,
+		"fleet_composition_faction": "SGB_SF",
+		"fleet_composition_quality": 2,
+		"fleet_transponder": false,
+		"fleet_behavior": "GUARDED",
+
+		"location_distance": "FAR",
+		"location_themes": [
+			"theme_interesting_minor",
+			"theme_ruins_secondary",
+			"theme_derelict_survey_ship",
+			"theme_derelict_probes",
+			"procgen_no_theme_pulsar_blackhole"
+		],
+		"location_themes_blacklist": [
+			"theme_already_occupied",
+			"theme_already_colonized",
+			"theme_hidden"
+		],
+		"location_entities": [ 
+			"gate",
+			"wreck",
+			"debris",
+			"stable_location",
+			"comm_relay",
+			"nav_buoy",
+			"sensor_array"
+		],
+		"location_prioritizeUnexplored": true,
+		"location_defaultToAnyEntity": true
+	},
+	
+	"SGB_Clo2": {
+		"trigger_memKeys_all": {
+			"$SGB_Clo": true
+		},
+		"trigger_marketFaction_any": ["tritachyon"],
+		"trigger_marketFaction_alliedWith": true,
+		"trigger_player_minLevel": 6,
+		"trigger_weight_mult": 0.5,
+
+		"job_name": "A Reckoning",
+		"job_description": "Due to the previous destructive actions by the LianShu Army Group on company assets, Suzi Tech has suffered immeasurable economic losses. According to our agents, most of these actions were planned by Keith Triss and executed by his Ember Assault Group. If his squadron and he himself could have an 'accident' during their training exercises, the company would be most grateful.",
+		"job_comm_reply": "Interfering with our navigation will be considered interference with the necessary affairs of the LianShu Army Group. Your actions will be recorded.",
+		"job_intel_success": "The board sincerely thanks you for resolving the issue. The relevant payment will be credited to your account by the Free Fleet within a star day; meanwhile, your salvage team has extracted an intact ship blueprint from the wreckage.",
+		
+		"job_forFaction": "tritachyon",
+		"job_deadline": 160,
+		"job_credit_reward": 500000,
+		"job_reward_scaling": 0.65,
+		"job_reputation_reward": 5,
+		
+		"job_type": "assassination",
+		"job_show_type": true,
+		"job_show_captain": true,
+		"job_show_fleet": "presetText",
+		"job_show_distance": "vanillaDistance",
+		"job_difficultyDescription": "Quench Squadron - This is an ancient tradition of the LianShu Army Group, which can be understood as a remnant of power held by some unique fighter pilots. These unique long-range fighters form groups to carry out tasks assigned by the LianShu Army Group. The Quench Squadron is not limited to the one you are tasked to handle. Many such squadrons are deployed in various remote locations. Regardless, if I were you, I would prepare some anti-aircraft barrages like Ravagers to teach these stubborn relics a lesson.",
+		"job_memKey": "$SGB_Clo2",
+		"job_item_reward": {
+			"ship_bp SGB_Anvil": 1
+		},
+
+		"target_first_name": "Keith",
+		"target_last_name": "Triss",
+		"target_gender": "MALE",
+		"target_rank": "spaceCommander",
+		"target_post": "aristocrat",
+		"target_personality": "cautious",
+		"target_level": 6,
+		"target_elite_skills": 2,
+		"target_skill_preference": "NO_ENERGY_YES_BALLISTIC_YES_MISSILE_YES_DEFENSE",
+		
+		"fleet_name": "Ember Squadron",
+		"fleet_faction": "SGB_SF",
+		"fleet_flagship_variant": "SGB_Quench_Clo_ACE",
+		"fleet_flagship_name": "Night Light",
+		"fleet_flagship_recoverable": false,
+		"fleet_preset_ships": {
+			"SGB_Anvil_Overload": 3,
+			"SGB_Quench_Fri_Commando": 5
+		},
+		"fleet_preset_autofit": true,
+		"fleet_scaling_multiplier": 0.45,
+		"fleet_min_FP": 120,
+		"fleet_composition_faction": "SGB_SF",
+		"fleet_composition_quality": 1,
+		"fleet_transponder": true,
+		"fleet_behavior": "GUARDED",
+
+		"location_distance": "CLOSE",
+		"location_themes": [
+			"theme_interesting_minor",
+			"theme_ruins_secondary",
+			"theme_derelict_survey_ship",
+			"theme_derelict_probes",
+			"procgen_no_theme_pulsar_blackhole"
+		],
+		"location_themes_blacklist": [
+			"theme_already_occupied",
+			"theme_already_colonized",
+			"theme_hidden"
+		],
+		"location_entities": [ 
+			"gate",
+			"wreck",
+			"debris",
+			"stable_location",
+			"comm_relay",
+			"nav_buoy",
+			"sensor_array",
+			"gas_giant",
+			"planet"
+		],
+		"location_prioritizeUnexplored": true,
+		"location_defaultToAnyEntity": true
+	}
+}

@@ -3,27 +3,28 @@
   "hullId": "SGB_Achilles",
   "displayName": "Assault",
   "goalVariant": true,
-  "fluxCapacitors": 15,
-  "fluxVents": 7,
+  "fluxCapacitors": 9,
+  "fluxVents": 17,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "safetyoverrides"
+    "targetingunit",
+    "converted_hangar"
   ],
   "weaponGroups": [
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0010": "devastator"
+        "WS0010": "mjolnir"
       }
     },
     {
       "autofire": false,
-      "mode": "LINKED",
+      "mode": "ALTERNATING",
       "weapons": {
-        "WS0013": "sabot",
-        "WS0014": "sabot"
+        "WS0013": "sabot_single",
+        "WS0014": "sabot_single"
       }
     },
     {
@@ -38,8 +39,8 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0008": "heavymg",
-        "WS0009": "heavymg"
+        "WS0008": "hveldriver",
+        "WS0009": "hveldriver"
       }
     },
     {
@@ -59,5 +60,7 @@
     }
   ],
   "modules": [],
-  "wings": []
+  "wings": [
+    "SGB_Drone_MachineGun_wing"
+  ]
 }

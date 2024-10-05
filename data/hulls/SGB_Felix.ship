@@ -64,47 +64,138 @@
       "arc": 92,
       "angle": -0,
       "locations": [-2, -23.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 237,
+      "angle": -110,
+      "locations": [-4, -10.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 237,
+      "angle": 110,
+      "locations": [-4, 10.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 52,
+      "angle": 0,
+      "locations": [-13.5, -0]
     }
   ],
   "engineSlots": [
     {
-      "location": [-26, -0],
-      "length": 30,
-      "width": 10,
+      "location": [-25.5, -11.5],
+      "length": 26.676067,
+      "width": 12.105784,
+      "angle": -162,
+      "contrailSize": 12.105784,
+      "style": "SGB_TECH"
+    },
+    {
+      "location": [-25.5, 11.5],
+      "length": 26.676067,
+      "width": 12.105784,
+      "angle": 162,
+      "contrailSize": 12.105784,
+      "style": "SGB_TECH"
+    },
+    {
+      "location": [-30, -0],
+      "length": 1,
+      "width": 18,
       "angle": 180,
-      "contrailSize": 30,
-      "style": "MIDLINE"
+      "contrailSize": 18,
+      "style": "SGB_TECH"
     },
     {
-      "location": [-26, 28],
-      "length": 20.5,
-      "width": 13,
+      "location": [-32.5, -0],
+      "length": 1,
+      "width": 49,
       "angle": 180,
-      "contrailSize": 13,
-      "style": "MIDLINE"
+      "contrailSize": 49,
+      "style": "SGB_TECH"
     },
     {
-      "location": [-26, -28],
-      "length": 20.5,
-      "width": 13,
-      "angle": -180,
-      "contrailSize": 13,
-      "style": "MIDLINE"
+      "location": [-27.5, -28],
+      "length": 9.263742,
+      "width": 15.515549,
+      "angle": 164.5,
+      "contrailSize": 15.515549,
+      "style": "SGB_TECH"
     },
     {
-      "location": [-24, -11],
-      "length": 18.643492,
-      "width": 7.59479,
+      "location": [-27.5, 28],
+      "length": 9.263742,
+      "width": 15.515549,
+      "angle": -164.5,
+      "contrailSize": 15.515549,
+      "style": "SGB_TECH"
+    },
+    {
+      "location": [-18, 46.5],
+      "length": 6.763893,
+      "width": 9.273565,
+      "angle": 146.5,
+      "contrailSize": 9.273565,
+      "style": "SGB_TECH"
+    },
+    {
+      "location": [-18, -46.5],
+      "length": 6.763893,
+      "width": 9.273565,
+      "angle": -146.5,
+      "contrailSize": 9.273565,
+      "style": "SGB_TECH"
+    },
+    {
+      "location": [-19.5, -47.5],
+      "length": 10.901142,
+      "width": 2.379169,
+      "angle": -146.5,
+      "contrailSize": 2.379169,
+      "style": "SGB_TECH_QUAD"
+    },
+    {
+      "location": [-19.5, 47.5],
+      "length": 10.901142,
+      "width": 2.379169,
+      "angle": 146.5,
+      "contrailSize": 2.379169,
+      "style": "SGB_TECH_QUAD"
+    },
+    {
+      "location": [-29, -27.5],
+      "length": 16.749987,
+      "width": 2.784208,
       "angle": 165,
-      "contrailSize": 7.59479,
-      "style": "MIDLINE"
+      "contrailSize": 2.784208,
+      "style": "SGB_TECH_QUAD"
     },
     {
-      "location": [-24, 11],
-      "length": 18.643492,
-      "width": 7.59479,
+      "location": [-29, 27.5],
+      "length": 16.749987,
+      "width": 2.784208,
       "angle": -165,
-      "contrailSize": 7.59479,
+      "contrailSize": 2.784208,
+      "style": "SGB_TECH_QUAD"
+    },
+    {
+      "location": [-27.5, -0],
+      "length": 12,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
       "style": "MIDLINE"
     }
   ],

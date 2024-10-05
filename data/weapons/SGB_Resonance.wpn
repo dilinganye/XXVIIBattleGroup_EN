@@ -1,0 +1,55 @@
+{
+  "id": "SGB_Resonance",
+  "specClass": "projectile",
+  "projectileSpecId": "SGB_Resonance_shot",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/SGB_Resonance.png",
+  "turretGlowSprite": "graphics/weapons/SGB_Resonance_L.png",
+  "turretGunSprite": "graphics/weapons/SGB_Resonance_b.png",
+  "hardpointSprite": "graphics/weapons/SGB_Resonance.png",
+  "hardpointGlowSprite": "graphics/weapons/SGB_Resonance_L.png",
+  "hardpointGunSprite": "graphics/weapons/SGB_Resonance_b.png",
+  "glowColor": [
+    255,
+    255,
+    255,
+    175
+  ],
+  "visualRecoil": 6,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    22,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    33.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 35,
+    "spread": 5,
+    "particleSizeMin": 6,
+    "particleSizeRange": 14,
+    "particleDuration": 0.15,
+    "particleCount": 11,
+    "particleColor": [
+      255,
+      240,
+      165,
+      200
+    ]
+  },
+  "fireSoundTwo": "chaingun_fire"
+}

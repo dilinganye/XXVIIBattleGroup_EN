@@ -1,0 +1,69 @@
+{
+  "variantId": "SGB_Forgnace_Battle_2_Assault",
+  "hullId": "SGB_Forgnace_Battle_2",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 49,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "targetingunit",
+    "stabilizedshieldemitter",
+    "auxiliarythrusters",
+    "fluxbreakers"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "SGB_Nuke_Launch_L",
+        "WS0004": "SGB_Nuke_Launch_R"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "hellbore",
+        "WS0005": "hellbore"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0024": "SGB_Resonance",
+        "WS0025": "SGB_Resonance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "mininglaser",
+        "WS0017": "mininglaser",
+        "WS0022": "mininglaser",
+        "WS0023": "mininglaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "gauss"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "gauss"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

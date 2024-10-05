@@ -3,14 +3,28 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="C:\Users\12862\Desktop\ship_data.csv">
+        <entry key="C:\Users\12862\Documents\Tencent Files\1286200762\FileRecv\hull_mods(2).csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="C:\Users\12862\Documents\Tencent Files\1286200762\FileRecv\ship_systems.csv">
+        <entry key="C:\Users\12862\Documents\Tencent Files\1286200762\FileRecv\ship_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Users\12862\Documents\Tencent Files\1286200762\FileRecv\ship_systems(2).csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Users\12862\Documents\Tencent Files\1286200762\FileRecv\weapon_data(2).csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -220,7 +234,161 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="D:\Game\Starsector_096\mods\Diable Avionics - Seal ed\data\config\modFiles\diableavionics_maps.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_096\mods\Diable Avionics - Seal ed\data\hullmods\hull_mods.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_096\mods\Diable Avionics - Seal ed\data\shipsystems\ship_systems.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_096\mods\GraphicsLib\data\lights\core_texture_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_096\mods\LLI\data\campaign\UNGP_rules.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_096\mods\MagicLib\data\config\modFiles\magicTrail_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_096\mods\Nexerelin\data\config\chatter\boss_ships.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_096\mods\Nexerelin\data\config\exerelin\mining_ships.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="D:\Game\Starsector_096\mods\Nexerelin\data\world\factions\factions.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_096\mods\Omega Psychasthenia\data\hulls\ship_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_096\mods\Omega Psychasthenia\data\shipsystems\ship_systems.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_096\mods\Random-Assortment-of-Things-1.6.0\data\weapons\weapon_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_096\mods\Seafood Shipworks\data\hulls\ship_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_096\mods\URB\data\campaign\UNGP_challenges.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_096\mods\URB\data\campaign\UNGP_rules.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_096\mods\UnofficialNewGamePlus\data\campaign\UNGP_backgrounds.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_096\mods\UnofficialNewGamePlus\data\campaign\UNGP_rules.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_096\mods\Unthemed Weapons Collection\data\weapons\weapon_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_096\mods\XXVIIBattleGroup\data\campaign\UNGP_challenges.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_096\mods\XXVIIBattleGroup\data\campaign\UNGP_rules.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_096\mods\XXVIIBattleGroup_EN\data\campaign\rules.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_096\mods\XXVIIBattleGroup_EN\data\config\prism\prism_ships_blacklist.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_096\mods\XXVIIBattleGroup_EN\data\hulls\wing_data.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -255,6 +423,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="D:\Game\Starsector_096\starsector-core\data\strings\descriptions.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="D:\Game\Starsector_096\starsector-core\data\weapons\weapon_data.csv">
           <value>
             <Attribute>
@@ -262,7 +437,14 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="D:\Game\Starsector_097\starsector-core\data\campaign\rules.csv">
+        <entry key="\data\campaign\UNGP_challenges.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\campaign\UNGP_rules.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -305,6 +487,13 @@
           </value>
         </entry>
         <entry key="\data\hullmods\hull_mods.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\hulls\ship_data - 副本.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

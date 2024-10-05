@@ -1,0 +1,72 @@
+{
+  "hullName": "SGB_Misalignment",
+  "hullId": "SGB_Misalignment",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Omega/SGB_Misalignment.png",
+  "style": "OMEGA",
+  "height": 74,
+  "width": 46,
+  "center": [23.5, 42],
+  "collisionRadius": 52.5,
+  "shieldCenter": [-0.5, -1],
+  "shieldRadius": 47,
+  "viewOffset": 0,
+  "builtInMods": [
+    "SGB_ShakeShardSpawner",
+    "autorepair"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [8, -1.5],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [24, -6]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [4, -20],
+      "length": 35,
+      "width": 11,
+      "angle": 175.5,
+      "contrailSize": 11,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-18, 6.5],
+      "length": 35,
+      "width": 11,
+      "angle": -175,
+      "contrailSize": 11,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-10, 1],
+      "length": 30.123861,
+      "width": 10.354324,
+      "angle": 174,
+      "contrailSize": 10.354324,
+      "style": "OMEGA"
+    }
+  ],
+  "bounds": [
+    25, 4,
+    18.5, -13,
+    8, -14.5,
+    -22.5, 11,
+    -10, 20
+  ]
+}

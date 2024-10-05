@@ -1,5 +1,9 @@
 {
 #ALL USED WEAPON SOUND
+"SGB_NONE":
+[
+{"file":"sounds/SGB_Assault_Gun_fire.wav","pitch":0.25,"volume":0.0},
+],
 	"SGB_Assault_Gun_fire":
 	[
 		{"file":"sounds/SGB_Assault_Gun_fire.wav","pitch":0.95,"volume":0.2},
@@ -32,16 +36,16 @@
 	],
 	"SGB_Missile_L_fire":
 	[
-		{"file":"sounds/SGB_Missile_L_fire.wav","pitch":1,"volume":0.5},
-		{"file":"sounds/SGB_Missile_L_fire.wav","pitch":0.85,"volume":0.5},
-		{"file":"sounds/SGB_Missile_L_fire.wav","pitch":0.95,"volume":0.5},
-		{"file":"sounds/SGB_Missile_L_fire.wav","pitch":0.8,"volume":0.5},
+		{"file":"sounds/SGB_Missile_L_fire.wav","pitch":1,"volume":0.3},
+		{"file":"sounds/SGB_Missile_L_fire.wav","pitch":0.85,"volume":0.3},
+		{"file":"sounds/SGB_Missile_L_fire.wav","pitch":0.95,"volume":0.3},
+		{"file":"sounds/SGB_Missile_L_fire.wav","pitch":0.8,"volume":0.3},
 	],
 	"SGB_Missile_L_reload":
 	[
-		{"file":"sounds/SGB_Missile_L_reload.wav","pitch":1,"volume":0.5},
-		{"file":"sounds/SGB_Missile_L_reload.wav","pitch":0.8,"volume":0.5},
-		{"file":"sounds/SGB_Missile_L_reload.wav","pitch":0.9,"volume":0.5},
+		{"file":"sounds/SGB_Missile_L_reload.wav","pitch":1,"volume":0.3},
+		{"file":"sounds/SGB_Missile_L_reload.wav","pitch":0.8,"volume":0.3},
+		{"file":"sounds/SGB_Missile_L_reload.wav","pitch":0.9,"volume":0.3},
 	],
 	"SGB_Missile_NL_fire":
 	[
@@ -96,11 +100,12 @@
 			},
 		],
 		"faction_sbg_market_hostile":
+				# Wait For Light
 		[
 			{
 			"source":"sounds/bgm",
-			"file":"XXVII_MallMadness.ogg",
-			"volume":0.5,
+			"file":"Garrson_Sick_To_Despair_02.ogg",
+			"volume":0.65,
 			"randomStart":false, 
 			},
 		],
@@ -108,12 +113,13 @@
 		[
 			{
 			"source":"sounds/bgm",
-			"file":"XXVII_Wave.ogg",
-			"volume":0.5,
+			"file":"Garrson_Sick_To_Despair.ogg",
+			"volume":0.65,
 			"randomStart":false, 
 			},
 		],
 		"faction_sbg_market_friendly":
+				# Wait For Light
 		[
 			{
 			"source":"sounds/bgm",
@@ -183,5 +189,27 @@
 				"randomStart":true, 
 			},
 		],
-	},
+"SGB_Omega_Battle":
+[
+{
+"source":"sounds/bgm/",
+"volume":0.7,
+"files":[
+"SGB_Omega_Pre01.ogg",
+],
+"randomStart":true,
+},
+],
+"SGB_Omega_Pre01":
+[
+{
+"source":"sounds/bgm/",
+"volume":0.4,
+"files":[
+"SGB_Omega_Battle.ogg",
+],
+"randomStart":true,
+},
+]
+},
 }

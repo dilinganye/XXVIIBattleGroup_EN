@@ -14,7 +14,6 @@
   "builtInWeapons": {
     "WS0001": "blinker_red",
     "WS0002": "blinker_red",
-    "WS0005": "SGB_Axio_Rocket",
     "WS0006": "SGB_Axio_Top"
   },
   "weaponSlots": [
@@ -22,19 +21,19 @@
       "id": "WS 001",
       "size": "SMALL",
       "type": "BALLISTIC",
-      "mount": "HIDDEN",
-      "arc": 210,
-      "angle": 80,
-      "locations": [7, 12]
+      "mount": "TURRET",
+      "arc": 127,
+      "angle": 48.5,
+      "locations": [7, 9]
     },
     {
       "id": "WS 002",
       "size": "SMALL",
       "type": "BALLISTIC",
-      "mount": "HIDDEN",
-      "arc": 210,
-      "angle": -80,
-      "locations": [7, -11]
+      "mount": "TURRET",
+      "arc": 127,
+      "angle": -48.5,
+      "locations": [7, -9]
     },
     {
       "id": "WS 003",
@@ -128,7 +127,7 @@
       "style": "MIDLINE"
     },
     {
-      "location": [-16, 8.5],
+      "location": [-17, 9],
       "length": 9,
       "width": 6,
       "angle": 180,
@@ -136,7 +135,7 @@
       "style": "MIDLINE"
     },
     {
-      "location": [-16, -9],
+      "location": [-17, -9],
       "length": 9,
       "width": 6,
       "angle": 180,
@@ -144,7 +143,7 @@
       "style": "MIDLINE"
     },
     {
-      "location": [-8.5, -16.5],
+      "location": [-9.5, -17.5],
       "length": 36.869999,
       "width": 5.2,
       "angle": -154,
@@ -152,7 +151,7 @@
       "style": "MIDLINE"
     },
     {
-      "location": [-8.5, 16.5],
+      "location": [-9.5, 17.5],
       "length": 36.869999,
       "width": 5.2,
       "angle": 154,
@@ -160,7 +159,7 @@
       "style": "MIDLINE"
     },
     {
-      "location": [3, -18],
+      "location": [2.5, -18],
       "length": 19.459999,
       "width": 4.88,
       "angle": -116.5,
@@ -168,7 +167,7 @@
       "style": "MIDLINE"
     },
     {
-      "location": [3, 18],
+      "location": [2.5, 18],
       "length": 19.459999,
       "width": 4.88,
       "angle": 116.5,

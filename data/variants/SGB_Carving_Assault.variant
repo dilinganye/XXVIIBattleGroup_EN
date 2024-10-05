@@ -4,13 +4,12 @@
   "displayName": "Assault",
   "goalVariant": false,
   "fluxCapacitors": 30,
-  "fluxVents": 9,
+  "fluxVents": 22,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "ballistic_rangefinder",
-    "targetingunit",
-    "advancedoptics"
+    "targetingunit"
   ],
   "weaponGroups": [
     {
@@ -24,8 +23,16 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "ionbeam",
-        "WS0004": "gravitonbeam"
+        "WS0003": "heavymauler",
+        "WS0004": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "hveldriver",
+        "WS0007": "hveldriver"
       }
     },
     {
@@ -39,10 +46,8 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "lightac",
-        "WS0006": "hveldriver",
-        "WS0007": "hveldriver",
-        "WS0009": "lightac",
+        "WS0002": "railgun",
+        "WS0009": "railgun",
         "WS0010": "lightac",
         "WS0011": "lightac"
       }
@@ -51,11 +56,19 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0008": "vulcan",
-        "WS0012": "vulcan"
+        "WS0013": "SGB_Coahuilite"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "SGB_Coahuilite"
       }
     }
   ],
   "modules": [],
-  "wings": []
+  "wings": [
+    "SGB_Drone_Vulcan_wing"
+  ]
 }

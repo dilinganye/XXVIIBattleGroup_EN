@@ -1,7 +1,8 @@
 {
     "nexerelin":{
 		"agent_steal_ship_mults":{
-			"SGB_Onslaught":1.25,
+			"SGB_Duplin":1.25,
+			"SGB_Forgnace":-1,
 			"SGB_Quench_Fri":-1,
 			"SGB_Quench_Clo":-1,
 			"SGB_Austenite":-1,
@@ -12,6 +13,7 @@
 			"SGB_Drone": 1,
 			"SGB_Anoyas_Tanker": 5,
 			"SGB_Anoyas": 5,
+			"SGB_Buffalo": 8,
 			"SGB_Mould": 10,
 		}
     },

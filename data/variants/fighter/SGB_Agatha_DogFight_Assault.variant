@@ -13,20 +13,22 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "SGB_Pin",
-        "WS0004": "SGB_Pin",
-        "WS0005": "SGB_Pin"
+        "WS0002": "SGB_Pin"
       }
     },
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "ALTERNATING",
-      "weapons": {}
+      "weapons": {
+        "WS0004": "SGB_Pin"
+      }
     },
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0005": "SGB_Pin"
+      }
     }
   ],
   "modules": [],

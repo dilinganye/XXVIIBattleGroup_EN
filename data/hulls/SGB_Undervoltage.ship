@@ -1,0 +1,81 @@
+{
+  "hullName": "SGB_Undervoltage",
+  "hullId": "SGB_Undervoltage",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Omega/SGB_Undervoltage.png",
+  "style": "OMEGA",
+  "height": 70,
+  "width": 65,
+  "center": [32.5, 35],
+  "collisionRadius": 66,
+  "shieldCenter": [-6, -0.5],
+  "shieldRadius": 59,
+  "viewOffset": 0,
+  "builtInMods": [
+    "SGB_ShakeShardSpawner",
+    "autorepair"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 7,
+      "angle": 0,
+      "locations": [22, -14.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 247,
+      "angle": -35.5,
+      "locations": [-8, -16.5],
+      "renderOrderMod": 10
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [15, -29.5],
+      "length": 72.889999,
+      "width": 8.37,
+      "angle": 177.5,
+      "contrailSize": 8.37,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-28.5, 2.5],
+      "length": 16.191555,
+      "width": 23.523058,
+      "angle": -157,
+      "contrailSize": 23.523058,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-25, -12.5],
+      "length": 4.5,
+      "width": 3,
+      "angle": 96.5,
+      "contrailSize": 3,
+      "style": "OMEGA"
+    }
+  ],
+  "bounds": [
+    32.5, -23,
+    21.5, -29.5,
+    5, -18,
+    -7.5, -23.5,
+    -17, -15.5,
+    -11.5, -5,
+    -29.5, 9,
+    -25, 10.5,
+    -25, 10.5,
+    -4, 5,
+    -16.5, 23.5,
+    -12, 30,
+    21, 3.5,
+    16, -0
+  ]
+}

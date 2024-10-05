@@ -1,0 +1,64 @@
+{
+  "id": "SGB_Coahuilite",
+  "specClass": "projectile",
+  "projectileSpecId": "SGB_Coahuilite_shot",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/SGB_Coahuilite.png",
+  "turretGunSprite": "graphics/weapons/SGB_Coahuilite_G.png",
+  "turretUnderSprite": "graphics/weapons/SGB_Coahuilite_D.png",
+  "hardpointSprite": "graphics/weapons/SGB_Coahuilite.png",
+  "hardpointGunSprite": "graphics/weapons/SGB_Coahuilite_G.png",
+  "visualRecoil": 5,
+	"interruptibleBurst":true,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    20.5,
+    8.5,
+    20.5,
+    -8.5,
+    22,
+    -4.5,
+    22,
+    4.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    31,
+    8.5,
+    32.5,
+    -4.5,
+    32.5,
+    4.5,
+    31,
+    -8.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode":"ALTERNATING_BURST", # or LINKED.  whether barrels fire at the same time or alternate.
+  "requiresFullCharge": false,
+  "animationType":"MUZZLE_FLASH",
+  "specialWeaponGlowWidth":15,
+  "specialWeaponGlowHeight":25,
+  "muzzleFlashSpec":{"length":33.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":6.0,
+					   "particleSizeMin":7.0,
+					   "particleSizeRange":9.0,
+					   "particleDuration":0.15,
+					   "particleCount":11,
+					   "particleColor":[255,200,155,200]
+					   },
+  "stopPreviousFireSound":true,
+  "fireSoundTwo":"heavy_machinegun_fire"
+}

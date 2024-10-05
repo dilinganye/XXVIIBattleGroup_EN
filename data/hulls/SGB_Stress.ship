@@ -157,10 +157,10 @@
     },
     {
       "location": [-100, -0],
-      "length": 80,
-      "width": 10,
+      "length": 80.5,
+      "width": 9,
       "angle": 180,
-      "contrailSize": 10,
+      "contrailSize": 9,
       "style": "SGB_TECH_QUAD"
     },
     {
@@ -228,20 +228,20 @@
       "style": "MIDLINE"
     },
     {
-      "location": [-179.5, -0],
-      "length": 17,
-      "width": 71,
+      "location": [-180, -0],
+      "length": 7,
+      "width": 125,
       "angle": 180,
       "contrailSize": 128,
       "style": "SGB_TECH"
     },
     {
-      "location": [-209.5, -0],
+      "location": [-198.5, -0],
       "length": 5.5,
       "width": 75,
       "angle": 180,
       "contrailSize": 128,
-      "style": "SGB_TECH"
+      "style": "SGB_LESS_GROW_TECH"
     },
     {
       "location": [-96, 94.5],
@@ -282,6 +282,14 @@
       "angle": 180,
       "contrailSize": 8,
       "style": "SGB_TECH"
+    },
+    {
+      "location": [-188.5, -0],
+      "length": 5,
+      "width": 130,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "SGB_LESS_GROW_TECH"
     }
   ],
   "bounds": [

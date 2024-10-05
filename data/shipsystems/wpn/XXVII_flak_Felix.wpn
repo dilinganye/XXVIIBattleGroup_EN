@@ -18,8 +18,8 @@
     0,
     0
     ],
-	"hardpointAngleOffsets":[135,-135],
-	"turretAngleOffsets":[135,-135],
+	"hardpointAngleOffsets":[-55,55],
+	"turretAngleOffsets":[-55,55],
 	"barrelMode":"ALTERNATING",
 	"animationType":"SMOKE",
 	"interruptibleBurst":false,
@@ -32,7 +32,7 @@
 				 "blowbackDuration":2.0,
 				 "blowbackLength":30.0,
 				 "blowbackSpread":10.0,
-				 "particleColor":[149,191,204,150]},
+				 "particleColor":[149,163,191,20]},
 	"projectileSpecId":"XXVII_flak_Felix",
 	"fireSoundTwo":"system_canister_flak_fire",
 }

@@ -1,10 +1,7 @@
 package data.weapons;
 
 import com.fs.starfarer.api.Global;
-import com.fs.starfarer.api.combat.CombatEngineAPI;
-import com.fs.starfarer.api.combat.DamagingProjectileAPI;
-import com.fs.starfarer.api.combat.EveryFrameWeaponEffectPlugin;
-import com.fs.starfarer.api.combat.WeaponAPI;
+import com.fs.starfarer.api.combat.*;
 import data.scripts.util.MagicRender;
 import java.awt.Color;
 import org.lazywizard.lazylib.MathUtils;
@@ -29,6 +26,10 @@ public class SGB_Missile_MMS_Fire implements EveryFrameWeaponEffectPlugin {
     public void advance(float amount, CombatEngineAPI engine, WeaponAPI weapon) {
         
         if(engine.isPaused() || weapon.getShip().getOriginalOwner()==-1){return;}
+        if(weapon.getId().equals("SGB_Shackles_MissileLauncher")
+                && weapon.getShip() != null
+                && weapon.getShip().getHullSpec().getBaseHullId().equals("SGB_Whip")){
+        }
         if(weapon.getChargeLevel()==1 && weapon.getAmmo()<0f){
 
             Vector2f muzzle;

@@ -1,0 +1,33 @@
+{
+  "variantId": "SGB_Undervoltage_Missile",
+  "hullId": "SGB_Undervoltage",
+  "displayName": "Missile",
+  "goalVariant": true,
+  "fluxCapacitors": 11,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "fluxbreakers",
+    "eccm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "resonatormrm"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "amsrm"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

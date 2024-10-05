@@ -4,11 +4,11 @@
   "projectileSpecId": "XXVII_type_27_nuke",
   "type": "MISSILE",
   "size": "LARGE",
+  "turretSprite": "graphics/weapons/system/SGB_NukeLaunch_L.png",
+  "hardpointSprite": "graphics/weapons/system/SGB_NukeLaunch_L.png",
   "renderHints": [
     RENDER_LOADED_MISSILES
   ],
-  "turretSprite": "graphics/weapons/system/SGB_NukeLaunch_L.png",
-  "hardpointSprite": "graphics/weapons/system/SGB_NukeLaunch_L.png",
   "turretOffsets": [
     31,
     15
@@ -25,6 +25,7 @@
   ],
   "barrelMode": "ALTERNATING",
   "animationType": "SMOKE",
+  "autocharge": true,
   "smokeSpec": {
     "particleSizeMin": 13,
     "particleSizeRange": 5,

@@ -1,0 +1,69 @@
+{
+  "variantId": "SGB_Carving_SD_Assault",
+  "hullId": "SGB_Carving_SD",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 24,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "hardenedshieldemitter",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "plasma"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "phasecl"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "ionpulser",
+        "WS0007": "ionpulser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "hveldriver",
+        "WS0004": "hveldriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "lightneedler",
+        "WS0009": "lightneedler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "SGB_Drone_Vulcan_wing"
+  ]
+}

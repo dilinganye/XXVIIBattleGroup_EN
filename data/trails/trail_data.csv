@@ -9,6 +9,14 @@ SGB_Austenite_Weapon_Gun_shot_trail1,SGB_Austenite_Weapon_Gun_shot,SGB_Lightning
 XXVII_MeltingMold_EnergyLoader_shot_trail0,XXVII_MeltingMold_EnergyLoader_shot,base_trail_zap,10,0,0.25,0.75,20,15,"[100,255,113]","[218,255,55]",0.7,128,-600,20,0,0,TRUE,FALSE,TRUE,0,0,0,0,0,0,TRUE,FALSE
 XXVII_MeltingMold_EnergyLoader_shot_trail1,XXVII_MeltingMold_EnergyLoader_shot,base_trail_aura,12,0.05,0.45,0.25,20,8,"[218,255,55]","[255,230,170]",0.5,-512,350,50,0,0,TRUE,FALSE,TRUE,0,0,0,0,0,0,FALSE,TRUE
 ,,,,,,,,,,,,
+SGB_Resonance_shot_trail0,SGB_Resonance_shot,base_trail_zap,10,0,0.25,0.75,10,5,"[100,255,113]","[218,255,55]",0.65,128,-600,20,0,0,TRUE,FALSE,TRUE,0,0,0,0,0,0,TRUE,FALSE
+SGB_Resonance_shot_trail1,SGB_Resonance_shot,base_trail_aura,12,0.05,0.45,0.25,10,4,"[218,255,55]","[255,230,170]",0.35,-512,350,50,0,0,TRUE,FALSE,TRUE,0,0,0,0,0,0,FALSE,TRUE
+,,,,,,,,,,,,
 XXVII_type_27_nuke_trail0,XXVII_type_27_nuke,base_trail_smoke,20,0.1,0.25,1,16,32,"[221,255,100]","[255,70,25]",0.75,-512,0,25,0,1,FALSE,FALSE,TRUE,15,5,0,180,15,5,TRUE,TRUE
 ,,,,,,,,,
 SGB_Barb_shot_trail0,SGB_Barb_shot,base_trail_smooth,20,0.05,0.1,0.45,5,1,"[236,246,186]","[131,108,95]",0.5,128,0,30,0,1,FALSE,FALSE,TRUE,100,0,0.2,0,0,180,TRUE,TRUE
+SGB_Coahuilite_shot_trail0,SGB_Coahuilite_shot,base_trail_contrail,20,0,0.1,0.25,5,8,"[245,245,225]","[50,70,55]",0.75,-512,0,25,0,1,FALSE,FALSE,TRUE,15,5,0,180,15,5,TRUE,TRUE
+,,,,,,,,,
+SGB_MatealDisper_shot_trail0,SGB_MatealDisper_shot,base_trail_zap,10,0,1,0.45,44,4,"[236,85,64]","[151,122,212]",0.5,128,0,30,0,0,TRUE,FALSE,TRUE,100,0,0,0,0,180,TRUE,TRUE
+SGB_MatealDisper_shot_trail1,SGB_MatealDisper_shot,base_trail_heavyBurn,20,0.05,0.75,0.25,48,23,"[218,25,16]","[75,50,25]",0.5,-512,350,50,0,0,TRUE,FALSE,TRUE,0,0,0,0,0,0,FALSE,TRUE
+SGB_Plasma_Disc_trail0,SGB_Plasma_Disc,base_trail_zap,10,0.05,0.1,0.25,8,12,"[150,100,255]","[151,122,212]",0.5,128,0,30,0,1,TRUE,FALSE,TRUE,100,0,0,0,0,180,TRUE,TRUE

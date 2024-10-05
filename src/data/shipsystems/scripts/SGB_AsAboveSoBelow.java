@@ -240,7 +240,6 @@ public class SGB_AsAboveSoBelow extends BaseShipSystemScript {
 							MathUtils.getRandomNumberInRange(0.6F, 1.0F) * level,
 							0.15f,
 							new Color(CoreColor.getRed(),CoreColor.getGreen(),CoreColor.getBlue(),255));
-
 					engine.addSmoothParticle(
 							FluxTarget,
 							I18nUtil.nv,
@@ -264,4 +263,5 @@ public class SGB_AsAboveSoBelow extends BaseShipSystemScript {
 	public static Color getRandomBlendColor(Color a, Color b) {
 		return colorBlend(a, b, RANDOM.nextFloat());
 	}
+
 }

@@ -1,139 +1,154 @@
 {
       "SGB": {
-            #newest
+
+
+            #newest,
+      "SGB_Omega_ArmorBroken": "Armor Broken",
+      "SGB_Omega_ShieldBroken": "Shield Broken",
+
+      "SGB_UNGP_Wing": "=Endless Squadron=",
+      "SGB_UNGP_DeadList_About": "Total ",
+      "SGB_UNGP_DeadList_Crews": " crews",
+      "SGB_UNGP_DeadList_NonAlive": "No one survives",
+      "SGB_UNGP_DeadList_HavingCrew": "%s are currently in the fleet",
+      "SGB_UNGP_DeadList_DeadCrewThisMonth": " %s crews have returned to the void this month",
+      "SGB_UNGP_DeadList_DeadCrewLIST": "Under your command, %s crews have returned to the void",
+
+      "HullMods_SGB_Achilles_FrontTurret1": "Thanks to focusing many of the ship's targetting system on the large front turret, two gunnery team and three targeting core is servicing it at all times;",
+      "HullMods_SGB_Achilles_FrontTurret2": "This allow it to focus on the front-mounted weapon, making it reasonable to use it as a sort of long ranged gunnery ship.",
+
+
+      #old version
+      #=-----------------=
+
       "SGB_AsAboveSoBelow_WeaponSpeed": "Rate of fire +",
       "SGB_AsAboveSoBelow_FluxSpeed": "Weapon flux generated -",
       "SGB_AsAboveSoBelow_EngineSpeed": "Increase Engine output",
 
-      "HullMods_XXVII_SpecialWingGroup_Above": "Change the LPC of Shackles Garrison to specialized version - %s",
-      "HullMods_XXVII_SpecialWingGroup_DogFight": "Dominance version",
-      "HullMods_XXVII_SpecialWingGroup_Coop": "Coordination version",
-      "HullMods_XXVII_SpecialWingGroup_Assault": "Strike version",
+      "HullMods_XXVII_SpecialWingGroup_Above": "Change the LPC of Shackles Garrison in to specialized version - %s",
+      "HullMods_XXVII_SpecialWingGroup_DogFight": "Dominance",
+      "HullMods_XXVII_SpecialWingGroup_Coop": "Coordination",
+      "HullMods_XXVII_SpecialWingGroup_Assault": "Strike",
       "HullMods_XXVII_SpecialWingGroup_All": "All version",
-      "HullMods_XXVII_SpecialWingGroup_Carrier_01": "Shackles Garrison has always attached great importance to the construction of carriers, which based aircraft systems and used them as the spearhead of the entire fleet's vanguard attack, thus given rise to the theory of the Shackles Garrison fighter theory.",
+      "HullMods_XXVII_SpecialWingGroup_Carrier_01": "Shackles Garrison has always attached great importance to the construction of carrier, which based aircraft systems and used them as the spearhead of the entire fleet's vanguard attack, thus given rise to the theory of the Shackles Garrison fighter theory.",
       "HullMods_XXVII_SpecialWingGroup_Carrier_02": "%s LPC of Shackles Garrison can get those bonus",
-      "HullMods_XXVII_SpecialWingGroup_Carrier_03": "can only be install on the carrier of Shackles Garrison",
-      "HullMods_XXVII_SpecialWingGroup_Carrier_04": "Already used",
-      "HullMods_XXVII_SpecialWingGroup_Carrier_05": ", can not use more for now.",
+
+
+      #=-------------=
+      "Austenite_System_ammo_1": "Ballistic weapon rof +",
+      "Austenite_System_ammo_2": "Ammo regeneration rate of ballistic and missile weapons +",
+      "Austenite_System_ammo_3": "Weapon Flux cost -",
+
+      "Austenite_System_repair_1": "% damage reduction",
+      "Austenite_System_repair_2": "System processes",
+      "Austenite_System_repair_3": "Recrystallization",
+
+      "Austenite_System_temporalDrive_1": "Warping level",
+      "Austenite_System_temporalDrive_2": "Metastable",
+      "Austenite_System_temporalDrive_3": "Space warp",
+      "Austenite_System_temporalDrive_4": "Time flow change",
+
+      "Mission_TheLongestDay_FleetTagline_Player": "Andelon & Erubolie with SGB Evacuation team-Remaining troops",
+      "Mission_TheLongestDay_FleetTagline_Enemy": "Bounty group? Goddamn tritachyon bastard!",
+
+      "Mission_TheLongestDay_BriefingItem1": "Tip: Your flagship is a very special ship, and it is also your own battleship - do not be disabled;",
+      "Mission_TheLongestDay_BriefingItem2": "Do not immerse in the battle, make sure your own fleet can evacuate first; The enemy's equipment is be aimed to killing your transport, don't give them the chance to approach your rear services units.",
+      "Mission_TheLongestDay_BriefingItem3": "The enemy is a seasoned mercenary, prepare for the worst situation!",
+
+      "WorldSpawn_DamagedShips": "Damaged ships",
+
+      "HullMods_Remarks": "Tips",
+      "HullMods_Tips": "Descriptions",
+      "HullMods_point":"Points",
+      "HullMods_time":"Times",
+
+      "HullMods_AllForHuman1": "This is the core plugin of the 27th Battle Group.",
+      "HullMods_AllForHuman2": "The 27th Battle Group, also known as the Shackles Garrison, has ships with superior transition capabilities compared to other ships;",
+      "HullMods_AllForHuman3": "Furthermore, their ships have a better missile locate system, which will self tune to increase the sensitivity of the missile, that is, to enhance the missile's guidance ability.",
+      "HullMods_AllForHuman4": "Shackles Garrison Mobile theory - is the main combat style of the 27th Battle Group; Unlike the decisive doctrine of the predecessor of the hegemony, the 14th Battle Group, the Shackles Garrison emphasized the strike ways more, which led to their ships being mostly designed with missile launch modules and rapid maneuverability in zero amplitude state.",
+
+      "HullMods_Austenite_Wings": "This plugin is the main wing module plugin of Austenite.",
+      "HullMods_Austenite_DrivenWing1": "When using ships for strike action, this type of wing can perfectly achieve the 'Hit And Run' tactic;",
+      "HullMods_Austenite_DrivenWing2": "Ferrite - Mobility Module can enhance the overall maneuverability of the body, mainly due to its relatively lightweight material selection;",
+      "HullMods_Austenite_DrivenWing3": "But due to the use of lighter modules, the entire body becomes more fragile. Therefore, more susceptible to tearing due to highly destructive high explosive damage.",
+      "HullMods_Austenite_HeavyWing1": "When in the high intensity battlefield, this type of armored wing can protect the aircraft way better than the other;",
+      "HullMods_Austenite_HeavyWing2": "Martensite - Adherence Module can significantly enhance the armor strength of ships, mainly due to its extreme material selection;",
+      "HullMods_Austenite_HeavyWing3": "However, due to the use of heavier modules, the ship's speed has become slower, which may significantly reduce its maneuverability.",
+      "HullMods_Austenite_NormalWing1": "The most standard wing model, without any particularly prominent advantages or disadvantages, but easier to maintain compared to other models.",
+      "HullMods_Austenite_NormalWing2": "Pearlite - Standard Module Since it is the most basic standard model, it is quite easy to maintain.",
+
+      "HullMods_Austenite_LeftWeapon": "This plugin is the left-side weapon module plugin of Austenite.",
+      "HullMods_Austenite_RightWeapon": "This plugin is the right-side weapon module plugin of Austenite.",
+      "HullMods_Austenite_Weapon_Blast1": "Polarizability - Heavy Electron Pulse Module  has a terrifying paralyzing effect, high-speed burst of rapid electron pulses can effectively scorch the expensive electrical equipment of enemy ships;",
+      "HullMods_Austenite_Weapon_Blast2": "According to records, carrying such weapons often results in good combat performance;",
+      "HullMods_Austenite_Weapon_Blast3": "Because it is a weapon that can access the loading system and also has a longer weapon range!",
+      "HullMods_Austenite_Weapon_Blast4": "However, due to the relatively low amplitude to energy output ratio, for some of the captain of course, it is often wise to replace ship modules with higher amplitude efficiency.",
+      "HullMods_Austenite_Weapon_Gun1": "Straightening - magnetic rail assault gun module has good shield breaking efficiency - even it is a weapon using explosive ammo, and it can fire explosive ammunition for a long time to bombard the enemy at high speed;",
+      "HullMods_Austenite_Weapon_Gun2": "Most captains will prioritize using such weapons for raids and harassment.",
+      "HullMods_Austenite_Weapon_Rocket1": "Ferromagnetism MRM Module has extremely strong sustained pressure capability. As a high-speed missile, it also has extremely strong tracking performance;",
+      "HullMods_Austenite_Weapon_Rocket2": "A considerable number of captains choose to use these types of weapons for long-range pressure rather than close combat.",
+
+      "HullMods_Austenite_Engine_Wing": "This plugin is the tail wing module plugin of Austenite.",
+      "HullMods_Austenite_Engine_Wing_BackLoad1": "A fairly streamlined engine control device that can be effectively maintained and deployed without the need for professional technical personnel;",
+      "HullMods_Austenite_Engine_Wing_BackLoad2": "Edge Dislocation - Recharge Module can accelerate the recovery speed of ship systems and increase ship CR。",
+      "HullMods_Austenite_Engine_Wing_BackLoad3": "The blade dislocation module is an extension and extension of the ship system module, playing a role similar to external antenna detectors and additional rechargeable batteries. This is why it can accelerate the charging speed or quantity of the ship system.",
+
+      "HullMods_Austenite_Engine_Wing_Polarization_1": "This type of tail wing is relatively thick and equipped with a device to control polarization damage to the engine;",
+      "HullMods_Austenite_Engine_Wing_Polarization_2": "Number Coordination - Polarization Module can effectively avoid engine paralysis and additionally enhance ship maneuverability based on existing peaks.",
+      "HullMods_Austenite_Engine_Wing_Polarization_3": "The core of its improvement is engine resistance and its own maneuverability, rather than increasing the maximum speed of the ship. This bonus will decay with the peak attenuation!",
+      "HullMods_Austenite_Engine_Wing_Polarization_4": "This device will change the engine control system with the speed of the ship, and in this process, it will change the proportion of antimatter fuel, forming a variable color of light.",
+
+      "HullMods_Austenite_Engine_Wing_Unstable1": "Essentially, it is a rough combination of the entire engine and exhaust system, and the built-in amplitude energy redirection device can promote engine efficiency - that is, further improve speed;",
+      "HullMods_Austenite_Engine_Wing_Unstable2": "Periodic - Unstable Module can further enhance the survival ability of the ship in high-pressure environments, and the most suitable one is' Hit And Run ';",
+      "HullMods_Austenite_Engine_Wing_Unstable3": "The specific situation of this bonus will not be displayed on the data tablet, since it will be modified by the flux and speed during combat.",
+      "HullMods_Austenite_Engine_Wing_Unstable4": "The speed growth effect requires the ship to have at least 50% flux to trigger.",
+      "HullMods_Austenite_Engine_Wing_Unstable5": "Periodic modules essentially rely on high amplitude energy to overload the engine output device and use these flux in a controllable manner to promote fuel combustion, which is why the engine gradually changes color.",
+
+      "HullMods_Austenite_Head": "This plugin is a body module plugin of Austenite.",
+      "HullMods_Austenite_Head_Armor1": "Grain Boundary Segregation - The protection module sacrifices its own spreading speed, thus achieving better ship resistance;",
+      "HullMods_Austenite_Head_Armor2": "Its more sturdy structure makes it better at surviving danger periods of amplitude overload - even a torpedo that terminates its strike;",
+      "HullMods_Austenite_Head_Armor3": "The sacrificial dispersal function is not significant, but it still greatly affects the sustained firepower of the ship.",
+      "HullMods_Austenite_Head_Assault1": "Peritectoid Reaction - The analysis module strengthens the analysis system for targets, which can more accurately deliver shells into the weak areas of enemy ships;",
+      "HullMods_Austenite_Head_Assault2": "Almost no performance has been lost, and it has achieved stronger killing benefits;",
+      "HullMods_Austenite_Head_Assault3": "So, what's the cost?",
+      "HullMods_Austenite_Head_Empty1": "Cottrell Atmosphere - The amplitude module sacrifices its own armor in exchange for excellent capacity and spreading speed;",
+      "HullMods_Austenite_Head_Empty2": "This type of body can cooperate with other speed modules to frequently widen the distance, thereby gaining an advantage in dispersion;",
+      "HullMods_Austenite_Head_Empty3": "Anyway, it also sacrificed almost all of its front-end armor, making the body actually quite fragile and requiring repeated caution when executing all tactics.",
+
+      "HullMods_Austenite_System": "This plugin is a system module plugin of Austenite.",
+      "HullMods_Austenite_System_Ammo_Dec1": "Who wouldn't like a built-in supercar acceleration reloading device;",
+      "HullMods_Austenite_System_Ammo_Dec2": "Twin Launcher - Magazine Module can enhance the performance of live fire system configuration in a short period of time, and a fierce iron raindrop can definitely bring abundant benefits to the enemy;",
+      "HullMods_Austenite_System_Drive_Dec1": "This type of system enables ships to have the ability to maneuver quickly - whether attacking or escaping;",
+      "HullMods_Austenite_System_Drive_Dec2": "Metastable - Pulse Modules can distort time and space in a short period of time, giving the body extremely ferocious maneuverability;",
+      "HullMods_Austenite_System_Drive_Dec3": "This kind of thing comes from a collaboration with the Klausm Conceptual Design Bureau - although the diplomatic relationship between the 27th Battle Group and Tri-Tachyon was extremely bad in nowadays, there were still had a short honeymoon period for both sides.",
+      "HullMods_Austenite_System_Repair_Dec1": "After activation, the ship will disable weapons to obtain a short-term extreme damage reduction and dissipate some amplitude energy during this process;",
+      "HullMods_Austenite_System_Repair_Dec2": "Replace the material of the entire body with self-healing metal. When the ship does not fire, it will repair itself over time;",
+      "HullMods_Austenite_System_Repair_Dec3": "Recrystallization - Maintenance Module can give ships a terrifying range, as you only need to cease fire for a period of time to recover.",
+      "HullMods_Austenite_System_Repair_Dec4": "Although self-healing metal itself has the ability to repair, its hardness is simply disastrous compared to ordinary armor! When facing large caliber weapons, if skills or maneuvers are not used to avoid them, it is easy to cause the body to be destroyed before repair!",
+      "HullMods_Austenite_System_Repair_Dec5": "Regardless of the strengthening of the hull, the maximum repair that self-healing metal can withstand are only fixed.",
+      "HullMods_Austenite_System_Repair_Dec6": "There is a limit of immortality.",
+
+      "HullMods_Austenite_System_Wingman_Dec1": "A small deck has been added to this fighter jet, allowing your wingman to fight alongside you;",
+      "HullMods_Austenite_System_Wingman_Dec2": "Current Carrier - Wingman Module allows you to have several wingmen closely following you in battle and assisting you in the process.",
+      "HullMods_Austenite_System_Wingman_Dec3": "All newly added decks must be operated through the built-in system. LPC installed on your own will be completely destroyed at any time due to the ship's self adjustment!",
+      "HullMods_Austenite_System_Wingman_Dec4": "DO NOT put anything that YOU consider reasonable into the production module of the carrier based aircraft!",
+      "HullMods_Austenite_System_Wingman_ERROR": "This ship does not have a built-in deck",
+
+
+      "HullMods_Austenite_System_Wingman_wings": "This plugin is the installation log of Austenite wingman system.",
+      "HullMods_Austenite_System_Wingman_wings_Spt1": "Support type - with many weapon configurations, it can be used as auxiliary firepower and external point defense in most cases;",
+      "HullMods_Austenite_System_Wingman_wings_Spt2": "Its abundant firepower is sometimes not inferior to the other two seeded machines.",
+      "HullMods_Austenite_System_Wingman_wings_Spt3": "The support aircraft is only a support aircraft, and the range bonus generated by the deck system insertion will be greatly weakened.",
+      "HullMods_Austenite_System_Wingman_wings_Spt4": "In order to support additional flight decks and corresponding maneuver coordination control centers, the energy supply of Austenite's own ballistic stability system will be limited!",
+      "HullMods_Austenite_System_Wingman_wings_Ast1": "Assault type - possessing a balanced range of firepower, capable of independently restraining or even destroying enemy ships in most cases;",
+      "HullMods_Austenite_System_Wingman_wings_Ast2": "As the most versatile airframe configuration, the assault type can handle most battlefield situations well.",
+      "HullMods_Austenite_System_Wingman_wings_Ast3": "In order to support additional flight decks and a matching mother ship analysis center, the tactical analysis module power supply of Austenite itself will be limited!",
+      "HullMods_Austenite_System_Wingman_wings_Bmr1": "Strike type - equipped with a large number of missiles, using extreme projection to evaporate enemy armor and structure;",
+      "HullMods_Austenite_System_Wingman_wings_Bmr2": "If it can successfully hit the ship's hull instead of the shield.",
+      "HullMods_Austenite_System_Wingman_wings_Bmr3": "In order to support additional flight decks, matched missile production facilities, and coordinated strike centers, Austenite's own engine self regulating system will be limited in power supply!"
 
 
 
 
-
-
-            #old version
-            "Austenite_System_ammo_1": "Ballistic weapon rof +",
-            "Austenite_System_ammo_2": "Ammo regeneration rate of ballistic and missile weapons +",
-            "Austenite_System_ammo_3": "Weapon Flux cost -",
-
-            "Austenite_System_repair_1": "% damage reduction",
-            "Austenite_System_repair_2": "System processes",
-            "Austenite_System_repair_3": "Recrystallization",
-
-            "Austenite_System_temporalDrive_1": "Warping level",
-            "Austenite_System_temporalDrive_2": "Metastable",
-            "Austenite_System_temporalDrive_3": "Space warp",
-            "Austenite_System_temporalDrive_4": "Time flow change",
-
-            "Mission_TheLongestDay_FleetTagline_Player": "Andelon & Erubolie with SGB Evacuation team-Remaining troops",
-            "Mission_TheLongestDay_FleetTagline_Enemy": "Bounty group? Goddamn Tri-Tachyon bastard!",
-
-            "Mission_TheLongestDay_BriefingItem1": "Tip: Your flagship is a very special ship, and it is also your own battleship - do not be disabled;",
-            "Mission_TheLongestDay_BriefingItem2": "Do not immerse in the battle, make sure your own fleet can evacuate first; The enemy's equipment is be aimed to killing your transport, don't give them the chance to approach your rear services units.",
-            "Mission_TheLongestDay_BriefingItem3": "The enemy is a seasoned mercenary, prepare for the worst situation!",
-
-            "WorldSpawn_DamagedShips": "Damaged ships",
-
-            "HullMods_Remarks": "Tips",
-            "HullMods_Tips": "Descriptions",
-            "HullMods_point":"Points",
-            "HullMods_time":"Times",
-
-            "HullMods_AllForHuman1": "This is the core plugin of the 27th Battle Group.",
-            "HullMods_AllForHuman2": "The 27th Battle Group, also known as the Shackles Garrison, has ships with superior transition capabilities compared to other ships;",
-            "HullMods_AllForHuman3": "Furthermore, their ships have a better missile locate system, which will self tune to increase the sensitivity of the missile, that is, to enhance the missile's guidance ability.",
-            "HullMods_AllForHuman4": "Shackles Garrison Mobile theory - is the main combat style of the 27th Battle Group; Unlike the decisive doctrine of the predecessor of the Hegemony, the 14th Battle Group, the Shackles Garrison emphasized the strike ways more, which led to their ships being mostly designed with missile launch modules and rapid maneuverability in zero amplitude state.",
-
-            "HullMods_Austenite_Wings": "This plugin is the main wing module plugin of Austenite.",
-            "HullMods_Austenite_DrivenWing1": "When using ships for strike action, this type of wing can perfectly achieve the 'Hit And Run' tactic;",
-            "HullMods_Austenite_DrivenWing2": "Ferrite - Mobility Module can enhance the overall maneuverability of the body, mainly due to its relatively lightweight material selection;",
-            "HullMods_Austenite_DrivenWing3": "But due to the use of lighter modules, the entire body becomes more fragile. Therefore, more susceptible to tearing due to highly destructive high explosive damage.",
-            "HullMods_Austenite_HeavyWing1": "When in the high intensity battlefield, this type of armored wing can protect the aircraft way better than the other;",
-            "HullMods_Austenite_HeavyWing2": "Martensite - Adherence Module can significantly enhance the armor strength of ships, mainly due to its extreme material selection;",
-            "HullMods_Austenite_HeavyWing3": "However, due to the use of heavier modules, the ship's speed has become slower, which may significantly reduce its maneuverability.",
-            "HullMods_Austenite_NormalWing1": "The most standard wing model, without any particularly prominent advantages or disadvantages, but easier to maintain compared to other models.",
-            "HullMods_Austenite_NormalWing2": "Pearlite - Standard Module Since it is the most basic standard model, it is quite easy to maintain.",
-
-            "HullMods_Austenite_LeftWeapon": "This plugin is the left-side weapon module plugin of Austenite.",
-            "HullMods_Austenite_RightWeapon": "This plugin is the right-side weapon module plugin of Austenite.",
-            "HullMods_Austenite_Weapon_Blast1": "Polarizability - Heavy Electron Pulse Module  has a terrifying paralyzing effect, high-speed burst of rapid electron pulses can effectively scorch the expensive electrical equipment of enemy ships;",
-            "HullMods_Austenite_Weapon_Blast2": "According to records, carrying such weapons often results in good combat performance;",
-            "HullMods_Austenite_Weapon_Blast3": "Because it is a weapon that can access the loading system and also has a longer weapon range!",
-            "HullMods_Austenite_Weapon_Blast4": "However, due to the relatively low amplitude to energy output ratio, for some of the captain of course, it is often wise to replace ship modules with higher amplitude efficiency.",
-            "HullMods_Austenite_Weapon_Gun1": "Straightening - magnetic rail assault gun module has good shield breaking efficiency - even it is a weapon using explosive ammo, and it can fire explosive ammunition for a long time to bombard the enemy at high speed;",
-            "HullMods_Austenite_Weapon_Gun2": "Most captains will prioritize using such weapons for raids and harassment.",
-            "HullMods_Austenite_Weapon_Rocket1": "Ferromagnetism MRM Module has extremely strong sustained pressure capability. As a high-speed missile, it also has extremely strong tracking performance;",
-            "HullMods_Austenite_Weapon_Rocket2": "A considerable number of captains choose to use these types of weapons for long-range pressure rather than close combat.",
-
-            "HullMods_Austenite_Engine_Wing": "This plugin is the tail wing module plugin of Austenite.",
-            "HullMods_Austenite_Engine_Wing_BackLoad1": "A fairly streamlined engine control device that can be effectively maintained and deployed without the need for professional technical personnel;",
-            "HullMods_Austenite_Engine_Wing_BackLoad2": "Edge Dislocation - Recharge Module can accelerate the recovery speed of ship systems and increase ship CR.",
-            "HullMods_Austenite_Engine_Wing_BackLoad3": "The blade dislocation module is an extension and extension of the ship system module, playing a role similar to external antenna detectors and additional rechargeable batteries. This is why it can accelerate the charging speed or quantity of the ship system.",
-
-            "HullMods_Austenite_Engine_Wing_Polarization_1": "This type of tail wing is relatively thick and equipped with a device to control polarization damage to the engine;",
-            "HullMods_Austenite_Engine_Wing_Polarization_2": "Number Coordination - Polarization Module can effectively avoid engine paralysis and additionally enhance ship maneuverability based on existing peaks.",
-            "HullMods_Austenite_Engine_Wing_Polarization_3": "The core of its improvement is engine resistance and its own maneuverability, rather than increasing the maximum speed of the ship. This bonus will decay with the peak attenuation!",
-            "HullMods_Austenite_Engine_Wing_Polarization_4": "This device will change the engine control system with the speed of the ship, and in this process, it will change the proportion of antimatter fuel, forming a variable color of light.",
-
-            "HullMods_Austenite_Engine_Wing_Unstable1": "Essentially, it is a rough combination of the entire engine and exhaust system, and the built-in amplitude energy redirection device can promote engine efficiency - that is, further improve speed;",
-            "HullMods_Austenite_Engine_Wing_Unstable2": "Periodic - Unstable Module can further enhance the survival ability of the ship in high-pressure environments, and the most suitable one is' Hit And Run ';",
-            "HullMods_Austenite_Engine_Wing_Unstable3": "The specific situation of this bonus will not be displayed on the data tablet, since it will be modified by the flux and speed during combat.",
-            "HullMods_Austenite_Engine_Wing_Unstable4": "The speed growth effect requires the ship to have at least 50% flux to trigger.",
-            "HullMods_Austenite_Engine_Wing_Unstable5": "Periodic modules essentially rely on high amplitude energy to overload the engine output device and use these flux in a controllable manner to promote fuel combustion, which is why the engine gradually changes color.",
-
-            "HullMods_Austenite_Head": "This plugin is a body module plugin of Austenite.",
-            "HullMods_Austenite_Head_Armor1": "Grain Boundary Segregation - The protection module sacrifices its own spreading speed, thus achieving better ship resistance;",
-            "HullMods_Austenite_Head_Armor2": "Its more sturdy structure makes it better at surviving danger periods of amplitude overload - even a torpedo that terminates its strike;",
-            "HullMods_Austenite_Head_Armor3": "The sacrificial dispersal function is not significant, but it still greatly affects the sustained firepower of the ship.",
-            "HullMods_Austenite_Head_Assault1": "Peritectoid Reaction - The analysis module strengthens the analysis system for targets, which can more accurately deliver shells into the weak areas of enemy ships;",
-            "HullMods_Austenite_Head_Assault2": "Almost no performance has been lost, and it has achieved stronger killing benefits;",
-            "HullMods_Austenite_Head_Assault3": "So, what's the cost?",
-            "HullMods_Austenite_Head_Empty1": "Cottrell Atmosphere - The amplitude module sacrifices its own armor in exchange for excellent capacity and spreading speed;",
-            "HullMods_Austenite_Head_Empty2": "This type of body can cooperate with other speed modules to frequently widen the distance, thereby gaining an advantage in dispersion;",
-            "HullMods_Austenite_Head_Empty3": "Anyway, it also sacrificed almost all of its front-end armor, making the body actually quite fragile and requiring repeated caution when executing all tactics.",
-
-            "HullMods_Austenite_System": "This plugin is a system module plugin of Austenite.",
-            "HullMods_Austenite_System_Ammo_Dec1": "Who wouldn't like a built-in supercar acceleration reloading device;",
-            "HullMods_Austenite_System_Ammo_Dec2": "Twin Launcher - Magazine Module can enhance the performance of live fire system configuration in a short period of time, and a fierce iron raindrop can definitely bring abundant benefits to the enemy;",
-            "HullMods_Austenite_System_Drive_Dec1": "This type of system enables ships to have the ability to maneuver quickly - whether attacking or escaping;",
-            "HullMods_Austenite_System_Drive_Dec2": "Metastable - Pulse Modules can distort time and space in a short period of time, giving the body extremely ferocious maneuverability;",
-            "HullMods_Austenite_System_Drive_Dec3": "This kind of thing comes from a collaboration with the Klausm Conceptual Design Bureau - although the diplomatic relationship between the 27th Battle Group and Tri-Tachyon was extremely bad in nowadays, there were still had a short honeymoon period for both sides.",
-            "HullMods_Austenite_System_Repair_Dec1": "After activation, the ship will disable weapons to obtain a short-term extreme damage reduction and dissipate some amplitude energy during this process;",
-            "HullMods_Austenite_System_Repair_Dec2": "Replace the material of the entire body with self-healing metal. When the ship does not fire, it will repair itself over time;",
-            "HullMods_Austenite_System_Repair_Dec3": "Recrystallization - Maintenance Module can give ships a terrifying range, as you only need to cease fire for a period of time to recover.",
-            "HullMods_Austenite_System_Repair_Dec4": "Although self-healing metal itself has the ability to repair, its hardness is simply disastrous compared to ordinary armor! When facing large caliber weapons, if skills or maneuvers are not used to avoid them, it is easy to cause the body to be destroyed before repair!",
-            "HullMods_Austenite_System_Repair_Dec5": "Regardless of the strengthening of the hull, the maximum repair that self-healing metal can withstand are only fixed.",
-            "HullMods_Austenite_System_Repair_Dec6": "There is a limit of immortality.",
-
-            "HullMods_Austenite_System_Wingman_Dec1": "A small deck has been added to this fighter jet, allowing your wingman to fight alongside you;",
-            "HullMods_Austenite_System_Wingman_Dec2": "Current Carrier - Wingman Module allows you to have several wingmen closely following you in battle and assisting you in the process.",
-            "HullMods_Austenite_System_Wingman_Dec3": "All newly added decks must be operated through the built-in system. LPC installed on your own will be completely destroyed at any time due to the ship's self adjustment!",
-            "HullMods_Austenite_System_Wingman_Dec4": "DO NOT put anything that YOU consider reasonable into the production module of the carrier based aircraft!",
-            "HullMods_Austenite_System_Wingman_ERROR": "This ship does not have a built-in deck",
-
-            "HullMods_Austenite_System_Wingman_wings": "This plugin is the installation log of Austenite wingman system.",
-            "HullMods_Austenite_System_Wingman_wings_Spt1": "Support type - with many weapon configurations, it can be used as auxiliary firepower and external point defense in most cases;",
-            "HullMods_Austenite_System_Wingman_wings_Spt2": "Its abundant firepower is sometimes not inferior to the other two seeded machines.",
-            "HullMods_Austenite_System_Wingman_wings_Spt3": "The support aircraft is only a support aircraft, and the range bonus generated by the deck system insertion will be greatly weakened.",
-            "HullMods_Austenite_System_Wingman_wings_Spt4": "In order to support additional flight decks and corresponding maneuver coordination control centers, the energy supply of Austenite's own ballistic stability system will be limited!",
-            "HullMods_Austenite_System_Wingman_wings_Ast1": "Assault type - possessing a balanced range of firepower, capable of independently restraining or even destroying enemy ships in most cases;",
-            "HullMods_Austenite_System_Wingman_wings_Ast2": "As the most versatile airframe configuration, the assault type can handle most battlefield situations well.",
-            "HullMods_Austenite_System_Wingman_wings_Ast3": "In order to support additional flight decks and a matching mother ship analysis center, the tactical analysis module power supply of Austenite itself will be limited!",
-            "HullMods_Austenite_System_Wingman_wings_Bmr1": "Strike type - equipped with a large number of missiles, using extreme projection to evaporate enemy armor and structure;",
-            "HullMods_Austenite_System_Wingman_wings_Bmr2": "If it can successfully hit the ship's hull instead of the shield.",
-            "HullMods_Austenite_System_Wingman_wings_Bmr3": "In order to support additional flight decks, matched missile production facilities, and coordinated strike centers, Austenite's own engine self regulating system will be limited in power supply!"
-
-
-
-      }
+}
 }

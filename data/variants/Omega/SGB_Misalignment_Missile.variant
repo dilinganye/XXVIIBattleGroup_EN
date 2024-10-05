@@ -1,0 +1,33 @@
+{
+  "variantId": "SGB_Misalignment_Missile",
+  "hullId": "SGB_Misalignment",
+  "displayName": "Missile",
+  "goalVariant": true,
+  "fluxCapacitors": 14,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "missleracks",
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "amsrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "amsrm"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

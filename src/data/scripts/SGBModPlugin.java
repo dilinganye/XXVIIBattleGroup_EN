@@ -34,15 +34,7 @@ public class SGBModPlugin extends BaseModPlugin {
         initXIModPlugin();
     }
     public static boolean hasGraphicsLib;
-
-    private static void initGraphicsLib() {
-        ShaderLib.init();
-        if (ShaderLib.areShadersAllowed() && ShaderLib.areBuffersAllowed()) {
-            //LightData.readLightDataCSV("data/lights/SGB_light_data.csv");
-            TextureData.readTextureDataCSV("data/lights/SGB_texture_data.csv");
-        }
-
-    }
+Color cl =new Color (197, 196, 186,255);
 
     public void onApplicationLoad() throws Exception {
         boolean hasLazyLib = Global.getSettings().getModManager().isModEnabled("lw_lazylib");
@@ -51,11 +43,17 @@ public class SGBModPlugin extends BaseModPlugin {
         }
         hasGraphicsLib = Global.getSettings().getModManager().isModEnabled("shaderLib");
 
-        /**if (hasGraphicsLib) {
-            ShaderLib.init();
-            LightData.readLightDataCSV("data/lights/BLG_light_data.csv");
-            TextureData.readTextureDataCSV("data/lights/BLG_texture_data.csv");
-        }*/
+        if (hasGraphicsLib) {
+            initGraphicsLib();
+        }
+    }
+    private static void initGraphicsLib() {
+        ShaderLib.init();
+        if (ShaderLib.areShadersAllowed() && ShaderLib.areBuffersAllowed()) {
+            //LightData.readLightDataCSV("data/lights/SGB_light_data.csv");
+            TextureData.readTextureDataCSV("data/lights/SGB_texture_data.csv");
+        }
+
     }
     Color test1 = new Color(236, 246, 186,255);
     Color test2 = new Color(131, 108, 95,35);

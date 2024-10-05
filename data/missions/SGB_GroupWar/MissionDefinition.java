@@ -34,14 +34,14 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.addBriefingItem("Unlike the \"decisive battle\" , the 27th battle group emphasizes more on the strike theory.");
 		api.addBriefingItem("If you're curious The former capital of SGB is located in the upper right corner of the battlefield.");
 
+
 		// Set up the player's fleet.
 		api.addToFleet(FleetSide.PLAYER, "SGB_Onslaught_Normal", FleetMemberType.SHIP, "SGB Aaunosy", true);
-		api.addToFleet(FleetSide.PLAYER, "SGB_Carving_Assault", FleetMemberType.SHIP, false);
 
 		api.addToFleet(FleetSide.PLAYER, "SGB_Anvil_Assault", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.PLAYER, "SGB_Anvil_Assault", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.PLAYER, "SGB_Ascaedy_Assault", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.STEADY);
-		api.addToFleet(FleetSide.PLAYER, "SGB_Ascaedy_Assault", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.STEADY);
+		//api.addToFleet(FleetSide.PLAYER, "SGB_Ascaedy_Assault", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
+		api.addToFleet(FleetSide.PLAYER, "SGB_Ascaedy_Assault", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.AGGRESSIVE);
 
 		api.addToFleet(FleetSide.PLAYER, "SGB_Ogent_Assault", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.STEADY);
 		api.addToFleet(FleetSide.PLAYER, "SGB_Posmous_Support", FleetMemberType.SHIP, false).getCaptain().setPersonality(Personalities.STEADY);

@@ -3,39 +3,36 @@
   "hullId": "SGB_Ceaies",
   "displayName": "Assault",
   "goalVariant": true,
-  "fluxCapacitors": 10,
-  "fluxVents": 6,
+  "fluxCapacitors": 1,
+  "fluxVents": 3,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "targetingunit",
-    "hardenedshieldemitter",
-    "auxiliarythrusters",
-    "blast_doors"
+    "safetyoverrides",
+    "missleracks"
   ],
   "weaponGroups": [
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0007": "lightdualac"
+        "WS0004": "lightneedler",
+        "WS0007": "lightneedler",
+        "WS0008": "lightmg"
       }
     },
     {
       "autofire": false,
       "mode": "ALTERNATING",
       "weapons": {
-        "WS0004": "lightdualac",
-        "WS0008": "lightag"
+        "WS0005": "reaper",
+        "WS0006": "reaper"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0005": "swarmer",
-        "WS0006": "swarmer"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,

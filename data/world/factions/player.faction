@@ -1,12 +1,13 @@
 {
         "portraits":{
 		"standard_male":[
-			"graphics/portraits/SGB_Commando_SF.png",
-			"graphics/portraits/SGB_Sentry_SF.png",
-			"graphics/portraits/SGB_Veteran_SF.png",
-			
+			"graphics/portraits/SGB_Assault_2.png",
+			"graphics/portraits/SGB_Commando_1.png",
+			"graphics/portraits/SGB_Commando_2.png",
+			"graphics/portraits/SGB_Sentry.png",
 		],
 		"standard_female":[
+			"graphics/portraits/SGB_Spectror.png",
 		],
 	},
 },

@@ -1,0 +1,91 @@
+{
+  "hullName": "SGB_LargeGrain",
+  "hullId": "SGB_LargeGrain",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/Omega/SGB_LargeGrain.png",
+  "style": "OMEGA",
+  "height": 67,
+  "width": 86,
+  "center": [43, 35],
+  "collisionRadius": 62.5,
+  "shieldCenter": [-5.5, -0],
+  "shieldRadius": 56,
+  "viewOffset": 0,
+  "builtInMods": [
+    "SGB_ShakeShardSpawner",
+    "autorepair"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 214,
+      "angle": 62.5,
+      "locations": [7, 18]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 212,
+      "angle": -72.5,
+      "locations": [2, -17]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [16, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-4.5, -23.5],
+      "length": 56.158905,
+      "width": 12.755756,
+      "angle": 165.5,
+      "contrailSize": 12.755756,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-6, -29],
+      "length": 29.017172,
+      "width": 10.817346,
+      "angle": 162.5,
+      "contrailSize": 10.817346,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-17, 16],
+      "length": 31.919548,
+      "width": 8.807356,
+      "angle": -146,
+      "contrailSize": 8.807356,
+      "style": "OMEGA"
+    }
+  ],
+  "bounds": [
+    29.5, -2.5,
+    -1, -33,
+    -1, -33,
+    -1, -20.5,
+    -7, -10,
+    -26, -2,
+    -17, 0.5,
+    -20, 4.5,
+    -5.5, 15,
+    -5.5, 26.5,
+    -8, 31.5,
+    17, 20,
+    18.5, 11.5,
+    24.5, 6.5,
+    14, 2.5,
+    12, -9.5
+  ]
+}

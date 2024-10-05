@@ -3,7 +3,7 @@
   "hullId": "SGB_Stress_2",
   "hullSize": "CAPITAL_SHIP",
   "spriteName": "graphics/ships/SGB_Stress_2.png",
-  "style": "SGB_TECH",
+  "style": "SGB_TECH_XXVII",
   "height": 358,
   "width": 220,
   "center": [110, 160],
@@ -183,10 +183,10 @@
     },
     {
       "location": [-140, -0],
-      "length": 158,
-      "width": 29,
+      "length": 168.5,
+      "width": 17,
       "angle": 180,
-      "contrailSize": 29,
+      "contrailSize": 128,
       "style": "SGB_TECH_GREEN"
     },
     {
@@ -230,15 +230,15 @@
       "style": "SGB_TECH_QUAD"
     },
     {
-      "location": [-179.5, -0],
-      "length": 17,
-      "width": 71,
+      "location": [-171.5, -0.5],
+      "length": 3,
+      "width": 135,
       "angle": 180,
       "contrailSize": 128,
       "style": "SGB_TECH_GREEN"
     },
     {
-      "location": [-209.5, -0],
+      "location": [-189.5, -0.5],
       "length": 5.5,
       "width": 75,
       "angle": 180,
@@ -276,6 +276,14 @@
       "angle": 122,
       "contrailSize": 35.509998,
       "style": "SGB_TECH_QUAD"
+    },
+    {
+      "location": [-191.5, -0.5],
+      "length": 85.5,
+      "width": 3,
+      "angle": 0,
+      "contrailSize": 128,
+      "style": "SGB_TECH_GREEN"
     }
   ],
   "bounds": [

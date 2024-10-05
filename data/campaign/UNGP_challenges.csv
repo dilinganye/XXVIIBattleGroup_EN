@@ -1,0 +1,2 @@
+id,name,rulesRequired,positiveLimitation,durationByMonth,needMaxLevel,canReselectRules,milestoneToUnlock
+SGB_NamelessDeadList,"The Key to Death and Another","SGB_EndlessSquadron,SGB_BornFromDead,SGB_HighGroundHolder",-1,-1,TRUE,FALSE,SGB_NamelessDeadList_End

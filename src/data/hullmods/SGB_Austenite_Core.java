@@ -745,16 +745,16 @@ public class SGB_Austenite_Core extends BaseHullMod {
     public void addPostDescriptionSection(TooltipMakerAPI tooltip, ShipAPI.HullSize hullSize, ShipAPI ship, float width,
             boolean isForModSpec) {
         tooltip.addSectionHeading(txt("HullMods_Remarks"), Alignment.TMID, 5f);
-        tooltip.addPara("This is the Core Hullmod of the Austenite", SGB_Color.SGBhardWord, 4f);
-        tooltip.addPara("Austenite - is one of the XXVII special air force wing. But in some ways, the Austenitic has already been classified as a frigate, as most aircraft carriers cannot carry this fighter jet as well;", SGB_Color.SGBhardWord,
+        tooltip.addPara("此插件为 奥氏体 的核心插件。", SGB_Color.SGBhardWord, 4f);
+        tooltip.addPara("奥氏体 - 是 第二十七作战群 的'特种战机'之一，但实际上奥氏体-级已经被划分为了护卫舰，毕竟大多数的航母并不能很好的搭载这艘战机；", SGB_Color.SGBhardWord,
                 4f);
-        tooltip.addPara("Austenite has a very unique environmental adaptation module, which enables it to perform tasks in most extreme environments;", SGB_Color.SGBhardWord, 4f);
-        tooltip.addPara("Its unique built-in weapon module are those main design for itself.", SGB_Color.SGBhardWord, 4f);
+        tooltip.addPara("奥氏体具有非常独特的环境适应模块，使得它能在大多数极端环境中执行任务；", SGB_Color.SGBhardWord, 4f);
+        tooltip.addPara("它那独特的专属内置武器模块是许多链戍舰长的最爱。", SGB_Color.SGBhardWord, 4f);
         tooltip.addSectionHeading(txt("HullMods_Tips"), Alignment.MID, 5f);
         tooltip.addPara(
-                "Austenite was designed quite early and deployed extensively in the 27th Combat Group, but most of its blueprints have been lost over a long period of history; Due to SGB's self indulgence, the only remaining blueprint is unknown where it has fallen, and the Austenite that can now appear in the public eye is extremely rare.",
+                "奥氏体的设计时间相当早，并且曾经在第二十七作战群中大量部署，但其大多数蓝图已经在漫长的历史中遗失；由于链戍的自甘堕落，仅剩的一点蓝图也都不知沦落到何处，现如今能出现在大众眼中的奥氏体已经少之又少。",
                 SGB_Color.SGBcoreIntersting_Word, 4f);
-        tooltip.addPara("Hey, but there is ONE of those!", SGB_Color.SGBcoreIntersting_Word, 4f);
-        tooltip.addPara("Tip: Due to technical limitations, please do not frequently use the built-in plugin for replacement when there is a D-mod in the Austenite, as this may cause the game to kill itself. This bug will be fixed as soon as possible if i can.", SGB_Color.SGBcoreDanger_Word, 5f);
+        tooltip.addPara("而你现在手上就有一个！", SGB_Color.SGBcoreIntersting_Word, 4f);
+        tooltip.addPara("提示：由于技术力原因，在奥氏体存在D插时，请不要高频率使用内置的插件更换，这有可能造成游戏弹出。这个bug会尽可能尽快修复。", SGB_Color.SGBcoreDanger_Word, 5f);
     }
 }

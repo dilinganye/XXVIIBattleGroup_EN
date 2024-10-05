@@ -24,7 +24,7 @@
 					"explosionSpec":{"duration":0.1f,
 									 "radius":100,
 									 "coreRadius":75, # full damage within core radius
-									 "collisionClass":PROJECTILE_FF,
+									 "collisionClass":PROJECTILE_NO_FF,
 									 "collisionClassByFighter":PROJECTILE_FIGHTER,
 									 "particleSizeMin":3.0,
 									 "particleSizeRange":3.0,

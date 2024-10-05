@@ -3,7 +3,7 @@
   "hullId": "SGB_Ductility_2",
   "hullSize": "CAPITAL_SHIP",
   "spriteName": "graphics/ships/SGB_Ductility_XXVII.png",
-  "style": "SGB_TECH",
+  "style": "SGB_TECH_XXVII",
   "height": 251,
   "width": 400,
   "center": [200, 142],

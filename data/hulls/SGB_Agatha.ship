@@ -12,7 +12,6 @@
   "shieldRadius": 29,
   "viewOffset": 0,
   "builtInWeapons": {
-    "WS0003": "SGB_Wings_Missile",
     "WS0004": "SGB_Wings_Missile"
   },
   "weaponSlots": [

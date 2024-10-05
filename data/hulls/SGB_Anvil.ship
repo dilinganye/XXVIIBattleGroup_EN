@@ -180,7 +180,7 @@
       "style": "SGB_TECH_QUAD"
     },
     {
-      "location": [-93.5, -50],
+      "location": [-94, -50],
       "length": 8.5,
       "width": 15,
       "angle": -180,
@@ -188,7 +188,7 @@
       "style": "SGB_TECH_QUAD"
     },
     {
-      "location": [-93.5, 50],
+      "location": [-94, 50],
       "length": 8.5,
       "width": 15,
       "angle": 180,
@@ -210,14 +210,6 @@
       "angle": -180,
       "contrailSize": 9,
       "style": "SGB_TECH_QUAD"
-    },
-    {
-      "location": [-98, -24],
-      "length": 5,
-      "width": 25,
-      "angle": -180,
-      "contrailSize": 25,
-      "style": "SGB_TECH"
     },
     {
       "location": [-113.5, -29],

@@ -1,0 +1,74 @@
+{
+  "hullName": "SGB_Overcurrent",
+  "hullId": "SGB_Overcurrent",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Omega/SGB_Overcurrent.png",
+  "style": "OMEGA",
+  "height": 59,
+  "width": 43,
+  "center": [24, 26],
+  "collisionRadius": 46.5,
+  "shieldCenter": [0, 1],
+  "shieldRadius": 34.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "SGB_ShakeShardSpawner",
+    "autorepair"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 281,
+      "angle": 0,
+      "locations": [2, 0],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 7,
+      "angle": 0,
+      "locations": [-1.5, -13]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-17.5, -6.5],
+      "length": 33,
+      "width": 10,
+      "angle": 176,
+      "contrailSize": 10,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-12, -13],
+      "length": 33,
+      "width": 11,
+      "angle": 170,
+      "contrailSize": 11,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-5.5, 17.5],
+      "length": 24.279081,
+      "width": 5.206219,
+      "angle": -175.5,
+      "contrailSize": 5.206219,
+      "style": "OMEGA"
+    }
+  ],
+  "bounds": [
+    19.5, 4.5,
+    3.5, -11.5,
+    -8.5, -11.5,
+    -8.5, -8.5,
+    -14.5, -1,
+    -4, 11.5,
+    -4, 20.5
+  ]
+}

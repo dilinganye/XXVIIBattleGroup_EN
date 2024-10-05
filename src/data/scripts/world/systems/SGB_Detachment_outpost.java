@@ -72,7 +72,7 @@ public class SGB_Detachment_outpost {
         system.addRingBand(star, "misc", "rings_dust0", 256f, 1, Color.white, 256f, 4000, 120f);
         system.addRingBand(star, "misc", "rings_dust0", 256f, 2, Color.white, 256f, 4100, 160f);
         //行星（势力、圆心、引用、类型；设置星球简介以及归属
-        SectorEntityToken ring = system.addTerrain(Terrain.RING, new BaseRingTerrain.RingParams(600 + 256, 400, null, "Limort Accretion Ring"));
+        SectorEntityToken ring = system.addTerrain(Terrain.RING, new BaseRingTerrain.RingParams(600 + 256, 400, null, "Postun Accretion Ring"));
         ring.setCircularOrbit(star, 0, 0, 100);
         PlanetAPI planet1 = system.addPlanet(
                 "SGB_planet1", //行星ID
@@ -389,8 +389,8 @@ public class SGB_Detachment_outpost {
         NebulaEditor editor = new NebulaEditor(plugin);
         float minRadius = plugin.getTileSize() * 2f;
         float radius = system.getMaxRadiusInHyperspace();
-        editor.clearArc(system.getLocation().x, system.getLocation().y, 0, radius + minRadius * 0.5f, 0, 360f);
-        editor.clearArc(system.getLocation().x, system.getLocation().y, 0, radius + minRadius, 0, 360f, 0.25f);
+        //editor.clearArc(system.getLocation().x, system.getLocation().y, 0, radius + minRadius * 0.5f, 0, 360f);
+        //editor.clearArc(system.getLocation().x, system.getLocation().y, 0, radius + minRadius, 0, 360f, 0.25f);
 
         //生成星门
         SectorEntityToken gate = system.addCustomEntity("SGB_gate", // unique id 设置星门id
@@ -402,11 +402,11 @@ public class SGB_Detachment_outpost {
         gate.setCircularOrbit(star, 5, 3080f, 350f);
 
         //设置你星系的永久稳定点建筑
-        SectorEntityToken A = system.addCustomEntity(null,null, "comm_relay", "SGB");
+        SectorEntityToken A = system.addCustomEntity(null, null, "comm_relay", "SGB");
         A.setCircularOrbit(star, 180f, 2900f, 365f);
-        SectorEntityToken B = system.addCustomEntity(null,null, "nav_buoy", "SGB");
+        SectorEntityToken B = system.addCustomEntity(null, null, "nav_buoy", "SGB");
         B.setCircularOrbit(star, 220f, 2500f, 365f);
-        SectorEntityToken C = system.addCustomEntity(null,null, "sensor_array", "SGB");
+        SectorEntityToken C = system.addCustomEntity(null, null, "sensor_array", "SGB");
         C.setCircularOrbit(star, 240f, 2900f, 365f);
 
     }

@@ -17,7 +17,7 @@
     "ballistic_rangefinder"
   ],
   "builtInWeapons": {
-    "WS0006": "annihilator",
+    "WS0006": "SGB_Decoy",
     "WS0007": "blinker_red"
   },
   "weaponSlots": [
@@ -71,7 +71,7 @@
       "size": "SMALL",
       "type": "BUILT_IN",
       "mount": "HIDDEN",
-      "arc": 55,
+      "arc": 11,
       "angle": 0,
       "locations": [44.5, -0]
     },
@@ -108,7 +108,7 @@
       "width": 10,
       "angle": -179,
       "contrailSize": 30,
-      "style": "MIDLINE"
+      "style": "SGB_TECH"
     },
     {
       "location": [-62.5, -11],
@@ -116,7 +116,15 @@
       "width": 10,
       "angle": 179,
       "contrailSize": 30,
-      "style": "MIDLINE"
+      "style": "SGB_TECH"
+    },
+    {
+      "location": [-76, -0],
+      "length": 2,
+      "width": 44,
+      "angle": 180,
+      "contrailSize": 44,
+      "style": "SGB_TECH"
     }
   ],
   "bounds": [

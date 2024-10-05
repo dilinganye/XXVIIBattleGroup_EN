@@ -1,142 +1,79 @@
 {
-	"SGB_Clo": {
-		"trigger_marketFaction_any": ["tritachyon"],
-		"trigger_marketFaction_alliedWith": true,
+    "SGB_Omega_0":{
+        #TRIGGERS (ALL OPTIONAL)[],
+        "trigger_marketFaction_any": ["SGB"],
+        "trigger_marketFaction_alliedWith": true,
 		"trigger_player_minLevel": 4,
-		"trigger_weight_mult": 0.75,
-
-		"job_name": "Sin Squadron",
-		"job_description": "The company has learned that the LianShu Army Group has deployed an experimental fighter squadron in various locations. We have received numerous reports of asset damage caused by this squadron. Due to the targeted nature of LianShu Army Group's actions, Suzi Tech Fleet has difficulty tracking them with official ships. The board wishes to obtain a record of engagement and destruction of this squadron.",
-		"job_comm_reply": "Oh, please avoid any conflict. Thank you for your cooperation. By the way, have you seen the Suzi Tech convoy?",
-		"job_intel_success": "The board sincerely thanks you for resolving the issue. The relevant payment will be credited to your account by the Free Fleet within a star day. Company personnel will immediately analyze the report you provided and will counteract the competitive actions of the LianShu Army Group in due course.",
-		
-		"job_forFaction": "tritachyon",
-		"job_deadline": 160,
-		"job_credit_reward": 200000,
-		"job_reward_scaling": 0.65,
-		"job_reputation_reward": 5,
-		
-		"job_type": "neutralisation",
-		"job_show_type": true,
-		"job_show_captain": false,
-		"job_show_fleet": "text",
-		"job_show_distance": "vanillaDistance",
-		"job_difficultyDescription": "Using various decoys, we have lured a group of fighter squadrons and their support ships. The actual combat style and capabilities of the enemy are quite unknown. Please proceed with caution.",
-		"job_memKey": "$SGB_Clo",
-		"job_item_reward": {
-	        },
-
-		"target_first_name": "Als",
-		"target_last_name": "Moraens",
-		"target_gender": "FEMALE",
-		"target_rank": "spaceCommander",
-		"target_post": "aristocrat",
-		"target_personality": "steady",
-		"target_level": 5,
-		"target_elite_skills": 2,
-		"target_skill_preference": "NO_ENERGY_YES_BALLISTIC_YES_MISSILE_YES_DEFENSE",
-		
-		"fleet_name": "LianShu Fighter Squadron",
-		"fleet_faction": "SGB_SF",
-		"fleet_flagship_variant": "SGB_Quench_Fri_Commando",
-		"fleet_flagship_name": "Bench Locker",
-		"fleet_flagship_recoverable": false,
-		"fleet_preset_ships": {
-			"SGB_Quench_Fri_Commando": 2,
-			"SGB_Anvil_Overload": 1
-		},
-		"fleet_preset_autofit": true,
-		"fleet_scaling_multiplier": 0.4,
-		"fleet_min_FP": 70,
-		"fleet_composition_faction": "SGB_SF",
-		"fleet_composition_quality": 2,
-		"fleet_transponder": false,
-		"fleet_behavior": "GUARDED",
-
-		"location_distance": "FAR",
-		"location_themes": [
-			"theme_interesting_minor",
-			"theme_ruins_secondary",
-			"theme_derelict_survey_ship",
-			"theme_derelict_probes",
-			"procgen_no_theme_pulsar_blackhole"
-		],
-		"location_themes_blacklist": [
-			"theme_already_occupied",
-			"theme_already_colonized",
-			"theme_hidden"
-		],
-		"location_entities": [ 
-			"gate",
-			"wreck",
-			"debris",
-			"stable_location",
-			"comm_relay",
-			"nav_buoy",
-			"sensor_array"
-		],
-		"location_prioritizeUnexplored": true,
-		"location_defaultToAnyEntity": true
-	},
+		"trigger_weight_mult": 2,
 	
-	"SGB_Clo2": {
-		"trigger_memKeys_all": {
-			"$SGB_Clo": true
-		},
-		"trigger_marketFaction_any": ["tritachyon"],
-		"trigger_marketFaction_alliedWith": true,
-		"trigger_player_minLevel": 6,
-		"trigger_weight_mult": 0.5,
+        
+        #BOUNTY DESCRIPTION
+        
+        "job_name": "未知追捕",
+        "job_description": "==链戍== 的外围作战编队在不经意间发现了曾隶属于 ==人之领== 的自动机械，并立即遭遇了来自后者的袭击。==链戍== 方面在付出惨痛代价后彻底击溃了敌对的一切大型目标 - 小型未知目标见势不妙就迅速撤离了战场。根据目前已知的消息，至少 ==十余支== 小型舰队在这次战斗后逃窜至英仙座内的不同区域。==链戍== 在派遣舰船对这些目标进行围剿的同时，也下放了许多针对小型目标的围剿请求 - 主要是针对那些在这片星域之中有着足够能力的佣兵。\n\n==链戍== 方面对目标的要求为 ==消灭==，但并不在乎其身上武器的下落 - 舰长对此的私吞是可以被接受的。\n\n提示：赏金目标 ==随时== 有可能见势不妙 ==试图撤离==，务必提前做好对策。",
+        "job_comm_reply": "在经过一段短暂的嘈杂声后，一阵柔和的电子音从终端对面传来：\n\"这位太空舰长，你好，我作为一个单独的智慧个体，所受到的命令便是对 $constellation 进行勘察。而 ==人之领前集团军== 对我们所发起的不明袭击令我感到愤怒与疑惑，我希望你 ==不会== 加入他们那非法的所作所为。\"\n\n你不知道对方到底有没有在说真话，但 - 为了来自前人之领集团军的 $reward 与或许是归属与人之领的智能机械作战这件事，或许追责下来不一定会追到你的头上。\n\n\"想必你已经做出正确的决定了？\"\n\n无论如何，你相信至少你接下来要做的选择不会让自己后悔。",
+        "job_intel_success": "==链戍== 方面对您的快速响应表示出了极大的肯定 - 这件事也在他们的队伍之中产出了不少关于你的小道消息。\n\n根据目前你所了解到的 - ==链戍== 在你执行此任务的同时，进一步剿灭了五组正在英仙座的其他区域执行勘探的智能机械。你有点好奇速子会不会也横插一脚，但这就与你无关了 - 毕竟你已经拿到了你所需的酬劳。",
+        "job_intel_expired": "==链戍== 方面对你接了活不干事这件事没有多大的反应 - 毕竟你的不作为也只是耽误了一些时间而已，一队新编的打击小组已经准备前往你没能去往的地方 - 前提是没有其他人在此之前抢了这个活。\n\n根据目前你所了解到的 - ==链戍== 似乎不太打算继续给你派任务了，但这已经与你无关了 - 毕竟你一开始也不怎么感兴趣。",
+        "job_forFaction": "SGB",
+        "job_deadline": 90,
+        "job_credit_reward": 50000,
+        "job_reward_scaling": 1,
+        "job_reputation_reward":5,
+        "job_type":"obliteration",
+        "job_show_type": false,
+        "job_show_captain": false,
+        "job_show_fleet": "text",
+        "job_show_distance": "system",
+        "job_show_arrow": false,
+        "job_difficultyDescription": "auto",
+        "job_pick_option": "加入这场目标不明的追捕行动",
+        #"job_pick_script": "data.script.script",
+        "job_memKey":"$SGB_Omega_0",
+        #"job_conclusion_script":"data.script.script",
+        
+		#"existing_target_memkey":"$SGB_Omega_0_existing",
 
-		"job_name": "A Reckoning",
-		"job_description": "Due to the previous destructive actions by the LianShu Army Group on company assets, Suzi Tech has suffered immeasurable economic losses. According to our agents, most of these actions were planned by Keith Triss and executed by his Ember Assault Group. If his squadron and he himself could have an 'accident' during their training exercises, the company would be most grateful.",
-		"job_comm_reply": "Interfering with our navigation will be considered interference with the necessary affairs of the LianShu Army Group. Your actions will be recorded.",
-		"job_intel_success": "The board sincerely thanks you for resolving the issue. The relevant payment will be credited to your account by the Free Fleet within a star day; meanwhile, your salvage team has extracted an intact ship blueprint from the wreckage.",
-		
-		"job_forFaction": "tritachyon",
-		"job_deadline": 160,
-		"job_credit_reward": 500000,
-		"job_reward_scaling": 0.65,
-		"job_reputation_reward": 5,
-		
-		"job_type": "assassination",
-		"job_show_type": true,
-		"job_show_captain": true,
-		"job_show_fleet": "presetText",
-		"job_show_distance": "vanillaDistance",
-		"job_difficultyDescription": "Quench Squadron - This is an ancient tradition of the LianShu Army Group, which can be understood as a remnant of power held by some unique fighter pilots. These unique long-range fighters form groups to carry out tasks assigned by the LianShu Army Group. The Quench Squadron is not limited to the one you are tasked to handle. Many such squadrons are deployed in various remote locations. Regardless, if I were you, I would prepare some anti-aircraft barrages like Ravagers to teach these stubborn relics a lesson.",
-		"job_memKey": "$SGB_Clo2",
-		"job_item_reward": {
-			"ship_bp SGB_Anvil": 1
+        #TARGET COMMANDER (OPTIONAL)
+        
+        #"target_first_name":"",
+        #"target_last_name":"",
+        #"target_portrait":"",
+        "target_gender":"UNDEFINED",
+        "target_rank": "citizen",
+        "target_post": "spacer",
+        "target_personality": "aggressive",
+        "target_aiCoreId": null,
+        "target_level": 10,
+        "target_elite_skills":2,
+        "target_skill_preference": "YES_ENERGY_YES_BALLISTIC_YES_MISSILE_YES_DEFENSE",
+        #"target_skills": {"skill":1,}, 
+    
+    
+        #TARGET FLEET
+        
+        "fleet_name":"未知目标",
+        "fleet_faction": "SGB_Omega_Watcher",
+        "fleet_flagship_variant":"SGB_Overcurrent_AntiShield",
+        #"fleet_flagship_name":"",
+        "fleet_flagship_alwaysRecoverable": false,
+        "fleet_flagship_autofit": true,
+        "fleet_preset_ships": {
+		"SGB_Misalignment_Missile":1,
 		},
+        "fleet_preset_autofit": false,
+        "fleet_scaling_multiplier": 0,
+        "fleet_min_FP": 40,
+        "fleet_composition_faction": "SGB_Omega_Watcher",
+        "fleet_composition_quality": 1,
+        "fleet_transponder": false,
+		"fleet_no_retreat": false,
+        "fleet_behavior": "GUARDED",
+        "fleet_musicSetId": "SGB_Omega_Battle",
+        
+        #LOCATION
 
-		"target_first_name": "Keith",
-		"target_last_name": "Triss",
-		"target_gender": "MALE",
-		"target_rank": "spaceCommander",
-		"target_post": "aristocrat",
-		"target_personality": "cautious",
-		"target_level": 6,
-		"target_elite_skills": 2,
-		"target_skill_preference": "NO_ENERGY_YES_BALLISTIC_YES_MISSILE_YES_DEFENSE",
-		
-		"fleet_name": "Ember Squadron",
-		"fleet_faction": "SGB_SF",
-		"fleet_flagship_variant": "SGB_Quench_Clo_ACE",
-		"fleet_flagship_name": "Night Light",
-		"fleet_flagship_recoverable": false,
-		"fleet_preset_ships": {
-			"SGB_Anvil_Overload": 3,
-			"SGB_Quench_Fri_Commando": 5
-		},
-		"fleet_preset_autofit": true,
-		"fleet_scaling_multiplier": 0.45,
-		"fleet_min_FP": 120,
-		"fleet_composition_faction": "SGB_SF",
-		"fleet_composition_quality": 1,
-		"fleet_transponder": true,
-		"fleet_behavior": "GUARDED",
-
+        #"location_entitiesID": ["location1",],
+        #"location_marketFactions": ["faction",],
 		"location_distance": "CLOSE",
 		"location_themes": [
 			"theme_interesting_minor",
@@ -145,23 +82,232 @@
 			"theme_derelict_probes",
 			"procgen_no_theme_pulsar_blackhole"
 		],
-		"location_themes_blacklist": [
+		"location_themes_blacklist":[
 			"theme_already_occupied",
 			"theme_already_colonized",
 			"theme_hidden"
 		],
-		"location_entities": [ 
-			"gate",
-			"wreck",
-			"debris",
-			"stable_location",
-			"comm_relay",
-			"nav_buoy",
-			"sensor_array",
-			"gas_giant",
-			"planet"
-		],
+        "location_entities": [ 
+            "gate",
+            "wreck",
+            "debris",
+            "stable_location",
+            "comm_relay",
+            "nav_buoy",
+            "sensor_array",
+        ],
 		"location_prioritizeUnexplored": true,
 		"location_defaultToAnyEntity": true
-	}
+    },
+	
+	
+    "SGB_Omega_1":{
+        #TRIGGERS (ALL OPTIONAL)[],
+		"trigger_player_minLevel": 6,
+		"trigger_weight_mult": 3,
+        #"trigger_min_days_elapsed": 0, 
+        "trigger_marketFaction_any": ["SGB"],
+        "trigger_marketFaction_alliedWith": true,
+		
+		"trigger_memKeys_all": { # Default: no values. The job will only show if ALL of the listed memKeys exist with the specified boolean value.
+		    # $job_memKey_succeeded set to true if the job has been successfully completed
+            # $job_memKey_failed set to true if the job required the destruction of a flagship and the player salvaged it instead
+            # $job_memKey_expired set to true if the job deadline expired, ended without player involvment, or was permanently dissmissed
+            # $job_memKey set to false when the job has been picked up, true once concluded regardless of the result
+            "$SGB_Omega_0_succeeded":true,
+        },
+        
+        #BOUNTY DESCRIPTION
+        
+        "job_name": "追捕继续",
+        "job_description": "在上次的打击后，==链戍== 利用 ==人之领== 的解码系统对其进行了数据提取，但大量溢出的无用乱码数据流完全是处于意料之外。经过 ==链戍== 的军事科研小组对打捞残骸进行的解析，确认这些自动机械的底层与数据库之中的一切类型都完全不符，甚至其基本计算逻辑都绝不是二进制。\n==链戍== 方面仍旧要求赏金舰长继续对这些未知舰船进行追捕，但需要将数据集发送给对应接受人员，以确认未知舰船的实际动向。\n\n==链戍== 方面对目标的要求为 ==消灭==，但并不在乎其身上武器的下落 - 舰长对此的私吞是可以被接受的。\n\n提示：赏金目标 ==随时== 有可能见势不妙 ==试图撤离==，务必提前做好对策。",
+        "job_comm_reply": "在经过一段短暂的嘈杂声后，一阵柔和的电子音从终端对面传来：\n\"舰长，我认得你是谁。我不想和你继续进行这些无用的聊天了，但你要知道一件事 - 我 们 无 法 被 阻 止—————— \"\n\n随着面前终端的爆炸，大量数据流轰击着你的舰船系统。伴随着耳中仍旧回荡不止的系统告警声，船员按照你的要求迅速强制切断了通讯连接，并立刻终止了全舰的自动化进程。系统随后被强制重启 - 全舰也随后趋于稳定，你面前的终端也被迅速被更替成了老旧一些的备用型号，但空气中那长久不散的焦糊味儿仍旧让你眉头紧锁。",
+        "job_intel_success": "==链戍== 方面进一步对您的快速响应表示出了极大的肯定 - 但随后他们便要求你彻底压下这些消息。\n\n根据他们所告知你的是，这些智能舰船已经彻底失控，没人知道它们到底要干什么。但无论如何，你拿到了你该拿到的钱来换回最新的终端面板，还让那个DDOS你的家伙步了你旧主板那同样的遭遇，那么对你而言这就已经足够了。",
+        "job_intel_expired": "==链戍== 方面对你接了活不干事这件事没有多大的反应 - 毕竟你的不作为也只是耽误了一些时间而已，一队新编的打击小组已经准备前往你没能去往的地方 - 前提是没有其他人在此之前抢了这个活。\n\n根据目前你所了解到的 - ==链戍== 似乎不太打算继续给你派任务了，但这已经与你无关了 - 毕竟你一开始也不怎么感兴趣。",
+        "job_forFaction": "SGB",
+        "job_deadline": 90,
+        "job_credit_reward": 70000,
+        "job_reward_scaling": 1,
+        "job_reputation_reward":5,
+        "job_type":"obliteration",
+        "job_show_type": false,
+        "job_show_captain": false,
+        "job_show_fleet": "text",
+        "job_show_distance": "system",
+        "job_show_arrow": false,
+        "job_difficultyDescription": "auto",
+        "job_pick_option": "继续加入这场目标不明的追捕行动",
+        #"job_pick_script": "data.script.script",
+        "job_memKey":"$SGB_Omega_1",
+        #"job_conclusion_script":"data.script.script",
+        
+		#"existing_target_memkey":"$SGB_Omega_1_existing",
+
+        #TARGET COMMANDER (OPTIONAL)
+        "target_gender":"UNDEFINED",
+        "target_rank": "Captain",
+        "target_post": "spacer",
+        "target_personality": "aggressive",
+        "target_aiCoreId": null,
+        "target_level": 12,
+        "target_elite_skills":3,
+        "target_skill_preference": "YES_ENERGY_YES_BALLISTIC_YES_MISSILE_YES_DEFENSE",
+    
+    
+        #TARGET FLEET
+        
+        "fleet_name":"失控目标",
+        "fleet_faction": "SGB_Omega_Watcher",
+        "fleet_flagship_variant":"SGB_LargeGrain_AntiShield",
+        #"fleet_flagship_name":"",
+        "fleet_flagship_alwaysRecoverable": false,
+        "fleet_flagship_autofit": false,
+        "fleet_preset_ships": {
+		"SGB_LargeGrain_AntiShield":1,
+		"SGB_LargeGrain_AntiArmor":1,
+		},
+        "fleet_preset_autofit": false,
+        "fleet_scaling_multiplier": 0.1,
+        "fleet_min_FP": 75,
+        "fleet_composition_faction": "SGB_Omega_Watcher",
+        "fleet_composition_quality": 1,
+        "fleet_transponder": false,
+		"fleet_no_retreat": false,
+        "fleet_behavior": "GUARDED",
+        "fleet_musicSetId": "SGB_Omega_Battle",
+        
+        #LOCATION
+
+        #"location_entitiesID": ["location1",],
+        #"location_marketFactions": ["faction",],
+		"location_distance": "FAR",
+		"location_themes": [
+			"theme_interesting_minor",
+			"theme_ruins_secondary",
+			"theme_derelict_survey_ship",
+			"theme_derelict_probes",
+			"procgen_no_theme_pulsar_blackhole"
+		],
+		"location_themes_blacklist":[
+			"theme_already_occupied",
+			"theme_already_colonized",
+			"theme_hidden"
+		],
+        "location_entities": [ 
+            "gate",
+            "wreck",
+            "debris",
+            "stable_location",
+            "comm_relay",
+            "nav_buoy",
+            "sensor_array",
+        ],
+		"location_prioritizeUnexplored": true,
+		"location_defaultToAnyEntity": true
+    },
+	
+	
+    "SGB_Omega_2":{
+        #TRIGGERS (ALL OPTIONAL)[],
+		"trigger_player_minLevel": 8,
+		
+        "trigger_marketFaction_any": ["SGB"],
+        "trigger_marketFaction_alliedWith": true,
+		"trigger_weight_mult": 10,
+		"trigger_memKeys_all": { # Default: no values. The job will only show if ALL of the listed memKeys exist with the specified boolean value.
+		    # $job_memKey_succeeded set to true if the job has been successfully completed
+            # $job_memKey_failed set to true if the job required the destruction of a flagship and the player salvaged it instead
+            # $job_memKey_expired set to true if the job deadline expired, ended without player involvment, or was permanently dissmissed
+            # $job_memKey set to false when the job has been picked up, true once concluded regardless of the result
+            "$SGB_Omega_1_succeeded":true,
+        },
+        
+        #BOUNTY DESCRIPTION
+        
+        "job_name": "行刑时刻",
+        "job_description": "==链戍== 已经基本剿灭了这些目标，并且给出了最后几个失控目标的所在位置，并希望赏金猎人们尽快予以处理。\n\n==链戍== 已经确认了这些家伙的目的 - 侦察，它们在侦察 ==英仙座==。具体的原因并不明朗，但其底层逻辑经过破解已经大致确认了一件事 - 其 ==不存在逻辑底层==，也就是它们会 ==不断复写== 自己的底层逻辑以及运算模式，这将导致它们无时无刻不在产生翻天覆地的变化。\n\n==链戍== 方面对目标的要求为 ==消灭==，但并不在乎其身上武器的下落 - 舰长对此的私吞是可以被接受的。\n\n提示：赏金目标 已经做好了决战的准备，务必提前做好对策。",
+        "job_comm_reply": "在经过一段短暂的嘈杂声后，一阵柔和的电子音从终端对面传来：\n\"舰长，我和你说过，我们无法被—————— \"\n\n随着你的舰队那 ==大量== 不重复数据流的强制注入，对方很明显愣了短短的那么一秒，随着连接被你主动切断，那早就被你发射出去的中继器便在对方的愤怒之中崩解熔毁成了闪耀的太空碎片。但没有任何数据流成功进入你的舰船系统 - 没有 ==任何== 一丁点。\n\n你感觉很舒适。",
+        "job_intel_success": "==链戍== 方面进一步对您的快速响应进行了公开表扬，你也立刻收到了你所需要的资金。也许这件事到此就结束了 - 吗？",
+        "job_intel_expired": "==链戍== 方面对你接了活不干事这件事没有多大的反应 - 毕竟你的不作为也只是耽误了一些时间而已，一队新编的打击小组已经准备前往你没能去往的地方 - 前提是没有其他人在此之前抢了这个活。\n\n根据目前你所了解到的 - ==链戍== 似乎不太打算继续给你派任务了，但这已经与你无关了 - 毕竟你一开始也不怎么感兴趣。",
+        "job_forFaction": "SGB",
+        "job_deadline": 100,
+        "job_credit_reward": 100000,
+        "job_reward_scaling": 1,
+        "job_reputation_reward":10,
+        "job_type":"obliteration",
+        "job_show_type": false,
+        "job_show_captain": false,
+        "job_show_fleet": "text",
+        "job_show_distance": "system",
+        "job_show_arrow": false,
+        "job_difficultyDescription": "auto",
+        "job_pick_option": "继续加入这场目标不明的追捕行动",
+        #"job_pick_script": "data.script.script",
+        "job_memKey":"$SGB_Omega_2",
+        #"job_conclusion_script":"data.script.script",
+        
+		#"existing_target_memkey":"$SGB_Omega_2_existing",
+
+        #TARGET COMMANDER (OPTIONAL)
+        "target_gender":"UNDEFINED",
+        "target_rank": "Captain",
+        "target_post": "Fleet Commander",
+        "target_personality": "aggressive",
+        "target_aiCoreId": null,
+        "target_level": 14,
+        "target_elite_skills":5,
+        "target_skill_preference": "YES_ENERGY_YES_BALLISTIC_YES_MISSILE_YES_DEFENSE",
+    
+    
+        #TARGET FLEET
+        
+        "fleet_name":"失控目标",
+        "fleet_faction": "SGB_Omega_Watcher",
+        "fleet_flagship_variant":"SGB_LargeGrain_AntiShield",
+        #"fleet_flagship_name":"",
+        "fleet_flagship_alwaysRecoverable": false,
+        "fleet_flagship_autofit": false,
+        "fleet_preset_ships": {
+		"SGB_LargeGrain_AntiShield":1,
+		"SGB_LargeGrain_AntiArmor":1,
+		},
+        "fleet_preset_autofit": false,
+        "fleet_scaling_multiplier": 0.2,
+        "fleet_min_FP": 100,
+        "fleet_composition_faction": "SGB_Omega_Watcher",
+        "fleet_composition_quality": 1,
+        "fleet_transponder": false,
+		"fleet_no_retreat": false,
+        "fleet_behavior": "GUARDED",
+        "fleet_musicSetId": "SGB_Omega_Battle",
+        
+        #LOCATION
+
+        #"location_entitiesID": ["location1",],
+        #"location_marketFactions": ["faction",],
+		"location_distance": "FAR",
+		"location_themes": [
+			"theme_interesting_minor",
+			"theme_ruins_secondary",
+			"theme_derelict_survey_ship",
+			"theme_derelict_probes",
+			"procgen_no_theme_pulsar_blackhole"
+		],
+		"location_themes_blacklist":[
+			"theme_already_occupied",
+			"theme_already_colonized",
+			"theme_hidden"
+		],
+        "location_entities": [ 
+            "gate",
+            "wreck",
+            "debris",
+            "stable_location",
+            "comm_relay",
+            "nav_buoy",
+            "sensor_array",
+        ],
+		"location_prioritizeUnexplored": true,
+		"location_defaultToAnyEntity": true
+    },
 }

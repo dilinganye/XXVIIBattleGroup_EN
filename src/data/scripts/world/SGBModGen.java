@@ -48,12 +48,17 @@ public class SGBModGen {
         SGB_SF.setRelationship(Factions.HEGEMONY, -0.75f);
 
         SGB_SF.setRelationship(Factions.LIONS_GUARD, 0.0f);
-        SGB_SF.setRelationship(Factions.PIRATES, 0f);
-        SGB_SF.setRelationship(Factions.REMNANTS, 0f);
+        SGB_SF.setRelationship(Factions.PIRATES, 0.8f);
+        SGB_SF.setRelationship(Factions.REMNANTS, -0.40f);
         SGB_SF.setRelationship(Factions.LUDDIC_CHURCH, 0f);
         SGB_SF.setRelationship(Factions.LUDDIC_PATH, 0f);
 
         SharedData.getData().getPersonBountyEventData().addParticipatingFaction("SGB_SF");
+
+        FactionAPI SGB_Omega_Watcher = sector.getFaction("SGB_Omega_Watcher");
+        SGB_Omega_Watcher.setRelationship(Factions.REMNANTS, -0.10f);
+        SGB_Omega_Watcher.setRelationship(Factions.PIRATES, -0.10f);
+        SharedData.getData().getPersonBountyEventData().addParticipatingFaction("SGB_Omega_Watcher");
 
         this.generateSGBInTia(sector);
         this.generateSGBInMagec(sector);
@@ -109,7 +114,7 @@ public class SGBModGen {
         //设置战役后果
         if (Global.getSettings().getMissionScore("SGB_Retaliate") >= 50) {
             SectorEntityToken Ampoist_station = system.addCustomEntity("Ampoist_station",
-                "Ampoist Fort",
+                "Ampoist 前哨",
                 "station_side04",
                 "SGB");
 
@@ -152,7 +157,7 @@ public class SGBModGen {
         }
         else{
             SectorEntityToken Ampoist_station = system.addCustomEntity("Ampoist_station",
-                    "Ampoist Research Base",
+                    "Ampoist 研究基地",
                     "station_side04",
                     "tritachyon");
 

@@ -1,0 +1,65 @@
+{
+  "variantId": "SGB_Achilles_Artillery",
+  "hullId": "SGB_Achilles",
+  "displayName": "Artillery",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "converted_hangar"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "gauss",
+        "WS0013": "sabot_single",
+        "WS0014": "sabot_single"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "XXVII_den_Achilles_L",
+        "WS0003": "XXVII_den_Achilles_R"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0008": "heavymauler",
+        "WS0009": "heavymauler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "SGB_Drone_MachineGun_wing"
+  ]
+}

@@ -21,16 +21,16 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS 001": "SGB_PinTwi",
-        "WS 002": "SGB_PinTwi"
+        "WS0003": "SGB_Pin",
+        "WS0004": "SGB_Pin"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "SGB_Pin",
-        "WS0004": "SGB_Pin"
+        "WS 001": "SGB_Pin",
+        "WS 002": "SGB_Pin"
       }
     },
     {

@@ -1,0 +1,34 @@
+{
+  "variantId": "SGB_Misalignment_Support",
+  "hullId": "SGB_Misalignment",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 11,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "ecm",
+    "nav_relay",
+    "turretgyros",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "SGB_DisinRadia"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "shockrepeater"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

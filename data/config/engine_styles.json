@@ -4,11 +4,39 @@
 		"engineColor":[255,145,75,255],
 		"contrailParticleSizeMult":4,
 		"contrailParticleDuration":2,
-		"contrailParticleFinalSizeMult":2.5,
+		"contrailParticleFinalSizeMult":2.25,
+		"contrailMaxSpeedMult":0.5,
+		"contrailAngularVelocityMult":0.125,
+
+		"glowSizeMult":0.25,
+
+		"contrailColor":[100,100,100,25],
+		"contrailCampaignColor":[150,120,100,75],
+		"type":"GLOW" # GLOW or SMOKE
+	},
+	"SGB_LESS_SMOKE_TECH":{
+		"engineColor":[255,145,75,255],
+		"contrailParticleSizeMult":1,
+		"contrailParticleDuration":2,
+		"contrailParticleFinalSizeMult":0.8,
 		"contrailMaxSpeedMult":0.5,
 		"contrailAngularVelocityMult":0.1,
 
-		"glowSizeMult":0.25,
+		"glowSizeMult":0.20,
+
+		"contrailColor":[100,100,100,10],
+		"contrailCampaignColor":[150,120,100,25],
+		"type":"GLOW" # GLOW or SMOKE
+	},
+	"SGB_LESS_GROW_TECH":{
+		"engineColor":[255,145,75,255],
+		"contrailParticleSizeMult":4,
+		"contrailParticleDuration":2,
+		"contrailParticleFinalSizeMult":2.25,
+		"contrailMaxSpeedMult":0.5,
+		"contrailAngularVelocityMult":0.125,
+
+		"glowSizeMult":0.05,
 
 		"contrailColor":[100,100,100,25],
 		"contrailCampaignColor":[150,120,100,75],
@@ -83,5 +111,17 @@
 		"type":"GLOW" # GLOW or SMOKE
 		#"mode":"QUAD_STRIP"
 	},
+	"SGB_LG_TECH":{
+		"engineColor":[255,100,100,250],
+		"contrailParticleSizeMult":6,
+		"contrailParticleDuration":2,
+		"contrailParticleFinalSizeMult":0.47,
+		"contrailMaxSpeedMult":0.5f,
+		"contrailAngularVelocityMult":0f,
+		"contrailColor":[255,100,100,15],
+		"glowSizeMult":0.67,
+		"glowAlternateColor":[255,0,0,215],
+		"type":"GLOW"
+	}
 }
 

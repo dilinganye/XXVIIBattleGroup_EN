@@ -44,7 +44,7 @@
     },
     {
       "autofire": false,
-      "mode": "LINKED",
+      "mode": "ALTERNATING",
       "weapons": {
         "WS0001": "SGB_Nuke_Launch_L",
         "WS0004": "SGB_Nuke_Launch_R"

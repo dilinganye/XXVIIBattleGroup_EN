@@ -17,15 +17,15 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0007": "railgun",
-        "WS0008": "railgun"
+        "WS0007": "SGB_Curlor",
+        "WS0008": "SGB_Curlor"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0006": "harpoon_single"
+        "WS0006": "SGB_Wings_Missile_s_re"
       }
     },
     {

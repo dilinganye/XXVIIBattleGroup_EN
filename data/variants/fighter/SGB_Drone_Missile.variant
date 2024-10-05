@@ -13,8 +13,8 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "SGB_Wings_Missile_s_re",
-        "WS0005": "SGB_Wings_Missile_s_re"
+        "WS0006": "SGB_Wings_Missile_s_re",
+        "WS0007": "SGB_Wings_Missile_s_re"
       }
     }
   ],

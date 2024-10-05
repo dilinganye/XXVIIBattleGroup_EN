@@ -12,13 +12,12 @@
   "shieldRadius": 124,
   "viewOffset": 0,
   "builtInMods": [
-    "advancedshieldemitter",
     "SGB_AllForHuman"
   ],
   "builtInWeapons": {
-    "WS0006": "harpoon_single",
-    "WS0007": "railgun",
-    "WS0008": "railgun",
+    "WS0006": "SGB_Wings_Missile_s_re",
+    "WS0007": "SGB_Curlor",
+    "WS0008": "SGB_Curlor",
     "WS0009": "blinker_green",
     "WS0010": "blinker_red"
   },
@@ -76,7 +75,7 @@
       "id": "WS0006",
       "size": "SMALL",
       "type": "BUILT_IN",
-      "mount": "HIDDEN",
+      "mount": "TURRET",
       "arc": 0,
       "angle": 0,
       "locations": [36.5, -16.5]
@@ -88,7 +87,7 @@
       "mount": "HIDDEN",
       "arc": 10,
       "angle": 0,
-      "locations": [104.5, 10.5]
+      "locations": [100, 11.5]
     },
     {
       "id": "WS0008",
@@ -97,7 +96,7 @@
       "mount": "HIDDEN",
       "arc": 10,
       "angle": -0,
-      "locations": [104.5, -10.5]
+      "locations": [100, -11.5]
     },
     {
       "id": "WS0009",
@@ -149,7 +148,7 @@
       "width": 10.61,
       "angle": 135,
       "contrailSize": 128,
-      "style": "MIDLINE"
+      "style": "SGB_TECH"
     },
     {
       "location": [16, -28],
@@ -157,7 +156,7 @@
       "width": 10.61,
       "angle": -135,
       "contrailSize": 128,
-      "style": "MIDLINE"
+      "style": "SGB_TECH"
     },
     {
       "location": [-73.5, -17],

@@ -1,0 +1,21 @@
+{
+	"id":"SGB_MatealDisper_shot",
+	"specClass":"projectile",
+	"spawnType":"PLASMA",
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[151,122,212,200],  # purely visual, will get a white additively blended core on top of this color
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"alwaysAccelerate":true,
+	"useHitGlowWhenDestroyed":true,
+	"onHitEffect":"data.weapons.SGB_MatealDisper_OnHitEffect",
+	"onFireEffect":"data.weapons.SGB_MatealDisper_OnHitEffect",
+	"width":50.0,
+	"fadeTime":0.5,
+	"hitGlowRadius":60,
+	"fringeColor":[255,100,100,100],
+	"coreColor":[255,0,0,255],
+	"glowColor":[150,100,255,75],
+	"glowRadius":47,
+	"passThroughMissiles":true,
+	"passThroughFighters":true,
+}

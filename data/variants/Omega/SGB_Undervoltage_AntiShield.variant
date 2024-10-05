@@ -1,0 +1,39 @@
+{
+  "variantId": "SGB_Undervoltage_AntiShield",
+  "hullId": "SGB_Undervoltage",
+  "displayName": "AntiShield",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedoptics",
+    "eccm",
+    "hardenedshieldemitter",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "SGB_DisinRadia"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "resonatormrm"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,177 @@
+{
+  "id": "SGB_Omega_Watcher",
+  "displayName": "第四窥视",
+  "displayNameWithArticle": "第四窥视",
+  "displayNameLong": "第四窥视",
+  "displayNameLongWithArticle": "第四窥视",
+	"entityNamePrefix":"",
+	"personNamePrefix":"",
+	"personNamePrefixAOrAn":"一个",
+	"displayNameIsOrAre":"",
+	
+  "logo": "graphics/factions/SGB_Omega_Watcher.png",
+  "crest": "graphics/factions/SGB_Omega_Watcher_2.png",
+	"shipNamePrefix":"? ? ?",
+	
+  "color": [255,240,225,255],
+  "secondaryUIColor":[0,0,0,0],
+  "secondarySegments":20,
+  
+  "baseUIColor": [102, 109, 134, 255],
+	
+	"showInIntelTab":false,
+	
+	"shipNameSources":{
+		"OMEGA":1,
+		"SPACE":1,
+	},
+	"names":{
+		"ai":1,
+	},
+	"variantOverrides":{
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+			"SGB_Omega_Watcher": 2
+		},
+		"hulls":{
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["SGB_Omega_Watcher"],
+		"hulls":[
+		],
+	},
+	"knownShips":{
+		"tags":["SGB_Omega_Watcher"],
+		"hulls":[
+			"SGB_Undervoltage",
+			"SGB_Overcurrent",
+			"SGB_Misalignment",
+			"SGB_LargeGrain",
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	"knownFighters":{
+		"tags":["omega","SGB_Omega_Watcher"],
+		"fighters":[
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["omega","SGB_Omega_Watcher"],
+		"weapons":[
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":["base_bp", "omega"],
+		"hullMods":[
+			"advancedshieldemitter", # accelerated
+			"advancedoptics",
+			"turretgyros",
+			"armoredweapons",
+			"augmentedengines",
+			"autorepair",
+			"converted_hangar",
+			"eccm",
+			"ecm",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"frontshield",  # makeshift
+			"hardenedshieldemitter",
+			"heavyarmor",
+			"insulatedengine",
+			"pointdefenseai",
+			"targetingunit",
+			"nav_relay",
+			"adaptiveshields", # omni
+			"operations_center",
+			"recovery_shuttles",
+			"fluxbreakers",
+			"solar_shielding",
+			"stabilizedshieldemitter",
+			"surveying_equipment",
+		],
+	},
+	"factionDoctrine":{
+		"warships":5,
+		"carriers":0,
+		"phaseShips":0,
+		
+		"officerQuality":5,
+		"shipQuality":5,
+		"numShips":2,
+		
+		"shipSize":5,
+		
+		"aggression":5, # doesn't matter since automated ships are super aggressive regardless
+		
+		"combatFreighterProbability":0,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":1,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.5,
+
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[
+		],
+	},
+	#"shipRoles":{
+	#},
+	"illegalCommodities":[
+	],
+	"music":{
+		"encounter_neutral":"SGB_Omega_Pre01",
+		"encounter_hostile":"SGB_Omega_Pre01",
+		"encounter_friendly":"SGB_Omega_Pre01",
+	},	
+	"portraits":{
+		"standard_male":[
+		"graphics/portraits/SGB_Ai_Core_01.png",
+		],
+		"standard_female":[
+		"graphics/portraits/SGB_Ai_Core_02.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+			"citizen":{"name":"数据洪流"},
+			"Captain":{"name":"乱码窥测"},
+		},
+		"posts":{
+			"spacer":{"name":"探针"},
+			"Fleet Commander":{"name":"回音"},
+		},
+	},
+	"custom":{
+		"engageWhenEvenStrength":false, # They will run
+		"postsNoBounties":true,
+		"fightToTheLast":false, # They will run dont they?
+		"noAICoresFromAutomatedDefenses":true,
+		"officersOnAutomatedDefenses":true,
+	},	
+	"fleetTypeNames":{
+		"patrolSmall":"虚影", 
+		"patrolMedium":"幻象", 
+		"patrolLarge":"显现", 
+		"battlestation":"聚合",
+	},
+},

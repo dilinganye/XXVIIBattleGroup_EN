@@ -52,7 +52,7 @@ public class XXVII_SpecialWingGroup_Carrier extends BaseHullMod {
 
 		tooltip.addSectionHeading(txt("HullMods_Tips"), Alignment.MID, 5f);
 		tooltip.addPara(txt("HullMods_XXVII_SpecialWingGroup_Carrier_01"), SGB_Color.SGBcoreIntersting_Word, 4f);
-		tooltip.addPara(txt("HullMods_XXVII_SpecialWingGroup_Carrier_02"), 0, Misc.getNegativeHighlightColor(), "Only ");
+		tooltip.addPara(txt("HullMods_XXVII_SpecialWingGroup_Carrier_02"), 0, Misc.getNegativeHighlightColor(), "只有");
 	}
 	@Override
 	public void applyEffectsAfterShipCreation(ShipAPI ship, String id) {

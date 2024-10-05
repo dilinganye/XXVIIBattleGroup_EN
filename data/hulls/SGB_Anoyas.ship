@@ -155,20 +155,20 @@
       "style": "MIDLINE"
     },
     {
-      "location": [48, 26],
+      "location": [48, 26.5],
       "length": 7.11,
       "width": 17.049999,
       "angle": 90,
       "contrailSize": 128,
-      "style": "MIDLINE"
+      "style": "SGB_TECH"
     },
     {
-      "location": [48, -26],
+      "location": [48, -26.5],
       "length": 7.11,
       "width": 17.049999,
       "angle": -90,
       "contrailSize": 128,
-      "style": "MIDLINE"
+      "style": "SGB_TECH"
     }
   ],
   "bounds": [

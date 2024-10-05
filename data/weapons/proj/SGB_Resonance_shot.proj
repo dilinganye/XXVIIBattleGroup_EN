@@ -1,0 +1,13 @@
+{
+	"id":"SGB_Resonance_shot",
+	"specClass":"projectile",
+	"spawnType":"PLASMA",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"width":20.0,
+	"fadeTime":0.5,
+	"hitGlowRadius":28,
+	"fringeColor":[67,189,135,200],
+	"coreColor":[109,126,212,255],
+	"passThroughMissiles":true,	
+}

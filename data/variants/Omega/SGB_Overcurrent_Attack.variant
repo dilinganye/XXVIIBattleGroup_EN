@@ -1,0 +1,34 @@
+{
+  "variantId": "SGB_Overcurrent_Attack",
+  "hullId": "SGB_Overcurrent",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 11,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "extendedshieldemitter",
+    "hardenedshieldemitter",
+    "magazines",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "riftlance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "minipulser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

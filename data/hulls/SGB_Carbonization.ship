@@ -1,0 +1,63 @@
+{
+  "hullName": "SGB_Carbonization",
+  "hullId": "SGB_Carbonization",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Omega/SGB_Carbonization.png",
+  "style": "OMEGA",
+  "height": 36,
+  "width": 20,
+  "center": [9, 18],
+  "collisionRadius": 38.5,
+  "shieldCenter": [-1, -0],
+  "shieldRadius": 36,
+  "viewOffset": 0,
+  "builtInMods": [
+    "SGB_ShakeShardSpawner",
+    "autorepair"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 7,
+      "angle": 0,
+      "locations": [10, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-2.5, -9],
+      "length": 22.154259,
+      "width": 6.461824,
+      "angle": 154.5,
+      "contrailSize": 6.461824,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-15.5, 5],
+      "length": 14.130588,
+      "width": 8.620082,
+      "angle": -169.5,
+      "contrailSize": 8.620082,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-13, -2.5],
+      "length": 9.539876,
+      "width": 2.227788,
+      "angle": -32,
+      "contrailSize": 2.227788,
+      "style": "OMEGA"
+    }
+  ],
+  "bounds": [
+    13.5, -2.5,
+    13.5, -2.5,
+    13.5, 2.5,
+    13.5, 2.5,
+    -14, 7,
+    -4, -4
+  ]
+}

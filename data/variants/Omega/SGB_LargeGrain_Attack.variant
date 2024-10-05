@@ -1,0 +1,33 @@
+{
+  "variantId": "SGB_LargeGrain_Attack",
+  "hullId": "SGB_LargeGrain",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "turretgyros",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "cryoblaster",
+        "WS0002": "riftlance",
+        "WS0003": "riftlance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

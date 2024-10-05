@@ -12,19 +12,12 @@
     "secondarySegments":7,
     "baseUIColor": [245,205,20, 255],
 	"shipNameSources":{
-		"HEGEMONY":1,
-		"BRITISH_NAVY":1,
-		"ROMAN":2,
-		"GREEK":1,
-		"SPACE":1,
-		"GENERAL":1,
+		"SGB_FORGING":10,
 	},
 	"names":{
 		"old english":1,
 		"modern":1,
 		"world":1,
-		"future":1,
-		"myth":1,
 	},
 	
 	# variantOverrides restricts hulls to listed variants and adjusts their probability
@@ -38,11 +31,12 @@
 			"lowtech_bp":0,
 			"heg_aux_bp":0,
 			"SGB_bp":10,
-			"SGB_XXVII_bp":5,
+			"SGB_XXVII_bp":6,
 		},
 		"hulls":{
 			"atlas":3,
 			"valkyrie":5,
+			"SGB_Carving_SD":0,
 		},
 	},
 	# ships the faction gets access to when importing S&W out-of-faction
@@ -87,6 +81,9 @@
 		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "missile_bp", "SGB_bp", "persean"],
 		"weapons":[
 			"railgun",
+			"lightneedler",
+			"heavyneedler",
+			"multineedler",
 			"dualflak",
 			"heavymauler",
 			"hveldriver",
@@ -158,9 +155,9 @@
 		
 		"officerQuality":3,
 		"shipQuality":1,
-		"numShips":3,
+		"numShips":4,
 		
-		"shipSize":3,
+		"shipSize":4,
 		
 		"aggression":3,
 		
@@ -188,8 +185,11 @@
 	"music":{
 		"theme":"XXVII_Daphne",
 		"market_neutral":"faction_sbg_market_neutral",
-		"market_hostile":"faction_sbg_market_hostile",
-		"market_friendly":"faction_sbg_market_friendly",
+		# Wait Until DarkLight Finish those stuff.
+		"market_hostile":"faction_sbg_market_neutral",
+		"market_friendly":"faction_sbg_market_neutral",
+		#"market_hostile":"faction_sbg_market_hostile",
+		#"market_friendly":"faction_sbg_market_friendly",
 		"encounter_neutral":"faction_sbg_encounter_neutral",
 		"encounter_hostile":"faction_sbg_encounter_hostile",
 		"encounter_friendly":"faction_sbg_encounter_friendly",
@@ -200,14 +200,21 @@
 	#"fineFraction":0.25,
 	"portraits":{
 		"standard_male":[
+			"graphics/portraits/SGB_Assault.png",
+			"graphics/portraits/SGB_Assault_2.png",
 			"graphics/portraits/SGB_Commando.png",
+			"graphics/portraits/SGB_Commando_2.png",
+			"graphics/portraits/SGB_Commando_3.png",
 			"graphics/portraits/SGB_Sentry.png",
 			"graphics/portraits/SGB_Veteran.png",
+			"graphics/portraits/SGB_Spectror.png",
 		],
 		"standard_female":[
+			"graphics/portraits/SGB_Assault_2.png",
 			"graphics/portraits/SGB_Commando.png",
+			"graphics/portraits/SGB_Commando_2.png",
 			"graphics/portraits/SGB_Sentry.png",
-			"graphics/portraits/SGB_Veteran.png",
+			"graphics/portraits/SGB_Spectror.png",
 		],
 	},
 	"ranks":{
@@ -249,7 +256,7 @@
 		"punitiveExpeditionData":{
 			"vsCompetitors":false,
 			"vsFreePort":false,
-			"canBombard":false,
+			"canBombard":true,
 			"territorial":true,
 		},
 	},	

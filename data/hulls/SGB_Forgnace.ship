@@ -3,7 +3,7 @@
   "hullId": "SGB_Forgnace",
   "hullSize": "CAPITAL_SHIP",
   "spriteName": "graphics/ships/SGB_Forgnace.png",
-  "style": "SGB_TECH",
+  "style": "SGB_TECH_XXVII",
   "height": 322,
   "width": 400,
   "center": [200, 165],

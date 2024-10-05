@@ -4,6 +4,7 @@ import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.*;
 import data.scripts.util.MagicRender;
 import org.lazywizard.lazylib.LazyLib;
+import org.lazywizard.lazylib.MathUtils;
 import org.lwjgl.util.vector.Vector2f;
 
 import com.fs.starfarer.api.impl.campaign.ids.Stats;
@@ -31,7 +32,6 @@ public class SGB_Temperom_Beam_Effect implements BeamEffectPlugin {
 				light=true;
 			}
 		}
-
 		Boolean RandomTrue = true; if(Math.random()>=0.5){RandomTrue=false;}
 
 		CombatEntityAPI target = beam.getDamageTarget();
@@ -123,8 +123,8 @@ public class SGB_Temperom_Beam_Effect implements BeamEffectPlugin {
 			ShipAPI theTarget = (ShipAPI)target;
 			fireInterval.advance(amount * beam.getBrightness());
 			if (beam.didDamageThisFrame()) {
-				float damage = beam.getDamage().getDamage() * beam.getDamage().getDpsDuration();
-
+				float damage = beam.getDamage().getDpsDuration() * beam.getDamage().getDamage();
+				/*
 				if (beam.getWeapon().getSize() == WeaponAPI.WeaponSize.SMALL) {
 					damage *= 0.75f;
 				}
@@ -136,9 +136,8 @@ public class SGB_Temperom_Beam_Effect implements BeamEffectPlugin {
 				else if (beam.getWeapon().getSize() == WeaponAPI.WeaponSize.LARGE) {
 					damage *= 1.25f;
 				}
-
-				if (shieldHit(beam, theTarget)) {
-
+				*/
+				if (shieldHit(beam, theTarget)) {	// 算武器的实际伤害
 					if(beam.getDamage().getType().equals("KINETIC")){
 						damage*= 2f;
 					}
@@ -148,7 +147,15 @@ public class SGB_Temperom_Beam_Effect implements BeamEffectPlugin {
 					if(beam.getDamage().getType().equals("FRAGMENTATION")){
 						damage*= 0.25f;
 					}
-					//theTarget.getFluxTracker().increaseFlux(-damage, false);
+
+					damage = damage * theTarget.getShield().getFluxPerPointOfDamage();	// 盾效
+					//if(theTarget.getCurrFlux()>=damage) {	}
+					//	theTarget.getFluxTracker().increaseFlux(-damage, false);
+					//  damage = damage * MathUtils.getRandomNumberInRange(0.5f, 1.5f);
+					//  theTarget.getFluxTracker().increaseFlux(damage, true);
+
+					beam.getDamage().setForceHardFlux(true);
+					damage*=  MathUtils.getRandomNumberInRange(-0.25f, 0.25f);
 					theTarget.getFluxTracker().increaseFlux(damage, true);
 				}
 			}
