@@ -15,7 +15,15 @@ Precision Multiplier Turret,SGB_Achilles_FrontTurret,,0,Shackles Garrison,no_bui
 #阿基里斯额外 %s 后坐力减免不会做，不做。,,,,,,,,,,,,,,,,,,
 #chassis_storage,,,,,,,,,,,,,,,,,,
 Quenching Squad,SGB_QuenchGroup,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.FighterChassisStorage,"The wolf follows you under the shadow, and the squadron will always follow you.",淬火联队,graphics/hullmods/SGB_QuenchGroup.png
-Pulverized Shard,SGB_ShakeShardSpawner,,0,Unknown,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_ShakeShardSpawner,A type of Omega that is fleeing from an destructive encounter with the fringe tactical fleet of the Shackle Garrison.,骇晶碾环,graphics/hullmods/Mega_Enginer.png
+Pulverized Shard,SGB_ShakeShardSpawner,,0,Unknown,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_ShakeShardSpawner,"A type of Omega that is fleeing from an destructive encounter with the fringe tactical fleet of the Shackle Garrison.
+
+What? You wonder about that little guy next to this paragraph?
+
+That is miga, he is a Miga Enginer, he made all of those coooool omega you never seen before to havin fun.
+Say hello to little miga!
+                     - Yisic
+-=-=YOU SHOULD NOT SEE THIS=-=-
+(Since You shouldn't having any omega)",骇晶碾环,graphics/hullmods/Mega_Enginer.png
 ,,,,,,,,,,,,,,,,,,
 #奥氏体,,,,,,,,,,,,,,,,,,
 Modular Quenching Core,SGB_Austenite_Core,,0,Shackles Garrison,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.SGB_Austenite_Core,"This ship is a specialized frigate-class combat vessel of the 27th Battle Group, with its specialized internal weapon modules can support certain exclusive weapons. The system of this ship has been tuned to a certain extent, and pushing it further may require additional costs.

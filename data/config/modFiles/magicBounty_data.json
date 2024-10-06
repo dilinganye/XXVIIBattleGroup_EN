@@ -9,11 +9,11 @@
         
         #BOUNTY DESCRIPTION
         
-        "job_name": "未知追捕",
-        "job_description": "==链戍== 的外围作战编队在不经意间发现了曾隶属于 ==人之领== 的自动机械，并立即遭遇了来自后者的袭击。==链戍== 方面在付出惨痛代价后彻底击溃了敌对的一切大型目标 - 小型未知目标见势不妙就迅速撤离了战场。根据目前已知的消息，至少 ==十余支== 小型舰队在这次战斗后逃窜至英仙座内的不同区域。==链戍== 在派遣舰船对这些目标进行围剿的同时，也下放了许多针对小型目标的围剿请求 - 主要是针对那些在这片星域之中有着足够能力的佣兵。\n\n==链戍== 方面对目标的要求为 ==消灭==，但并不在乎其身上武器的下落 - 舰长对此的私吞是可以被接受的。\n\n提示：赏金目标 ==随时== 有可能见势不妙 ==试图撤离==，务必提前做好对策。",
-        "job_comm_reply": "在经过一段短暂的嘈杂声后，一阵柔和的电子音从终端对面传来：\n\"这位太空舰长，你好，我作为一个单独的智慧个体，所受到的命令便是对 $constellation 进行勘察。而 ==人之领前集团军== 对我们所发起的不明袭击令我感到愤怒与疑惑，我希望你 ==不会== 加入他们那非法的所作所为。\"\n\n你不知道对方到底有没有在说真话，但 - 为了来自前人之领集团军的 $reward 与或许是归属与人之领的智能机械作战这件事，或许追责下来不一定会追到你的头上。\n\n\"想必你已经做出正确的决定了？\"\n\n无论如何，你相信至少你接下来要做的选择不会让自己后悔。",
-        "job_intel_success": "==链戍== 方面对您的快速响应表示出了极大的肯定 - 这件事也在他们的队伍之中产出了不少关于你的小道消息。\n\n根据目前你所了解到的 - ==链戍== 在你执行此任务的同时，进一步剿灭了五组正在英仙座的其他区域执行勘探的智能机械。你有点好奇速子会不会也横插一脚，但这就与你无关了 - 毕竟你已经拿到了你所需的酬劳。",
-        "job_intel_expired": "==链戍== 方面对你接了活不干事这件事没有多大的反应 - 毕竟你的不作为也只是耽误了一些时间而已，一队新编的打击小组已经准备前往你没能去往的地方 - 前提是没有其他人在此之前抢了这个活。\n\n根据目前你所了解到的 - ==链戍== 似乎不太打算继续给你派任务了，但这已经与你无关了 - 毕竟你一开始也不怎么感兴趣。",
+        "job_name": "Unknown Hunt",
+        "job_description": "==Shackles Garrison's== fringe tactical formation have accidentally discovered ==Domain Era== autonomous machines, and came under their attack. ==Shackles Garrison== was able to destroy all large targets after terrifying loss - smaller targets retreated after the tide turned against them. Based on known information, no less than ==a dozen== smaller fleet have flead into various areas within the sector. ==Shack Garrison== will hunt down these ships, but also issued many request for the smaller targets to those mercenary with the ability to do so. \n\n==Shack Garrison== request the targets to be ==destroyed==, but cares not what happen to their weapons - captains are allowed to keep their loot. \n\nReminder: Targets may decide to ==retreat== ==at any time==, make sure counter measure are prepared.",
+        "job_comm_reply": "After a brief noise, a soft electronic noise came from across the terminal:\n\"Dear captain, greetings. I am an independent sentient life form, ordered to carry out survey of $constellation . I am confused and angry by the unprovoked attack caused by ==Former Battlegroup of the Domain of Man== , I hope you ==would not == join their ilegal actions. \"\n\nYou don't know if they are lying or not, but - the crime of fighting for $reward promised by a former dominion battle group to attack AI that may belong to the dominion is probably not going to land on your head. \n\n\"I trust you have made the correct decision? \"\n\nNo matter what, you trust you wouldn't be regreting your decision.",
+        "job_intel_success": "==Shackles Garrison== approves of your rapid response greatly - this must have created many rumor amongst their forces about you. \n\nBased on what you know - ==Shackles Garrison== wiped out five other groups of surveying AI within other areas of the Persean sector. You are curious if Tri-Tachyon would get involved, but that's got nothing to do with you now  - You have already gotten paid, after all.",
+        "job_intel_expired": "==Shackles Garrison== didn't have much reaction to your decision to take a job and not act on it - All your inaction have done is wasting some time, a new strike force is now heading to your original destination - assuming no one stole the job before that.\n\nBased on what you've heard, it seems ==Shackles Garrison== is no longer too interested in issuing further missions to you, but that's got nothing to do with you now - You weren't that interested anyway.",
         "job_forFaction": "SGB",
         "job_deadline": 90,
         "job_credit_reward": 50000,
@@ -26,7 +26,7 @@
         "job_show_distance": "system",
         "job_show_arrow": false,
         "job_difficultyDescription": "auto",
-        "job_pick_option": "加入这场目标不明的追捕行动",
+        "job_pick_option": "Join the hunt for this unknown target",
         #"job_pick_script": "data.script.script",
         "job_memKey":"$SGB_Omega_0",
         #"job_conclusion_script":"data.script.script",
@@ -51,7 +51,7 @@
     
         #TARGET FLEET
         
-        "fleet_name":"未知目标",
+        "fleet_name":"Unknown Target",
         "fleet_faction": "SGB_Omega_Watcher",
         "fleet_flagship_variant":"SGB_Overcurrent_AntiShield",
         #"fleet_flagship_name":"",
@@ -119,11 +119,11 @@
         
         #BOUNTY DESCRIPTION
         
-        "job_name": "追捕继续",
-        "job_description": "在上次的打击后，==链戍== 利用 ==人之领== 的解码系统对其进行了数据提取，但大量溢出的无用乱码数据流完全是处于意料之外。经过 ==链戍== 的军事科研小组对打捞残骸进行的解析，确认这些自动机械的底层与数据库之中的一切类型都完全不符，甚至其基本计算逻辑都绝不是二进制。\n==链戍== 方面仍旧要求赏金舰长继续对这些未知舰船进行追捕，但需要将数据集发送给对应接受人员，以确认未知舰船的实际动向。\n\n==链戍== 方面对目标的要求为 ==消灭==，但并不在乎其身上武器的下落 - 舰长对此的私吞是可以被接受的。\n\n提示：赏金目标 ==随时== 有可能见势不妙 ==试图撤离==，务必提前做好对策。",
-        "job_comm_reply": "在经过一段短暂的嘈杂声后，一阵柔和的电子音从终端对面传来：\n\"舰长，我认得你是谁。我不想和你继续进行这些无用的聊天了，但你要知道一件事 - 我 们 无 法 被 阻 止—————— \"\n\n随着面前终端的爆炸，大量数据流轰击着你的舰船系统。伴随着耳中仍旧回荡不止的系统告警声，船员按照你的要求迅速强制切断了通讯连接，并立刻终止了全舰的自动化进程。系统随后被强制重启 - 全舰也随后趋于稳定，你面前的终端也被迅速被更替成了老旧一些的备用型号，但空气中那长久不散的焦糊味儿仍旧让你眉头紧锁。",
-        "job_intel_success": "==链戍== 方面进一步对您的快速响应表示出了极大的肯定 - 但随后他们便要求你彻底压下这些消息。\n\n根据他们所告知你的是，这些智能舰船已经彻底失控，没人知道它们到底要干什么。但无论如何，你拿到了你该拿到的钱来换回最新的终端面板，还让那个DDOS你的家伙步了你旧主板那同样的遭遇，那么对你而言这就已经足够了。",
-        "job_intel_expired": "==链戍== 方面对你接了活不干事这件事没有多大的反应 - 毕竟你的不作为也只是耽误了一些时间而已，一队新编的打击小组已经准备前往你没能去往的地方 - 前提是没有其他人在此之前抢了这个活。\n\n根据目前你所了解到的 - ==链戍== 似乎不太打算继续给你派任务了，但这已经与你无关了 - 毕竟你一开始也不怎么感兴趣。",
+        "job_name": "Continue the Hunt",
+        "job_description": "After the previous strike, ==Shackles Garrison== used ==Domain Era== decoding system to extract data from the target. But the massive stack overflow of useless data is completely beyond expectation. After research of the recovered wreck by the  ==Shackles Garrison== military research teams. It is confirmed that these autonomous machine is completely different from anything else in the database, it doesnt even operate on binary.\n==Shackles Garrison== still request bounty hunter to hunt down these unknown ships, but they also require them to accept the data record to allow for tracking of the movement of these unknown ships.\n\n==Shack Garrison== request the targets to be ==destroyed==, but cares not what happen to their weapons - captains are allowed to keep their loot. \n\nReminder: Targets may decide to ==retreat== ==at any time==, make sure counter measure are prepared.",
+        "job_comm_reply": "After a brief noise, a soft electronic noise came from across the terminal: \n\"Captain, I recognize you. I will not continue meaningless chat with you, but you need to understand one thing - WE CANNOT BE STOPPED —————— \"\n\nFollowing the explosion before the terminal before you, a massive data stream strike your ship's system. Sharp warning siren ring your ear, your crew quickly cut the communication connection and shut down all automated process on the ship. The ship was stablized following a forced reboot, and the terminal before you replaced with an older back up model. Still, the lingering burnt smell in the air makes your brow furrow.",
+        "job_intel_success": "==Shackles Garrison== greatly appreciate your rapid response - but they than want you to contain this information.\n\nBased on what they told you, these AI ships have gone completely rouge, no one knows what they want. No matter what, your got the money to get a new terminal and let the bastard who DDOS'ed you meet the same fate as your old motherboard. That is more than enough.",
+        "job_intel_expired": "==Shackles Garrison== didn't have much reaction to your decision to take a job and not act on it - All your inaction have done is wasting some time, a new strike force is now heading to your original destination - assuming no one stole the job before that.\n\nBased on what you've heard, it seems ==Shackles Garrison== is no longer too interested in issuing further missions to you, but that's got nothing to do with you now - You weren't that interested anyway.",
         "job_forFaction": "SGB",
         "job_deadline": 90,
         "job_credit_reward": 70000,
@@ -136,7 +136,7 @@
         "job_show_distance": "system",
         "job_show_arrow": false,
         "job_difficultyDescription": "auto",
-        "job_pick_option": "继续加入这场目标不明的追捕行动",
+        "job_pick_option": "Continue the hunt for unknown targets",
         #"job_pick_script": "data.script.script",
         "job_memKey":"$SGB_Omega_1",
         #"job_conclusion_script":"data.script.script",
@@ -156,7 +156,7 @@
     
         #TARGET FLEET
         
-        "fleet_name":"失控目标",
+        "fleet_name":"Rouge Target",
         "fleet_faction": "SGB_Omega_Watcher",
         "fleet_flagship_variant":"SGB_LargeGrain_AntiShield",
         #"fleet_flagship_name":"",
@@ -224,11 +224,11 @@
         
         #BOUNTY DESCRIPTION
         
-        "job_name": "行刑时刻",
-        "job_description": "==链戍== 已经基本剿灭了这些目标，并且给出了最后几个失控目标的所在位置，并希望赏金猎人们尽快予以处理。\n\n==链戍== 已经确认了这些家伙的目的 - 侦察，它们在侦察 ==英仙座==。具体的原因并不明朗，但其底层逻辑经过破解已经大致确认了一件事 - 其 ==不存在逻辑底层==，也就是它们会 ==不断复写== 自己的底层逻辑以及运算模式，这将导致它们无时无刻不在产生翻天覆地的变化。\n\n==链戍== 方面对目标的要求为 ==消灭==，但并不在乎其身上武器的下落 - 舰长对此的私吞是可以被接受的。\n\n提示：赏金目标 已经做好了决战的准备，务必提前做好对策。",
-        "job_comm_reply": "在经过一段短暂的嘈杂声后，一阵柔和的电子音从终端对面传来：\n\"舰长，我和你说过，我们无法被—————— \"\n\n随着你的舰队那 ==大量== 不重复数据流的强制注入，对方很明显愣了短短的那么一秒，随着连接被你主动切断，那早就被你发射出去的中继器便在对方的愤怒之中崩解熔毁成了闪耀的太空碎片。但没有任何数据流成功进入你的舰船系统 - 没有 ==任何== 一丁点。\n\n你感觉很舒适。",
-        "job_intel_success": "==链戍== 方面进一步对您的快速响应进行了公开表扬，你也立刻收到了你所需要的资金。也许这件事到此就结束了 - 吗？",
-        "job_intel_expired": "==链戍== 方面对你接了活不干事这件事没有多大的反应 - 毕竟你的不作为也只是耽误了一些时间而已，一队新编的打击小组已经准备前往你没能去往的地方 - 前提是没有其他人在此之前抢了这个活。\n\n根据目前你所了解到的 - ==链戍== 似乎不太打算继续给你派任务了，但这已经与你无关了 - 毕竟你一开始也不怎么感兴趣。",
+        "job_name": "The Bell Tolls",
+        "job_description": "==Shackles Garrison== has basically eradicated these targets, and provided location of the last rouge targets. They request bounty hunter to deal with them soon.\n\n==Shackles Garrison== has determined their goal - reconnaissance, they are scouting ==Persean Sector==. The exact reason is unknown, but cracking of fundamental logic has determined one thing - these things ==has no fundamental logic==, that is to say they will ==constantly rewrite== their fundamental logic and computational method, essentially meaning they are constantly overhauling themselves.\n\n==Shack Garrison== request the targets to be ==destroyed==, but cares not what happen to their weapons - captains are allowed to keep their loot. \n\nReminder: The target have prepared for a final battle, you should be prepared.",
+        "job_comm_reply": "After a brief noise, a soft electronic noise came from across the terminal:\n\"Captain, we have told you, we cannot be—————— \"\n\nAfter your fleet injected ==massive== amount of data stream, the voice clearly seems to be stunned for a second. As the connection is cut on your end, the terminal you have long ejected melted into glowing space dust. But no data stream entered your ship system  - not ==a single== drop.\n\nYou feel good about yourself.",
+        "job_intel_success": "==Shackles Garrison== praised you publicly for your rapid response, and you recieved the fund you requested. This matter is at an end - right?",
+        "job_intel_expired": "==Shackles Garrison== didn't have much reaction to your decision to take a job and not act on it - All your inaction have done is wasting some time, a new strike force is now heading to your original destination - assuming no one stole the job before that.\n\nBased on what you've heard, it seems ==Shackles Garrison== is no longer too interested in issuing further missions to you, but that's got nothing to do with you now - You weren't that interested anyway.",
         "job_forFaction": "SGB",
         "job_deadline": 100,
         "job_credit_reward": 100000,
@@ -241,7 +241,7 @@
         "job_show_distance": "system",
         "job_show_arrow": false,
         "job_difficultyDescription": "auto",
-        "job_pick_option": "继续加入这场目标不明的追捕行动",
+        "job_pick_option": "Continue the hunt for unknown target.",
         #"job_pick_script": "data.script.script",
         "job_memKey":"$SGB_Omega_2",
         #"job_conclusion_script":"data.script.script",
@@ -261,7 +261,7 @@
     
         #TARGET FLEET
         
-        "fleet_name":"失控目标",
+        "fleet_name":"Rouge Target",
         "fleet_faction": "SGB_Omega_Watcher",
         "fleet_flagship_variant":"SGB_LargeGrain_AntiShield",
         #"fleet_flagship_name":"",

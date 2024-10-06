@@ -374,6 +374,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="D:\Game\Starsector_096\mods\XXVIIBattleGroup\data\campaign\sim_opponents.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="D:\Game\Starsector_096\mods\XXVIIBattleGroup_EN\data\campaign\rules.csv">
           <value>
             <Attribute>
@@ -536,6 +543,13 @@
           </value>
         </entry>
         <entry key="\data\strings\descriptions.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\strings\descriptions_CN.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
