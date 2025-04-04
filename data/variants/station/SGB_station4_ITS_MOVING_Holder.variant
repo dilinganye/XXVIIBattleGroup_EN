@@ -1,0 +1,128 @@
+{
+  "variantId": "SGB_station4_ITS_MOVING_Holder",
+  "hullId": "SGB_station4_ITS_MOVING",
+  "displayName": "Combat",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "SGB_Decoy",
+        "WS0008": "SGB_Decoy"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "SGB_Decoy",
+        "WS0010": "SGB_Decoy"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "SGB_Coahuilite"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "SGB_Coahuilite"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "SGB_Screws",
+        "WS0007": "SGB_Screws"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "SGB_PinTwi",
+        "WS0003": "SGB_PinTwi",
+        "WS0011": "SGB_PinTwi",
+        "WS0012": "SGB_PinTwi"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "SGB_ScrewsTwi",
+        "WS0014": "SGB_ScrewsTwi",
+        "WS0015": "SGB_ScrewsTwi",
+        "WS0016": "SGB_ScrewsTwi"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "STP_BT": "SGB_Station_Below_EX"
+    },
+    {
+      "STP_TP": "SGB_Station_Top_AntiShield"
+    },
+    {
+      "STP_L_MK": "SGB_Station_BigMid_WingBar_L_Missile"
+    },
+    {
+      "STP_R_MK": "SGB_Station_BigMid_WingBar_R_AntiShield"
+    },
+    {
+      "STP_L_AM": "SGB_Station_BMid_WingArmor_L_AntiShield"
+    },
+    {
+      "STP_R_AM": "SGB_Station_BMid_WingArmor_R_AntiShield"
+    },
+    {
+      "STP_L_LK": "SGB_Station_BMid_Attack_L_Only"
+    },
+    {
+      "STP_R_LK": "SGB_Station_BMid_Attack_R_Only"
+    },
+    {
+      "STP_L_MS": "SGB_Station_Side_System_L_Missile"
+    },
+    {
+      "STP_R_MS": "SGB_Station_Side_System_R_Missile"
+    },
+    {
+      "STP_L_BT": "SGB_Station_Sidest_Armor_L_Missile"
+    },
+    {
+      "STP_R_BT": "SGB_Station_Sidest_Armor_R_Missile"
+    },
+    {
+      "STP_L_SC": "SGB_Station_midAttackPointShield_L_Hanger"
+    },
+    {
+      "STP_R_SC": "SGB_Station_midAttackPointShield_R_Hanger"
+    },
+    {
+      "STP_L_AT": "SGB_Station_midAttackPoint_L_Attack"
+    },
+    {
+      "STP_R_AT": "SGB_Station_midAttackPoint_R_Attack"
+    },
+    {
+      "STP_L_FW": "SGB_Station_BigWing_Slot_L_Attack"
+    },
+    {
+      "STP_R_FW": "SGB_Station_BigWing_Slot_R_Attack"
+    }
+  ],
+  "wings": []
+}

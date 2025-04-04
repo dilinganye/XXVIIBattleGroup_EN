@@ -1,7 +1,7 @@
 {
   "variantId": "SGB_Ductility_2_Attack",
   "hullId": "SGB_Ductility_2",
-  "displayName": "Coop",
+  "displayName": "Attack",
   "goalVariant": true,
   "fluxCapacitors": 45,
   "fluxVents": 27,

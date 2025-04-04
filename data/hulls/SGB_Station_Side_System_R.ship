@@ -1,0 +1,118 @@
+{
+  "hullName": "SGB_Station_Side_System_R",
+  "hullId": "SGB_Station_Side_System_R",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Station/SGB_Station_Side_System_R.png",
+  "style": "SGB_TECH",
+  "height": 174,
+  "width": 173,
+  "center": [87, 86.5],
+  "collisionRadius": 124.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 96,
+  "viewOffset": 0,
+  "builtInMods": [
+    "supercomputer",
+    "shared_flux_sink",
+    "reduced_explosion",
+    "missile_reload",
+    "always_detaches"
+  ],
+  "builtInWeapons": {
+    "WS0001": "SGB_Ship_Red_Missile",
+    "WS0002": "SGB_Ship_Red_Missile",
+    "WS0003": "SGB_Ship_Red_Missile",
+    "WS0004": "SGB_ScrewsTwi",
+    "WS0005": "SGB_ScrewsTwi",
+    "WS0006": "SGB_Screws",
+    "WS0008": "SGB_Shackles_MissileLauncher_L"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -75,
+      "locations": [-21, 24]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -75,
+      "locations": [-23.5, 33]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -75,
+      "locations": [-26, 42.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 117,
+      "angle": -79,
+      "locations": [11.5, -10],
+      "renderOrderMod": 9
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 131,
+      "angle": -71,
+      "locations": [35, -10.5],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 117,
+      "angle": -76,
+      "locations": [19.5, -18]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 197,
+      "angle": -119.5,
+      "locations": [-55.5, -38]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -117,
+      "locations": [-16.5, -23.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -51, -45,
+    -33.5, -27,
+    57, 3,
+    56.5, 16,
+    20.5, 34.5,
+    5.5, 13,
+    -23, 22.5,
+    -58.5, 8,
+    -59, -36
+  ]
+}

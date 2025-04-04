@@ -12,8 +12,12 @@
   "shieldRadius": 31,
   "viewOffset": 0,
   "builtInWeapons": {
-    "WS0003": "SGB_Barb",
-    "WS0004": "SGB_Barb"
+    "WS0001": "SGB_blinker_red_S",
+    "WS0003": "SGB_Curlor",
+    "WS0004": "SGB_Serpentine",
+    "WS0005": "SGB_blinker_red_S",
+    "WS0006": "SGB_blinker_red_S",
+    "WS0007": "SGB_WingPushPlate"
   },
   "weaponSlots": [
     {
@@ -23,7 +27,7 @@
       "mount": "HIDDEN",
       "arc": 360,
       "angle": 0,
-      "locations": [3.5, -0]
+      "locations": [1.5, -0]
     },
     {
       "id": "WS0003",
@@ -31,22 +35,67 @@
       "type": "BUILT_IN",
       "mount": "TURRET",
       "arc": 47,
-      "angle": 11.5,
-      "locations": [8, -12]
+      "angle": 6,
+      "locations": [8, -8]
     },
     {
       "id": "WS0004",
       "size": "SMALL",
       "type": "BUILT_IN",
-      "mount": "HARDPOINT",
+      "mount": "TURRET",
       "arc": 9,
       "angle": 0,
-      "locations": [1, 8.5]
+      "locations": [9.5, 9]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [3, 0.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [3, -0.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [4, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-14, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-18, -0]
     }
   ],
   "engineSlots": [
     {
-      "location": [-11, -0],
+      "location": [-13.5, -0],
       "length": 20.5,
       "width": 6,
       "angle": 180,
@@ -60,6 +109,22 @@
       "angle": 180,
       "contrailSize": 14,
       "style": "LOW_TECH_FIGHTER"
+    },
+    {
+      "location": [-5.5, 13.5],
+      "length": 6.36,
+      "width": 4.24,
+      "angle": 131.5,
+      "contrailSize": 128,
+      "style": "SGB_LESS_GROW_TECH"
+    },
+    {
+      "location": [-5.5, -13.5],
+      "length": 6.36,
+      "width": 4.24,
+      "angle": -131.5,
+      "contrailSize": 128,
+      "style": "SGB_LESS_GROW_TECH"
     }
   ],
   "bounds": [

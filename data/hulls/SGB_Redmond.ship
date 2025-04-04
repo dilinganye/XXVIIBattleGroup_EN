@@ -16,10 +16,10 @@
     "civgrade"
   ],
   "builtInWeapons": {
-    "WS0002": "blinker_green",
+    "WS0002": "SGB_blinker_green_S",
     "WS0004": "XXVII_den_Redmond_L",
     "WS0007": "XXVII_den_Redmond_R",
-    "WS0008": "blinker_red"
+    "WS0008": "SGB_blinker_red_S"
   },
   "weaponSlots": [
     {

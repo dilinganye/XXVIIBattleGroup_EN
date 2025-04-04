@@ -7,13 +7,13 @@
   "height": 43,
   "width": 26,
   "center": [13, 14],
-  "collisionRadius": 28,
+  "collisionRadius": 35.5,
   "shieldCenter": [0, -0],
   "shieldRadius": 29,
   "viewOffset": 0,
   "builtInWeapons": {
-    "WS0008": "blinker_red",
-    "WS0009": "blinker_green"
+    "WS0008": "SGB_blinker_red_Q",
+    "WS0009": "SGB_blinker_green_S"
   },
   "weaponSlots": [
     {

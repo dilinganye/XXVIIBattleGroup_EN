@@ -1,0 +1,35 @@
+{
+  "variantId": "SGB_Station_BMid_WingArmor_L_AntiShield",
+  "hullId": "SGB_Station_BMid_WingArmor_L",
+  "displayName": "AntiShield",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "XXVII_SpecialWingGroup_Coop"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "lightneedler",
+        "WS0004": "lightneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "heavymauler",
+        "WS0002": "heavymauler"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "SGB_Axio_Coop_wing"
+  ]
+}

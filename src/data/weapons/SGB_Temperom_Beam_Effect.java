@@ -11,6 +11,8 @@ import com.fs.starfarer.api.impl.campaign.ids.Stats;
 import com.fs.starfarer.api.util.IntervalUtil;
 
 import java.awt.*;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 
 import static data.utils.sgb.I18nUtil.easyRippleOut;
 import static data.utils.sgb.I18nUtil.easyWaving;
@@ -21,16 +23,20 @@ public class SGB_Temperom_Beam_Effect implements BeamEffectPlugin {
 	public static boolean shieldHit(BeamAPI beam, ShipAPI target) {
 		return target.getShield() != null && target.getShield().isOn() && target.getShield().isWithinArc(beam.getTo());
 	}
-	private boolean wasZero = true, light=false, runOnce=false;
+	private boolean wasZero = true, light=false, runOnce=false, notNum = true;
 	Vector2f ZERO = new Vector2f(0,0);
+	private float trueDamage = 0, range = 0;
 
 	public void advance(float amount, CombatEngineAPI engine, BeamAPI beam) {
 		if(engine.isPaused()){return;}
 		if(!runOnce){
 			runOnce=true;
+			trueDamage = beam.getDamage().getDamage();
+			range = MathUtils.getRandomNumberInRange(0.5f,2.0f);
 			if(Global.getSettings().getModManager().isModEnabled("shaderLib")){
 				light=true;
 			}
+			notNum = true;
 		}
 		Boolean RandomTrue = true; if(Math.random()>=0.5){RandomTrue=false;}
 
@@ -124,20 +130,22 @@ public class SGB_Temperom_Beam_Effect implements BeamEffectPlugin {
 			fireInterval.advance(amount * beam.getBrightness());
 			if (beam.didDamageThisFrame()) {
 				float damage = beam.getDamage().getDpsDuration() * beam.getDamage().getDamage();
-				/*
-				if (beam.getWeapon().getSize() == WeaponAPI.WeaponSize.SMALL) {
-					damage *= 0.75f;
+				//	__开奖__
+				beam.getDamage().setDamage(trueDamage * range);
+				// __取小数点后两位
+				BigDecimal theRange = new BigDecimal(String.valueOf(range));
+				theRange = theRange.setScale(2, RoundingMode.HALF_UP);
+				// __开奖可视化
+				if(notNum) {
+					engine.addFloatingText(beam.getTo(), "x" + theRange, 50f,
+							new Color(196, 46, 0, 255), target, 0f, 0f);
+					notNum = false;
 				}
+				//addFloatingDamageText
+				//Global.getLogger(this.getClass()).info("IAMMTHESTOMOFTHEDOOOOOOOSSSSSSEA - range:" + range);
+				//Global.getLogger(this.getClass()).info("IAMMTHESTOMOFTHEDOOOOOOOSSSSSSEA - trueDamage:" + trueDamage);
 
-				if (beam.getWeapon().getSize() == WeaponAPI.WeaponSize.MEDIUM) {
-					damage *= 1f;
-				}
-
-				else if (beam.getWeapon().getSize() == WeaponAPI.WeaponSize.LARGE) {
-					damage *= 1.25f;
-				}
-				*/
-				if (shieldHit(beam, theTarget)) {	// 算武器的实际伤害
+				if (shieldHit(beam, theTarget)) {	// 武器的护盾伤害抵消
 					if(beam.getDamage().getType().equals("KINETIC")){
 						damage*= 2f;
 					}

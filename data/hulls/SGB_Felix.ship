@@ -15,7 +15,7 @@
     "SGB_AllForHuman"
   ],
   "builtInWeapons": {
-    "WS0003": "blinker_red",
+    "WS0003": "SGB_blinker_red_Q",
     "WS0006": "XXVII_den_Felix_L",
     "WS0007": "XXVII_den_Felix_R"
   },

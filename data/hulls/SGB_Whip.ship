@@ -17,14 +17,14 @@
   "builtInWeapons": {
     "WS0001": "SGB_Shackles_MissileLauncher",
     "WS0007": "SGB_Shackles_MissileLauncher",
-    "WS0010": "blinker_green",
-    "WS0011": "blinker_red",
-    "WS0012": "blinker_red",
-    "WS0013": "blinker_green",
-    "WS0014": "blinker_green",
-    "WS0015": "blinker_red",
-    "WS0018": "blinker_red",
-    "WS0019": "blinker_red"
+    "WS0010": "SGB_blinker_green_S",
+    "WS0011": "SGB_blinker_red_S",
+    "WS0012": "SGB_blinker_red_S",
+    "WS0013": "SGB_blinker_green_S",
+    "WS0014": "SGB_blinker_red_S",
+    "WS0015": "SGB_blinker_red_S",
+    "WS0018": "SGB_blinker_red_Q",
+    "WS0019": "SGB_blinker_red_Q"
   },
   "weaponSlots": [
     {

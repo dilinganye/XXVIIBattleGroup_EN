@@ -80,7 +80,7 @@ public class SGB_UNGP_EndlessWing extends UNGP_BaseRuleEffect implements UNGP_Co
     }
 
     public void applyEnemyShipInCombat(float amount, ShipAPI enemy) {
-        if (enemy.isAlive()) {
+        if (enemy.isAlive() && enemy != null) {
             if (!enemy.isDrone() && !enemy.isFighter()) {
                 if (!enemy.isStation() && !enemy.isStationModule()) {
                     if (!(enemy.getNumFighterBays() == 0)) {

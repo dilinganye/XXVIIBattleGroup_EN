@@ -8,11 +8,13 @@
 		"SGB_Felix_Overload": 2,
 		"SGB_Sumner_Assault": 5,
 		"SGB_Posmous_Assault": 4,
-		"SGB_Ogent_Assault": 2
+		"SGB_Ogent_Assault": 2,
+		"SGB_Danburite_Assault": 4
 	},
 
 
 	"combatSmall": {
+		"SGB_Danburite_Assault": 5,
 		"SGB_Duplin_Assault": 5,
 		"SGB_Ceaies_Assault": 5,
 		"SGB_Redmond_Support": 5,
@@ -21,6 +23,9 @@
 		"SGB_Felix_Assault": 3,
 		"SGB_Felix_Overload": 2,
 		"SGB_Sumner_Assault": 5,
+
+		"SGB_Cindotch_Tank": 4,
+		"SGB_Cindotch_Jeep": 1,
 
 		"SGB_Undervoltage_AntiShield":1,
 		"SGB_Undervoltage_Attack": 1,
@@ -42,12 +47,37 @@
 		"fallback2":{"combatLarge":0.5}
 	},
 	"combatMedium": {
+		"SGB_Zircon_Support": 5,
+		"SGB_ArcFurnace_Assault": 5,
+
 		"SGB_Hammies_Assault": 3,
 		"SGB_Hammies_Support": 2,
 		"SGB_Posmous_Support": 2,
 		"SGB_Posmous_Assault": 3,
+		"SGB_Posmous_2_Support": 1,
+		"SGB_Posmous_2_Assault": 4,
+
 		"SGB_Davington_Attack": 3,
 		"SGB_Ogent_Assault": 5,
+
+		"SGB_Jolt_Support": 3,
+		"SGB_Jolt_Assault": 2,
+
+		"SGB_Jolt_2_Support": 2,
+		"SGB_Jolt_2_Assault": 1,
+		"SGB_Jolt_2_Assault_2": 2,
+
+		"SGB_Fleamut_Assault": 1,
+		"SGB_Fleamut_Blade": 1,
+		"SGB_Fleamut_Ranger": 1,
+		"SGB_Fleamut_Support": 1,
+		"SGB_Fleamut_Support_2": 1,
+
+		"SGB_Fleamut_2_Assault": 1,
+		"SGB_Fleamut_2_Blade": 1,
+		"SGB_Fleamut_2_Ranger": 1,
+		"SGB_Fleamut_2_Support": 1,
+		"SGB_Fleamut_2_Support_2": 1,
 
 		"SGB_Hydrargyri_Overload": 1,
 		"SGB_Hydrargyri_Assault": 1,
@@ -114,7 +144,9 @@
 		"fallback2":{"carrierLarge":0.25}
 	},
 	"carrierMedium": {
-		"SGB_Aligate_Attack": 2,
+
+		"SGB_Aligate_Blastor": 1,
+		"SGB_Aligate_Attack": 1,
 		"SGB_Aligate_Coop": 1,
 		"SGB_Aligate_DogFight": 1,
 		"SGB_Aligate_Assault": 1,
@@ -153,6 +185,9 @@
 		"SGB_Redmond_Support": 5,
 		"SGB_Anoyas_Cargo": 5,
 
+		"SGB_HexagonalScreen_Miner": 3,
+		"SGB_HexagonalScreen_C_Support": 2,
+
 		"fallback":{"freighterMedium":0.5},
 		"fallback2":{"freighterLarge":0.25}
 	},
@@ -167,6 +202,8 @@
 	"freighterLarge": {
 		"SGB_Anvil_Overload": 1,
 		"SGB_Mould_Support": 5,
+		"SGB_Cupola_Civ": 4,
+		"SGB_Cupola_Civ_B": 2,
 
 		"fallback":{"freighterMedium":1},
 		"fallback2":{"freighterSmall":1}

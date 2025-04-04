@@ -34,31 +34,21 @@
 			"SGB_XXVII_bp":6,
 		},
 		"hulls":{
-			"atlas":3,
-			"valkyrie":5,
+			"atlas":0.25,
+			"valkyrie":2,
 			"SGB_Carving_SD":0,
 		},
 	},
 	# ships the faction gets access to when importing S&W out-of-faction
 	"shipsWhenImporting":{
-		"tags":["base_bp", "SGB_bp", "midline_bp"],
+		"tags":["SGB_bp","SGB_XXVII_bp"],
 		"hulls":[
-			"atlas",
-			"eagle",
-			"valkyrie"
 		],
 	},
 	"knownShips":{
 		"tags":["base_bp", "midline_bp", "SGB_bp", "SGB_XXVII_bp"],
 		"hulls":[
-			"atlas",
-			"monitor",
-			"prometheus",
-			"gryphon",
-			"eagle",
 			"valkyrie",
-			"vanguard",
-			"manticore",
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
@@ -220,13 +210,17 @@
 	"ranks":{
 		"ranks":{
 			"factionLeader":{"name":"Fleet Leader"},
+			"spaceEnsign":{"name":"Standard Bearer"},
+			"spaceLieutenant":{"name":"Patrol Overseer"},
 			"spaceCommander":{"name":"Commander"},
+			"spaceCaptain":{"name":"Captain"},
+			"spaceAdmiral":{"name":"Admiral"},
 		},
 		"posts":{
 			"factionLeader":{"name":"Fleet Leader"},
-			"patrolCommander":{"name":"Guard Chief"},
+			"patrolCommander":{"name":"Patrol Commander"},
 			"fleetCommander":{"name":"Fleet Commander"},
-			"baseCommander":{"name":"Base Coordinator"},
+			"baseCommander":{"name":"Base Commander"},
 		},
 	},
 	"voices":{
@@ -258,6 +252,10 @@
 			"vsFreePort":false,
 			"canBombard":true,
 			"territorial":true,
+		},
+		"simulatorData":{
+			"showInSimulator":true,
+			"includeCivShipsWithFaction":true,
 		},
 	},	
 	

@@ -13,15 +13,14 @@
       "autofire": true,
       "mode": "ALTERNATING",
       "weapons": {
-        "WS0004": "ioncannon_fighter"
+        "WS0007": "SGB_FerricOxide"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0006": "SGB_Screws",
-        "WS0007": "SGB_Screws"
+        "WS0006": "SGB_Pin"
       }
     }
   ],

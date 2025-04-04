@@ -16,7 +16,7 @@ import java.util.List;
 import static data.utils.sgb.SGB_stringsManager.txt;
 public class SGB_Achilles_FrontTurret extends BaseHullMod {
     private boolean runOnce=false;
-    private static float rangeMore = 200f;
+    private static float rangeMore_Achilles = 200f;
     private float rangeMult = 20f;
     private float recoMult = 15f;private float range;
     WeaponAPI FrontTurret;
@@ -37,7 +37,7 @@ public class SGB_Achilles_FrontTurret extends BaseHullMod {
         }
         public float getWeaponBaseRangeFlatMod(ShipAPI ship, WeaponAPI weapon) {
             if (weapon.getShip() == ship && weapon.getSlot().getId().contains("WS0010")) {
-                return rangeMore;
+                return rangeMore_Achilles;
             }
             return 0f;
         }
@@ -77,7 +77,9 @@ public class SGB_Achilles_FrontTurret extends BaseHullMod {
         return 3;
     }
     public String getDescriptionParam(int index, ShipAPI.HullSize hullSize) {
-        if (index == 0) return (int)rangeMore + "";
+        if (index == 0) {
+            return (int)rangeMore_Achilles + "";
+        }
         //if (index == 1) return recoMult + "%";
         return null;
     }

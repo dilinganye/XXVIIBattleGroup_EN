@@ -1,0 +1,53 @@
+{
+  "id": "SGB_Acidslay",
+  "specClass": "projectile",
+  "projectileSpecId": "SGB_Acidslay_shot",
+  "type": "HYBRID",
+  "size": "LARGE",
+  "displayArcRadius": 200,
+  "turretSprite": "graphics/weapons/SGB_Acidslay_T.png",
+  "turretGunSprite": "graphics/weapons/SGB_Acidslay_C.png",
+  "hardpointSprite": "graphics/weapons/SGB_Acidslay_T.png",
+  "hardpointGunSprite": "graphics/weapons/SGB_Acidslay_C.png",
+  "visualRecoil": 6,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    33,
+    7,
+    33,
+    -7
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    49.5,
+    7,
+    49.5,
+    -7
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 105,
+    "spread": 13,
+    "particleSizeMin": 15,
+    "particleSizeRange": 17,
+    "particleDuration": 0.5,
+    "particleCount": 40,
+    "particleColor": [
+        218,
+        255,
+        55,
+        200
+    ]
+  },
+  "fireSoundTwo": "SGB_Tank_Fire_Light"
+}

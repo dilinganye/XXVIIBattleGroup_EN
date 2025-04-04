@@ -1,0 +1,114 @@
+{
+  "hullName": "SGB_Station_BigMid_WingBar_L",
+  "hullId": "SGB_Station_BigMid_WingBar_L",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Station/SGB_Station_BigMid_WingBar_L.png",
+  "style": "SGB_TECH",
+  "height": 275,
+  "width": 250,
+  "center": [118.5, 143],
+  "collisionRadius": 173.5,
+  "shieldCenter": [9, -1.5],
+  "shieldRadius": 150,
+  "viewOffset": 0,
+  "builtInMods": [
+    "XXVII_SpecialWingGroup_Carrier",
+    "bdeck",
+    "supercomputer",
+    "shared_flux_sink",
+    "reduced_explosion",
+    "missile_reload",
+    "always_detaches"
+  ],
+  "builtInWeapons": {
+    "WS0004": "SGB_MeltingMold_Launcher"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 233,
+      "angle": 7.5,
+      "locations": [5, 8.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 233,
+      "angle": 7.5,
+      "locations": [-61, -0.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 233,
+      "angle": -47,
+      "locations": [-20, -22.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 233,
+      "angle": -11,
+      "locations": [-86, -31.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-18.5, -47]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [10.5, -15]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [21, -2.5]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [19, 7.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    42, 41,
+    59.5, -17.5,
+    38, -59,
+    -36.5, -63,
+    -68.5, -37,
+    -84.5, -41.5,
+    -95, -35.5,
+    -95, -19.5,
+    -81, -6.5,
+    -61, -5.5,
+    20, 40
+  ]
+}

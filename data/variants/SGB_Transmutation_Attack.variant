@@ -1,0 +1,64 @@
+{
+  "variantId": "SGB_Transmutation_Attack",
+  "hullId": "SGB_Transmutation",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 17,
+  "fluxVents": 25,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "XXVII_SpecialWingGroup_Coop",
+    "missleracks",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "typhoon",
+        "WS0002": "typhoon",
+        "WS0003": "hellbore"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0010": "heavymauler",
+        "WS0011": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "lightneedler",
+        "WS0007": "lightneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "SGB_Curlor",
+        "WS0009": "SGB_Curlor"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "mininglaser",
+        "WS0005": "mininglaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "SGB_Axio_Coop_wing",
+    "SGB_Axio_Coop_wing",
+    "SGB_Axio_Coop_wing"
+  ]
+}

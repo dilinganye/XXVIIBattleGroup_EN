@@ -1,0 +1,28 @@
+{
+  "variantId": "SGB_Bastard_Kicker",
+  "hullId": "SGB_Bastard",
+  "displayName": "Kicker",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "SGB_Barb",
+        "WS0002": "SGB_SGL"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

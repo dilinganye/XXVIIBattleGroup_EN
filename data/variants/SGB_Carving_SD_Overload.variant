@@ -1,38 +1,66 @@
 {
-    "displayName": "Overload",
-    "fluxCapacitors": 30,
-    "fluxVents": 11,
-    "goalVariant": true,
-    "hullId": "SGB_Carving_SD",
-    "hullMods": [
-        "safetyoverrides",
-        "hardenedshieldemitter",
-        "auxiliarythrusters"
-    ],
-    "permaMods": [],
-    "sMods": [],
-    "variantId": "SGB_Carving_SD_Overload",
-    "weaponGroups": [
-        {
-            "autofire": false,
-            "mode": "LINKED",
-            "weapons": {"WS0001": "plasma"}
-        },
-        {
-            "autofire": false,
-            "mode": "LINKED",
-            "weapons": {"WS0005": "phasecl"}
-        },
-        {
-            "autofire": true,
-            "mode": "LINKED",
-            "weapons": {
-                "WS0003": "ionpulser",
-                "WS0004": "ionpulser",
-                "WS0006": "ionpulser",
-                "WS0007": "ionpulser"
-            }
-        }
-    ],
-    "wings": ["SGB_Drone_Mining_wing"]
+  "variantId": "SGB_Carving_SD_Overload",
+  "hullId": "SGB_Carving_SD",
+  "displayName": "Overload",
+  "goalVariant": true,
+  "fluxCapacitors": 19,
+  "fluxVents": 17,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "safetyoverrides"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "plasma",
+        "WS0002": "lightneedler",
+        "WS0003": "heavyneedler",
+        "WS0004": "heavyneedler",
+        "WS0006": "ionpulser",
+        "WS0007": "ionpulser",
+        "WS0008": "lrpdlaser",
+        "WS0009": "lightneedler",
+        "WS0012": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "phasecl"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "SGB_Drone_Vulcan_wing"
+  ]
 }

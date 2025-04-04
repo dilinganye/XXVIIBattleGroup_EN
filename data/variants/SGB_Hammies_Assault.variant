@@ -3,12 +3,13 @@
   "hullId": "SGB_Hammies",
   "displayName": "Assault",
   "goalVariant": true,
-  "fluxCapacitors": 19,
-  "fluxVents": 9,
+  "fluxCapacitors": 20,
+  "fluxVents": 8,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "safetyoverrides"
+    "safetyoverrides",
+    "hardenedshieldemitter"
   ],
   "weaponGroups": [
     {

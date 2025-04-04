@@ -1,0 +1,49 @@
+{
+  "id": "SGB_Roller",
+  "specClass": "projectile",
+  "projectileSpecId": "SGB_Roller_Rocket",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/ships/System/SGB_Roller_Back.png",
+  "hardpointSprite": "graphics/ships/System/SGB_Roller_Back.png",
+  "renderHints": [
+    RENDER_LOADED_MISSILES
+  ],
+  "turretOffsets": [
+    -1,
+    0.5
+  ],
+  "turretAngleOffsets": [
+    -15
+  ],
+  "hardpointOffsets": [
+    42,
+    -4.5,
+    22,
+    -5
+  ],
+  "hardpointAngleOffsets": [
+    -10.5,
+    -10.5
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "autocharge": true,
+  "smokeSpec": {
+    "particleSizeMin": 12,
+    "particleSizeRange": 12,
+    "cloudParticleCount": 8,
+    "cloudDuration": 1.5,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 4,
+    "blowbackDuration": 2,
+    "blowbackLength": 22,
+    "blowbackSpread": 15,
+    "particleColor": [
+      100,
+      100,
+      100,
+      120
+    ]
+  }
+}

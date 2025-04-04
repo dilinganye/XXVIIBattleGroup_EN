@@ -16,8 +16,10 @@
     "SGB_AllForHuman"
   ],
   "builtInWeapons": {
-    "WS0006": "blinker_red",
-    "WS0011": "blinker_green"
+    "WS0005": "SGB_blinker_red_S",
+    "WS0006": "SGB_blinker_green_Q",
+    "WS0007": "SGB_blinker_red_S",
+    "WS0011": "SGB_blinker_green_Q"
   },
   "weaponSlots": [
     {
@@ -95,6 +97,24 @@
       "arc": 360,
       "angle": 0,
       "locations": [16.5, -29.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [52.5, -25]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [52.5, 25]
     }
   ],
   "engineSlots": [

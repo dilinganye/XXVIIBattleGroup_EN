@@ -15,6 +15,13 @@
     "SGB_AllForHuman",
     "XXVII_SpecialWingGroup_Carrier"
   ],
+  "builtInWeapons": {
+    "WS0007": "SGB_blinker_red_Q",
+    "WS0008": "SGB_blinker_green_S",
+    "WS0009": "SGB_blinker_green_S",
+    "WS0010": "SGB_blinker_green_Q",
+    "WS0011": "SGB_blinker_green_Q"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -69,6 +76,51 @@
       "arc": 10,
       "angle": 0,
       "locations": [4, 36]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [93.5, 18.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-61, 24.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-61, -24.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-53.5, 36.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-53.5, -36.5]
     }
   ],
   "engineSlots": [

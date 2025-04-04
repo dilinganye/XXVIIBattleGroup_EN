@@ -2,78 +2,79 @@
   "hullName": "SGB_Agatha_Coop",
   "hullId": "SGB_Agatha_Coop",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/ships/Wing_System/SGB_Agatha_Coop.png",
+  "spriteName": "graphics/ships/Wing_System/SGB_Agatha_Coop_Rail.png",
   "style": "SGB_TECH",
-  "height": 43,
-  "width": 26,
-  "center": [13, 15],
-  "collisionRadius": 29.5,
-  "shieldCenter": [0, -0],
-  "shieldRadius": 29,
+  "height": 55,
+  "width": 38,
+  "center": [21, 25.5],
+  "collisionRadius": 48,
+  "shieldCenter": [-9.5, -0],
+  "shieldRadius": 36.5,
   "viewOffset": 0,
+  "builtInMods": [
+    "SGB_ColorWing"
+  ],
   "builtInWeapons": {
-    "WS0004": "SGB_FerricOxide"
+    "WS0001": "SGB_blinker_green_Q",
+    "WS0003": "SGB_Pin",
+    "WS0004": "SGB_WingRail"
   },
   "weaponSlots": [
     {
       "id": "WS0002",
       "size": "SMALL",
-      "type": "BALLISTIC",
-      "mount": "HARDPOINT",
-      "arc": 5,
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
       "angle": 0,
-      "locations": [5.5, -8.5],
-      "renderOrderMod": 5
+      "locations": [15, -3]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 47,
+      "angle": 21,
+      "locations": [2.5, 11.5]
     },
     {
       "id": "WS0004",
       "size": "SMALL",
       "type": "BUILT_IN",
       "mount": "HARDPOINT",
-      "arc": 14,
+      "arc": 3,
       "angle": 0,
-      "locations": [9, 8.5],
-      "renderOrderMod": 1
+      "locations": [-5.5, 3.5],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-2, -5.5]
     }
   ],
   "engineSlots": [
     {
-      "location": [-14, 2.5],
-      "length": 19.5,
-      "width": 4,
+      "location": [-19.5, 2.5],
+      "length": 20.5,
+      "width": 6,
       "angle": 180,
-      "contrailSize": 4,
+      "contrailSize": 6,
       "style": "SGB_TECH_GREEN"
     },
     {
-      "location": [-14, -2.5],
-      "length": 19.5,
-      "width": 4,
-      "angle": -180,
-      "contrailSize": 4,
-      "style": "SGB_TECH_GREEN"
-    },
-    {
-      "location": [-18, -0],
-      "length": 2.5,
-      "width": 25,
+      "location": [-21, 2.5],
+      "length": 1.5,
+      "width": 14,
       "angle": 180,
-      "contrailSize": 25,
+      "contrailSize": 14,
       "style": "SGB_TECH_GREEN"
     }
   ],
-  "bounds": [
-    12.5, -4,
-    21.5, -5.5,
-    12.5, -9.5,
-    -2.5, -9.5,
-    -12.5, -6.5,
-    -6, -4,
-    -6, 4,
-    -12.5, 6.5,
-    -2.5, 9.5,
-    12.5, 9.5,
-    21.5, 5.5,
-    12.5, 4
-  ]
+  "bounds": []
 }

@@ -18,8 +18,8 @@
     "WS0006": "SGB_Wings_Missile_s_re",
     "WS0007": "SGB_Curlor",
     "WS0008": "SGB_Curlor",
-    "WS0009": "blinker_green",
-    "WS0010": "blinker_red"
+    "WS0009": "SGB_blinker_green_Q",
+    "WS0010": "SGB_blinker_red_Q"
   },
   "weaponSlots": [
     {

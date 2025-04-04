@@ -7,11 +7,12 @@
   "height": 43,
   "width": 26,
   "center": [13, 15],
-  "collisionRadius": 29.5,
+  "collisionRadius": 49.5,
   "shieldCenter": [0, -0],
   "shieldRadius": 29,
   "viewOffset": 0,
   "builtInWeapons": {
+    "WS0003": "SGB_Wings_Missile",
     "WS0004": "SGB_Wings_Missile"
   },
   "weaponSlots": [

@@ -1,0 +1,29 @@
+{
+  "variantId": "SGB_Agatha_Penetrate_Common",
+  "hullId": "SGB_Agatha_Penetrate",
+  "displayName": "Breaker",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "SGB_Barb"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "SGB_ScrewsTwi"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

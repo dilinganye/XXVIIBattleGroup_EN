@@ -1,0 +1,36 @@
+{
+  "variantId": "SGB_Station_midAttackPointShield_L_Hanger",
+  "hullId": "SGB_Station_midAttackPointShield_L",
+  "displayName": "Hanger",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "annihilator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "SGB_PinTwi"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "SGB_Decoy"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

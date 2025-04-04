@@ -3,8 +3,8 @@
   "hullId": "SGB_Hammies",
   "displayName": "Support",
   "goalVariant": true,
-  "fluxCapacitors": 20,
-  "fluxVents": 2,
+  "fluxCapacitors": 23,
+  "fluxVents": 3,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -16,6 +16,8 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
+        "WS0001": "railgun",
+        "WS0002": "railgun",
         "WS0003": "heavymauler"
       }
     },
@@ -38,10 +40,7 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0001": "vulcan",
-        "WS0002": "vulcan"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,

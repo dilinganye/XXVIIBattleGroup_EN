@@ -15,6 +15,16 @@
     "SGB_AllForHuman",
     "XXVII_SpecialWingGroup_Carrier"
   ],
+  "builtInWeapons": {
+    "WS0014": "SGB_blinker_red_Q",
+    "WS0015": "SGB_blinker_red_Q",
+    "WS0016": "SGB_blinker_red_S",
+    "WS0017": "SGB_blinker_red_S",
+    "WS0018": "SGB_blinker_green_S",
+    "WS0019": "SGB_blinker_green_S",
+    "WS0020": "SGB_blinker_red_Q",
+    "WS0021": "SGB_blinker_red_Q"
+  },
   "weaponSlots": [
     {
       "id": "LB 1",
@@ -141,6 +151,87 @@
       "arc": 209,
       "angle": -20,
       "locations": [-8, -52]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [8.5, -7]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [89, -29.5]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [89, 29.5]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-5, -136.5]
+    },
+    {
+      "id": "WS0017",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-5, 136.5]
+    },
+    {
+      "id": "WS0018",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-37.5, -88.5]
+    },
+    {
+      "id": "WS0019",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-37.5, 88.5]
+    },
+    {
+      "id": "WS0020",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-68, -146]
+    },
+    {
+      "id": "WS0021",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-68, 146]
     }
   ],
   "engineSlots": [

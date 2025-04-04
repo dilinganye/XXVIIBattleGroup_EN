@@ -1,0 +1,79 @@
+{
+  "hullName": "SGB_Agatha_Assault",
+  "hullId": "SGB_Agatha_Assault",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Wing_System/SGB_Agatha_Assault.png",
+  "style": "SGB_TECH",
+  "height": 43,
+  "width": 26,
+  "center": [13, 15],
+  "collisionRadius": 34,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 31,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0003": "SGB_Barb",
+    "WS0004": "SGB_Barb"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [3.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 47,
+      "angle": 11.5,
+      "locations": [8, -12]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 9,
+      "angle": 0,
+      "locations": [1, 8.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-11, -0],
+      "length": 20.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "LOW_TECH_FIGHTER"
+    },
+    {
+      "location": [-18, -0],
+      "length": 1.5,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "LOW_TECH_FIGHTER"
+    }
+  ],
+  "bounds": [
+    12.5, -4,
+    21.5, -5.5,
+    12.5, -9.5,
+    -2.5, -9.5,
+    -12.5, -6.5,
+    -6, -4,
+    -6, 4,
+    -12.5, 6.5,
+    -2.5, 9.5,
+    12.5, 9.5,
+    21.5, 5.5,
+    12.5, 4
+  ]
+}

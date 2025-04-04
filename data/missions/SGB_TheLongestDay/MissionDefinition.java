@@ -47,7 +47,7 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		// Set up the fleets so we can add ships and fighter wings to them.
 		api.initFleet(FleetSide.PLAYER, "SGB", FleetGoal.ESCAPE, false, 15);
 		api.initFleet(FleetSide.ENEMY, "ISS", FleetGoal.ATTACK, true, 30);
-		Global.getCombatEngine().setMaxFleetPoints(FleetSide.ENEMY, 300);;
+		Global.getCombatEngine().setMaxFleetPoints(FleetSide.ENEMY, 300);
 		api.setFleetTagline(FleetSide.PLAYER, "Andelon & Erubolie and SGB Evacuation Fleet - Remnants of the Transport Escort");
 		api.setFleetTagline(FleetSide.ENEMY, "Unknown bounty team?- Everyone know it's those damn Tri-Tachyon bastards");
 

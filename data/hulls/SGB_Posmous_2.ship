@@ -1,0 +1,249 @@
+{
+  "hullName": "SGB_Posmous_2",
+  "hullId": "SGB_Posmous_2",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/SGB_Posmous_2.png",
+  "style": "SGB_TECH",
+  "height": 229,
+  "width": 73,
+  "center": [36.5, 114.5],
+  "collisionRadius": 128,
+  "shieldCenter": [3.5, -0],
+  "shieldRadius": 124,
+  "viewOffset": 0,
+  "builtInMods": [
+    "SGB_AllForHuman"
+  ],
+  "builtInWeapons": {
+    "WS0007": "SGB_Curlor",
+    "WS0008": "SGB_Curlor",
+    "WS0009": "SGB_blinker_green_Q",
+    "WS0010": "SGB_blinker_red_Q"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 0,
+      "locations": [-14, -0],
+      "renderOrderMod": 4
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 242,
+      "angle": 0,
+      "locations": [35, -0],
+      "renderOrderMod": 3
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [52.5, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [100, 11.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": -0,
+      "locations": [100, -11.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [77.5, 16]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [77.5, -16]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-88.5, -0]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": 57.5,
+      "locations": [25, 19]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": -57.5,
+      "locations": [25, -19]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-92.5, -0],
+      "length": 39,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-67, 9.5],
+      "length": 102,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-67, -9.5],
+      "length": 102,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-11, 25],
+      "length": 4.718109,
+      "width": 5.996483,
+      "angle": 121,
+      "contrailSize": 5.996483,
+      "style": "SGB_TECH_GREEN"
+    },
+    {
+      "location": [-11, -25],
+      "length": 4.718109,
+      "width": 5.996483,
+      "angle": -121,
+      "contrailSize": 5.996483,
+      "style": "SGB_TECH_GREEN"
+    },
+    {
+      "location": [-73.5, -17],
+      "length": 52,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-73.5, 17],
+      "length": 52,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-60.5, -21.5],
+      "length": 28,
+      "width": 4,
+      "angle": 174,
+      "contrailSize": 4,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-60.5, 21.5],
+      "length": 28,
+      "width": 4,
+      "angle": -174,
+      "contrailSize": 4,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -112.5, -4.5,
+    -109.5, -8,
+    -59.5, -18.5,
+    -52, -23.5,
+    -50.5, -28,
+    -45, -28.5,
+    -42.5, -33,
+    -31.5, -29.5,
+    -30.5, -24.5,
+    -26.5, -16,
+    -20.5, -16.5,
+    -16.5, -12.5,
+    -15.5, -21.5,
+    0.5, -28,
+    10.5, -25.5,
+    19.5, -14.5,
+    24.5, -14.5,
+    31.5, -19.5,
+    46.5, -14.5,
+    109.5, -14.5,
+    112, -12.5,
+    111, -7,
+    97.5, -6.5,
+    90.5, -3.5,
+    73.5, -3.5,
+    70.5, -6.5,
+    64.5, -6.5,
+    61.5, -4.5,
+    61.5, 4.5,
+    64.5, 6.5,
+    70.5, 6.5,
+    73.5, 3.5,
+    90.5, 3.5,
+    97.5, 6.5,
+    111, 7,
+    112, 12.5,
+    109.5, 14.5,
+    46.5, 14.5,
+    31.5, 19.5,
+    24.5, 14.5,
+    19.5, 14.5,
+    10.5, 25.5,
+    0.5, 28,
+    -15.5, 21.5,
+    -16.5, 12.5,
+    -20.5, 16.5,
+    -26.5, 16,
+    -30.5, 24.5,
+    -31.5, 29.5,
+    -42.5, 33,
+    -45, 28.5,
+    -50.5, 28,
+    -52, 23.5,
+    -59.5, 18.5,
+    -109.5, 8,
+    -112.5, 4.5
+  ]
+}

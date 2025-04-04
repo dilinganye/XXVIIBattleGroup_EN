@@ -68,6 +68,14 @@
 {"file":"sounds/SGB_AsAboveSoBelow.wav","pitch":0.95,"volume":0.35},
 {"file":"sounds/SGB_AsAboveSoBelow.wav","pitch":0.8,"volume":0.38},
 ],
+"SGB_Only_MG":
+[
+{"file":"sounds/SGB_Hmg_fire_01.wav","pitch":0.95,"volume":0.057},
+{"file":"sounds/SGB_Hmg_fire_02.wav","pitch":0.93,"volume":0.057},
+{"file":"sounds/SGB_Hmg_fire_02.wav","pitch":0.9,"volume":0.057},
+{"file":"sounds/SGB_Hmg_fire_01.wav","pitch":0.8,"volume":0.057},
+{"file":"sounds/SGB_Hmg_fire_01.wav","pitch":0.77,"volume":0.057},
+],
 "SGB_LMG":
 [
 {"file":"sounds/SGB_Hmg_fire_01.wav","pitch":0.95,"volume":0.057},
@@ -111,7 +119,14 @@
 {"file":"sounds/SGB_Omega_Launch1.wav","pitch":0.95,"volume":0.3},
 {"file":"sounds/SGB_Omega_Launch1.wav","pitch":0.8,"volume":0.3},
 ],
-
+"SGB_Tank_Fire_Light":
+[
+{"file":"sounds/SGB_Tank_Fire_Light.wav","pitch":0.72,"volume":0.24},
+{"file":"sounds/SGB_Tank_Fire_Light.wav","pitch":0.76,"volume":0.22},
+{"file":"sounds/SGB_Tank_Fire_Light.wav","pitch":0.75,"volume":0.23},
+{"file":"sounds/SGB_Tank_Fire_Light.wav","pitch":0.8,"volume":0.23},
+{"file":"sounds/SGB_Tank_Fire_Light.wav","pitch":0.69,"volume":0.23},
+],
 
 #FACTION BGM
 	"music":{
@@ -119,8 +134,8 @@
 		[
 			{
 			"source":"sounds/bgm",
-			"file":"XXVII_SP_RTL_var02.ogg",
-			"volume":0.5,
+			"file":"Garrsion_blackLegion.ogg",
+			"volume":0.75,
 			"randomStart":false, 
 			},
 		],
@@ -128,8 +143,8 @@
 		[
 			{
 			"source":"sounds/bgm",
-			"file":"XXVII_SP_RTL_var03.ogg",
-			"volume":0.5,
+			"file":"Garrsion_oldDays.ogg",
+			"volume":0.62,
 			"randomStart":false, 
 			},
 		],
@@ -137,8 +152,8 @@
 		[
 			{
 			"source":"sounds/bgm",
-			"file":"XXVII_SP_RTL_var01.ogg",
-			"volume":0.5,
+			"file":"Garrsion_blackLegion_2.ogg",
+			"volume":0.76,
 			"randomStart":false, 
 			},
 		],
@@ -156,8 +171,8 @@
 		[
 			{
 			"source":"sounds/bgm",
-			"file":"Garrson_Sick_To_Despair.ogg",
-			"volume":0.65,
+			"file":"Garrsion_dayAfterDay.ogg",
+			"volume":0.67,
 			"randomStart":false, 
 			},
 		],
@@ -166,8 +181,8 @@
 		[
 			{
 			"source":"sounds/bgm",
-			"file":"XXVII_Daphne.ogg",
-			"volume":0.5,
+			"file":"Garrson_Sick_To_Despair.ogg",
+			"volume":0.65,
 			"randomStart":false, 
 			},
 		],
@@ -232,6 +247,31 @@
 				"randomStart":true, 
 			},
 		],
+
+
+"IFC_Overall_Control":
+[
+{
+"source":"sounds/bgm/",
+"volume":0.5,
+"files":[
+"IFC_Overall_Control.ogg",
+],
+"randomStart":true,
+},
+],
+"IUB_KICKOFF_Loop":
+[
+{
+"source":"sounds/bgm/",
+"volume":0.55,
+"files":[
+"IUB_KICKOFF_Loop.ogg",
+],
+"randomStart":true,
+},
+],
+
 "SGB_Omega_Battle":
 [
 {

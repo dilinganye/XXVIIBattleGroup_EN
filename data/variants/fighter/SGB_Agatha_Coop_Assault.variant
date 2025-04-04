@@ -1,7 +1,7 @@
 {
   "variantId": "SGB_Agatha_Coop_Assault",
   "hullId": "SGB_Agatha_Coop",
-  "displayName": "Fighter",
+  "displayName": "Support",
   "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 0,
@@ -13,14 +13,14 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "SGB_ScrewsTwi"
+        "WS0003": "SGB_Pin"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "SGB_FerricOxide"
+        "WS0004": "SGB_WingRail"
       }
     },
     {

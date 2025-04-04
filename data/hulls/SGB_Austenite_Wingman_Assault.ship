@@ -20,7 +20,7 @@
     "WING_ENGINE_RIGHT": "SGB_Austenite_Wingman_RB",
     "WING_LEFT": "SGB_Austenite_Wingman_L",
     "WING_RIGHT": "SGB_Austenite_Wingman_R",
-    "WS0010": "blinker_red"
+    "WS0010": "SGB_blinker_red_Q"
   },
   "weaponSlots": [
     {

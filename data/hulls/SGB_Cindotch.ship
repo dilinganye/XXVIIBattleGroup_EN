@@ -1,0 +1,194 @@
+{
+  "hullName": "SGB_Cindotch",
+  "hullId": "SGB_Cindotch",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/SGB_Cindotch.png",
+  "style": "SGB_TECH",
+  "height": 92,
+  "width": 88,
+  "center": [44, 43.5],
+  "collisionRadius": 71.5,
+  "shieldCenter": [2.5, 0],
+  "shieldRadius": 67,
+  "viewOffset": 0,
+  "builtInMods": [
+    "SGB_AllForHuman",
+    "insulatedengine"
+  ],
+  "builtInWeapons": {
+    "WS0001": "SGB_Acidslay",
+    "WS0002": "SGB_Pin",
+    "WS0005": "SGB_blinker_green_Q",
+    "WS0006": "SGB_blinker_green_S"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 118,
+      "angle": -52.5,
+      "locations": [-17.5, -18],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 118,
+      "angle": 52.5,
+      "locations": [-17.5, 18],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 205,
+      "angle": 0,
+      "locations": [11.5, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [45, 27]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [45, -27]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 153,
+      "angle": -55.5,
+      "locations": [19, -27.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-30.5, -29.5],
+      "length": 4.49,
+      "width": 5.33,
+      "angle": -143,
+      "contrailSize": 5.33,
+      "style": "SGB_TECH"
+    },
+    {
+      "location": [-30.5, 29.5],
+      "length": 4.49,
+      "width": 5.33,
+      "angle": 143,
+      "contrailSize": 5.33,
+      "style": "SGB_TECH"
+    },
+    {
+      "location": [-44, -4],
+      "length": 6.203898,
+      "width": 16.433094,
+      "angle": -172,
+      "contrailSize": 16.433094,
+      "style": "SGB_TECH"
+    },
+    {
+      "location": [-44, 4],
+      "length": 6.203898,
+      "width": 16.433094,
+      "angle": 172,
+      "contrailSize": 16.433094,
+      "style": "SGB_TECH"
+    },
+    {
+      "location": [-43, -7],
+      "length": 16.02861,
+      "width": 9.4517,
+      "angle": -157.5,
+      "contrailSize": 9.4517,
+      "style": "SGB_LESS_SMOKE_TECH"
+    },
+    {
+      "location": [-43, 7],
+      "length": 16.02861,
+      "width": 9.4517,
+      "angle": 157.5,
+      "contrailSize": 9.4517,
+      "style": "SGB_LESS_SMOKE_TECH"
+    },
+    {
+      "location": [-41.5, -11],
+      "length": 7.024233,
+      "width": 8.464077,
+      "angle": 150.5,
+      "contrailSize": 8.464077,
+      "style": "SGB_LESS_GROW_TECH"
+    },
+    {
+      "location": [-41.5, 11],
+      "length": 7.024233,
+      "width": 8.464077,
+      "angle": -150.5,
+      "contrailSize": 8.464077,
+      "style": "SGB_LESS_GROW_TECH"
+    },
+    {
+      "location": [-34, 28.5],
+      "length": 5.104074,
+      "width": 3.576829,
+      "angle": 161.5,
+      "contrailSize": 3.576829,
+      "style": "SGB_LESS_SMOKE_TECH"
+    },
+    {
+      "location": [-34, -28.5],
+      "length": 5.104074,
+      "width": 3.576829,
+      "angle": -161.5,
+      "contrailSize": 3.576829,
+      "style": "SGB_LESS_SMOKE_TECH"
+    },
+    {
+      "location": [-32, -29.5],
+      "length": 14.008939,
+      "width": 3.872799,
+      "angle": 153.5,
+      "contrailSize": 3.872799,
+      "style": "SGB_LESS_SMOKE_TECH"
+    },
+    {
+      "location": [-32, 29.5],
+      "length": 14.008939,
+      "width": 3.872799,
+      "angle": -153.5,
+      "contrailSize": 3.872799,
+      "style": "SGB_LESS_SMOKE_TECH"
+    }
+  ],
+  "bounds": [
+    -35, -15.5,
+    -10, -31.5,
+    24, -25,
+    32.5, -34.5,
+    42, -24,
+    38.5, -12,
+    38.5, 12,
+    42, 24,
+    32.5, 34.5,
+    24, 25,
+    -10, 31.5,
+    -35, 15.5
+  ]
+}

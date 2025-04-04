@@ -15,18 +15,16 @@
     "SGB_AllForHuman",
     "SGB_Austenite_Core"
   ],
-  "builtInWings": [
-  ],
   "builtInWeapons": {
     "ROCKET_LEFT": "SGB_Austenite_Rocket_L",
     "ROCKET_RIGHT": "SGB_Austenite_Rocket_R",
     "TOP": "SGB_Austenite_Top_Wing",
-    "WS0005": "blinker_green",
-    "WS0006": "blinker_green",
-    "WS0007": "blinker_red",
-    "WS0008": "blinker_red",
-    "WS0009": "blinker_red",
-    "WS0010": "blinker_red"
+    "WS0005": "SGB_blinker_green_Q",
+    "WS0006": "SGB_blinker_green_Q",
+    "WS0007": "SGB_blinker_red_Q",
+    "WS0008": "SGB_blinker_red_Q",
+    "WS0009": "SGB_blinker_red_S",
+    "WS0010": "SGB_blinker_red_S"
   },
   "weaponSlots": [
     {

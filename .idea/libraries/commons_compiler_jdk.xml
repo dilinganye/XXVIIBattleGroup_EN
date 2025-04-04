@@ -23,7 +23,6 @@
       <root url="jar://$PROJECT_DIR$/../../Self-Workshop/Jar/lwjgl.jar!/" />
       <root url="jar://$PROJECT_DIR$/../../Self-Workshop/Jar/LazyLib.jar!/" />
       <root url="jar://$PROJECT_DIR$/../../Self-Workshop/Jar/ExerelinCore.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../UnofficialNewGamePlus/jars/ungp.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

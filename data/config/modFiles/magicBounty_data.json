@@ -8,7 +8,7 @@
 	
         
         #BOUNTY DESCRIPTION
-        
+
         "job_name": "Unknown Hunt",
         "job_description": "==Shackles Garrison's== fringe tactical formation have accidentally discovered ==Domain Era== autonomous machines, and came under their attack. ==Shackles Garrison== was able to destroy all large targets after terrifying loss - smaller targets retreated after the tide turned against them. Based on known information, no less than ==a dozen== smaller fleet have flead into various areas within the sector. ==Shack Garrison== will hunt down these ships, but also issued many request for the smaller targets to those mercenary with the ability to do so. \n\n==Shack Garrison== request the targets to be ==destroyed==, but cares not what happen to their weapons - captains are allowed to keep their loot. \n\nReminder: Targets may decide to ==retreat== ==at any time==, make sure counter measure are prepared.",
         "job_comm_reply": "After a brief noise, a soft electronic noise came from across the terminal:\n\"Dear captain, greetings. I am an independent sentient life form, ordered to carry out survey of $constellation . I am confused and angry by the unprovoked attack caused by ==Former Battlegroup of the Domain of Man== , I hope you ==would not == join their ilegal actions. \"\n\nYou don't know if they are lying or not, but - the crime of fighting for $reward promised by a former dominion battle group to attack AI that may belong to the dominion is probably not going to land on your head. \n\n\"I trust you have made the correct decision? \"\n\nNo matter what, you trust you wouldn't be regreting your decision.",
@@ -27,17 +27,10 @@
         "job_show_arrow": false,
         "job_difficultyDescription": "auto",
         "job_pick_option": "Join the hunt for this unknown target",
-        #"job_pick_script": "data.script.script",
         "job_memKey":"$SGB_Omega_0",
-        #"job_conclusion_script":"data.script.script",
-        
-		#"existing_target_memkey":"$SGB_Omega_0_existing",
 
         #TARGET COMMANDER (OPTIONAL)
-        
-        #"target_first_name":"",
-        #"target_last_name":"",
-        #"target_portrait":"",
+
         "target_gender":"UNDEFINED",
         "target_rank": "citizen",
         "target_post": "spacer",
@@ -46,15 +39,12 @@
         "target_level": 10,
         "target_elite_skills":2,
         "target_skill_preference": "YES_ENERGY_YES_BALLISTIC_YES_MISSILE_YES_DEFENSE",
-        #"target_skills": {"skill":1,}, 
     
     
         #TARGET FLEET
-        
         "fleet_name":"Unknown Target",
         "fleet_faction": "SGB_Omega_Watcher",
         "fleet_flagship_variant":"SGB_Overcurrent_AntiShield",
-        #"fleet_flagship_name":"",
         "fleet_flagship_alwaysRecoverable": false,
         "fleet_flagship_autofit": true,
         "fleet_preset_ships": {
@@ -72,8 +62,6 @@
         
         #LOCATION
 
-        #"location_entitiesID": ["location1",],
-        #"location_marketFactions": ["faction",],
 		"location_distance": "CLOSE",
 		"location_themes": [
 			"theme_interesting_minor",
@@ -102,23 +90,17 @@
 	
 	
     "SGB_Omega_1":{
-        #TRIGGERS (ALL OPTIONAL)[],
 		"trigger_player_minLevel": 6,
 		"trigger_weight_mult": 3,
-        #"trigger_min_days_elapsed": 0, 
         "trigger_marketFaction_any": ["SGB"],
         "trigger_marketFaction_alliedWith": true,
 		
-		"trigger_memKeys_all": { # Default: no values. The job will only show if ALL of the listed memKeys exist with the specified boolean value.
-		    # $job_memKey_succeeded set to true if the job has been successfully completed
-            # $job_memKey_failed set to true if the job required the destruction of a flagship and the player salvaged it instead
-            # $job_memKey_expired set to true if the job deadline expired, ended without player involvment, or was permanently dissmissed
-            # $job_memKey set to false when the job has been picked up, true once concluded regardless of the result
+		"trigger_memKeys_all": {
             "$SGB_Omega_0_succeeded":true,
         },
         
         #BOUNTY DESCRIPTION
-        
+
         "job_name": "Continue the Hunt",
         "job_description": "After the previous strike, ==Shackles Garrison== used ==Domain Era== decoding system to extract data from the target. But the massive stack overflow of useless data is completely beyond expectation. After research of the recovered wreck by the  ==Shackles Garrison== military research teams. It is confirmed that these autonomous machine is completely different from anything else in the database, it doesnt even operate on binary.\n==Shackles Garrison== still request bounty hunter to hunt down these unknown ships, but they also require them to accept the data record to allow for tracking of the movement of these unknown ships.\n\n==Shack Garrison== request the targets to be ==destroyed==, but cares not what happen to their weapons - captains are allowed to keep their loot. \n\nReminder: Targets may decide to ==retreat== ==at any time==, make sure counter measure are prepared.",
         "job_comm_reply": "After a brief noise, a soft electronic noise came from across the terminal: \n\"Captain, I recognize you. I will not continue meaningless chat with you, but you need to understand one thing - WE CANNOT BE STOPPED —————— \"\n\nFollowing the explosion before the terminal before you, a massive data stream strike your ship's system. Sharp warning siren ring your ear, your crew quickly cut the communication connection and shut down all automated process on the ship. The ship was stablized following a forced reboot, and the terminal before you replaced with an older back up model. Still, the lingering burnt smell in the air makes your brow furrow.",
@@ -155,7 +137,7 @@
     
     
         #TARGET FLEET
-        
+
         "fleet_name":"Rouge Target",
         "fleet_faction": "SGB_Omega_Watcher",
         "fleet_flagship_variant":"SGB_LargeGrain_AntiShield",
@@ -223,7 +205,7 @@
         },
         
         #BOUNTY DESCRIPTION
-        
+
         "job_name": "The Bell Tolls",
         "job_description": "==Shackles Garrison== has basically eradicated these targets, and provided location of the last rouge targets. They request bounty hunter to deal with them soon.\n\n==Shackles Garrison== has determined their goal - reconnaissance, they are scouting ==Persean Sector==. The exact reason is unknown, but cracking of fundamental logic has determined one thing - these things ==has no fundamental logic==, that is to say they will ==constantly rewrite== their fundamental logic and computational method, essentially meaning they are constantly overhauling themselves.\n\n==Shack Garrison== request the targets to be ==destroyed==, but cares not what happen to their weapons - captains are allowed to keep their loot. \n\nReminder: The target have prepared for a final battle, you should be prepared.",
         "job_comm_reply": "After a brief noise, a soft electronic noise came from across the terminal:\n\"Captain, we have told you, we cannot be—————— \"\n\nAfter your fleet injected ==massive== amount of data stream, the voice clearly seems to be stunned for a second. As the connection is cut on your end, the terminal you have long ejected melted into glowing space dust. But no data stream entered your ship system  - not ==a single== drop.\n\nYou feel good about yourself.",
@@ -241,7 +223,7 @@
         "job_show_distance": "system",
         "job_show_arrow": false,
         "job_difficultyDescription": "auto",
-        "job_pick_option": "Continue the hunt for unknown target.",
+        "job_pick_option": "继续加入这场目标不明的追捕行动",
         #"job_pick_script": "data.script.script",
         "job_memKey":"$SGB_Omega_2",
         #"job_conclusion_script":"data.script.script",
@@ -260,7 +242,7 @@
     
     
         #TARGET FLEET
-        
+
         "fleet_name":"Rouge Target",
         "fleet_faction": "SGB_Omega_Watcher",
         "fleet_flagship_variant":"SGB_LargeGrain_AntiShield",
@@ -286,6 +268,311 @@
         #"location_entitiesID": ["location1",],
         #"location_marketFactions": ["faction",],
 		"location_distance": "FAR",
+		"location_themes": [
+			"theme_interesting_minor",
+			"theme_ruins_secondary",
+			"theme_derelict_survey_ship",
+			"theme_derelict_probes",
+			"procgen_no_theme_pulsar_blackhole"
+		],
+		"location_themes_blacklist":[
+			"theme_already_occupied",
+			"theme_already_colonized",
+			"theme_hidden"
+		],
+        "location_entities": [ 
+            "gate",
+            "wreck",
+            "debris",
+            "stable_location",
+            "comm_relay",
+            "nav_buoy",
+            "sensor_array",
+        ],
+		"location_prioritizeUnexplored": true,
+		"location_defaultToAnyEntity": true
+    },
+	
+    "SGB_TT_Bound":{
+        #TRIGGERS (ALL OPTIONAL)[],
+		"trigger_marketFaction_none": ["tritachyon"], # Default: no values. markets of factions listed here will never carry the bounty, regardless of other conditions.
+		"trigger_weight_mult": 30,
+	
+        
+        #BOUNTY DESCRIPTION
+        
+        "job_name": "Death and Taxation",
+        "job_description": "This bounty originates from interstellar freelancers crushed by debt, targeting a ==Tritachyon== collection squad - these debtors clearly can no longer sustain the obscene interest rates.\n\nAccording to their intel, this ==Tritachyon== team possesses ==exceptionally rare== prototype vessels. Upon accepting the contract, the hunters will arrange confrontations with these rare-ship commanders as your payment, leaving you only to destroy them.\n\nNotably, though driven to extremes by debt enforcement, these targets remain ==Tritachyon=='s ==accredited personnel==. You're strongly advised against compromising your operational security during this mission.",
+        "job_comm_reply": "Your comm channel immediately activates, revealing a figure whose aggressive gaze hurls demands: \"We had an agreement, $constellation. The final payment was due 30 minutes ago. You've delayed the initial ==1,000,000== credits for three months - transfer 30 times that amount NOW!\"\n\nThe Tritachyon representative\'s face contorts with rage at your silence. Through gritted teeth, he snarls something unintelligible before severing the connection - you almost believe he will physically attack you if not for the interstellar void between you.\n\nRegardless, you\'re certain your biometrics have been recorded.",
+        "job_intel_success": "The debtors' gratitude holds no value to you.\n\nBut from your current understanding - these unique ships appear to be Wolf-class concept designs, meaning absolute limited-edition prototypes that now rest in your possession.",
+        "job_intel_expired": "Your gunners report finding several eviscerated corpses drifting through the void. Scanning the identification holos, you recognize some faces - debtors you've seen on previous bounty bulletins.",
+        "job_forFaction": "independent",
+        "job_deadline": 90,
+        "job_credit_reward": 50000,
+        "job_reward_scaling": 1,
+        "job_reputation_reward":4,
+        "job_type":"neutralisation",
+        "job_show_type": true,
+        "job_show_captain": true,
+        "job_show_fleet": "text",
+        "job_show_distance": "system",
+        "job_show_arrow": true,
+        "job_difficultyDescription": "auto",
+        "job_pick_option": "There are only two things in the world that cannot be avoided...",
+        #"job_pick_script": "data.script.script",
+        "job_memKey":"$SGB_TT_Bound",
+        #"job_conclusion_script":"data.script.script",
+        
+		#"existing_target_memkey":"$SGB_Omega_0_existing",
+
+        #TARGET COMMANDER (OPTIONAL)
+        
+        #"target_first_name":"",
+        #"target_last_name":"",
+        #"target_portrait":"",
+        "target_gender":"ANY",
+        "target_rank": "citizen",
+        "target_post": "spacer",
+        "target_personality": "aggressive",
+        "target_aiCoreId": null,
+        "target_level": 5,
+        "target_elite_skills":1,
+        "target_skill_preference": "YES_ENERGY_YES_BALLISTIC_YES_MISSILE_YES_DEFENSE",
+        #"target_skills": {"skill":1,}, 
+    
+    
+        #TARGET FLEET
+        
+        "fleet_name":"Liquidators",
+        "fleet_faction": "tritachyon",
+        "fleet_flagship_variant":"SGB_wolf_Assault",
+        #"fleet_flagship_name":"",
+        "fleet_flagship_alwaysRecoverable": true,
+        "fleet_flagship_autofit": true,
+        "fleet_preset_ships": {
+		"SGB_wolf_Hunter":2,
+		"SGB_Microhierax_Attack":2,
+		},
+        "fleet_preset_autofit": false,
+        "fleet_scaling_multiplier": 0.1,
+        "fleet_min_FP": 40,
+        "fleet_composition_quality": 2,
+        "fleet_transponder": false,
+        "fleet_behavior": "GUARDED",
+        "fleet_musicSetId": "IUB_KICKOFF_Loop",
+        
+        #LOCATION
+
+        #"location_entitiesID": ["location1",],
+        #"location_marketFactions": ["faction",],
+		"location_distance": "CLOSE",
+		"location_themes": [
+			"theme_interesting_minor",
+			"theme_ruins_secondary",
+			"theme_derelict_survey_ship",
+			"theme_derelict_probes",
+			"procgen_no_theme_pulsar_blackhole"
+		],
+		"location_themes_blacklist":[
+			"theme_already_occupied",
+			"theme_already_colonized",
+			"theme_hidden"
+		],
+        "location_entities": [ 
+            "gate",
+            "wreck",
+            "debris",
+            "stable_location",
+            "comm_relay",
+            "nav_buoy",
+            "sensor_array",
+        ],
+		"location_prioritizeUnexplored": true,
+		"location_defaultToAnyEntity": true
+    },
+	
+    "SGB_Scholar_Bound":{
+        #TRIGGERS (ALL OPTIONAL)[],
+        "trigger_marketFaction_any": ["SGB"],
+        "trigger_marketFaction_alliedWith": true,
+		"trigger_marketFaction_none": ["tritachyon"], # Default: no values. markets of factions listed here will never carry the bounty, regardless of other conditions.
+		"trigger_weight_mult": 50,
+		"trigger_player_minLevel": 7,
+	
+        
+        #BOUNTY DESCRIPTION
+        
+        "job_name": "The Last Job",
+        "job_description": "==Shackles officials== have established a high-value target, stating that one of their experimental weapon-equipped vessels has escaped the control of ==Shackles Garrison== . It is suspected that this escape was orchestrated by ==clandestine== , ==non-existent forces== operating in the shadows. Consequently, it is imperative to address this matter promptly to prevent further destabilizing influences.\n\nInvestigations have led ==Shackles== to believe that the perpetrators are associated with ==Profundity Industrial== . The bounty's objective is to ==destroy== the target ship, and ==Shackles== is keen to ensure that no individuals or organizations obtain any potentially recoverable information.",
+        "job_comm_reply": "The figure on the screen looks utterly ==peculiar==. While its attire resembles that of most Shackles Garrison officers, the visor design is unlike anything you've ever seen.\n\nBefore you can process this, the figure interrupts your thoughts: "Alright, I don't like idle talk. I saw you making a beeline for me from miles away... Those ==Shackles== fools are pathetic, completely oblivious to the value of these things. My backers are more than willing to pay ==five times== the price!"\n\nAfter a derisive snicker, it continues: "Moreover, if you initiate combat, I'll qualify for substantial risk funds - how delightfully convenient!"\n\nThe metallic surface of its face seems to quiver. Before you can observe further, it terminates the comm connection.\n\nRegardless, you're certain your facial data has been recorded by their sensors.",
+        "job_intel_success": "You destroyed that ship, and now no matter which organization the other party was trying to obtain five-more about the funding from before, they can never get it again - but at least you can get yours.",
+        "job_intel_failure": "Although you forged the destruction report of the ship, Shackles still relied on certain methods to discover the current condition of the ship - and they are very dissatisfied with this, so the credit points for this bounty will definitely not be credited to your account anymore.\n\nBut you are confident that the ship you salvaged is unique, which should still be worth it.\n\nIt should be.",
+        "job_intel_expired": "Shackles officials ultimately did not have the patience to continue waiting for non power organizations to complete their tasks. After deploying a large number of teams for encirclement and suppression, according to them, Shackles had achieved their goal.",
+        "job_forFaction": "SGB",
+        "job_deadline": 100,
+        "job_credit_reward": 200000,
+        "job_reward_scaling": 1,
+        "job_reputation_reward":8,
+        "job_type":"destruction",
+        "job_show_type": true,
+        "job_show_captain": false,
+        "job_show_fleet": "text",
+        "job_show_distance": "system",
+        "job_show_arrow": true,
+        "job_difficultyDescription": "auto",
+        "job_pick_option": "An organization I haven't heard of before...",
+        #"job_pick_script": "data.script.script",
+        "job_memKey":"$SGB_Scholar_Bound",
+        #"job_conclusion_script":"data.script.script",
+        
+		#"existing_target_memkey":"$SGB_Omega_0_existing",
+
+        #TARGET COMMANDER (OPTIONAL)
+        
+        "target_first_name":"Aesop",
+        "target_last_name":"Ouiesa",
+        "target_portrait":"SGB_Pharmacist",
+        "target_gender":"UNDEFINED",
+        "target_rank": "citizen",
+        "target_post": "spacer",
+        "target_personality": "aggressive",
+        "target_aiCoreId": null,
+        "target_level": 7,
+        "target_elite_skills":3,
+        "target_skill_preference": "YES_ENERGY_YES_BALLISTIC_YES_MISSILE_YES_DEFENSE",
+        #"target_skills": {"skill":1,}, 
+    
+    
+        #TARGET FLEET
+        
+        "fleet_name":"深%#工o 劫持T&组",
+        "fleet_faction": "ML_bounty",
+        "fleet_flagship_variant":"SGB_Homunculus_Magical",
+        #"fleet_flagship_name":"",
+        "fleet_flagship_alwaysRecoverable": true,
+        "fleet_flagship_autofit": false,
+        "fleet_preset_ships": {
+		"SGB_Transmutation_Attack":3
+		},
+        "fleet_preset_autofit": true,
+        "fleet_scaling_multiplier": 1.2,
+        "fleet_composition_faction": "SGB", 
+        "fleet_min_FP": 80,
+        "fleet_composition_quality": 2,
+        "fleet_transponder": false,
+        "fleet_behavior": "AGGRESSIVE",
+        "fleet_musicSetId": "IFC_Overall_Control",
+        
+        #LOCATION
+
+        #"location_entitiesID": ["location1",],
+        #"location_marketFactions": ["faction",],
+		"location_distance": "CLOSE",
+		"location_themes": [
+			"theme_interesting_minor",
+			"theme_ruins_secondary",
+			"theme_derelict_survey_ship",
+			"theme_derelict_probes",
+			"procgen_no_theme_pulsar_blackhole"
+		],
+		"location_themes_blacklist":[
+			"theme_already_occupied",
+			"theme_already_colonized",
+			"theme_hidden"
+		],
+        "location_entities": [ 
+            "gate",
+            "wreck",
+            "debris",
+            "stable_location",
+            "comm_relay",
+            "nav_buoy",
+            "sensor_array",
+        ],
+		"location_prioritizeUnexplored": true,
+		"location_defaultToAnyEntity": true
+    },
+	
+	
+    "SGB_Warlord_Bound":{
+        #TRIGGERS (ALL OPTIONAL)[],
+        "trigger_marketFaction_any": ["SGB"],
+        "trigger_marketFaction_alliedWith": true,
+		"trigger_marketFaction_none": ["tritachyon"], # Default: no values. markets of factions listed here will never carry the bounty, regardless of other conditions.
+		"trigger_weight_mult": 10,
+		"trigger_player_minLevel": 9,
+	
+        
+        #BOUNTY DESCRIPTION
+        
+        "job_name": "Warlord Period",
+        "job_description": "The Shackles authorities have issued a high-value target. According to official statements, this force was originally an expeditionary fleet of the Shackles Garrison. After eradicating local pirates in the peripheral star systems, it chose to commandeer those pirates instead. By militarizing the previously disorganized raiders, the group rapidly expanded its influence, exerting devastating impacts on both commerce and diplomacy.\n\nThe Shackles command demands this pirate warlord be eradicated immediately, with no survivors allowed.",
+        "job_comm_reply": "The figure initiates communication with abrupt urgency: \"Greetings, dear Captain. My crew and I have recently acquired some... additional requirements. I trust you can offer a suitable price for your continued existence?\"\n\nWhen met with your stoic response to his veiled threat, he seems genuinely pleased: \"How refreshing! The last time I encountered such defiance was during the Exile Civil War. Pity those ==Dominionists== supporters were reduced to scrap by Vulcan cannons.\"\n\nBefore terminating the connection, he casually remarks, \"You'll join them.\"\n\nRegardless, you're certain your biometric data has been logged by their systems.",
+        "job_intel_success": "You've destroyed this pirate warlord. For all their growth, they remained ultimately just a rabble flying the banner of a Renegade Task Force.",
+        "job_intel_expired": "The Shackles authorities ultimately lost patience waiting for non-factional organizations to complete the mission. After deploying massive forces in a suppression campaign, they claim Shackles has achieved its objectives.",
+        "job_forFaction": "SGB",
+        "job_deadline": 60,
+        "job_credit_reward": 200000,
+        "job_reward_scaling": 1,
+        "job_reputation_reward":8,
+        "job_type":"obliteration",
+        "job_show_type": true,
+        "job_show_captain": false,
+        "job_show_fleet": "text",
+        "job_show_distance": "system",
+        "job_show_arrow": true,
+        "job_difficultyDescription": "auto",
+        "job_pick_option": "The regular army has fallen into bandits.",
+        #"job_pick_script": "data.script.script",
+        "job_memKey":"$SGB_Warlord_Bound",
+        #"job_conclusion_script":"data.script.script",
+        
+		#"existing_target_memkey":"$SGB_Omega_0_existing",
+
+        #TARGET COMMANDER (OPTIONAL)
+        
+        #"target_first_name":"Aesop",
+        #"target_last_name":"Ouiesa",
+        "target_portrait":"SGB_Sentry_SF",
+        "target_gender":"UNDEFINED",
+        "target_rank": "citizen",
+        "target_post": "spacer",
+        "target_personality": "aggressive",
+        "target_aiCoreId": null,
+        "target_level": 12,
+        "target_elite_skills":4,
+        "target_skill_preference": "YES_ENERGY_YES_BALLISTIC_YES_MISSILE_YES_DEFENSE",
+        #"target_skills": {"skill":1,}, 
+    
+    
+        #TARGET FLEET
+        
+        "fleet_name":"Former Redstone Crystal Task Force",
+        "fleet_faction": "pirates",
+        "fleet_flagship_variant":"SGB_Cupola_P_Support",
+        #"fleet_flagship_name":"",
+        "fleet_flagship_alwaysRecoverable": true,
+        "fleet_flagship_autofit": true,
+        "fleet_preset_ships": {
+		"SGB_Cupola_P_Support":2,
+		"SGB_Carving_P_variant":4,
+		"SGB_Fleamut_P_Assault":8
+		},
+        "fleet_preset_autofit": true,
+        "fleet_scaling_multiplier": 2,
+        "fleet_composition_faction": "pirates", 
+        "fleet_min_FP": 120,
+        "fleet_composition_quality": 2,
+        "fleet_transponder": false,
+		"fleet_no_retreat": true, 
+        "fleet_behavior": "AGGRESSIVE",
+        "fleet_musicSetId": "IUB_KICKOFF_Loop",
+        
+        #LOCATION
+
+        #"location_entitiesID": ["location1",],
+        #"location_marketFactions": ["faction",],
+		"location_distance": "CLOSE",
 		"location_themes": [
 			"theme_interesting_minor",
 			"theme_ruins_secondary",

@@ -1,0 +1,92 @@
+{
+  "hullName": "SGB_Station_Sidest_Armor_R",
+  "hullId": "SGB_Station_Sidest_Armor_R",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Station/SGB_Station_Sidest_Armor_R.png",
+  "style": "SGB_TECH",
+  "height": 104,
+  "width": 93,
+  "center": [46.5, 52],
+  "collisionRadius": 74.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 53.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "supercomputer",
+    "shared_flux_sink",
+    "reduced_explosion",
+    "missile_reload",
+    "always_detaches"
+  ],
+  "builtInWeapons": {
+    "WS0002": "SGB_Curlor",
+    "WS0003": "SGB_Decoy",
+    "WS0004": "SGB_Decoy",
+    "WS0005": "SGB_Decoy",
+    "WS0006": "SGB_Decoy"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 154,
+      "angle": -61.5,
+      "locations": [-9, 4.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 139,
+      "angle": -69,
+      "locations": [-32, -4.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": -69,
+      "locations": [-22.5, -26.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": -58.5,
+      "locations": [-11.5, -22]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": -47,
+      "locations": [-5, -11]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": -45,
+      "locations": [7.5, -3.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -35, -22,
+    -22.5, -24,
+    20, 9,
+    -10, 17,
+    -35, 1
+  ]
+}

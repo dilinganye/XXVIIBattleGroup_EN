@@ -1,0 +1,56 @@
+{
+  "hullName": "SGB_Penetrator",
+  "hullId": "SGB_Penetrator",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Wing_System/SGB__Penetrator.png",
+  "style": "SGB_WING_TECH",
+  "height": 20,
+  "width": 16,
+  "center": [8, 10],
+  "collisionRadius": 12,
+  "shieldCenter": [-15, -0],
+  "shieldRadius": 29,
+  "viewOffset": 0,
+  "builtInMods": [
+    "autorepair"
+  ],
+  "builtInWeapons": {
+    "WS0001": "SGB_blinker_green_S"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [6.5, 7]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [4, 1]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-0.5, 1.5],
+      "length": 4,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "SGB_TECH_QUAD"
+    }
+  ],
+  "bounds": [
+    7.5, -1.5,
+    1, -5.5,
+    1, 6,
+    5, 6
+  ]
+}

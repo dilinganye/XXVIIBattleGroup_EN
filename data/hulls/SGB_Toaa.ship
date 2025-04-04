@@ -1,0 +1,122 @@
+{
+  "hullName": "SGB_Toaa",
+  "hullId": "SGB_Toaa",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/Remain/Toaa.png",
+  "style": "HIGH_TECH",
+  "height": 202,
+  "width": 117,
+  "center": [58.5, 101],
+  "collisionRadius": 144.5,
+  "shieldCenter": [-1.5, -0],
+  "shieldRadius": 125.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "coherer"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 4,
+      "angle": 0,
+      "locations": [88, 19.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 198,
+      "angle": -32,
+      "locations": [51, -21.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 4,
+      "angle": 0,
+      "locations": [3, 38.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [22.5, 22.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-77.5, -6.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-56.5, 2.5],
+      "length": 43,
+      "width": 5,
+      "angle": -176.5,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-57.5, 4.5],
+      "length": 27.224358,
+      "width": 5.686592,
+      "angle": -176.5,
+      "contrailSize": 5.686592,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-71, -14],
+      "length": 22.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-56, -22],
+      "length": 22.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-53.5, -25.5],
+      "length": 31.5,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    60.5, 33.5,
+    91.5, -3.5,
+    52, -28.5,
+    36, -23,
+    -4.5, -26.5,
+    -16.5, -35,
+    -48.5, -12.5,
+    -72, -9.5,
+    -72, -5,
+    -43, 0.5,
+    -59.5, 13.5,
+    -11.5, 40.5,
+    -5, 23.5,
+    18.5, 11.5,
+    46, 33.5
+  ]
+}

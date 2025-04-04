@@ -145,21 +145,21 @@
 	},
 	"factionDoctrine":{
 		"warships":3,
-		"carriers":4,
+		"carriers":3,
 		"phaseShips":1,
 		
 		"officerQuality":5,
 		"shipQuality":5,
 		"numShips":5,
 		
-		"shipSize":3,
+		"shipSize":4,
 		
 		"aggression":4,
 		
-		"combatFreighterProbability":0.5,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterProbability":0.25,     				# instead of some portion of the freighters in a fleet
 		"combatFreighterCombatUseFraction":0,				# as part of the normal combat lineup
 		"combatFreighterCombatUseFractionWhenPriority":0,   # as part of normal combat lineup, when marked as priority ship
-		"autofitRandomizeProbability":0.01,
+		"autofitRandomizeProbability":0,
 
 		"commanderSkillsShuffleProbability":1,
 		"commanderSkills":[
@@ -181,14 +181,22 @@
 	},	
 	"portraits":{
 		"standard_male":[
-			"graphics/portraits/SGB_Commando_SF.png",
-			"graphics/portraits/SGB_Sentry_SF.png",
-			"graphics/portraits/SGB_Veteran_SF.png",
+			"graphics/portraits/SGB_Assault.png",
+			"graphics/portraits/SGB_Assault_2.png",
+			"graphics/portraits/SGB_Commando_2.png",
+			"graphics/portraits/SGB_Commando_3.png",
+			"graphics/portraits/SGB_Sentry.png",
+			"graphics/portraits/SGB_Veteran.png",
+			"graphics/portraits/SGB_Spectror.png",
 		],
 		"standard_female":[
-			"graphics/portraits/SGB_Commando_SF.png",
-			"graphics/portraits/SGB_Sentry_SF.png",
-			"graphics/portraits/SGB_Veteran_SF.png",
+			"graphics/portraits/SGB_Assault.png",
+			"graphics/portraits/SGB_Assault_2.png",
+			"graphics/portraits/SGB_Commando_2.png",
+			"graphics/portraits/SGB_Commando_3.png",
+			"graphics/portraits/SGB_Sentry.png",
+			"graphics/portraits/SGB_Veteran.png",
+			"graphics/portraits/SGB_Spectror.png",
 		],
 	},
 	"ranks":{
@@ -219,6 +227,8 @@
 			"official":5,
 			"business":5,
 		},
+	},
+	"custom":{
 	},
 	"fleetTypeNames":{
 		"smallTrader":"Transfer Squad",

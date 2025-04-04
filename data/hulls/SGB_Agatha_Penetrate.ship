@@ -1,0 +1,103 @@
+{
+  "hullName": "SGB_Agatha_Penetrate",
+  "hullId": "SGB_Agatha_Penetrate",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Wing_System/SGB_Agatha_Penetrate.png",
+  "style": "SGB_WING_TECH",
+  "height": 60,
+  "width": 40,
+  "center": [20, 21],
+  "collisionRadius": 137.5,
+  "shieldCenter": [2.5, -0],
+  "shieldRadius": 36.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "autorepair"
+  ],
+  "builtInWeapons": {
+    "WS0002": "SGB_Agatha_Penetrate_Top",
+    "WS0003": "SGB_blinker_red_Q",
+    "WS0004": "SGB_ScrewsTwi"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [2.5, -13.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 31,
+      "angle": 0,
+      "locations": [21.5, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 67,
+      "angle": -5,
+      "locations": [16.5, -12.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [10, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [18, 10.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 0,
+      "locations": [18.5, 10.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-14.5, -7.5],
+      "length": 24.23105,
+      "width": 9.403452,
+      "angle": 176,
+      "contrailSize": 9.403452,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-14.5, 7.5],
+      "length": 24.23105,
+      "width": 9.403452,
+      "angle": -176,
+      "contrailSize": 9.403452,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    24, 3,
+    8.5, 15,
+    -6, 6,
+    -6, -6.5,
+    8, -10.5
+  ]
+}

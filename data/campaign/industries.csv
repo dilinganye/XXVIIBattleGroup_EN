@@ -1,0 +1,11 @@
+id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order,disruptDanger
+SGB_CenterHub,Networked Subterranean Fortress,3050,20,5,10,,,"military, unraidable, structure",,graphics/icons/industry/SGB_CenterHub_Hard.png,data.scripts.world.econ.industries.SGB_Fortress_Center,"The Shackles Garrison has engineered extreme expansions to the planet's underground networks, creating layered military defenses. Continental plates have been massively reinforced and compartmentalized to preserve combat effectiveness against all orbital bombardments except direct planet-killer strikes. Regional command centers dubbed ""Continental Pillars"" dominate each sector, while streets swarm with military police and informants.
+
+This militarization frenzy has granted Shackles overwhelming manpower reserves - particularly the infamous ""Blackshirt Internal Corps"" that never enters open markets, notorious throughout the Perseus Sector for resolving conflicts with brutal efficiency.",20,EXTREME
+SGB_TheLastWorkStation,Military-Industrial Orbital Base - Shackles Armaments,200,180,,5,,,"station, starfortress, unraidable, structure","{
+radius:70,
+variant:SGB_station4_Holder,
+fleetName:军事工业轨道基地
+}",graphics/icons/industry/SGB_TheLastWorkStation.png,data.scripts.world.econ.industries.SGB_TheLastWorkStation,"A colossal industrial station designed by Shackles military engineers, capable of independently producing and maintaining entire fleets.\n\nPurported to have been originally planned for a direct assault on the Hegemony capital, but ultimately abandoned due to prohibitive costs and the extreme instability of mega-structures during hyperspace transitions. Now sits immobilized above Shackles' new capital as an impregnable defensive installation - at least according to historical archives.
+
+Its presence nullifies any orbital bombardment attempts.",,EXTREME

@@ -1,0 +1,148 @@
+{
+  "hullName": "SGB_Station_BigWing_Slot_R",
+  "hullId": "SGB_Station_BigWing_Slot_R",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Station/SGB_Station_BigWing_Slot_R.png",
+  "style": "LOW_TECH",
+  "height": 261,
+  "width": 337,
+  "center": [168.5, 130.5],
+  "collisionRadius": 277.5,
+  "shieldCenter": [-82, 11],
+  "shieldRadius": 238,
+  "viewOffset": 0,
+  "builtInMods": [
+    "XXVII_SpecialWingGroup_Carrier",
+    "bdeck",
+    "supercomputer",
+    "shared_flux_sink",
+    "reduced_explosion",
+    "missile_reload",
+    "always_detaches"
+  ],
+  "builtInWings": [
+    "SGB_Ares_Penetrate_wing",
+    "SGB_Axio_Penetrate_wing"
+  ],
+  "builtInWeapons": {
+    "WS0006": "SGB_Curlor"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -39,
+      "locations": [-41.5, 55.5],
+      "renderOrderMod": 20
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 146,
+      "angle": -10,
+      "locations": [9.5, 89.5],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 152,
+      "angle": -32.5,
+      "locations": [3.5, -69.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 149,
+      "angle": -32,
+      "locations": [36.5, 45.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 153,
+      "angle": 17,
+      "locations": [44.5, 85.5],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [7, 29]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-8, 5]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-11, -28.5]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-24, -53.5]
+    },
+    {
+      "id": "LB 5",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-41, -73.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 189,
+      "angle": -13,
+      "locations": [57.5, 82.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    73, 77,
+    73, 85,
+    69, 56.5,
+    38.5, 29,
+    6, -69,
+    -51, -97.5,
+    -70, -78.5,
+    -69.5, -28.5,
+    -45, 7,
+    -46, 65,
+    16, 108
+  ]
+}

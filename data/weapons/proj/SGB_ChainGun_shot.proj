@@ -1,0 +1,17 @@
+{
+	"id":"SGB_ChainGun_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"onHitEffect":"data.weapons.SGB_Missile_Weapon_SMS",
+	"collisionClass":"PROJECTILE_FIGHTER",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"hitGlowRadius":12,
+	"length":100.0,
+	"width":5,
+	"fadeTime":0.025,
+	"fringeColor":[240,110,90,200],
+	"coreColor":[245,122,112,80],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_small_yellow.png",
+}

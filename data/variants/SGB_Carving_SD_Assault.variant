@@ -1,41 +1,69 @@
 {
-    "displayName": "Assault",
-    "fluxCapacitors": 19,
-    "fluxVents": 29,
-    "goalVariant": true,
-    "hullId": "SGB_Carving_SD",
-    "hullMods": [
-        "hardenedshieldemitter",
-        "targetingunit",
-        "advancedoptics",
-        "stabilizedshieldemitter"
-    ],
-    "permaMods": [],
-    "sMods": [],
-    "variantId": "SGB_Carving_SD_Assault",
-    "weaponGroups": [
-        {
-            "autofire": false,
-            "mode": "LINKED",
-            "weapons": {
-                "WS0001": "tachyonlance",
-                "WS0002": "taclaser",
-                "WS0003": "gravitonbeam",
-                "WS0004": "gravitonbeam",
-                "WS0006": "gravitonbeam",
-                "WS0007": "gravitonbeam",
-                "WS0008": "taclaser",
-                "WS0009": "taclaser",
-                "WS0010": "taclaser",
-                "WS0011": "taclaser",
-                "WS0012": "taclaser"
-            }
-        },
-        {
-            "autofire": false,
-            "mode": "LINKED",
-            "weapons": {"WS0005": "phasecl"}
-        }
-    ],
-    "wings": ["SGB_Drone_Mining_wing"]
+  "variantId": "SGB_Carving_SD_Assault",
+  "hullId": "SGB_Carving_SD",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 24,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "hardenedshieldemitter",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "plasma"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "phasecl"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "ionpulser",
+        "WS0007": "ionpulser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "hveldriver",
+        "WS0004": "hveldriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "lightneedler",
+        "WS0009": "lightneedler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "SGB_Drone_Vulcan_wing"
+  ]
 }

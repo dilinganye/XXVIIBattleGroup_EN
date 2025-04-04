@@ -1,12 +1,12 @@
 {
   "id": "SGB_Omega_Watcher",
-  "displayName": "第四窥视",
-  "displayNameWithArticle": "第四窥视",
-  "displayNameLong": "第四窥视",
-  "displayNameLongWithArticle": "第四窥视",
+  "displayName": "The Fourth Peek",
+  "displayNameWithArticle": "The Fourth Peek",
+  "displayNameLong": "The Fourth Peek",
+  "displayNameLongWithArticle": "The Fourth Peek",
 	"entityNamePrefix":"",
 	"personNamePrefix":"",
-	"personNamePrefixAOrAn":"一个",
+	"personNamePrefixAOrAn":"One",
 	"displayNameIsOrAre":"",
 	
   "logo": "graphics/factions/SGB_Omega_Watcher.png",
@@ -153,25 +153,25 @@
 	},
 	"ranks":{
 		"ranks":{
-			"citizen":{"name":"数据洪流"},
-			"Captain":{"name":"乱码窥测"},
+			"citizen":{"name":"Data Flood"},
+			"Captain":{"name":"Peekin-Garbled Text"},
 		},
 		"posts":{
-			"spacer":{"name":"探针"},
-			"Fleet Commander":{"name":"回音"},
+			"spacer":{"name":"Probe"},
+			"Fleet Commander":{"name":"Echo"},
 		},
 	},
 	"custom":{
-		"engageWhenEvenStrength":false, # They will run
-		"postsNoBounties":true,
-		"fightToTheLast":false, # They will run dont they?
-		"noAICoresFromAutomatedDefenses":true,
-		"officersOnAutomatedDefenses":true,
+		"simulatorData":{
+			"showInSimulatorDevModeOnly":true,
+			"omegaAICores":true,
+			"includeCivShipsWithFaction":true,
+		},
 	},	
 	"fleetTypeNames":{
-		"patrolSmall":"虚影", 
-		"patrolMedium":"幻象", 
-		"patrolLarge":"显现", 
-		"battlestation":"聚合",
+		"patrolSmall":"Virtual Shadow",
+		"patrolMedium":"Illusion",
+		"patrolLarge":"Manifestation",
+		"battlestation":"Aggregation",
 	},
 },

@@ -7,7 +7,7 @@
   "height": 34,
   "width": 58,
   "center": [29, 16],
-  "collisionRadius": 51.5,
+  "collisionRadius": 93.5,
   "shieldCenter": [1, -0],
   "shieldRadius": 41.5,
   "viewOffset": 0,
@@ -16,10 +16,10 @@
   ],
   "builtInWeapons": {
     "WS0005": "SGB_Temperom",
-    "WS0006": "blinker_green",
-    "WS0007": "blinker_green",
-    "WS0008": "blinker_green",
-    "WS0009": "blinker_green"
+    "WS0006": "SGB_blinker_green_S",
+    "WS0007": "SGB_blinker_green_S",
+    "WS0008": "SGB_blinker_green_Q",
+    "WS0009": "SGB_blinker_green_Q"
   },
   "weaponSlots": [
     {

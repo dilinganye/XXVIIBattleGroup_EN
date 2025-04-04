@@ -1,0 +1,46 @@
+{
+  "variantId": "SGB_Cupola_Civ",
+  "hullId": "SGB_Cupola",
+  "displayName": "Civ",
+  "goalVariant": true,
+  "fluxCapacitors": 31,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "insulatedengine",
+    "expanded_cargo_holds",
+    "defensive_targeting_array"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "hephag",
+        "WS0005": "hephag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "mininglaser",
+        "WS0004": "mininglaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0032": "SGB_Coahuilite"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "SGB_Drone_Mining_wing",
+    "SGB_Drone_Mining_wing"
+  ]
+}

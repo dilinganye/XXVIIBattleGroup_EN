@@ -15,8 +15,8 @@
     "pointdefenseai"
   ],
   "builtInWeapons": {
-    "WS0001": "blinker_green",
-    "WS0002": "blinker_green",
+    "WS0001": "SGB_blinker_green_Q",
+    "WS0002": "SGB_blinker_green_S",
     "WS0006": "SGB_Axio_Top_Shield"
   },
   "weaponSlots": [

@@ -1,0 +1,75 @@
+{
+  "hullName": "SGB_Station_midAttackPointShield_L",
+  "hullId": "SGB_Station_midAttackPointShield_L",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Station/SGB_Station_midAttackPointShield_L.png",
+  "style": "SGB_TECH",
+  "height": 96,
+  "width": 128,
+  "center": [64, 48],
+  "collisionRadius": 107,
+  "shieldCenter": [-11, -2],
+  "shieldRadius": 54.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "XXVII_SpecialWingGroup_Carrier",
+    "bdeck",
+    "supercomputer",
+    "shared_flux_sink",
+    "reduced_explosion",
+    "missile_reload",
+    "always_detaches"
+  ],
+  "builtInWeapons": {
+    "WS0002": "SGB_Decoy",
+    "WS0003": "SGB_PinTwi"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 146,
+      "angle": 35.5,
+      "locations": [10, -22]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 16,
+      "angle": 84.5,
+      "locations": [-16.5, 23]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 40,
+      "locations": [-5.5, -7.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-16.5, 19]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    21, -28,
+    -0.5, -34,
+    -9.5, -32.5,
+    -10, -14,
+    -29, 14.5,
+    -27, 25.5,
+    5, 20
+  ]
+}

@@ -1,0 +1,23 @@
+{
+	"id":"SGB_WingPushPlate",
+	"type":"STAT_MOD",
+	"aiType":"BURN_DRIVE",
+	
+	"statsScript":"data.shipsystems.scripts.SGB_WingPushPlate",
+
+	"runScriptWhileIdle":true, # unapply() never gets called
+	
+	"useSound":"system_orion_device_fire",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"activeSpeedIncrease":0,
+		"burstMovementPotential":400,
+		"averageSpeedIncrease":100,
+	}
+	
+}
+
+
+
+

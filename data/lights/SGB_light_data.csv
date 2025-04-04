@@ -1,0 +1,14 @@
+id,type,size,intensity,fadeout,color,offset,hit size,hit intensity,hit fadeout,hit color,flash size,flash intensity,flash fadeout,flash color,flash offset,chance,fighter dim
+XXVII_type_7_mrm,projectile,150,0.4,0.5,"[255,145,75]",,100,0.3,0.5,"[255,165,50]",50,0.3,0.2,"[255,165,50]",,0.55,TRUE
+XXVII_type_7_mrm_Rocket,projectile,150,0.4,0.5,"[255,145,75]",,100,0.3,0.5,"[255,165,50]",50,0.3,0.2,"[255,165,50]",,0.55,TRUE
+XXVII_type_7_srm,projectile,100,0.35,0.75,"[255,145,75]",,100,0.3,0.5,"[255,165,50]",50,0.3,0.2,"[255,165,50]",,0.55,TRUE
+XXVII_type_10_mrm,projectile,150,0.4,0.5,"[169,199,237]",,150,0.35,0.5,"[255,165,0]",95,0.3,0.2,"[255,165,0]",,0.55,TRUE
+XXVII_type_13_mrm,projectile,200,0.5,0.5,"[255,145,75]",,100,0.3,0.5,"[255,165,50]",120,0.3,0.2,"[255,165,50]",,0.55,TRUE
+SGB_Resonance_shot,projectile,75,0.25,0.15,"[67,189,135]",,,,,,100,0.55,0.2,"[109,126,212]",,1,TRUE
+SGB_Plasma_Disc,projectile,150,0.4,0.5,"[104,87,237]",,100,0.5,0.75,"[151,122,212]",,,,,,1,TRUE
+SGB_MatealDisper_shot,projectile,100,0.25,0.5,"[150,100,255]",,300,0.5,1,"[151,122,212]",100,0.15,0.1,"[255,0,0]",,1,TRUE
+SGB_Coahuilite_shot,projectile,85,0.25,0.3,"[245,245,225]",,100,0.15,0.75,"[255,200,165]",,,,,,1,TRUE
+XXVII_type_27_nuke,projectile,300,0.9,1,"[62,245,64]",10,3000,1,3,"[183,255,230]",500,0.27,0.2,"[183,255,230]",,1,FALSE
+SGB_Acidslay_shot,projectile,100,0.25,0.5,"[62,245,64]",10,300,0.8,2,"[183,255,230]",350,0.27,0.2,"[183,255,230]",,1,FALSE
+SGB_ChainGun_shot,projectile,75,0.25,0.5,"[255,35,35]",2,125,0.23,0.5,"[225,100,100]",70,0.25,0.25,"[255,10,10]",,0.75,FALSE
+SGB_Roller_Rocket,projectile,200,0.6,0.5,"[180,255,175]",2,125,0.4,1.8,"[182,241,214]",110,0.7,1,"[182,241,214]",,1,FALSE

@@ -1,0 +1,152 @@
+{
+  "hullName": "SGB_Danburite",
+  "hullId": "SGB_Danburite",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/SGB_Danburite.png",
+  "style": "SGB_TECH",
+  "height": 90,
+  "width": 80,
+  "center": [42, 45],
+  "collisionRadius": 77,
+  "shieldCenter": [2.5, 2],
+  "shieldRadius": 71.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "SGB_AllForHuman"
+  ],
+  "builtInWings": [
+    "SGB_Penetrator_Shield_wing"
+  ],
+  "builtInWeapons": {
+    "WS0001": "SGB_Danburite_Top",
+    "WS0002": "SGB_blinker_green_Q",
+    "WS0003": "SGB_blinker_red_S",
+    "WS0004": "SGB_blinker_green_S",
+    "WS0005": "SGB_blinker_red_Q",
+    "WS0007": "SGB_Duplexing_ChainGun"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, 2],
+      "renderOrderMod": 50
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [22.5, -14.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-14.5, 26.5],
+      "renderOrderMod": 50
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-8.5, -28.5],
+      "renderOrderMod": 30
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [33, 24],
+      "renderOrderMod": 30
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 177,
+      "angle": -38.5,
+      "locations": [12, -19]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": -1,
+      "locations": [-7, 4.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [8, -6]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-21.5, -10.5],
+      "length": 35,
+      "width": 9,
+      "angle": 176,
+      "contrailSize": 9,
+      "style": "SGB_TECH"
+    },
+    {
+      "location": [-23.5, -2.5],
+      "length": 24,
+      "width": 6,
+      "angle": 177.5,
+      "contrailSize": 6,
+      "style": "SGB_TECH"
+    },
+    {
+      "location": [-35.5, 12],
+      "length": 13.5,
+      "width": 16,
+      "angle": -178.5,
+      "contrailSize": 16,
+      "style": "SGB_LESS_SMOKE_TECH"
+    },
+    {
+      "location": [-37.5, 12],
+      "length": 50.5,
+      "width": 10,
+      "angle": -178.5,
+      "contrailSize": 10,
+      "style": "SGB_TECH"
+    }
+  ],
+  "bounds": [
+    14, 22,
+    20, -13,
+    20, -27,
+    5.5, -31.5,
+    -11, -14,
+    -11, -1,
+    -24.5, 9,
+    -24.5, 14.5,
+    -2, 29,
+    14, 29
+  ]
+}

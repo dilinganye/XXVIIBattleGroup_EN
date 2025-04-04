@@ -17,11 +17,11 @@
   "builtInWeapons": {
     "WS0003": "SGB_Curlor",
     "WS0012": "SGB_Curlor",
-    "WS0013": "blinker_red",
-    "WS0014": "blinker_green",
+    "WS0013": "SGB_blinker_red_S",
+    "WS0014": "SGB_blinker_green_S",
     "WS0015": "SGB_Curlor",
-    "WS0016": "blinker_red",
-    "WS0017": "blinker_red"
+    "WS0016": "SGB_blinker_red_Q",
+    "WS0017": "SGB_blinker_red_S"
   },
   "weaponSlots": [
     {

@@ -1,0 +1,73 @@
+{
+  "hullName": "SGB_Station_Below",
+  "hullId": "SGB_Station_Below",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Station/SGB_Station_Below.png",
+  "style": "SGB_TECH",
+  "height": 303,
+  "width": 305,
+  "center": [153, 149.5],
+  "collisionRadius": 308,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 269,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advancedshieldemitter",
+    "turretgyros",
+    "supercomputer",
+    "shared_flux_sink"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 171,
+      "angle": 36.5,
+      "locations": [100.5, 20]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 171,
+      "angle": -36.5,
+      "locations": [100.5, -20]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 189,
+      "angle": -35,
+      "locations": [104.5, -45]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 189,
+      "angle": 35,
+      "locations": [104.5, 45]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -117, -12.5,
+    -69, -83.5,
+    -59, -55.5,
+    20, -39,
+    74.5, -76.5,
+    115.5, -47.5,
+    115.5, 47.5,
+    74.5, 76.5,
+    20, 39,
+    -59, 55.5,
+    -69, 83.5,
+    -117, 12.5
+  ]
+}

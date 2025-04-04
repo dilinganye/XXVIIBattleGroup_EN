@@ -1,0 +1,48 @@
+{
+  "id": "SGB_WingRail",
+  "specClass": "projectile",
+  "projectileSpecId": "SGB_RailGun",
+  "everyFrameEffect":"data.weapons.SGB_WingRailGun_Fire",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/Wing_System/SGB_WingRail.png",
+  "turretGunSprite": "graphics/weapons/Wing_System/SGB_WingRail_B.png",
+  "hardpointSprite": "graphics/weapons/Wing_System/SGB_WingRail.png",
+  "hardpointGunSprite": "graphics/weapons/Wing_System/SGB_WingRail_B.png",
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    16,
+    -0.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    23.5,
+    -0.5
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 40,
+    "spread": 10,
+    "particleSizeMin": 14,
+    "particleSizeRange": 7,
+    "particleDuration": 0.723,
+    "particleCount": 12,
+    "particleColor": [
+      125,
+      144,
+      150,
+      75
+    ]
+  }
+}

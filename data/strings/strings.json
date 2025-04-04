@@ -1,8 +1,20 @@
 {
       "SGB": {
-
-
             #newest,
+
+      "Econ_Industries_Fortess_No.": "No.",
+      "Econ_Industries_Fortess_FreeScout_Formation_No.": "FreeScout Formation No.",
+      "Econ_Industries_Fortess_FreeScout_Empty": " ",
+
+      "Econ_Industries_Fortess_ReamerHunting_Group_No.": "Reamer Hunting Group No.",
+      "Econ_Industries_Fortess_ReamerHunting_Squadron": "Squadron",
+
+      "Econ_Industries_Fortess_CorundumReaction_No.": "Corundum Reaction No.",
+      "Econ_Industries_Fortess_Garrison_Fleet": "Fleet",
+
+
+      #old version,
+      #=-----------------=
       "SGB_Omega_ArmorBroken": "Armor Broken",
       "SGB_Omega_ShieldBroken": "Shield Broken",
 
@@ -16,9 +28,6 @@
 
       "HullMods_SGB_Achilles_FrontTurret1": "Thanks to focusing many of the ship's targetting system on the large front turret, two gunnery team and three targeting core is servicing it at all times;",
       "HullMods_SGB_Achilles_FrontTurret2": "This allow it to focus on the front-mounted weapon, making it reasonable to use it as a sort of long ranged gunnery ship.",
-
-
-      #old version
       #=-----------------=
 
       "SGB_AsAboveSoBelow_WeaponSpeed": "Rate of fire +",
@@ -146,8 +155,6 @@
       "HullMods_Austenite_System_Wingman_wings_Bmr1": "Strike type - equipped with a large number of missiles, using extreme projection to evaporate enemy armor and structure;",
       "HullMods_Austenite_System_Wingman_wings_Bmr2": "If it can successfully hit the ship's hull instead of the shield.",
       "HullMods_Austenite_System_Wingman_wings_Bmr3": "In order to support additional flight decks, matched missile production facilities, and coordinated strike centers, Austenite's own engine self regulating system will be limited in power supply!"
-
-
 
 
 }

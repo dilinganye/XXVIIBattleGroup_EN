@@ -1,0 +1,168 @@
+{
+  "hullName": "SGB_Axio_Penetrate",
+  "hullId": "SGB_Axio_Penetrate",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Wing_System/SGB_Axio_Penetrate.png",
+  "style": "SGB_WING_TECH",
+  "height": 70,
+  "width": 80,
+  "center": [40, 29.5],
+  "collisionRadius": 170.5,
+  "shieldCenter": [-4.5, -0],
+  "shieldRadius": 43.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "autorepair"
+  ],
+  "builtInWeapons": {
+    "WS0001": "SGB_blinker_green_S",
+    "WS0002": "SGB_blinker_red_Q",
+    "WS0004": "SGB_FerricOxide",
+    "WS0005": "SGB_Coahuilite",
+    "WS0006": "SGB_Decoy",
+    "WS0007": "SGB_Decoy",
+    "WS0008": "SGB_Decoy"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-3.5, 12.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-16, -19]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [3, 0],
+      "renderOrderMod": -10
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [4, -19]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [4, 19]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 286,
+      "angle": 0,
+      "locations": [-6.5, -0],
+      "renderOrderMod": 20
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-4.5, -29.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 25,
+      "angle": 128.5,
+      "locations": [-11, 31]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 25,
+      "angle": -128.5,
+      "locations": [-11, -31]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 11,
+      "angle": 0,
+      "locations": [19.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-10.5, 31.5],
+      "length": 9.58,
+      "width": 5.48,
+      "angle": 146.5,
+      "contrailSize": 5.48,
+      "style": "SGB_TECH_GREEN"
+    },
+    {
+      "location": [-10.5, -31.5],
+      "length": 9.58,
+      "width": 5.48,
+      "angle": -146.5,
+      "contrailSize": 5.48,
+      "style": "SGB_TECH_GREEN"
+    },
+    {
+      "location": [-21.5, 13.5],
+      "length": 9.232642,
+      "width": 6.002771,
+      "angle": -174.5,
+      "contrailSize": 6.002771,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-21.5, -13.5],
+      "length": 9.232642,
+      "width": 6.002771,
+      "angle": 174.5,
+      "contrailSize": 6.002771,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -10.5, -8.5,
+    -15, -21,
+    -15, -21,
+    9, -25.5,
+    18, -18,
+    10, -8.5,
+    10, 8.5,
+    18, 18,
+    9, 25.5,
+    -15, 21,
+    -15, 21,
+    -10.5, 8.5
+  ]
+}

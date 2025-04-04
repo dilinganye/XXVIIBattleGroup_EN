@@ -1,0 +1,44 @@
+{
+  "variantId": "SGB_Cupola_Civ_B",
+  "hullId": "SGB_Cupola",
+  "displayName": "Battle",
+  "goalVariant": true,
+  "fluxCapacitors": 27,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "XXVII_SpecialWingGroup_Coop",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "hellbore",
+        "WS0005": "hellbore"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "lightneedler",
+        "WS0004": "lightneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0032": "SGB_Coahuilite"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "SGB_Agatha_Coop_wing",
+    "SGB_Agatha_Coop_wing"
+  ]
+}

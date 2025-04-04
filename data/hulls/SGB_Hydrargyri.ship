@@ -16,12 +16,12 @@
     "do_not_back_off"
   ],
   "builtInWeapons": {
-    "VENT1": "blinker_green",
-    "VENT2": "blinker_green",
-    "VENT3": "blinker_red",
-    "VENT4": "blinker_red",
-    "VENT5": "blinker_red",
-    "VENT6": "blinker_red"
+    "VENT1": "SGB_blinker_green_Q",
+    "VENT2": "SGB_blinker_green_Q",
+    "VENT3": "SGB_blinker_red_Q",
+    "VENT4": "SGB_blinker_red_Q",
+    "VENT5": "SGB_blinker_red_S",
+    "VENT6": "SGB_blinker_red_S"
   },
   "weaponSlots": [
     {

@@ -16,6 +16,9 @@ public class SGB_DisinRadia_Beam_Effect implements BeamEffectPlugin {
 				//com.fs.starfarer.api.impl.combat.IonBeamEffect
 	private final IntervalUtil fireInterval = new IntervalUtil(0.2f, 0.3f),
 			hitPInterval = new IntervalUtil(0.07f, 0.2f);
+	private float DAMAGE_MULT = 1.5f,GET_KILLED_NUMBER = 0.3f,
+			sizeA = MathUtils.getRandomNumberInRange(50f, 135f),	//非处决情况下的爆破特效大小
+			timeA = 10f;	//非处决情况下的爆破特效单次最大次数
 
 	public static boolean shieldHit(BeamAPI beam, ShipAPI target) {
 		return target.getShield() != null && target.getShield().isOn() && target.getShield().isWithinArc(beam.getTo());
@@ -37,17 +40,18 @@ public class SGB_DisinRadia_Beam_Effect implements BeamEffectPlugin {
 				// 	}
 
 			if (beam.didDamageThisFrame()) {
-				float damage = beam.getDamage().getDamage() * beam.getDamage().getDpsDuration();
+				float damage = beam.getDamage().getDamage() * beam.getDamage().getDpsDuration()*DAMAGE_MULT;
 
 				if (!shieldHit(beam, theTarget)){
-					if(theTarget.getHitpoints() >= Math.min(1000,theTarget.getMaxHitpoints()/4f)) {
+					if(theTarget.getHitpoints() >= Math.min(1000,theTarget.getMaxHitpoints()/GET_KILLED_NUMBER)) {
 						theTarget.setHitpoints(theTarget.getHitpoints() - damage);
 
 						engine.addFloatingDamageText(theTarget.getLocation(), damage,
 								new Color(200, 231, 232, 255), target, target);
 
 						//_______Particle EFFECT______
-						hitPInterval.advance(amount * beam.getBrightness());
+						//hitPInterval.advance(amount * beam.getBrightness());
+						hitPInterval.advance(amount * timeA * beam.getBrightness());
 						if (hitPInterval.intervalElapsed()) {
 							engine.addHitParticle(beam.getTo(), theTarget.getVelocity(),
 									0 + MathUtils.getRandomNumberInRange(30f, 40f), 1f,
@@ -97,8 +101,42 @@ public class SGB_DisinRadia_Beam_Effect implements BeamEffectPlugin {
 									1f,
 									1f
 							);
+
+
+							//____________________no damaged Bombed EFFECT_________________
+							MagicRender.battlespace(
+									Global.getSettings().getSprite("fx", "SGB_Va_Explosion_ring"),
+									muzzle,
+									theTarget.getVelocity(),
+									new Vector2f(sizeA, sizeA),
+									new Vector2f(120, 120),
+									//angle,
+									360 * (float) Math.random(),
+									0,
+									new Color(19, 59, 133, 189),
+									false,
+									0f,
+									0f,
+									0.17f
+							);
+							MagicRender.battlespace(
+									Global.getSettings().getSprite("fx", "SGB_Va_Explosion"),
+									muzzle,
+									theTarget.getVelocity(),
+									new Vector2f(sizeA*1.5f, sizeA*1.5f),
+									new Vector2f(38, 38),
+									//angle,
+									360 * (float) Math.random(),
+									0,
+									new Color(201, 255, 253, 255),
+									true,
+									0.03f,
+									0.05f,
+									0.02f
+							);
 						}
 					}
+
 					else {
 						//	直接进行一个炸死
 						DamagingExplosionSpec KILL = new DamagingExplosionSpec(

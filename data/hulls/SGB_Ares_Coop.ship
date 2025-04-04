@@ -7,16 +7,19 @@
   "height": 43,
   "width": 26,
   "center": [13, 14],
-  "collisionRadius": 28,
+  "collisionRadius": 47,
   "shieldCenter": [0, -0],
   "shieldRadius": 29,
   "viewOffset": 0,
+  "builtInMods": [
+    "SGB_ColorWing"
+  ],
   "builtInWeapons": {
-    "WS0002": "blinker_red",
+    "WS0002": "SGB_blinker_red_Q",
     "WS0005": "SGB_Ares_Coop_Top",
-    "WS0006": "SGB_Screws",
-    "WS0007": "SGB_Screws",
-    "WS0008": "blinker_green"
+    "WS0006": "SGB_Pin",
+    "WS0007": "SGB_FerricOxide",
+    "WS0008": "SGB_blinker_green_S"
   },
   "weaponSlots": [
     {
@@ -62,18 +65,18 @@
       "size": "SMALL",
       "type": "BUILT_IN",
       "mount": "TURRET",
-      "arc": 128,
-      "angle": -41.5,
-      "locations": [2, -10]
+      "arc": 58,
+      "angle": -7,
+      "locations": [1.5, -10]
     },
     {
       "id": "WS0007",
       "size": "SMALL",
       "type": "BUILT_IN",
-      "mount": "TURRET",
-      "arc": 128,
-      "angle": 41.5,
-      "locations": [2, 10]
+      "mount": "HARDPOINT",
+      "arc": 7,
+      "angle": -3.5,
+      "locations": [1.5, 9]
     },
     {
       "id": "WS0002",

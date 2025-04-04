@@ -122,6 +122,31 @@
 		"glowSizeMult":0.67,
 		"glowAlternateColor":[255,0,0,215],
 		"type":"GLOW"
-	}
+	},
+	"SGB_SWL_TECH":{
+		"engineColor":[255,60,70,250],
+		"contrailParticleSizeMult":6,
+		"contrailParticleDuration":2,
+		"contrailParticleFinalSizeMult":0.47,
+		"contrailMaxSpeedMult":0.5f,
+		"contrailAngularVelocityMult":0f,
+		"contrailColor":[150,100,100,15],
+		"glowSizeMult":0.67,
+		"glowAlternateColor":[255,0,0,80],
+		"type":"GLOW"
+	},
+	"HIGH_LESS_GROW_TECH":{
+	"engineColor":[110,165,240,255],
+		"contrailParticleSizeMult":4,
+		"contrailParticleDuration":2,
+		"contrailParticleFinalSizeMult":2.25,
+		"contrailMaxSpeedMult":0.5,
+		"contrailAngularVelocityMult":0,
+
+		"glowSizeMult":0.25,
+	"contrailColor":[100,165,255,25],
+	"contrailCampaignColor":[100,165,255,75],
+	"type":"GLOW" # GLOW or SMOKE
+},
 }
 

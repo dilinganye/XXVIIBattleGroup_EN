@@ -50,7 +50,7 @@ Color cl =new Color (197, 196, 186,255);
     private static void initGraphicsLib() {
         ShaderLib.init();
         if (ShaderLib.areShadersAllowed() && ShaderLib.areBuffersAllowed()) {
-            //LightData.readLightDataCSV("data/lights/SGB_light_data.csv");
+            LightData.readLightDataCSV("data/lights/SGB_light_data.csv");
             TextureData.readTextureDataCSV("data/lights/SGB_texture_data.csv");
         }
 

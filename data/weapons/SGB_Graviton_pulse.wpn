@@ -1,0 +1,59 @@
+{
+  "id": "SGB_Graviton_pulse",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "beamEffect": "data.weapons.SGB_GravitonPulse_Effect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "displayArcRadius": 550,
+  "turretSprite": "graphics/weapons/SGB_Graviton_pulse.png",
+  "turretGlowSprite": "graphics/weapons/SGB_Graviton_pulse_L.png",
+  "hardpointSprite": "graphics/weapons/SGB_Graviton_pulse_hardpoint.png",
+  "hardpointGlowSprite": "graphics/weapons/SGB_Graviton_pulse_HL.png",
+  "glowColor": [
+    18,
+    253,
+    255,
+    215
+  ],
+  "hitGlowRadius": 70,
+  "turretOffsets": [
+    19,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    25.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    11,
+    173,
+    255,
+    195
+  ],
+  "coreColor": [
+    204,
+    225,
+    255,
+    255
+  ],
+  "width": 20,
+  "textureType": WEAVE,
+  "textureScrollSpeed": -300,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundTwo": "graviton_beam_loop"
+}

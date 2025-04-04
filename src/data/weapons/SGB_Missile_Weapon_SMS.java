@@ -6,11 +6,14 @@ import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.AsteroidAPI;
 import com.fs.starfarer.api.combat.*;
 import data.scripts.util.MagicRender;
+import data.utils.sgb.I18nUtil;
 import org.lazywizard.lazylib.MathUtils;
 import org.lazywizard.lazylib.VectorUtils;
 import org.lwjgl.util.vector.Vector2f;
 
 import com.fs.starfarer.api.combat.listeners.ApplyDamageResultAPI;
+
+import static com.fs.starfarer.api.util.Misc.ZERO;
 
 public class SGB_Missile_Weapon_SMS implements OnHitEffectPlugin {
 
@@ -30,6 +33,7 @@ public class SGB_Missile_Weapon_SMS implements OnHitEffectPlugin {
 		Speedo2.setX(Speedo.getX()/8);;
 		Speedo2.setY(Speedo.getY()/8);
 		float Angle =projectile.getFacing();
+		I18nUtil.easyWaving(point, ZERO, 50, 3, 10);
 		MagicRender.battlespace(
 				Global.getSettings().getSprite("fx","SGB_plasma_red"),
 				point,

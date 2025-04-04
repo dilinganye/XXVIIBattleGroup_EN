@@ -1,0 +1,53 @@
+{
+  "variantId": "SGB_Station_Side_System_R_Missile",
+  "hullId": "SGB_Station_Side_System_R",
+  "displayName": "Missile",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "sabot_fighter"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "SGB_Ship_Red_Missile",
+        "WS0002": "SGB_Ship_Red_Missile",
+        "WS0003": "SGB_Ship_Red_Missile"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "SGB_ScrewsTwi"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "SGB_ScrewsTwi",
+        "WS0006": "SGB_Screws"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "SGB_Shackles_MissileLauncher_L"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

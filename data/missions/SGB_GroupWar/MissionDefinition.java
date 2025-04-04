@@ -34,7 +34,6 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.addBriefingItem("Unlike the \"decisive battle\" , the 27th battle group emphasizes more on the strike theory.");
 		api.addBriefingItem("If you're curious The former capital of SGB is located in the upper right corner of the battlefield.");
 
-
 		// Set up the player's fleet.
 		api.addToFleet(FleetSide.PLAYER, "SGB_Onslaught_Normal", FleetMemberType.SHIP, "SGB Aaunosy", true);
 

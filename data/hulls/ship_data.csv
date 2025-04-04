@@ -1,78 +1,128 @@
 name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,hints,tags,rarity,breakProb,minPieces,maxPieces,number
-#LPC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Militarized Drone,SGB_Drone,,Shackles Garrison,flarelauncher_single,,550,125,50,,10,0,,150,75,75,40,90,55,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,
-Ares,SGB_Ares,,Shackles Garrison,flarelauncher_fighter,,300,50,200,400,20,0,,300,600,500,150,300,30,NONE,,0,0,0,,,1,1,,,,,,,,,,,,,,,,,,,
-Ares[Coop],SGB_Ares_Coop,,Shackles Garrison,flarelauncher_fighter,,250,80,150,400,35,0,,220,600,500,150,300,30,NONE,,0,0,0,,,1,1,,,,,,,,,,,,,,,,,,,
-Ares[DogFight],SGB_Ares_DogFight,,Shackles Garrison,SGB_HighSpeed_flarelauncher,,450,30,500,400,30,0,,340,600,500,90,300,30,NONE,,0,0,0,,,1,1,,,,,,,,,,,,,,,,,,,
-Ares[Assault],SGB_Ares_Assault,,Shackles Garrison,ammofeed,,400,50,500,,55,0,,250,600,500,150,300,30,OMNI,,360,0,1,,,1,1,,,,,,,,,,,,,,,,,,,
-Agatha,SGB_Agatha,,Shackles Garrison,flarelauncher_fighter,,700,80,70,,8,0,,200,400,350,90,180,40,NONE,,0,0,0,,,2,2,,,,,,,,,,,,,,,,,,,
-Agatha[Coop],SGB_Agatha_Coop,,Shackles Garrison,flarelauncher_fighter,,500,85,70,,35,0,,180,400,350,90,180,40,NONE,,0,0,0,,,2,2,,,,,,,,,,,,,,,,,,,
-Agatha[DogFight],SGB_Agatha_DogFight,,Shackles Garrison,SGB_HighSpeed_flarelauncher,,600,50,70,,10,0,,250,400,350,90,180,40,NONE,,0,0,0,,,2,2,,,,,,,,,,,,,,,,,,,
-Agatha[Assault],SGB_Agatha_Assault,,Shackles Garrison,ammofeed,,500,100,500,,120,0,,200,400,350,100,90,40,OMNI,,160,0,1,,,,,,,,,,,,,,,,,,,,,,,
-Axio,SGB_Axio,,Shackles Garrison,maneuveringjets,,600,100,100,,100,0,,150,225,200,150,120,45,NONE,,0,0,0,,,2,2,,,,,,,,,,,,,,,,,,,
-Axio[Coop],SGB_Axio_Coop,,Shackles Garrison,displacer,,500,125,850,,150,0,,150,225,200,86,120,50,NONE,,0,0,0,,,2,2,,,,,,,,,,,,,,,,,,,
-Axio[DogFight],SGB_Axio_DogFight,,Shackles Garrison,maneuveringjets,,500,80,600,,100,0,,180,225,200,200,175,60,NONE,,0,0,0,,,2,2,,,,,,,,,,,,,,,,,,,
-Axio[Assault],SGB_Axio_Assault,,Shackles Garrison,SGB_Fighter_damper,,1500,200,80,,15,0,,130,225,200,150,120,50,NONE,,0,0,0,,,2,2,,,,,,,,,,,,,,,,,,,
-Argion,SGB_Argion,,Shackles Garrison,flarelauncher_fighter,,500,100,200,,50,0,,450,100,75,65,120,35,NONE,,0,0,0,,,2,2,,,,,,,,,,,,,,,,,,,
-#特殊,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Scouts,SGB_Test,TestShip,Unknown,burndrive,8,3000,600,2000,1875,150,80,,135,120,100,60,90,300,FRONT,,180,0.4,0.8,,,30,50,50,30,1,30,10,30000,8,10,300,0.25,6,6,HIDE_IN_CODEX,"no_sell,restricted",0.75,0.4,2,2
+Interceptor,NMS_Interceptor_01,NoManSky,Unknown,ammofeed,4,1400,200,1750,2500,120,60,,200,180,180,110,90,160,OMNI,,150,0.4,0.8,,,1,1,50,30,1,30,12,12500,5,20,200,0.25,2,2,HIDE_IN_CODEX,"iirt_all_bp,no_sell,restricted",,0.75,2,4,0
+#LPC
+Militoration Drone,SGB_Drone,,Shackles Garrison,flarelauncher_single,,550,125,50,,10,0,,150,75,75,40,90,55,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,
+Penetrator,SGB_Penetrator,,Shackles Garrison,flarelauncher_single,,50,80,450,,50,0,,420,800,800,180,300,35,FRONT,,120,0,1
+Bastard Sword,SGB_Bastard,,Shackles Garrison,flarelauncher_fighter,,500,80,550,,70,0,,280,400,300,150,300,50,NONE,,0,0,0,,,2,2,
+Ares,SGB_Ares,,Shackles Garrison,flarelauncher_fighter,,300,50,200,400,20,0,,300,600,500,150,300,30,NONE,,0,0,0,,,1,1,,,
+Ares[Coop],SGB_Ares_Coop,,Shackles Garrison,flarelauncher_fighter,,300,80,125,400,25,0,,220,600,500,150,300,30,NONE,,0,0,0,,,1,1,,,
+Ares[DogFight],SGB_Ares_DogFight,,Shackles Garrison,SGB_HighSpeed_flarelauncher,,450,30,500,400,30,0,,350,600,500,85,300,30,NONE,,0,0,0,,,1,1,,
+Ares[Assault],SGB_Ares_Assault,,Shackles Garrison,ammofeed,,400,50,650,,55,0,,200,600,500,150,300,30,OMNI,,360,0,1,,,1,1,,,
+Ares[Penetrate],SGB_Ares_Penetrate,,Shackles Garrison,SGB_Fighter_damper,,300,80,500,400,60,0,,300,600,500,150,300,30,FRONT,,120,-0.1,0.7,,,1,1,,,
+Agatha,SGB_Agatha,,Shackles Garrison,flarelauncher_fighter,,700,85,70,,8,0,,200,400,350,90,180,40,NONE,,0,0,0,,,2,2,,,,,,,,,,,,
+Agatha[Coop],SGB_Agatha_Coop,,Shackles Garrison,ammofeed,,600,90,125,,35,0,,180,400,350,110,90,40,NONE,,0,0,0,,,2,2,,,,,
+Agatha[DogFight],SGB_Agatha_DogFight,,Shackles Garrison,SGB_HighSpeed_flarelauncher,,600,50,70,,10,0,,250,400,350,90,180,40,NONE,,0,0,0,,,2,2,,,,,
+Agatha[Assault],SGB_Agatha_Assault,,Shackles Garrison,SGB_WingPushPlate,,500,100,800,,130,0,,210,400,350,100,90,40,OMNI,,160,0,1,
+Agatha[Penetrate],SGB_Agatha_Penetrate,,Shackles Garrison,SGB_drone_shield_x2,,700,80,500,,100,0,,200,400,350,90,180,40,NONE,,0,0,0,,,2,2,,,,,,,,,,,,
+Axio,SGB_Axio,,Shackles Garrison,maneuveringjets,,600,100,100,,100,0,,150,225,200,150,120,45,NONE,,0,0,0,,,2,2,,,,,,,,,,,,,,
+Axio[Coop],SGB_Axio_Coop,,Shackles Garrison,displacer,,500,125,850,,150,0,,170,225,200,86,120,50,NONE,,0,0,0,,,2,2,,,,,,,,,
+Axio[DogFight],SGB_Axio_DogFight,,Shackles Garrison,maneuveringjets,,500,80,600,,100,0,,190,225,200,200,175,60,NONE,,0,0,0,,,2,2,,,,,,,
+Axio[Assault],SGB_Axio_Assault,,Shackles Garrison,SGB_Fighter_damper,,1500,200,80,,15,0,,145,225,200,150,120,50,NONE,,0,0,0,,,2,2,,,,,,,,,
+Axio[Penetrate],SGB_Axio_Penetrate,,Shackles Garrison,SGB_drone_shield_x8,,1500,200,1000,,100,0,,130,225,200,150,120,50,FRONT,,160,-0.1,0.7,,,2,2,,,,,,,,,
+Argion,SGB_Argion,,Shackles Garrison,flarelauncher_fighter,,500,100,200,,50,0,,450,100,75,65,120,35,NONE,,0,0,0,,,2,2,,,,,,,,
+#特殊
 Quench,SGB_Quench,,Shackles Garrison,flarelauncher_fighter,,500,100,800,,300,0,,240,400,350,90,180,60,OMNI,,80,0,1,,,1,1,,,,,,,,,,,,,,,,0.35,2,2,0
-#阿尔贞,SGB_Argion===,,Shackles Garrison,flarelauncher_fighter,,800,190,200,,50,0,,345,180,150,90,200,40,NONE,,0,0,0,,,2,2,,,,,,,,,,,,,,,,,,,
-Quench Elite,SGB_Quench_Fri,Elite Fighter,Shackles Garrison,SGB_SpatiootemporalDrive_Light,12,550,140,1000,,90,50,4,240,500,400,90,180,90,OMNI,,120,0.5,0.89,,,1,2,5,4,0.4,10,10,5000,5,20,240,0.25,1,0.5,HIDE_IN_CODEX,"no_sell,restricted",,0.35,2,3,0
-Quench Lead,SGB_Quench_Clo,ACE,Shackles Garrison,SGB_SpatiootemporalDrive,20,800,300,2000,,180,80,4,240,400,400,100,180,100,OMNI,,190,0.5,0.89,,,1,2,5,4,0.4,10,10,10000,5,20,300,0.25,1,0.5,HIDE_IN_CODEX,"no_sell,restricted",,0.35,2,3,0
-Austenite,SGB_Austenite,Experimental Fighter,Shackles Garrison,SGB_Austenite_System_Repair,25,2200,500,5000,3000,500,70,,140,180,180,60,75,225,FRONT,,150,0.3,0.78,,,2,20,50,30,1,30,10,100000,5,20,360,0.25,20,14,HIDE_IN_CODEX,"no_sell,restricted",,0.4,2,7,0
-Austenite,SGB_Austenite_Carrier,Experimental Fighter,Shackles Garrison,SGB_RepairWings,25,2200,500,5000,3000,500,70,2,140,180,180,60,75,225,FRONT,,150,0.3,0.78,,,2,40,40,30,1,30,10,100000,5,20,360,0.25,24,16,"HIDE_IN_CODEX, CARRIER, COMBAT","no_sell,restricted",,0.4,2,7,0
-Austenite Wingman,SGB_Austenite_Wingman_Assault,Experimental Wingman,Shackles Garrison,flarelauncher_active,25,1750,250,1500,3000,300,0,,320,600,350,100,180,50,NONE,,0,0,0,,,1,1,,,,,,,,,,,,,,,,0.5,2,4,0
-Austenite Wingman,SGB_Austenite_Wingman_Ship,Experimental Wingman,Shackles Garrison,flarelauncher_active,25,750,250,1500,3000,300,50,,320,600,350,100,180,50,FRONT,,100,0,0.75,,,1,1,25,30,1,30,10,50000,5,20,360,0.25,24,16,HIDE_IN_CODEX,"no_sell,restricted",,0.5,2,4,0
-#护卫,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#阿尔贞,SGB_Argion===,,Shackles Garrison,flarelauncher_fighter,,800,190,200,,50,0,,345,180,150,90,200,40,NONE,,0,0,0,,,2,2,,,,,,,,,,,,,,,,
+Quench-Elite,SGB_Quench_Fri,Elite,Shackles Garrison,SGB_SpatiootemporalDrive_Light,12,550,140,1000,,90,50,4,240,500,400,90,180,90,OMNI,,120,0.5,0.89,,,1,2,5,4,0.4,10,10,5000,5,20,240,0.25,1,0.5,HIDE_IN_CODEX,"no_sell,restricted",,0.35,2,3,0
+Quench-ACE,SGB_Quench_Clo,ACE,Shackles Garrison,SGB_SpatiootemporalDrive,20,800,300,2000,,180,80,4,240,400,400,100,180,100,OMNI,,190,0.5,0.89,,,1,2,5,4,0.4,10,10,10000,5,20,300,0.25,1,0.5,HIDE_IN_CODEX,"no_sell,restricted",,0.35,2,3,0
+Austenite,SGB_Austenite,Experimental Jet,Shackles Garrison,SGB_Austenite_System_Repair,25,2200,500,5000,3000,500,70,,140,180,180,60,75,225,FRONT,,150,0.3,0.78,,,2,20,50,30,1,30,10,100000,5,20,360,0.25,20,14,HIDE_IN_CODEX,"no_sell,restricted",,0.4,2,7,0
+Austenite,SGB_Austenite_Carrier,Experimental Jet,Shackles Garrison,SGB_RepairWings,25,2200,500,5000,3000,500,70,2,140,180,180,60,75,225,FRONT,,150,0.3,0.78,,,2,40,40,30,1,30,10,100000,5,20,360,0.25,24,16,"HIDE_IN_CODEX, CARRIER, COMBAT","no_sell,restricted",,0.4,2,7,0
+Austenite Wingman,SGB_Austenite_Wingman_Assault,Experimental Jet,Shackles Garrison,flarelauncher_active,25,1750,250,1500,3000,300,0,,320,600,350,100,180,50,NONE,,0,0,0,,,1,1,,,,,,,,,,,,,,,,0.5,2,4,0
+Austenite Wingman,SGB_Austenite_Wingman_Ship,Experimental Jet,Shackles Garrison,flarelauncher_active,25,750,250,1500,3000,300,50,,320,600,350,100,180,50,FRONT,,100,0,0.75,,,1,1,25,30,1,30,10,50000,5,20,360,0.25,24,16,HIDE_IN_CODEX,"no_sell,restricted",,0.5,2,4,0
+#护卫
+Danburite,SGB_Danburite,Assault Craft,Shackles Garrison,damper,4,2000,175,1000,1250,100,35,1,180,150,150,90,150,200,OMNI,,90,0.5,1,,,7,7,50,10,1,10,10,5000,5,10,240,0.25,5,4,,"iirt_all_bp, SGB_bp",,0.75,2,2
 Duplin,SGB_Duplin,Shuttle,Shackles Garrison,maneuveringjets,3,900,180,1400,1000,80,25,,140,150,75,45,85,120,OMNI,,150,0.5,0.8,,,2,30,30,15,1,15,10,4000,5,20,180,0.25,1,1,,"iirt_all_bp, SGB_bp",,0.75,2,4,0
 Ceaies,SGB_Ceaies,Frigate,Shackles Garrison,maneuveringjets,4,1000,275,1800,1000,110,50,,140,140,70,45,75,120,OMNI,,150,0.5,0.8,,,5,30,25,20,1,20,10,6000,5,20,200,0.25,3,2,,"iirt_all_bp, SGB_bp",,0.5,2,4,0
 Redmond,SGB_Redmond,Logistics Transport,Shackles Garrison,maneuveringjets,4,1400,200,1750,2500,120,60,,110,120,100,60,50,160,OMNI,,150,0.4,0.8,,,5,60,80,50,1,50,10,7500,5,20,200,0.25,4,4,LINER,"iirt_all_bp, SGB_bp",,0.75,2,5,0
 Felix,SGB_Felix,Support Frigate,Shackles Garrison,XXVII_flak_Felix,5,2000,500,2500,1600,100,35,,90,120,100,60,120,200,OMNI,,300,0.5,0.8,,,15,30,30,30,1,30,9,17500,5,10,200,0.25,4,4,,"iirt_all_bp, SGB_bp",,0.5,2,4,0
 Wiesios,SGB_Wiesios,High-Speed Frigate,Shackles Garrison,ammofeed,6,1750,175,2250,1875,150,55,,150,120,100,60,100,250,FRONT,,150,0.4,0.8,,,15,25,50,20,1,20,9,15000,5,10,200,0.25,4,4,,"iirt_all_bp, SGB_bp",1.25,0.5,2,4,0
+Cindotch,SGB_Cindotch,Heavy Frigate,Shackles Garrison,SGB_drift,6,2000,450,2200,2188,175,55,,90,70,60,35,50,300,OMNI,,180,0.4,0.8,,,8,50,50,25,1,25,9,20000,5,10,240,0.25,6,6,,"iirt_all_bp, SGB_bp",,0.5,2,4,0
 Sumner,SGB_Sumner,Heavy GunFrigate,Shackles Garrison,maneuveringjets,8,2200,500,6000,2188,400,70,,100,110,90,50,55,300,OMNI,,180,0.4,0.8,,,20,40,50,25,1,25,9,20000,5,10,240,0.25,10,8,,"iirt_all_bp, SGB_bp",,0.5,2,4,0
-#驱逐,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#驱逐
 Posmous,SGB_Posmous,Light Destroyer,Shackles Garrison,maneuveringjets,12,3000,400,5000,4800,300,95,,120,110,100,60,100,300,OMNI,,150,0.4,0.8,,,20,40,25,45,1,45,9,30000,5,10,240,0.25,12,10,,"iirt_all_bp, SGB_bp",,0.5,2,5,0
-Hammies,SGB_Hammies,Destroyer,Shackles Garrison,ammofeed,11,5500,650,4200,4167,250,100,,90,60,40,30,55,450,FRONT,,300,0.4,0.8,,,50,100,100,60,2,30,9,40000,5,12,240,0.25,11,10,,"iirt_all_bp, SGB_bp",,0.5,2,4,0
-Ogent,SGB_Ogent,High-Speed Destroyer,Shackles Garrison,maneuveringjets,15,3750,300,5000,4800,300,100,,110,120,95,55,45,350,OMNI,,180,0.4,0.8,,,50,100,50,25,2,40,9,56000,5,10,300,0.25,13,11,,"iirt_all_bp, SGB_bp",,0.5,2,4,0
-Davington,SGB_Davington,Missile Destroyer,Shackles Garrison,forgevats,10,3750,300,4500,4800,300,100,,90,80,60,30,30,330,FRONT,,300,0.4,0.8,,,50,75,80,60,2,35,9,75500,5,15,300,0.25,11,11,,,0,0.5,2,5,0
+Posmous (XXVII),SGB_Posmous_2,Leap Destroyer,Shackles Garrison,SGB_drift,12,3250,400,5000,4800,300,95,,107,110,100,60,100,300,OMNI,,150,0.4,0.8,,,20,40,25,45,1,45,9,30000,5,10,240,0.25,12,10,,"iirt_all_bp, SGB_XXVII_bp",0.75,0.5,2,5,0
+Hammies,SGB_Hammies,Dash Destroyer,Shackles Garrison,SGB_drift,11,5500,700,4200,4167,250,110,,90,60,40,30,55,450,FRONT,,300,0.4,0.8,,,50,100,100,60,2,30,9,40000,5,12,240,0.25,11,10,,"iirt_all_bp, SGB_bp",,0.5,2,4,0
+Ogent,SGB_Ogent,High-Speed Destroyer,Shackles Garrison,maneuveringjets,15,3750,325,5000,4800,300,100,,110,120,95,55,45,350,OMNI,,180,0.4,0.8,,,50,100,50,25,2,40,9,56000,5,10,300,0.25,13,11,,"iirt_all_bp, SGB_bp, SGB_XXVII_bp",,0.5,2,4,0
+Fleamut,SGB_Fleamut,Leap Destroyer,Shackles Garrison,SGB_drift_e,15,4000,300,7500,8333,500,100,,90,80,60,30,30,350,FRONT,,300,0.4,1,,,50,70,80,50,2,25,9,77500,5,15,300,0.25,16,14,,"iirt_all_bp, SGB_bp",0.65,0.5,2,3,
+Fleamut (XXVII),SGB_Fleamut_2,Leap Destroyer,Shackles Garrison,SGB_drift_e,15,4000,375,7500,8333,500,100,,95,120,120,45,90,350,FRONT,,300,0.4,1,,,50,70,80,50,2,25,9,87500,5,15,300,0.25,17,17,,"iirt_all_bp, SGB_bp, SGB_XXVII_bp",0.45,0.5,2,3,
+Fleamut (SWL),SGB_Fleamut_P,Leap Destroyer,Redstone Crystal Taskforce,SGB_drift_e,15,4000,300,8000,8333,500,100,,95,120,120,45,90,350,OMNI,,160,0.4,1,,,50,70,80,50,2,25,9,87500,5,15,300,0.25,17,17,,"no_sell, restricted",0.45,0.5,2,3,
+Davington (NOTDONE),SGB_Davington,Missile Destroyer,Shackles Garrison,forgevats,10,3750,300,4500,4800,300,100,,90,80,60,30,30,330,FRONT,,300,0.4,0.8,,,50,75,80,60,2,35,9,75500,5,15,300,0.25,11,11,,,0,0.5,2,5,0
 Whip,SGB_Whip,Support Destroyer,Shackles Garrison,SGB_drone_pd_x3,14,5500,500,5000,4000,200,110,,60,60,40,15,20,500,FRONT,,300,0.5,0.8,,,85,150,100,70,2,35,9,75000,3,12,480,0.25,17,15,,"iirt_all_bp, SGB_bp",0.75,0.5,2,3,
 Aligate,SGB_Aligate,Light Carrier,Shackles Garrison,targetingfeed,12,5000,350,5000,2500,200,69,2,70,50,30,40,25,350,OMNI,,180,0.4,0.87,,,90,125,90,60,2,30,8,70000,3,12,360,0.25,14,13,CARRIER,"iirt_all_bp, SGB_bp",,0.5,2,5,0
-Alicuty,SGB_Alicuty,Destroyer Carrier,Shackles Garrison,reservewing,12,5000,500,5000,2500,200,84,1,72,60,40,50,25,350,OMNI,,180,0.5,0.8,,,90,150,40,40,2,20,9,72000,5,15,420,0.25,15,13,"CARRIER, COMBAT","iirt_all_bp, SGB_bp",,0.5,2,5,0
-Achilles,SGB_Achilles,Heavy Hunting Destroyer,Shackles Garrison,ammofeed,16,6000,800,7500,3333,500,100,,80,70,60,55,30,430,OMNI,,300,0.5,0.8,,,100,150,90,90,3,30,9,88000,5,12,480,0.25,15,14,,"iirt_all_bp, SGB_bp",,0.4,2,4,0
-#巡洋,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Snapdragon,SGB_Snapdragon,Cruiser,Cruiser,maneuveringjets,16,8000,750,8200,,500,135,,65,60,50,35,20,850,OMNI,,120,0.37,0.8,,,140,200,80,140,3,40,9,92500,6,15,480,0.25,20,20,,"iirt_all_bp, SGB_bp",,0.5,3,5,
-Falcon(SGB),SGB_Falcon,Light Cruiser,Light Cruiser,maneuveringjets,12,6000,800,6800,8000,500,125,,75,60,50,25,20,650,FRONT,,270,0.4,0.8,,,100,180,120,100,3,33,9,85000,4,12,480,0.25,15,14,,"iirt_all_bp, SGB_bp",,0.5,2,4,
-Falcon(XXVII),SGB_Falcon_2,Light Cruiser,Light Cruiser,maneuveringjets,15,6000,800,7000,8000,500,125,,70,60,50,25,20,650,FRONT,,270,0.4,0.8,,,100,180,120,100,3,33,9,90000,4,12,480,0.25,17,15,,"iirt_all_bp, SGB_XXVII_bp",,0.5,2,4,
-Eagle(SGB),SGB_Eagle,Cruiser,Cruiser,maneuveringjets,14,8000,1100,10800,12000,700,155,,55,30,20,20,20,1200,FRONT,,270,0.4,0.8,,,150,250,150,100,3,33,8,125000,3,12,480,0.25,22,20,,"iirt_all_bp, SGB_bp",,0.5,2,3,
-Eagle(XXVII),SGB_Eagle_2,Cruiser,Cruiser,maneuveringjets,17,8000,1100,11000,12000,700,155,,55,30,20,20,20,1200,FRONT,,270,0.4,0.8,,,150,250,150,100,3,33,8,130000,3,12,480,0.25,24,20,,"iirt_all_bp, SGB_XXVII_bp",,0.5,2,3,
-Ascaedy,SGB_Ascaedy,Carrier Cruiser,Carrier Cruiser,maneuveringjets,20,9000,800,10000,5800,600,205,2,60,40,30,27,20,1950,FRONT,,300,0.5,0.8,,,200,350,200,120,5,24,8,250000,5,12,540,0.25,32,30,COMBAT,"iirt_all_bp, SGB_bp",,0.4,2,5,0
-Carving,SGB_Carving,Heavy Cruiser,Heavy Cruiser,ammofeed,20,11000,1000,17000,15000,750,185,1,55,37,37,25,20,2000,FRONT,,160,0.4,0.75,,,150,250,200,120,5,24,8,250000,5,12,660,0.25,34,30,,"iirt_all_bp, SGB_bp",,0.35,2,4,
-Carving(F-LG),SGB_Carving_SD,Heavy Cruiser,Lion's Guard,highenergyfocus,20,10000,1000,18500,15000,800,200,1,55,37,37,25,20,2000,FRONT,,160,0.4,0.75,,,150,250,200,120,5,24,8,250000,5,12,660,0.25,32,30,,"iirt_all_bp, SGB_bp, LG_bp, no_dealer",,0.35,2,4,
-Anvil,SGB_Anvil,Aviation Transportation Nexus,Aviation Transportation Nexus,XXVII_Quench,30,9500,1000,9000,5000,450,160,2,40,30,25,10,10,2120,FRONT,,300,0.5,0.8,,,200,600,500,250,15,30,8,300000,5,15,660,0.25,35,35,FREIGHTER,"iirt_all_bp, SGB_bp",0.65,0.25,2,4,0
-#战列,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Alicuty,SGB_Alicuty,Destroyer Carrier,Shackles Garrison,reservewing,12,5000,500,5000,2500,200,84,1,72,60,40,50,25,350,OMNI,,180,0.5,0.8,,,90,150,40,40,2,20,9,72000,5,15,420,0.25,15,13,"CARRIER, COMBAT","iirt_all_bp, SGB_bp",,0.5,2,5
+Achilles,SGB_Achilles,Heavy Hunting Destroyer,Shackles Garrison,ammofeed,16,6000,800,7500,3333,500,100,,80,70,60,55,30,430,OMNI,,300,0.5,0.8,,,100,150,90,90,3,30,9,88000,5,12,480,0.25,15,14,,"iirt_all_bp, SGB_bp",,0.4,2,4
+Jolt,SGB_Jolt,Raid Carrier,Shackles Garrison,maneuveringjets,16,7000,550,9000,2500,600,145,2,60,30,20,34,15,440,FRONT,,220,0.35,0.7,,,100,200,30,20,2,10,8,85000,7,15,420,0.25,23,23,"CARRIER, COMBAT","iirt_all_bp, SGB_bp",,0.5,2,5
+Jolt (XXVII),SGB_Jolt_2,Raid Carrier,Shackles Garrison,plasmajets,16,7000,550,10000,2500,700,145,2,60,30,20,34,15,450,FRONT,,220,0.35,0.7,,,100,200,30,20,2,10,8,92500,7,15,420,0.25,25,25,"CARRIER, COMBAT","iirt_all_bp, SGB_XXVII_bp, SGB_bp",,0.5,2,5
+Zircon,SGB_Zircon,Light Destroyer,Shackles Garrison,maneuveringjets,9,3500,250,5000,5833,475,90,,105,100,80,35,80,250,FRONT,,250,0.3,0.7,,,20,40,40,60,2,30,10,25000,5,10,300,0.25,10,8,,"iirt_all_bp, SGB_XXVII_bp, SGB_bp",,0.5,2,3
+Arc Furnace,SGB_ArcFurnace,Light Destroyer,Shackles Garrison,maneuveringjets,9,4500,275,6000,5833,350,85,,100,100,120,50,80,250,FRONT,,250,0.35,0.75,,,50,80,60,60,2,30,9,50000,5,15,480,0.25,12,9,,"iirt_all_bp, SGB_XXVII_bp, SGB_bp, merc",0.9,0.5,2,4
+#巡洋
+Snapdragon,SGB_Snapdragon,Cruiser,Shackles Garrison,maneuveringjets,16,8000,750,8200,,500,135,,65,60,50,35,20,850,OMNI,,120,0.37,0.8,,,140,200,80,140,3,40,9,92500,6,15,480,0.25,20,20,,"iirt_all_bp, SGB_bp",,0.5,3,5,
+Falcon (SGB),SGB_Falcon,Light Cruiser,Shackles Garrison,maneuveringjets,12,6000,800,6800,8000,500,125,,75,60,50,25,20,650,FRONT,,270,0.4,0.8,,,100,180,120,100,3,33,9,85000,4,12,480,0.25,15,14,,"iirt_all_bp, SGB_bp",,0.5,2,4,
+Falcon (XXVII),SGB_Falcon_2,Light Cruiser,Shackles Garrison,maneuveringjets,15,6000,800,7000,8000,500,125,,70,60,50,25,20,650,FRONT,,270,0.4,0.8,,,100,180,120,100,3,33,9,90000,4,12,480,0.25,17,15,,"iirt_all_bp, SGB_XXVII_bp",,0.5,2,4,
+Eagle (SGB),SGB_Eagle,Cruiser,Shackles Garrison,maneuveringjets,14,8000,1100,10800,12000,700,155,,55,30,20,20,20,1200,FRONT,,270,0.4,0.8,,,150,250,150,100,3,33,8,125000,3,12,480,0.25,22,20,,"iirt_all_bp, SGB_bp",,0.5,2,3,
+Eagle (XXVII),SGB_Eagle_2,Cruiser,Shackles Garrison,maneuveringjets,17,8000,1100,11000,12000,700,155,,55,30,20,20,20,1200,FRONT,,270,0.4,0.8,,,150,250,150,100,3,33,8,130000,3,12,480,0.25,24,20,,"iirt_all_bp, SGB_XXVII_bp",,0.5,2,3,
+Ascaedy,SGB_Ascaedy,Carrier Cruiser,Shackles Garrison,maneuveringjets,20,9000,800,10000,5800,600,205,2,60,40,30,27,20,1950,FRONT,,300,0.5,0.8,,,200,350,200,120,5,24,8,250000,5,12,540,0.25,32,30,COMBAT,"iirt_all_bp, SGB_bp",,0.4,2,5
+Carving,SGB_Carving,Heavy Cruiser,Shackles Garrison,ammofeed,20,11000,1000,17000,15000,750,185,1,55,37,37,25,20,2000,FRONT,,160,0.4,0.75,,,150,250,200,120,5,24,8,250000,5,12,660,0.25,34,30,,"iirt_all_bp, SGB_bp",,0.35,2,4,
+Carving (F-LG),SGB_Carving_SD,Heavy Cruiser,Lion's Guard,highenergyfocus,20,10000,1000,19500,15000,850,200,1,55,37,37,25,20,2000,FRONT,,160,0.4,0.75,,,150,250,200,120,5,24,8,250000,5,12,660,0.25,32,30,,"iirt_all_bp, SGB_bp, LG_bp, no_dealer",,0.35,2,4,
+Carving (SWL),SGB_Carving_P,Heavy Cruiser,Redstone Crystal Taskforce,plasmajets,20,10000,1000,18500,15000,800,200,1,55,37,37,25,20,2000,FRONT,,160,0.4,0.75,,,150,250,200,120,5,24,8,250000,5,12,660,0.25,32,30,,"no_sell, restricted, no_dealer",,0.35,2,4,
+Anvil,SGB_Anvil,Carrier Strike Center,Shackles Garrison,XXVII_Quench,30,9500,1000,9000,5000,450,160,2,40,30,25,10,10,2120,FRONT,,300,0.5,0.8,,,200,600,500,250,15,30,8,300000,5,15,660,0.25,35,35,FREIGHTER,"iirt_all_bp, SGB_bp",0.65,0.25,2,4
+#战列
+#铸砧,SGB_Anvil,航空战列舰,Shackles Garrison,XXVII_Quench,30,10000,1000,13000,5800,600,220,2,40,40,30,12,15,2120,FRONT,,300,0.5,0.8,,,200,600,200,220,10,22,7,300000,5,15,660,0.25,54,50,,"iirt_all_bp, SGB_bp",0.65,0.4,2,6,0
 Stress,SGB_Stress,High-Speed Battleship,Shackles Garrison,maneuveringjets,28,14000,1300,18000,18500,900,280,,45,30,40,15,10,3000,OMNI,,150,0.4,0.8,,,500,600,250,400,12,33,7,355000,4,15,660,0.25,38,35,,"iirt_all_bp, SGB_bp",0.8,0.4,2,6,
-Stress(XXVII),SGB_Stress_2,Original High-Speed Battleship,Shackles Garrison,maneuveringjets,29,14000,1200,18500,18500,900,280,,50,80,70,17,13,3000,OMNI,,150,0.3,0.8,,,500,600,250,400,12,33,7,355000,5,15,660,0.25,40,40,,"iirt_all_bp, SGB_bp, SGB_XXVII_bp",0.5,0.4,2,6,
-Onslaught(SGB),SGB_Onslaught,Battleship,Shackles Garrison,burndrive,29,17000,1500,17000,15000,600,350,,30,40,35,8,5,3500,FRONT,,180,0.4,1,,,750,1500,300,400,15,27,7,400000,3,12,720,0.25,45,40,,"iirt_all_bp, SGB_bp, ungp_onslaught",0.75,0.4,2,6,0
-Ductility,SGB_Ductility,Figther Nexus,Shackles Garrison,SGB_ConstructWing,34,12000,950,15000,18000,650,255,3,40,25,20,10,8,3000,OMNI,,220,0.4,0.8,,,450,1000,250,200,10,20,7,400000,3,15,600,0.25,55,50,"CARRIER,COMBAT","iirt_all_bp, SGB_bp, SGB_XXVII_bp",0.5,0.4,2,6,
-Ductility(XXVII),SGB_Ductility_2,Figther Nexus,Shackles Garrison,SGB_ConstructWing,36,12000,950,15000,18000,650,270,4,45,25,20,10,8,3000,OMNI,,220,0.4,0.8,,,450,1000,250,200,10,20,7,450000,3,15,600,0.25,60,60,"CARRIER,COMBAT","iirt_all_bp, SGB_bp, SGB_XXVII_bp",0.5,0.4,2,6,
+Stress (XXVII),SGB_Stress_2,High-Speed Battleship,Shackles Garrison,maneuveringjets,29,14000,1200,18500,18500,900,280,,50,80,70,17,13,3000,OMNI,,150,0.3,0.8,,,500,600,250,400,12,33,7,355000,5,15,660,0.25,40,40,,"iirt_all_bp, SGB_bp, SGB_XXVII_bp",0.5,0.4,2,6,
+Onslaught (SGB),SGB_Onslaught,Battleship,Shackles Garrison,burndrive,29,17000,1500,17000,15000,600,350,,30,40,35,8,5,3500,FRONT,,180,0.4,1,,,750,1500,300,400,15,27,7,400000,3,12,720,0.25,45,40,,"iirt_all_bp, SGB_bp, ungp_onslaught",0.75,0.4,2,6
+Ductility,SGB_Ductility,Jet Center,Shackles Garrison,SGB_ConstructWing,34,12000,950,15000,18000,650,255,3,40,25,20,10,8,3000,OMNI,,220,0.4,0.8,,,450,1000,250,200,10,20,7,400000,3,15,600,0.25,55,50,"CARRIER,COMBAT","iirt_all_bp, SGB_bp, SGB_XXVII_bp",0.5,0.4,2,6
+Ductility (XXVII),SGB_Ductility_2,Jet Center,Shackles Garrison,SGB_ConstructWing,36,12000,950,15000,18000,650,270,4,45,25,20,10,8,3000,OMNI,,220,0.4,0.8,,,450,1000,250,200,10,20,7,450000,3,15,600,0.25,60,60,"CARRIER,COMBAT","iirt_all_bp, SGB_bp, SGB_XXVII_bp",0.5,0.4,2,6
 Forgnace,SGB_Forgnace_Battle,Battleship,Shackles Garrison,plasmajets,32,18500,1400,20000,18500,1000,300,,35,20,15,8,8,3200,FRONT,,180,0.4,0.9,,,800,1600,300,400,15,27,7,457500,3,15,720,0.25,50,50,,"iirt_all_bp, SGB_bp, SGB_XXVII_bp",,0.4,2,7,
-Forgnace(XXVII),SGB_Forgnace_Battle_2,Battleship,Shackles Garrison,plasmajets,34,18500,1500,21000,18500,1100,290,,35,20,15,8,8,3200,FRONT,,180,0.4,0.9,,,800,1600,300,400,15,27,7,457500,3,12,720,0.25,52,50,,"iirt_all_bp, SGB_bp, SGB_XXVII_bp",0.45,0.4,2,7,
-Forgnace fortress,SGB_Forgnace,Original Strike Nexus,Shackles Garrison,SGB_ConstructWing,38,18000,1675,15000,12500,1250,360,5,35,13,15,8,6,3500,FRONT,,180,0.4,0.9,,,900,2100,400,400,20,20,6,785000,5,10,720,0.25,65,70,"CARRIER,COMBAT",iirt_all_bp,0.1,0.25,4,10,
-#炼金师,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Hydrargyri,SGB_Hydrargyri,Shockor,Shackles Garrison,SGB_AsAboveSoBelow,16,5000,800,5000,6000,200,80,,100,60,60,35,20,250,PHASE,SGB_damper,,,,,,60,80,100,60,2,30,9,62500,6,15,480,0.25,15,14,,"iirt_all_bp, SGB_bp, SGB_XXVII_bp",0.5,0.5,2,3,
+Forgnace (XXVII),SGB_Forgnace_Battle_2,Battleship,Shackles Garrison,plasmajets,34,18500,1500,21000,18500,1100,290,,35,20,15,8,8,3200,FRONT,,180,0.4,0.9,,,800,1600,300,400,15,27,7,457500,3,12,720,0.25,52,50,,"iirt_all_bp, SGB_bp, SGB_XXVII_bp",0.45,0.4,2,7,
+Forgnace Fortress,SGB_Forgnace,Original Strike Central,Shackles Garrison,SGB_ConstructWing,38,18000,1675,15000,12500,1250,360,5,35,13,15,8,6,3500,FRONT,,180,0.4,0.9,,,900,2100,400,400,20,20,6,785000,5,10,720,0.25,65,70,"CARRIER,COMBAT",iirt_all_bp,0.1,0.25,4,10,
+#炼金师
+Transmutation,SGB_Transmutation,Aviation Cruiser,Shackles Garrison,maneuveringjets,20,9000,800,15000,5800,450,210,3,60,35,35,25,20,1950,OMNI,,200,0.4,0.8,,,220,400,200,120,5,24,8,250000,5,12,540,0.25,30,30,,"iirt_all_bp, SGB_bp",,0.4,2,5
+Homunculus,SGB_Homunculus,Strike Cruiser,Shackles Garrison,SGB_drift_e,15,4550,525,6000,4800,450,115,,110,120,95,55,45,350,OMNI,,180,0.4,0.8,,,50,100,50,25,2,40,9,56000,5,10,480,0.25,16,14,,"iirt_all_bp, SGB_bp, SGB_XXVII_bp",,0.5,2,4,0
+Hydrargyri,SGB_Hydrargyri,Shockor,Shackles Garrison,SGB_AsAboveSoBelow,16,5000,800,5000,6000,200,80,,100,60,60,35,20,250,PHASE,SGB_damper,,,,,,60,80,100,60,2,30,9,62500,6,15,480,0.25,15,14,,"iirt_all_bp, SGB_bp, SGB_XXVII_bp",0.5,0.5,2,3
 Vulcanizing,SGB_Vulcanizing,Attform,Shackles Garrison,damper,18,6500,750,9500,8000,650,105,,66,66,66,33,66,666,PHASE,phasecloak,90,,,,,100,180,120,100,3,33,9,90000,4,12,480,0.25,18,18,,"no_sell,iirt_all_bp, SGB_XXVII_bp",0,0.5,2,4,
-#后勤,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#后勤
+Cupola,SGB_Cupola,Ultra Freighter,Shackles Garrison,SGB_HighSpeed_flarelauncher,7,10000,1200,5000,4000,300,150,4,60,5,6,5,3,4500,OMNI,,180,0.5,0.8,,,100,150,2500,100,5,25,7,95000,2,20,720,0.25,18,18,"CIVILIAN, FREIGHTER","rare_bp, SGB_bp, ind",0.75,0.75,4,7
+Cupola (SWL),SGB_Cupola_P,Militarized Freighter,Redstone Crystal Taskforce,maneuveringjets,7,10000,1200,5000,4000,300,280,6,60,5,6,5,3,4500,OMNI,,180,0.5,0.8,,,100,150,2500,100,5,25,7,95000,2,20,720,0.25,18,18,"CIVILIAN, FREIGHTER","no_sell,restricted",0.75,0.75,4,7
 Mould,SGB_Mould,Heavy Freighter,Shackles Garrison,SGB_drone_pd_x4,7,5500,300,2750,2000,100,90,,40,20,10,10,10,1500,FRONT,,150,0.5,1,,,40,200,900,120,4,30,7,40000,3,20,480,0.25,8,6,"CIVILIAN, FREIGHTER","rare_bp, SGB_bp",,0.6,2,3,
-Buffalo(SGB),SGB_Buffalo,Freighter,Shackles Garrison,flarelauncher_active,5,3000,125,1500,1167,80,39,1,50,25,15,15,6,400,OMNI,,120,0.5,1,,,10,20,320,80,2,40,9,20000,5,20,280,0.20,6,4,"CIVILIAN, FREIGHTER","iirt_all_bp, SGB_bp",,0.5,2,3,310
-SoftMelting,SGB_SoftMelting,Tanker,Shackles Garrison,maneuveringjets,6,2000,350,2000,2500,100,50,,45,30,20,25,20,400,OMNI,,90,0.5,1.2,,,10,20,10,800,2,400,8,22000,5,20,300,0.25,4,4,"CIVILIAN, TANKER","iirt_all_bp, SGB_bp",,0.75,4,5,
-Anoyas,SGB_Anoyas,Armed Barge,Shackles Garrison,maneuveringjets,7,2750,200,2000,,100,55,,70,40,40,30,18,200,OMNI,,120,0.5,0.86,,,5,20,250,40,1,40,10,12500,2,20,280,0.15,4,1,"CIVILIAN, FREIGHTER","merc, iirt_all_bp, SGB_bp",,0.5,2,4,310
-Anoyas(Tanker),SGB_Anoyas_Tanker,Armed Barge,Shackles Garrison,maneuveringjets,7,2750,200,2000,,100,55,,70,40,40,30,18,200,OMNI,,120,0.5,0.86,,,5,20,20,250,1,250,10,12500,2,20,280,0.15,4,1,"CIVILIAN, TANKER","merc, iirt_all_bp, SGB_bp",,0.5,2,4,310
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-#特殊非27物件,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Experimental Station,SGB_Mission_station3_hightech,Star Base,,drone_station_high,400,160000,2400,1000,2500,100,0,,30,200,200,2,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,100,50,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,
-#我就要做,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,SGB_Carbonization,Carbonization,Unknown,displacer,,600,300,1000,,200,0,,350,350,350,180,360,50,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,HIDE_IN_CODEX,,,0,,
-,SGB_Undervoltage,Undervoltage,Unknown,damper_omega,12,2500,650,3000,5000,400,50,,140,250,200,100,360,200,OMNI,,150,0,0.5,,,0,0,10,50,1,50,12,100000,20,5,,,6,6,"UNBOARDABLE, HIDE_IN_CODEX","SGB_Omega_Watcher, no_autofit, restricted",,0.5,2,2,
-,SGB_Overcurrent,Overcurrent,Unknown,temporalshell,12,2000,450,3500,5000,350,50,,200,250,200,120,360,200,FRONT,,210,0,0.5,,,0,0,10,50,1,50,12,100000,20,5,,,6,6,"UNBOARDABLE, HIDE_IN_CODEX","SGB_Omega_Watcher, no_autofit, restricted",,0.5,2,2,
-,SGB_Misalignment,Misalignment,Unknown,microburn_omega,12,2000,500,4500,5000,400,50,,200,200,300,160,360,200,OMNI,,150,0,0.5,,,0,0,10,50,1,50,12,100000,20,5,,,6,6,"UNBOARDABLE, HIDE_IN_CODEX","SGB_Omega_Watcher, no_autofit, restricted",,0.5,2,2,
-,SGB_LargeGrain,LargeGrain,Unknown,damper_omega,20,6000,750,6500,13333,800,140,,120,150,150,60,180,400,OMNI,,150,0,0.5,,,0,0,20,100,2,50,11,200000,20,5,,,12,12,"UNBOARDABLE, HIDE_IN_CODEX","SGB_Omega_Watcher, no_autofit, restricted",,0.5,2,3,
+Buffalo (SGB),SGB_Buffalo,Freighter,Shackles Garrison,flarelauncher_active,5,3000,125,1500,1167,80,39,1,50,25,15,15,6,400,OMNI,,120,0.5,1,,,10,20,320,80,2,40,9,20000,5,20,280,0.20,6,4,"CIVILIAN, FREIGHTER","iirt_all_bp, SGB_bp",,0.5,2,3
+SoftMelting,SGB_SoftMelting,Tanker,Shackles Garrison,maneuveringjets,6,2000,350,2000,2500,100,50,,45,30,20,25,20,400,OMNI,,90,0.5,1.2,,,10,20,10,800,2,400,8,22000,5,20,300,0.25,8,4,"CIVILIAN, TANKER","iirt_all_bp, SGB_bp",,0.75,4,5,
+HexagonalScree,SGB_HexagonalScreen,Logistics Transport,Shackles Garrison,maneuveringjets,3,1200,200,1500,1250,100,40,,100,80,80,60,100,120,FRONT,,220,0.5,0.8,,,5,15,150,40,1,40,9,10000,5,5,480,0.25,3,3,"CIVILIAN, FREIGHTER","iirt_all_bp, SGB_bp",,0.75,2,5
+HexagonalScree MK.II,SGB_HexagonalScreen_C,Logistics Transport,Shackles Garrison,maneuveringjets,3,1200,200,1500,1250,100,40,1,100,80,80,60,100,120,FRONT,,220,0.5,0.8,,,5,75,150,40,1,40,9,10000,8,8,480,0.25,7,7,"CIVILIAN, FREIGHTER","iirt_all_bp, SGB_bp",,0.75,2,5
+Anoyas,SGB_Anoyas,Armed Barge,Shackles Garrison,maneuveringjets,7,2750,200,2000,,100,55,,70,40,40,30,18,200,OMNI,,120,0.5,0.86,,,5,20,250,40,1,40,10,12500,2,20,280,0.15,4,1,"CIVILIAN, FREIGHTER","merc, iirt_all_bp, SGB_bp",,0.5,2,4
+Anoyas,SGB_Anoyas_Tanker,Armed Barge,Shackles Garrison,maneuveringjets,7,2750,200,2000,,100,55,,70,40,40,30,18,200,OMNI,,120,0.5,0.86,,,5,20,20,250,1,250,10,12500,2,20,280,0.15,4,1,"CIVILIAN, TANKER","merc, iirt_all_bp, SGB_bp",,0.5,2,4
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#特殊非27物件 - module_hull_bar_only
+Head Wolf,SGB_wolf,Concept Frigate,High Tech,displacer,5,1500,175,2250,1875,150,55,,160,130,100,60,120,200,FRONT,,170,0.4,0.7,,,15,30,50,20,1,20,10,17500,10,20,180,0.25,5,5,,,,0.25,2,2
+Microhierax,SGB_Microhierax,Frigate,High Tech,temporalshell,7,2250,250,3500,5833,250,80,,110,100,80,35,80,250,OMNI,,150,0.3,0.7,,,20,40,40,60,2,30,10,20000,5,15,250,0.25,8,8,,"",,0.7,2,3
+#Oscilloscope
+Harmonic,SGB_Harmonic,Automatic Destroyer,Remnant,temporalshell,12,5000,450,5000,3750,300,100,,85,75,50,30,50,500,OMNI,,150,0.4,0.6,,,0,0,80,60,2,30,10,50000,5,15,420,0.25,11,11,"UNBOARDABLE, HIDE_IN_CODEX","auto_rec",,0.5,2,3
+Toaa,SGB_Toaa,Automatic Destroyer,Remnant,highenergyfocus,12,5000,450,5000,3750,300,100,,70,75,50,30,50,500,OMNI,,150,0.4,0.6,,,0,0,80,60,2,30,10,50000,5,15,420,0.25,11,11,"UNBOARDABLE, HIDE_IN_CODEX","auto_rec",,0.5,2,3
+Research Base,SGB_Mission_station3_hightech,Star Fortress,,drone_station_high,400,160000,2400,1000,2500,100,0,,30,200,200,2,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,100,50,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,
+Military Industrial Orbital Base,SGB_station4,T.L.J.S,,drone_station_mid,500,160000,2400,1000,2500,100,1000,4,30,200,200,2,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,100,50,"STATION, UNBOARDABLE",,,0,
+Shakeles funny decisive engagement stuff,SGB_station4_ITS_MOVING,HAHA,,maneuveringjets,500,160000,1000,1000,2500,100,1000,4,30,10,8,2,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,100,50,"UNBOARDABLE, HIDE_IN_CODEX",,,0,
+,SGB_Station_BigMid_WingBar_L,Docking Area - Deck Module,,forgevats_station,1,12000,1500,10000,10000,400,1000,3,0,0,0,10,10,240,FRONT,,110,0.4,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,2,5
+,SGB_Station_BigMid_WingBar_R,Unloading Area - Deck Module,,forgevats_station,1,12000,1500,10000,10000,400,1000,3,0,0,0,10,10,240,FRONT,,110,0.4,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,2,5
+,SGB_Station_midAttackPoint_L,Negotiation Area - Combat Module,,forgevats_station,1,9000,1250,7500,12500,500,1000,,0,0,0,10,10,2500,NONE,,0,0.4,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,2,4
+,SGB_Station_midAttackPoint_R,Entertainment Area - Combat Module,,forgevats_station,1,9000,1250,7500,12500,500,1000,,0,0,0,10,10,2500,NONE,,0,0.4,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,2,4
+,SGB_Station_BMid_Attack_L,Transfer Zone - Combat Module,,SGB_HighSpeed_flarelauncher,1,7000,1250,7000,7500,300,1000,,0,0,0,10,10,240,NONE,,0,0.4,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,2,3
+,SGB_Station_BMid_Attack_R,Transfer Zone - Combat Module,,SGB_HighSpeed_flarelauncher,1,7000,1250,7000,7500,300,1000,,0,0,0,10,10,240,NONE,,0,0.4,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,2,3
+,SGB_Station_BMid_WingArmor_L,Docking Port - Defense Module,,SGB_ConstructWing,1,9000,1500,10000,12500,500,1000,1,0,0,0,10,10,2500,OMNI,,198,0.4,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,2,5
+,SGB_Station_BMid_WingArmor_R,Docking Port - Defense Module,,SGB_ConstructWing,1,9000,1500,10000,12500,500,1000,1,0,0,0,10,10,2500,OMNI,,198,0.4,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,2,5
+,SGB_Station_midAttackPointShield_L,Access Port - Deck Module,,SGB_ConstructWing,1,9000,1250,7500,12500,500,1000,1,0,0,0,10,10,2500,FRONT,,94,0.4,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,2,4
+,SGB_Station_midAttackPointShield_R,Access Port - Deck Module,,SGB_ConstructWing,1,9000,1250,7500,12500,500,1000,1,0,0,0,10,10,2500,FRONT,,94,0.4,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,2,4
+,SGB_Station_Side_System_L,Base Station Area - Special Module,,forgevats_station,1,15000,1750,25000,37500,1500,1000,,0,0,0,10,10,3500,NONE,,0,0.4,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,2,3
+,SGB_Station_Side_System_R,Inspection Area - Special Module,,forgevats_station,1,15000,1750,25000,37500,1500,1000,,0,0,0,10,10,3500,NONE,,0,0.4,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,2,3
+,SGB_Station_Sidest_Armor_L,Temporary Dormitory area - Defense Module,,,1,5000,800,0,2500,100,1000,,0,0,0,10,10,300,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,2,6
+,SGB_Station_Sidest_Armor_R,Temporary Warehouse Area - Defense Module,,,1,5000,800,0,2500,100,1000,,0,0,0,10,10,300,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,2,6
+,SGB_Station_BigWing_Slot_L,Ship Docking Port - Deck Module,,,1,12000,1750,22000,25000,1000,1000,5,0,0,0,10,10,300,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,2,6
+,SGB_Station_BigWing_Slot_R,Ship Docking Port - Deck Module,,,1,12000,1750,22000,25000,1000,1000,5,0,0,0,10,10,300,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,2,6
+,SGB_Station_Top,Main Area - Side Structure,,,1,20000,1750,25000,37500,1500,1000,0,0,0,0,10,10,300,FRONT,,250,0.2,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,2,6
+,SGB_Station_Below,Main Area - Side Structure,,,1,20000,1750,25000,37500,1500,1000,0,0,0,0,10,10,300,FRONT,,250,0.2,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,2,6
+#我就要做
+,SGB_Carbonization,Carbonization,Unknown,displacer,,600,300,1000,,200,0,,350,350,350,180,360,50,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,,,0,
+,SGB_Undervoltage,Undervoltage,Unknown,damper_omega,12,2500,650,3000,5000,400,50,,140,250,200,100,360,200,OMNI,,150,0,0.5,,,0,0,10,50,1,50,12,100000,20,5,,,6,6,"UNBOARDABLE, HIDE_IN_CODEX","SGB_Omega_Watcher, no_autofit, restricted",,0.5,2,2
+,SGB_Overcurrent,Overcurrent,Unknown,temporalshell,12,2000,450,3500,5000,350,50,,200,250,200,120,360,200,FRONT,,210,0,0.5,,,0,0,10,50,1,50,12,100000,20,5,,,6,6,"UNBOARDABLE, HIDE_IN_CODEX","SGB_Omega_Watcher, no_autofit, restricted",,0.5,2,2
+,SGB_Misalignment,Misalignment,Unknown,microburn_omega,12,2000,500,4500,5000,400,50,,200,200,300,160,360,200,OMNI,,150,0,0.5,,,0,0,10,50,1,50,12,100000,20,5,,,6,6,"UNBOARDABLE, HIDE_IN_CODEX","SGB_Omega_Watcher, no_autofit, restricted",,0.5,2,2
+,SGB_LargeGrain,LargeGrain,Unknown,damper_omega,20,5500,600,5500,13333,650,140,,120,150,150,60,180,400,OMNI,,150,0,0.5,,,0,0,20,100,2,50,11,200000,20,5,,,12,12,"UNBOARDABLE, HIDE_IN_CODEX","SGB_Omega_Watcher, no_autofit, restricted",,0.5,2,3

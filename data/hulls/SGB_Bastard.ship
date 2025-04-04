@@ -1,0 +1,96 @@
+{
+  "hullName": "SGB_Bastard",
+  "hullId": "SGB_Bastard",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/SGB_Bastard.png",
+  "style": "SGB_WING_TECH",
+  "height": 43,
+  "width": 38,
+  "center": [19, 21.5],
+  "collisionRadius": 66.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 33,
+  "viewOffset": 0,
+  "builtInMods": [
+    "armoredweapons"
+  ],
+  "builtInWeapons": {
+    "WS0003": "SGB_blinker_red_Q",
+    "WS0004": "SGB_blinker_green_S"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 14,
+      "angle": 1.5,
+      "locations": [13, -13.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 14,
+      "angle": -1.5,
+      "locations": [13, 13.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [20, 7]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [20, -7]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 6,
+      "angle": 0,
+      "locations": [19, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-21.5, 7.5],
+      "length": 27.861023,
+      "width": 13.894376,
+      "angle": -173,
+      "contrailSize": 13.894376,
+      "style": "SGB_LESS_SMOKE_TECH"
+    },
+    {
+      "location": [-21.5, -7.5],
+      "length": 27.861023,
+      "width": 13.894376,
+      "angle": 173,
+      "contrailSize": 13.894376,
+      "style": "SGB_LESS_SMOKE_TECH"
+    }
+  ],
+  "bounds": [
+    -1, -5,
+    -10.5, -8,
+    16.5, -14.5,
+    10, -5.5,
+    10, 5.5,
+    16.5, 14.5,
+    -10.5, 8,
+    -1, 5
+  ]
+}

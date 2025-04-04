@@ -12,8 +12,8 @@
   "shieldRadius": 28,
   "viewOffset": 0,
   "builtInWeapons": {
-    "WS0001": "blinker_red",
-    "WS0002": "blinker_red",
+    "WS0001": "SGB_blinker_red_Q",
+    "WS0002": "SGB_blinker_red_Q",
     "WS0006": "SGB_Axio_Top"
   },
   "weaponSlots": [
@@ -60,7 +60,8 @@
       "mount": "TURRET",
       "arc": 0,
       "angle": 0,
-      "locations": [-5, 14.5]
+      "locations": [-4, 14.5],
+      "renderOrderMod": 10
     },
     {
       "id": "WS0002",
@@ -69,7 +70,8 @@
       "mount": "TURRET",
       "arc": 0,
       "angle": 0,
-      "locations": [-5, -14.5]
+      "locations": [-4, -14.5],
+      "renderOrderMod": 10
     },
     {
       "id": "WS0003",

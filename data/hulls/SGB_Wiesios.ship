@@ -18,7 +18,7 @@
   ],
   "builtInWeapons": {
     "WS0006": "SGB_Decoy",
-    "WS0007": "blinker_red"
+    "WS0007": "SGB_blinker_red_S"
   },
   "weaponSlots": [
     {

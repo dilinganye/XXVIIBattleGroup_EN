@@ -79,11 +79,11 @@ public class SGB_Missile_Weapon_LMN implements OnHitEffectPlugin {
 				//angle,
 				360*(float)Math.random(),
 				40,
-				new Color(208, 215, 204,175),
+				new Color(208, 215, 204,85),
 				true,
 				0.1f,
 				1f,
-				2.25f
+				1.25f
 		);
 		MagicRender.battlespace(
 				Global.getSettings().getSprite("fx","SGB_Wave"),
@@ -146,6 +146,19 @@ public class SGB_Missile_Weapon_LMN implements OnHitEffectPlugin {
 				0.75f
 		);
 		//_____
+		for (int i = 0; i < 10; i++) {
+			Vector2f drift = MathUtils.getRandomPointInCone(
+					projectile.getVelocity(),
+					MathUtils.getRandomNumberInRange(25, 100),
+					projectile.getAngularVelocity()-5,
+					projectile.getAngularVelocity()+5);
+			engine.addNegativeParticle(
+					point,drift,
+					MathUtils.getRandomNumberInRange(30, 100),
+					1.5f,
+					1f,
+					new Color(3, 100, 11,100));
+		}
 		I18nUtil.easyRippleOut(point, Speedo2, MathUtils.getRandomNumberInRange(1f,2f) * 600.0F, MathUtils.getRandomNumberInRange(40f,100f), 5.0F, 400.0F);
 		I18nUtil.easyRippleOut(point, Speedo2, MathUtils.getRandomNumberInRange(1f,2f) * 600.0F, MathUtils.getRandomNumberInRange(90f,100f), 2.0F, 120.0F);
 		I18nUtil.easyRippleOut(point, Speedo2, MathUtils.getRandomNumberInRange(1f,2.25f) * 500.0F, MathUtils.getRandomNumberInRange(85f,100f), -5F, 80.0F);

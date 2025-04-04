@@ -16,8 +16,8 @@
     "SGB_AllForHuman"
   ],
   "builtInWeapons": {
-    "WS0001": "blinker_red",
-    "WS0003": "blinker_green"
+    "WS0001": "SGB_blinker_red_Q",
+    "WS0003": "SGB_blinker_green_S"
   },
   "weaponSlots": [
     {

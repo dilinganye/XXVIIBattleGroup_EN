@@ -1,0 +1,30 @@
+{
+  "id": "SGB_Serpentine",
+  "specClass": "projectile",
+  "projectileSpecId": "SGB_Serpentine_Bomb",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "displayArcRadius": 300,
+  "turretSprite": "graphics/weapons/Wing_System/SGB_Serpentine_hold.png",
+  "hardpointSprite": "graphics/weapons/Wing_System/SGB_Serpentine_hold.png",
+  "renderHints": [
+    RENDER_LOADED_MISSILES
+  ],
+  "turretOffsets": [
+    -2,
+    0.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    9,
+    0.5
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "NONE",
+  "fireSoundTwo": "bomb_bay_fire"
+}

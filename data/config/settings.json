@@ -5,9 +5,23 @@
     "designTypeColors":
 	{
 		"Shackles Garrison":[250,209,21,255],
-    },
+		"Redstone Crystal Taskforce":[255,12,71,255]
+	},
 	"graphics":
 	{
+
+		"SGB_WingColor": {
+			"SGB_Agatha_Coop_Leader":"graphics/ships/Wing_System/SGB_Agatha_Coop_Rail.png",
+
+			"SGB_Ares_Leader":"graphics/ships/Wing_System/SGB_Ares_Leader.png",
+			"SGB_Ares_Coop_Leader":"graphics/ships/Wing_System/SGB_Ares_Coop_Leader.png",
+			"SGB_Ares_Assault_Leader":"graphics/ships/Wing_System/SGB_Ares_Assault_Leader.png"
+		},
+		"characters": {
+			"SGB_Pharmacist":"graphics/portraits/SGB_Pharmacist.png",
+			"SGB_Sentry_SF":"graphics/portraits/SGB_Sentry_SF.png"
+
+		},
 		"intel":
 		{
 			"SGB_SF_Erubolie":"graphics/portraits/SGB_SF_Erubolie.png",
@@ -26,7 +40,11 @@
 			
 		},
 		"illustrations":{
-			"SGB_Bar":"graphics/illustrations/SGB_Bar.png",
+			"SGB_Bar":"graphics/illustrations/SGB_Bar.png"
+		},
+		"industry":{
+			"SGB_CenterHub_Normal":"graphics/icons/industry/SGB_CenterHub.png",
+			"SGB_CenterHub_Mix":"graphics/icons/industry/SGB_CenterHub_Hard.png"
 		},
 	   "fx":{
 		   "SGB_Va_Explosion_ring":"graphics/fx/explosion_ring0.png",
@@ -44,6 +62,9 @@
 		   "SGB_smoke_01":"graphics/fx/SGB_smoke_01.png",
 		   "SGB_smoke_1":"graphics/fx/SGB_smoke_1.png",
 		   "SGB_smoke_2":"graphics/fx/SGB_smoke_2.png",
+		   "base_trail_light":"graphics/fx/base_trail_light.png",
+		   "base_trail_light_add":"graphics/fx/base_trail_light_add.png",
+
 
 		   "SGB_firestreak_1":"graphics/fx/Flame/firestreak1.png",
 		   "SGB_Fire_01":"graphics/fx/Flame/impact_flame_1.png",
@@ -61,10 +82,54 @@
 		   "SGB_fx_clouds02":"graphics/fx/SGB_fx_clouds02.png",
 		   "SGB_fx_clouds03":"graphics/fx/SGB_fx_clouds03.png",
 		   "SGB_fx_cloudsClrd":"graphics/fx/SGB_fx_cloudsClrd.png",
-		   "SGB_fx_clouds01_mix":"graphics/fx/SGB_fx_clouds01_mix.png"
+		   "SGB_fx_clouds01_mix":"graphics/fx/SGB_fx_clouds01_mix.png",
+		   "SGB_Ammo":"graphics/fx/SGB_Ammo.png"
 	   },
        "blueprint_packages":{
-			"SGB_package":"graphics/icons/cargo/SGB_package.png",
+			"SGB_package":"graphics/icons/cargo/SGB_package.png"
 		},		
+		# ———————— ] LPC skins [ ————————
+		"fighterSkinsPlayerAndNPC":{
+			"wasp_SGB_TECH":"graphics/ships/fighters_skins/wasp_sgb.png",
+			"wasp_SGB_TECH_XXVII":"graphics/ships/fighters_skins/wasp_sgb.png",
+			"warthog_SGB_TECH":"graphics/ships/fighters_skins/warthog_sgb.png",
+			"warthog_SGB_TECH_XXVII":"graphics/ships/fighters_skins/warthog_sgb.png",
+			"talon_SGB_TECH":"graphics/ships/fighters_skins/talon_sgb.png",
+			"talon_SGB_TECH_XXVII":"graphics/ships/fighters_skins/talon_sgb.png",
+			"claw_SGB_TECH":"graphics/ships/fighters_skins/claw_sgb.png",
+			"claw_SGB_TECH_XXVII":"graphics/ships/fighters_skins/claw_sgb.png",
+			
+			"xyphos_SGB_TECH":"graphics/ships/fighters/xyphos_midline.png",
+			"xyphos_SGB_TECH_XXVII":"graphics/ships/fighters/xyphos_midline.png",
+			"sarissa_SGB_TECH":"graphics/ships/fighters/sarissa_midline.png",
+			"sarissa_SGB_TECH_XXVII":"graphics/ships/fighters/sarissa_midline.png",
+			"mining_drone_SGB_TECH":"graphics/ships/fighters/mining_drone_midline.png",
+			"mining_drone_SGB_TECH_XXVII":"graphics/ships/fighters/mining_drone_midline.png",
+			
+			
+		},
+		"fighterSkinsPlayerOnly":{
+		},
+		
+		# Unless listed in fighterSkinsExcludeFromSharing, fighter skins may show up on
+		# ships of other tech types that do not have a fighter skin defined specifically for them.
+		# In that case, the closest average-color matching scheme is used.
+		"fighterSkinsExcludeFromSharing":{
+			"wasp_SGB_TECH":"graphics/ships/fighters_skins/wasp_sgb.png",
+			"wasp_SGB_TECH_XXVII":"graphics/ships/fighters_skins/wasp_sgb.png",
+			#"warthog_SGB_TECH":"graphics/ships/fighters_skins/warthog_sgb.png",
+			#"warthog_SGB_TECH_XXVII":"graphics/ships/fighters_skins/warthog_sgb.png",
+			"talon_SGB_TECH":"graphics/ships/fighters_skins/talon_sgb.png",
+			"talon_SGB_TECH_XXVII":"graphics/ships/fighters_skins/talon_sgb.png",
+			#"claw_SGB_TECH":"graphics/ships/fighters/claw_sgb.png",
+			#"claw_SGB_TECH_XXVII":"graphics/ships/fighters/claw_sgb.png",
+			
+			"xyphos_SGB_TECH":"graphics/ships/fighters/xyphos_midline.png",
+			"xyphos_SGB_TECH_XXVII":"graphics/ships/fighters/xyphos_midline.png",
+			"sarissa_SGB_TECH":"graphics/ships/fighters/sarissa_midline.png",
+			"sarissa_SGB_TECH_XXVII":"graphics/ships/fighters/sarissa_midline.png",
+			"mining_drone_SGB_TECH":"graphics/ships/fighters/mining_drone_midline.png",
+			"mining_drone_SGB_TECH_XXVII":"graphics/ships/fighters/mining_drone_midline.png",
+		},
 	}
 }

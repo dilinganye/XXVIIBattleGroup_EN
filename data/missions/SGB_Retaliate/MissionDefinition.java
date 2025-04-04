@@ -36,7 +36,6 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 
 		api.addBriefingItem("Tip: Try using cruise missiles to forcefully open the enemy space station's shield system");
 		api.addBriefingItem("Destroy enemy and send Tri-Tachyon back to the Stone Age");
-		//This contains a large amount of scientific research achievements of Tri-Tachyon.
 		api.addBriefingItem("Campaign Score>50 is considered successful");
 
 		// Set up the player's fleet.

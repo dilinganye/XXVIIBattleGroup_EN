@@ -1,0 +1,45 @@
+{
+  "id": "SGB_Tutia",
+  "specClass": "projectile",
+  "projectileSpecId": "SGB_Tutia_mirv",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/SGB_Tutia.png",
+  "hardpointSprite": "graphics/weapons/SGB_Tutia.png",
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    -8.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    180
+  ],
+  "hardpointOffsets": [
+    -0.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    180
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 60,
+    "spread": 10,
+    "particleSizeMin": 8,
+    "particleSizeRange": 4,
+    "particleDuration": 0.75,
+    "particleCount": 20,
+    "particleColor": [
+      110,
+      255,
+      122,
+      75
+    ]
+  }
+}

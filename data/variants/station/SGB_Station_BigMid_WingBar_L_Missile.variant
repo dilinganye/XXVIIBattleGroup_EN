@@ -1,0 +1,47 @@
+{
+  "variantId": "SGB_Station_BigMid_WingBar_L_Missile",
+  "hullId": "SGB_Station_BigMid_WingBar_L",
+  "displayName": "Missile",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "SGB_MeltingMold_Launcher"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "gazer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "annihilatorpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "heatseeker"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "SGB_Agatha_wing",
+    "SGB_Agatha_wing",
+    "SGB_Axio_wing"
+  ]
+}

@@ -11,12 +11,15 @@
   "shieldCenter": [0, -0],
   "shieldRadius": 29,
   "viewOffset": 0,
+  "builtInMods": [
+    "SGB_ColorWing"
+  ],
   "builtInWeapons": {
-    "WS0002": "blinker_red",
+    "WS0002": "SGB_blinker_red_S",
     "WS0005": "SGB_Ares_Assault_Top",
     "WS0006": "SGB_SGL",
     "WS0007": "SGB_SGL",
-    "WS0008": "blinker_red"
+    "WS0008": "SGB_blinker_red_Q"
   },
   "weaponSlots": [
     {

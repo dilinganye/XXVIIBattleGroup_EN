@@ -13,14 +13,14 @@
       "autofire": true,
       "mode": "ALTERNATING",
       "weapons": {
-        "WS0003": "SGB_Barb"
+        "WS0003": "SGB_Curlor"
       }
     },
     {
-      "autofire": true,
+      "autofire": false,
       "mode": "ALTERNATING",
       "weapons": {
-        "WS0004": "SGB_Barb"
+        "WS0004": "SGB_Serpentine"
       }
     },
     {

@@ -1,0 +1,117 @@
+{
+  "hullName": "SGB_Station_BMid_WingArmor_R",
+  "hullId": "SGB_Station_BMid_WingArmor_R",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Station/SGB_Station_BMid_WingArmor_R.png",
+  "style": "SGB_TECH",
+  "height": 140,
+  "width": 182,
+  "center": [96.5, 75],
+  "collisionRadius": 115.5,
+  "shieldCenter": [-26.5, -4.5],
+  "shieldRadius": 101.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "XXVII_SpecialWingGroup_Carrier",
+    "bdeck",
+    "supercomputer",
+    "shared_flux_sink",
+    "reduced_explosion",
+    "missile_reload",
+    "always_detaches"
+  ],
+  "builtInWeapons": {
+    "WS0005": "blinker_green",
+    "WS0006": "blinker_green",
+    "WS0007": "blinker_green"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 133,
+      "angle": 47,
+      "locations": [8, 40.5],
+      "renderOrderMod": 60
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 142,
+      "angle": -33,
+      "locations": [8, -55.5],
+      "renderOrderMod": 60
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -20,
+      "locations": [20, -19.5],
+      "renderOrderMod": 50
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 20,
+      "locations": [20, 5.5],
+      "renderOrderMod": 50
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [40.5, -7]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [43, -25.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [43, 10.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [15, -7]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    35, -30,
+    35.5, 15.5,
+    -3.5, 58.5,
+    -21, 55.5,
+    8, 10,
+    8, -17.5,
+    -7.5, -39.5,
+    13, -57.5
+  ]
+}

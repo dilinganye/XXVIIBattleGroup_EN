@@ -16,10 +16,10 @@
     "heavyarmor"
   ],
   "builtInWeapons": {
-    "WS 003": "blinker_red",
-    "WS 004": "blinker_red",
-    "WS 005": "blinker_red",
-    "WS 006": "blinker_red",
+    "WS 003": "SGB_blinker_red_Q",
+    "WS 004": "SGB_blinker_green_Q",
+    "WS 005": "SGB_blinker_red_S",
+    "WS 006": "SGB_blinker_green_S",
     "WS0001": "lights_buffalo"
   },
   "weaponSlots": [

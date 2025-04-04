@@ -1,0 +1,39 @@
+{
+  "variantId": "SGB_Station_Sidest_Armor_L_Missile",
+  "hullId": "SGB_Station_Sidest_Armor_L",
+  "displayName": "Normal",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "typhoon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "SGB_Curlor"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "SGB_Decoy",
+        "WS0004": "SGB_Decoy",
+        "WS0005": "SGB_Decoy",
+        "WS0006": "SGB_Decoy"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

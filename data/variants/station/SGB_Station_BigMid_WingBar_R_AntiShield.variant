@@ -1,0 +1,43 @@
+{
+  "variantId": "SGB_Station_BigMid_WingBar_R_AntiShield",
+  "hullId": "SGB_Station_BigMid_WingBar_R",
+  "displayName": "AntiShield",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "XXVII_SpecialWingGroup_Assault"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightneedler",
+        "WS0002": "lightneedler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "SGB_MeltingMold_Launcher"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "annihilatorpod"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "SGB_Axio_Assault_wing",
+    "SGB_Axio_Assault_wing",
+    "SGB_Agatha_Assault_wing"
+  ]
+}

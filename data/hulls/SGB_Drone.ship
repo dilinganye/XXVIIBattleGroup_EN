@@ -17,8 +17,8 @@
     "turretgyros"
   ],
   "builtInWeapons": {
-    "WS0001": "blinker_red",
-    "WS0002": "blinker_green"
+    "WS0001": "SGB_blinker_red_Q",
+    "WS0002": "SGB_blinker_green_S"
   },
   "weaponSlots": [
     {

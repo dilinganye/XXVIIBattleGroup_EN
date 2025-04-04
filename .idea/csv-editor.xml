@@ -3,35 +3,35 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="C:\Users\12862\Documents\Tencent Files\1286200762\FileRecv\hull_mods(2).csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="C:\Users\12862\Documents\Tencent Files\1286200762\FileRecv\ship_data.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="C:\Users\12862\Documents\Tencent Files\1286200762\FileRecv\ship_systems(2).csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="C:\Users\12862\Documents\Tencent Files\1286200762\FileRecv\weapon_data(2).csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="D:\Game\Starsector\mods\Apocalypse Alliance\data\hulls\ship_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector\mods\ApproLight\data\hulls\ship_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector\mods\ApproLight\data\hulls\wing_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector\mods\ApproLight\data\weapons\weapon_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector\mods\Blackrock Drive Yards\data\weapons\weapon_data.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -102,6 +102,13 @@
           </value>
         </entry>
         <entry key="D:\Game\Starsector\mods\IIRT_DEVK\data\config\prism\prism_ships_blacklist.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector\mods\MercuryPicnicGroup\data\hulls\ship_data.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -255,6 +262,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="D:\Game\Starsector_096\mods\Diable Avionics - Seal ed\data\weapons\weapon_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_096\mods\GraphicsLib\data\lights\core_light_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="D:\Game\Starsector_096\mods\GraphicsLib\data\lights\core_texture_data.csv">
           <value>
             <Attribute>
@@ -374,28 +395,21 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="D:\Game\Starsector_096\mods\XXVIIBattleGroup\data\campaign\sim_opponents.csv">
+        <entry key="D:\Game\Starsector_096\mods\XXVIIBattleGroup_EN\data\hulls\ship_data.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="D:\Game\Starsector_096\mods\XXVIIBattleGroup_EN\data\campaign\rules.csv">
+        <entry key="D:\Game\Starsector_096\starsector-core\data\campaign\industries.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="D:\Game\Starsector_096\mods\XXVIIBattleGroup_EN\data\config\prism\prism_ships_blacklist.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="D:\Game\Starsector_096\mods\XXVIIBattleGroup_EN\data\hulls\wing_data.csv">
+        <entry key="D:\Game\Starsector_096\starsector-core\data\campaign\market_conditions.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -444,6 +458,139 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="D:\Game\Starsector_096_Play\mods_2\FSF_MilitaryCompany\data\campaign\industries.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_097\mods\XXVII_TANSLATE\XXVIIBattleGroup_EN\data\campaign\UNGP_challenges.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_097\mods\XXVII_TANSLATE\XXVIIBattleGroup_EN\data\campaign\UNGP_rules.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_097\mods\XXVII_TANSLATE\XXVIIBattleGroup_EN\data\campaign\rules.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_097\mods\XXVII_TANSLATE\XXVIIBattleGroup_EN\data\config\version\version_files.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_097\mods\XXVII_TANSLATE\XXVIIBattleGroup_EN\data\hullmods\hull_mods.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_097\mods\XXVII_TANSLATE\XXVIIBattleGroup_EN\data\hulls\ship_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_097\mods\XXVII_TANSLATE\XXVIIBattleGroup_EN\data\hulls\wing_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_097\mods\XXVII_TANSLATE\XXVIIBattleGroup_EN\data\shipsystems\ship_systems.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_097\mods\XXVII_TANSLATE\XXVIIBattleGroup_EN\data\weapons\weapon_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_097\starsector-core\data\hulls\ship_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_097\starsector-core\data\strings\descriptions.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_098\starsector-core\data\campaign\abilities.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_098\starsector-core\data\campaign\industries.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_098\starsector-core\data\campaign\person_missions.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_098\starsector-core\data\campaign\sim_opponents.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_098\starsector-core\data\campaign\sim_opponents_dev.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_098\starsector-core\data\codex\text_codex_entries.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="D:\Game\Starsector_098\starsector-core\data\world\generators.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data\campaign\UNGP_challenges.csv">
           <value>
             <Attribute>
@@ -452,6 +599,13 @@
           </value>
         </entry>
         <entry key="\data\campaign\UNGP_rules.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\campaign\industries.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -521,6 +675,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\data\lights\SGB_light_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data\lights\SGB_texture_data.csv">
           <value>
             <Attribute>
@@ -543,13 +704,6 @@
           </value>
         </entry>
         <entry key="\data\strings\descriptions.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\data\strings\descriptions_CN.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
