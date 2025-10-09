@@ -1,0 +1,194 @@
+{
+  "hullName": "PRB_Masticataw",
+  "hullId": "PRB_Masticataw",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/PRB/Masticataw.png",
+  "style": "PRB_TECH",
+  "height": 277,
+  "width": 190,
+  "center": [95, 172],
+  "collisionRadius": 200,
+  "shieldCenter": [21.5, -0],
+  "shieldRadius": 133.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "PRB_DeepBugs"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [
+    {
+      "location": [-11, -0],
+      "length": 321,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [-12.5, 3.5],
+      "length": 158.5,
+      "width": 6,
+      "angle": 179,
+      "contrailSize": 6,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-12.5, -3.5],
+      "length": 158.5,
+      "width": 6,
+      "angle": -179,
+      "contrailSize": 6,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-82, -17.5],
+      "length": 10.417659,
+      "width": 23.38567,
+      "angle": 115,
+      "contrailSize": 23.38567,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-82, 17.5],
+      "length": 10.417659,
+      "width": 23.38567,
+      "angle": -115,
+      "contrailSize": 23.38567,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-108.5, -18],
+      "length": 10.417659,
+      "width": 23.38567,
+      "angle": 115,
+      "contrailSize": 23.38567,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-108.5, 18],
+      "length": 10.417659,
+      "width": 23.38567,
+      "angle": -115,
+      "contrailSize": 23.38567,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-83.5, -15],
+      "length": 53.156887,
+      "width": 5.777639,
+      "angle": 171.5,
+      "contrailSize": 5.777639,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [-83.5, 15],
+      "length": 53.156887,
+      "width": 5.777639,
+      "angle": -171.5,
+      "contrailSize": 5.777639,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [-110, -15.5],
+      "length": 26.083937,
+      "width": 2.74101,
+      "angle": 165,
+      "contrailSize": 2.74101,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [-110, 15.5],
+      "length": 26.083937,
+      "width": 2.74101,
+      "angle": -165,
+      "contrailSize": 2.74101,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [-85, 38.5],
+      "length": 10.609519,
+      "width": 9.886984,
+      "angle": 4.5,
+      "contrailSize": 9.886984,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-85, -38.5],
+      "length": 10.609519,
+      "width": 9.886984,
+      "angle": -4.5,
+      "contrailSize": 9.886984,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-82, 38.5],
+      "length": 26,
+      "width": 5,
+      "angle": -174.5,
+      "contrailSize": 5,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [-82, -38.5],
+      "length": 26,
+      "width": 5,
+      "angle": 174.5,
+      "contrailSize": 5,
+      "style": "PRB_TECH"
+    }
+  ],
+  "bounds": [
+    -7, -5,
+    -25, -19.5,
+    -48.5, -23.5,
+    -58, -9,
+    -74.5, -14.5,
+    -77, -20,
+    -99.5, -20.5,
+    -105, -24.5,
+    -88.5, -31.5,
+    -88.5, -31.5,
+    -32, -37.5,
+    -10, -62,
+    0, -64.5,
+    16, -85,
+    52, -85.5,
+    52.5, -78,
+    35, -73,
+    14, -46.5,
+    45, -41,
+    50, -33,
+    97, -40.5,
+    98, -31.5,
+    94.5, -36.5,
+    54, -25,
+    48, -14,
+    33.5, -4.5,
+    33.5, 4.5,
+    48, 14,
+    54, 25,
+    94.5, 36.5,
+    98, 31.5,
+    97, 40.5,
+    50, 33,
+    45, 41,
+    14, 46.5,
+    35, 73,
+    52.5, 78,
+    52, 85.5,
+    16, 85,
+    0, 64.5,
+    -10, 62,
+    -32, 37.5,
+    -88.5, 31.5,
+    -88.5, 31.5,
+    -105, 24.5,
+    -99.5, 20.5,
+    -77, 20,
+    -74.5, 14.5,
+    -58, 9,
+    -48.5, 23.5,
+    -25, 19.5,
+    -7, 5
+  ]
+}

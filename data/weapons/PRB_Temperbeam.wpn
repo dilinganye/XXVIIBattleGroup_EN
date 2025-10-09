@@ -1,0 +1,61 @@
+{
+  "id": "PRB_Temperbeam",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/None_64.png",
+  "turretGlowSprite": "graphics/ships/PRB/System/Zosneuteo_body_L.png",
+  "hardpointSprite": "graphics/None_64.png",
+  "hardpointGlowSprite": "graphics/ships/PRB/System/Zosneuteo_body_L.png",
+  "glowColor": [
+    190,
+    250,
+    211,
+    255
+  ],
+  "hitGlowRadius": 30,
+  "turretOffsets": [
+    6,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    13,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "beamFireOnlyOnFullCharge": true,
+  "fringeColor": [
+    190,
+    250,
+    211,
+    175
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    250
+  ],
+  "width": 72,
+  "textureType": [
+    "graphics/fx/beamfringed.png",
+    "graphics/fx/beam_weave_core.png"
+  ],
+  "textureScrollSpeed": 700,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundTwo": "phase_beam_loop"
+}

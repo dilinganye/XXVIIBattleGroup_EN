@@ -1,0 +1,138 @@
+{
+  "hullName": "PRB_Alosytie",
+  "hullId": "PRB_Alosytie",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/PRB/Alosytie.png",
+  "style": "PRB_TECH",
+  "height": 98,
+  "width": 106,
+  "center": [53, 56.5],
+  "collisionRadius": 76,
+  "shieldCenter": [-7.5, 0],
+  "shieldRadius": 61,
+  "viewOffset": 0,
+  "builtInMods": [
+    "PRB_DeepBugs"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [
+    {
+      "location": [-33, 22],
+      "length": 4.512765,
+      "width": 18.534826,
+      "angle": 130,
+      "contrailSize": 18.534826,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [-33, -22],
+      "length": 4.512765,
+      "width": 18.534826,
+      "angle": -130,
+      "contrailSize": 18.534826,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [3, -36],
+      "length": 8.200923,
+      "width": 16.612631,
+      "angle": -128,
+      "contrailSize": 16.612631,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [3, 36],
+      "length": 8.200923,
+      "width": 16.612631,
+      "angle": 128,
+      "contrailSize": 16.612631,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [2, -38],
+      "length": 24.65044,
+      "width": 4.628552,
+      "angle": -72.5,
+      "contrailSize": 4.628552,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [2, 38],
+      "length": 24.65044,
+      "width": 4.628552,
+      "angle": 72.5,
+      "contrailSize": 4.628552,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-34, -23.5],
+      "length": 24.634062,
+      "width": 3.556975,
+      "angle": 154.5,
+      "contrailSize": 3.556975,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-34, 23.5],
+      "length": 24.634062,
+      "width": 3.556975,
+      "angle": -154.5,
+      "contrailSize": 3.556975,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-32, -25.5],
+      "length": 5.796779,
+      "width": 6.825643,
+      "angle": -143,
+      "contrailSize": 6.825643,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-32, 25.5],
+      "length": 5.796779,
+      "width": 6.825643,
+      "angle": 143,
+      "contrailSize": 6.825643,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-42.5, -5],
+      "length": 8.88379,
+      "width": 7.30158,
+      "angle": -151,
+      "contrailSize": 7.30158,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-42.5, 5],
+      "length": 8.88379,
+      "width": 7.30158,
+      "angle": 151,
+      "contrailSize": 7.30158,
+      "style": "PRB_TECH_QUAD"
+    }
+  ],
+  "bounds": [
+    -27.5, 2,
+    -19, 10,
+    -39, 14,
+    -32.5, 20,
+    -22.5, 18,
+    -6.5, 37,
+    1, 31.5,
+    11, 41,
+    9.5, 24.5,
+    22.5, 8.5,
+    22.5, -8.5,
+    9.5, -24.5,
+    11, -41,
+    1, -31.5,
+    -6.5, -37,
+    -22.5, -18,
+    -32.5, -20,
+    -39, -14,
+    -19, -10,
+    -27.5, -2
+  ]
+}

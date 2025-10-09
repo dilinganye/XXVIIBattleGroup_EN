@@ -1,0 +1,66 @@
+{
+  "id": "SGB_Agrav_G",
+  "specClass": "projectile",
+  "projectileSpecId": "SGB_ChainGun_shot",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "everyFrameEffect": "data.weapons.SGB_ArcFurnace_EveryFrameEffect",
+  "turretSprite": "graphics/ships/Mech/SGB_Agrav_G.png",
+  "turretGunSprite": "graphics/ships/Mech/SGB_Agrav_GG.png",
+  "hardpointSprite": "graphics/ships/Mech/SGB_Agrav_G.png",
+  "hardpointGunSprite": "graphics/ships/Mech/SGB_Agrav_GG.png",
+  "visualRecoil": 16,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    38,
+    4,
+    38,
+    -4,
+    38,
+    2,
+    38,
+    -2
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    58.5,
+    -4,
+    58.5,
+    4,
+    58.5,
+    2,
+    58.5,
+    -2
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING_BURST",
+  "animationType": "MUZZLE_FLASH",
+  "interruptibleBurst": true,
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 120,
+    "spread": 24,
+    "particleSizeMin": 14,
+    "particleSizeRange": 20,
+    "particleDuration": 0.13,
+    "particleCount": 26,
+    "particleColor": [
+      225,
+      100,
+      100,
+      90
+    ]
+  }
+}

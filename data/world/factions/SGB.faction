@@ -198,6 +198,11 @@
 			"graphics/portraits/SGB_Sentry.png",
 			"graphics/portraits/SGB_Veteran.png",
 			"graphics/portraits/SGB_Spectror.png",
+			"graphics/portraits/SGB_Balender.png",
+			"graphics/portraits/SGB_Breakor.png",
+			"graphics/portraits/SGB_Medico.png",
+			"graphics/portraits/SGB_Sentinel.png",
+			"graphics/portraits/SGB_Sniper.png",
 		],
 		"standard_female":[
 			"graphics/portraits/SGB_Assault_2.png",
@@ -205,6 +210,7 @@
 			"graphics/portraits/SGB_Commando_2.png",
 			"graphics/portraits/SGB_Sentry.png",
 			"graphics/portraits/SGB_Spectror.png",
+			"graphics/portraits/SGB_Medico.png",
 		],
 	},
 	"ranks":{

@@ -1,0 +1,52 @@
+{
+  "variantId": "SGB_Souerifiner_Special",
+  "hullId": "SGB_Souerifiner",
+  "displayName": "Special",
+  "goalVariant": false,
+  "fluxCapacitors": 20,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "converted_hangar",
+    "targetingunit",
+    "unstable_injector",
+    "turretgyros"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "SGB_RailChain",
+        "WS0004": "SGB_RailChain"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "SGB_Reborn",
+        "WS0008": "pdlaser",
+        "WS0010": "pdlaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "heavyneedler",
+        "WS0006": "heavyneedler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "SGB_Penetrator_Shield_wing"
+  ]
+}

@@ -88,10 +88,10 @@
 		# "contrailCampaignColor":[200,200,191,35],
 		"type":"GLOW" # GLOW or SMOKE
 	},
-	
+
 	"HFC_TECH":{
-		
-					
+
+
 		"engineColor":[143, 72, 221,255],
 		"contrailDuration":1.5,
 		#"contrailWidthMult":0.72,
@@ -136,7 +136,7 @@
 		"type":"GLOW"
 	},
 	"HIGH_LESS_GROW_TECH":{
-	"engineColor":[110,165,240,255],
+		"engineColor":[110,165,240,255],
 		"contrailParticleSizeMult":4,
 		"contrailParticleDuration":2,
 		"contrailParticleFinalSizeMult":2.25,
@@ -144,9 +144,48 @@
 		"contrailAngularVelocityMult":0,
 
 		"glowSizeMult":0.25,
-	"contrailColor":[100,165,255,25],
-	"contrailCampaignColor":[100,165,255,75],
-	"type":"GLOW" # GLOW or SMOKE
-},
+		"contrailColor":[100,165,255,25],
+		"contrailCampaignColor":[100,165,255,75],
+		"type":"GLOW" # GLOW or SMOKE
+	},
+	"PRB_TECH":{
+		"engineColor":[190,250,211,255],
+		"contrailParticleSizeMult":2.53,
+		"contrailParticleDuration":3,
+		"contrailParticleFinalSizeMult":0.52,
+		"contrailMaxSpeedMult":0.02,
+		"contrailAngularVelocityMult":0.125,
+
+		"glowSizeMult":0.25,
+
+		"contrailColor":[138,170,148,25],
+		"contrailCampaignColor":[190,250,211,75],
+		"type":"SMOKE", # GLOW or SMOKE
+	},
+	"PRB_TECH_QUAD":{
+		"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+		"glowSprite":"graphics/fx/engineGlowB32Bone.png",
+		"glowOutline":"graphics/fx/engineflame32Bone.png",
+
+		"contrailDuration":2,
+		"contrailWidthMult":0.67,
+		"contrailWidthAddedFractionAtEnd":-1f,  # can be negative. makes trail spread out/narrow at the end
+		"contrailMinSeg":12, # min segment length, in pixels,
+
+		"omegaMode":true,
+		"glowSizeMult":1,
+		"glowAlternateColor":[138,170,148,94],
+		"engineColor":[190,250,211,255],
+
+		"contrailParticleSizeMult":2,
+		"contrailParticleDuration":3,
+		"contrailParticleFinalSizeMult":0.95,
+		"contrailMaxSpeedMult":0.75,
+		"contrailAngularVelocityMult":0.025,
+
+		"contrailColor":[138,170,148,34],
+		"contrailCampaignColor":[190,250,211,75],
+		"type":"GLOW" # GLOW or SMOKE
+	}
 }
 

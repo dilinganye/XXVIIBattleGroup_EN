@@ -1,0 +1,194 @@
+{
+  "hullName": "SGB_Agrav",
+  "hullId": "SGB_Agrav",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Mech/SGB_Agrav.png",
+  "style": "SGB_TECH",
+  "height": 100,
+  "width": 88,
+  "center": [44, 50],
+  "collisionRadius": 103,
+  "shieldCenter": [3, -0],
+  "shieldRadius": 54,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0001": "SGB_Agrav_G",
+    "WS0003": "SGB_Pin",
+    "WS0004": "SGB_blinker_green_S",
+    "WS0005": "SGB_blinker_green_S",
+    "WS0006": "SGB_blinker_green_Q",
+    "WS0007": "SGB_blinker_green_Q",
+    "WS0008": "SGB_blinker_red_S",
+    "WS0009": "SGB_blinker_red_Q"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-8, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 54,
+      "angle": 24,
+      "locations": [22, 22.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-7.5, 20.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": -0,
+      "locations": [-7.5, -20.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": -0,
+      "locations": [4.5, -9.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 0,
+      "locations": [4.5, 9.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 0,
+      "locations": [9, 28.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": -0,
+      "locations": [9, -28.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-21.5, 22.5],
+      "length": 27.651262,
+      "width": 8.638898,
+      "angle": 147.5,
+      "contrailSize": 8.638898,
+      "style": "SGB_LESS_GROW_TECH"
+    },
+    {
+      "location": [-21.5, -22.5],
+      "length": 27.651262,
+      "width": 8.638898,
+      "angle": -147.5,
+      "contrailSize": 8.638898,
+      "style": "SGB_LESS_GROW_TECH"
+    },
+    {
+      "location": [-9.5, -29.5],
+      "length": 11.738703,
+      "width": 7.057724,
+      "angle": -118.5,
+      "contrailSize": 7.057724,
+      "style": "SGB_LESS_SMOKE_TECH"
+    },
+    {
+      "location": [-9.5, 29.5],
+      "length": 11.738703,
+      "width": 7.057724,
+      "angle": 118.5,
+      "contrailSize": 7.057724,
+      "style": "SGB_LESS_SMOKE_TECH"
+    },
+    {
+      "location": [25, -12],
+      "length": 11.85,
+      "width": 4.29,
+      "angle": 5.5,
+      "contrailSize": 4.29,
+      "style": "SGB_TECH"
+    },
+    {
+      "location": [25, 12],
+      "length": 11.85,
+      "width": 4.29,
+      "angle": -5.5,
+      "contrailSize": 4.29,
+      "style": "SGB_TECH"
+    },
+    {
+      "location": [-15.5, 31],
+      "length": 40.740002,
+      "width": 8.59,
+      "angle": 30.5,
+      "contrailSize": 128,
+      "style": "SGB_TECH"
+    },
+    {
+      "location": [-15.5, -31],
+      "length": 40.740002,
+      "width": 8.59,
+      "angle": -30.5,
+      "contrailSize": 128,
+      "style": "SGB_TECH"
+    },
+    {
+      "location": [14.5, 29.5],
+      "length": 11.85,
+      "width": 4.29,
+      "angle": 119.5,
+      "contrailSize": 128,
+      "style": "SGB_TECH"
+    },
+    {
+      "location": [14.5, -29.5],
+      "length": 11.85,
+      "width": 4.29,
+      "angle": -119.5,
+      "contrailSize": 128,
+      "style": "SGB_TECH"
+    }
+  ],
+  "bounds": [
+    -25, 7,
+    -16.5, 25,
+    -10, 23,
+    2, 28.5,
+    23.5, 19.5,
+    19.5, 12.5,
+    19.5, -12.5,
+    23.5, -19.5,
+    2, -28.5,
+    -10, -23,
+    -16.5, -25,
+    -25, -7
+  ]
+}

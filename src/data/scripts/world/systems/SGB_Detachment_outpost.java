@@ -5,6 +5,7 @@ import com.fs.starfarer.api.campaign.*;
 import com.fs.starfarer.api.campaign.econ.Industry;
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
 import com.fs.starfarer.api.fleet.FleetMemberType;
+import com.fs.starfarer.api.impl.MusicPlayerPluginImpl;
 import com.fs.starfarer.api.impl.campaign.ids.*;
 import com.fs.starfarer.api.impl.campaign.procgen.NebulaEditor;
 import com.fs.starfarer.api.impl.campaign.procgen.StarAge;
@@ -21,16 +22,17 @@ import java.util.Arrays;
 
 import static com.fs.starfarer.api.campaign.CargoAPI.CargoItemType.RESOURCES;
 import static data.scripts.world.SGBModGen.addMarketplace;
+import static data.utils.sgb.SGB_stringsManager.txt;
 
 
 public class SGB_Detachment_outpost {
     public void generate(SectorAPI sector) {
         StarSystemAPI system = sector.createStarSystem("Aosnit Fort");
 
-        //星系位置
-        system.getLocation().set(11000.0F, -33000.0F);
-        //背景图片
-        system.setBackgroundTextureFilename("graphics/backgrounds/background6.jpg");
+        system.getLocation().set(11000.0F, -33000.0F);//星系位置
+        system.setBackgroundTextureFilename("graphics/backgrounds/background_SGB.jpg");//背景图片
+
+        system.getMemoryWithoutUpdate().set(MusicPlayerPluginImpl.MUSIC_SET_MEM_KEY, "SGB_StrangeBedfellowsExtended_remix");//BGM
 
 
         //恒星（大小，半径，日冕大小
@@ -42,9 +44,9 @@ public class SGB_Detachment_outpost {
                 3.0F,
                 1.5F,
                 1.0F
-        );
+        );star.setCustomDescriptionId("SGB_star_Qosurom");
         //背景光颜色
-        system.setLightColor(new Color(255, 210, 159));
+        system.setLightColor(new Color(206, 163, 122));
 
         //让小行星带环绕它
         system.addAsteroidBelt(
@@ -58,12 +60,26 @@ public class SGB_Detachment_outpost {
                 ""
         );
 
-
-        SectorEntityToken SGB_nebula = Misc.addNebulaFromPNG("data/campaign/terrain/eos_nebula.png", // png
+        //————————————————IN———————————————————————
+        SectorEntityToken SGB_nebula = Misc.addNebulaFromPNG("graphics/backgrounds/SGB_nebula_In.png", // png
                 0, 0, // center of nebula
                 system, // location to add to
                 "terrain", "nebula_amber", // "nebula_blue", // texture to use, uses xxx_map for map
                 4, 4, StarAge.AVERAGE); // number of cells in texture
+        //—————————————————MID———————————————————————
+        SectorEntityToken SGB_nebula_dark = Misc.addNebulaFromPNG("graphics/backgrounds/SGB_nebula_Mid.png", // png
+                0, 0, // center of nebula
+                system, // location to add to
+                "terrain", "nebula_dark", // "nebula_blue", // texture to use, uses xxx_map for map
+                4, 4, StarAge.AVERAGE); // number of cells in texture
+        //—————————————————————OUT———————————————————
+        SectorEntityToken SGB_nebula_hyperspace = Misc.addNebulaFromPNG("graphics/backgrounds/SGB_nebula_Outx2.png",
+                //SectorEntityToken deep_hyperspace = Misc.addNebulaFromPNG("data/campaign/terrain/hyperspace_map_filled.png",
+                0, 0, // center of nebula
+                system, // location to add to
+                "terrain", "SGB_nebula_storm", // "nebula_blue", // texture to use, uses xxx_map for map
+                4, 4, Terrain.HYPERSPACE, null); // number of cells in texture
+        //——————————————————————————————————————————
         /*
           一号行星————————————————————————————————————————————————————————————————————————
           @return Trunking Post
@@ -72,7 +88,7 @@ public class SGB_Detachment_outpost {
         system.addRingBand(star, "misc", "rings_dust0", 256f, 1, Color.white, 256f, 4000, 120f);
         system.addRingBand(star, "misc", "rings_dust0", 256f, 2, Color.white, 256f, 4100, 160f);
         //行星（势力、圆心、引用、类型；设置星球简介以及归属
-        SectorEntityToken ring = system.addTerrain(Terrain.RING, new BaseRingTerrain.RingParams(600 + 256, 400, null, "尘埃团"));
+        SectorEntityToken ring = system.addTerrain(Terrain.RING, new BaseRingTerrain.RingParams(600 + 256, 400, null, txt("WorldSpawn_DustCloud")));
         ring.setCircularOrbit(star, 0, 0, 100);
         PlanetAPI planet1 = system.addPlanet(
                 "SGB_planet1", //行星ID
@@ -183,7 +199,7 @@ public class SGB_Detachment_outpost {
         system.addRingBand(star, "misc", "rings_dust0", 256f, 0, Color.white, 256f, 4700, 80f);
         system.addRingBand(star, "misc", "rings_dust0", 256f, 1, Color.white, 256f, 4800, 100f);
         system.addRingBand(star, "misc", "rings_dust0", 256f, 2, Color.white, 256f, 4900, 130f);
-        ring = system.addTerrain(Terrain.RING, new BaseRingTerrain.RingParams(200 + 256, 4800, null, "尘埃团"));
+        ring = system.addTerrain(Terrain.RING, new BaseRingTerrain.RingParams(200 + 256, 4800, null, txt("WorldSpawn_DustCloud")));
         ring.setCircularOrbit(star, 0, 0, 100);
         //行星（势力、圆心、引用、类型；设置星球简介以及归属
         PlanetAPI planet2 = system.addPlanet(
@@ -341,7 +357,7 @@ public class SGB_Detachment_outpost {
             STR.getMarket().getSubmarket(Submarkets.SUBMARKET_STORAGE).getCargo().addItems(RESOURCES,"organs",71f);
             STR.getMarket().getSubmarket(Submarkets.SUBMARKET_STORAGE).getCargo().addItems(RESOURCES,"drugs",28f);
             STR.getMarket().getSubmarket(Submarkets.SUBMARKET_STORAGE).getCargo().addItems(RESOURCES,"heavy_machinery",55f);
-            STR.getMarket().getSubmarket(Submarkets.SUBMARKET_STORAGE).getCargo().addMothballedShip(FleetMemberType.SHIP, "SGB_Austenite_Assault_In_Campain", "未完全损毁的舰船");
+            STR.getMarket().getSubmarket(Submarkets.SUBMARKET_STORAGE).getCargo().addMothballedShip(FleetMemberType.SHIP, "SGB_Austenite_Assault_In_Campain", txt("WorldSpawn_Austenite_Assault_In_Campain"));
         }
          /*
           七号行星————————————————————————————————————————————————————————————————————————
@@ -384,6 +400,8 @@ public class SGB_Detachment_outpost {
         jumpPoint2.setStandardWormholeToHyperspaceVisual();
         system.addEntity(jumpPoint);
 
+        system.addRingBand(star, "misc", "rings_dust0", 256f, 0, Color.gray, 256f, 10000, 350f);
+        system.addRingBand(star, "misc", "rings_dust0", 256f, 1, Color.gray, 256f, 10200, 360f);
         //扫描本星系所有跳跃点并为之配置数据
         system.autogenerateHyperspaceJumpPoints(true, false);
 
@@ -396,7 +414,7 @@ public class SGB_Detachment_outpost {
 
         //生成星门
         SectorEntityToken gate = system.addCustomEntity("SGB_gate", // unique id 设置星门id
-                "星门", // name - if null, defaultName from custom_entities.json will be used 设置你星门的名字
+                txt("WorldSpawn_SGB_Gate"), // name - if null, defaultName from custom_entities.json will be used 设置你星门的名字
                 "inactive_gate", // type of object, defined in custom_entities.json 设置标签（让系统识别这是个星门）根据custom_entities.json设置
                 null); // faction
 
@@ -404,11 +422,11 @@ public class SGB_Detachment_outpost {
         gate.setCircularOrbit(star, 5, 3080f, 350f);
 
         //设置你星系的永久稳定点建筑
-        SectorEntityToken A = system.addCustomEntity("SGB_A", "中继通讯基座", "comm_relay", "SGB");
+        SectorEntityToken A = system.addCustomEntity("SGB_A", txt("WorldSpawn_SGB_A"), "comm_relay", "SGB");
         A.setCircularOrbit(star, 180f, 2900f, 365f);
-        SectorEntityToken B = system.addCustomEntity("SGB_B", "中继导航浮标", "nav_buoy", "SGB");
+        SectorEntityToken B = system.addCustomEntity("SGB_B", txt("WorldSpawn_SGB_B"), "nav_buoy", "SGB");
         B.setCircularOrbit(star, 220f, 2500f, 365f);
-        SectorEntityToken C = system.addCustomEntity("SGB_C", "中继传感器阵列", "sensor_array", "SGB");
+        SectorEntityToken C = system.addCustomEntity("SGB_C", txt("WorldSpawn_SGB_C"), "sensor_array", "SGB");
         C.setCircularOrbit(star, 240f, 2900f, 365f);
 
     }

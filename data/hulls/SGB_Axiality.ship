@@ -1,0 +1,193 @@
+{
+  "hullName": "SGB_Axiaity",
+  "hullId": "SGB_Axiality",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/SGB_Axiality.png",
+  "style": "SGB_TECH_XXVII",
+  "height": 85,
+  "width": 136,
+  "center": [68, 56],
+  "collisionRadius": 91,
+  "shieldCenter": [-16.5, -0],
+  "shieldRadius": 68.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "SGB_AllForHuman"
+  ],
+  "builtInWeapons": {
+    "WS0003": "SGB_blinker_green_S",
+    "WS0004": "SGB_blinker_green_S",
+    "WS0005": "SGB_blinker_green_Q",
+    "WS0006": "SGB_blinker_green_Q",
+    "WS0007": "SGB_blinker_red_S",
+    "WS0008": "SGB_blinker_red_S"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-10, 28]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-10, -28]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-25.5, 6.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-25.5, -6.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [15.5, 14.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [15.5, -14.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -49,
+      "locations": [-5.5, -44]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 49,
+      "locations": [-5.5, 44]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 44,
+      "locations": [-23.5, 23.5],
+      "renderOrderMod": 20
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -44,
+      "locations": [-23.5, -23.5],
+      "renderOrderMod": 20
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-34, -0],
+      "length": 48,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "SGB_TECH"
+    },
+    {
+      "location": [-35, 38.5],
+      "length": 63.384098,
+      "width": 9.477557,
+      "angle": 168,
+      "contrailSize": 9.477557,
+      "style": "SGB_TECH"
+    },
+    {
+      "location": [-35, -38.5],
+      "length": 63.384098,
+      "width": 9.477557,
+      "angle": -168,
+      "contrailSize": 9.477557,
+      "style": "SGB_TECH"
+    },
+    {
+      "location": [-36, 3.5],
+      "length": 13.394521,
+      "width": 23.81905,
+      "angle": -168.5,
+      "contrailSize": 23.81905,
+      "style": "SGB_LESS_GROW_TECH"
+    },
+    {
+      "location": [-36, -3.5],
+      "length": 13.394521,
+      "width": 23.81905,
+      "angle": 168.5,
+      "contrailSize": 23.81905,
+      "style": "SGB_LESS_GROW_TECH"
+    },
+    {
+      "location": [-38.5, 39.5],
+      "length": 25.969479,
+      "width": 8.505589,
+      "angle": 152.5,
+      "contrailSize": 8.505589,
+      "style": "SGB_LESS_SMOKE_TECH"
+    },
+    {
+      "location": [-38.5, -39.5],
+      "length": 25.969479,
+      "width": 8.505589,
+      "angle": -152.5,
+      "contrailSize": 8.505589,
+      "style": "SGB_LESS_SMOKE_TECH"
+    }
+  ],
+  "bounds": [
+    -28, 5.5,
+    -34, 20.5,
+    -19, 50.5,
+    4.5, 44,
+    8.5, 30.5,
+    -15, 23,
+    -4.5, 7,
+    -4.5, -7,
+    -15, -23,
+    8.5, -30.5,
+    4.5, -44,
+    -19, -50.5,
+    -34, -20.5,
+    -28, -5.5
+  ]
+}

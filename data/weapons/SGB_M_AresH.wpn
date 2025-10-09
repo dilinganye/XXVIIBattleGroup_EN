@@ -1,0 +1,57 @@
+{
+  "id": "SGB_M_AresH",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "beamEffect": "data.weapons.SGB_MechLazer_Effect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/ships/Mech/SGB_AresM_Head.png",
+  "hardpointSprite": "graphics/ships/Mech/SGB_AresM_Head.png",
+  "glowColor": [
+    121,
+    123,
+    65,
+    255
+  ],
+  "hitGlowRadius": 12,
+  "turretOffsets": [
+    1,
+    -4
+  ],
+  "turretAngleOffsets": [
+    0.5
+  ],
+  "hardpointOffsets": [
+    5.5,
+    -4
+  ],
+  "hardpointAngleOffsets": [
+    0.5
+  ],
+  "fringeColor": [
+    223,
+    255,
+    173,
+    175
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    250
+  ],
+  "width": 3,
+  "textureType": WEAVE,
+  "convergeOnPoint": true,
+  "textureScrollSpeed": -800,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundTwo": "graviton_beam_loop"
+}

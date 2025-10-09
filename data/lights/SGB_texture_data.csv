@@ -1,4 +1,7 @@
 id,type,frame,magnitude,map,path
+SGB_Stibium,ship,,2,normal,graphics/ships/Normal/SGB_Stibium.png
+SGB_Lanozinc,ship,,2,normal,graphics/ships/Normal/SGB_Lanozinc.png
+SGB_Axiality,ship,,2,normal,graphics/ships/Normal/SGB_Axiality.png
 NMS_Interceptor_01,ship,,2,normal,graphics/ships/Normal/NMS_Interceptor_01.png
 SGB_Cupola_P,ship,,2,normal,graphics/ships/Normal/SGB_Cupola_P.png
 SGB_Carving_P,ship,,2,normal,graphics/ships/Normal/SGB_Carving_P.png

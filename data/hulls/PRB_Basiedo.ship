@@ -1,0 +1,206 @@
+{
+  "hullName": "PRB_Basiedo",
+  "hullId": "PRB_Basiedo",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/PRB/Basiedo.png",
+  "style": "PRB_TECH",
+  "height": 89,
+  "width": 210,
+  "center": [105, 59.5],
+  "collisionRadius": 153.5,
+  "shieldCenter": [-31.5, -0],
+  "shieldRadius": 116.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "PRB_DeepBugs"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [
+    {
+      "location": [-31.5, 45],
+      "length": 13.470035,
+      "width": 12.815332,
+      "angle": -166.5,
+      "contrailSize": 12.815332,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [-31.5, -45],
+      "length": 13.470035,
+      "width": 12.815332,
+      "angle": 166.5,
+      "contrailSize": 12.815332,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [-31, 56.5],
+      "length": 13.470035,
+      "width": 12.815332,
+      "angle": -172.5,
+      "contrailSize": 12.815332,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [-31, -56.5],
+      "length": 13.470035,
+      "width": 12.815332,
+      "angle": 172.5,
+      "contrailSize": 12.815332,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [-16.5, 72.5],
+      "length": 16.098804,
+      "width": 14.011208,
+      "angle": 136.5,
+      "contrailSize": 14.011208,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [-16.5, -72.5],
+      "length": 16.098804,
+      "width": 14.011208,
+      "angle": -136.5,
+      "contrailSize": 14.011208,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [-46, -11],
+      "length": 19.437531,
+      "width": 28.665825,
+      "angle": 116.5,
+      "contrailSize": 28.665825,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [-46, 11],
+      "length": 19.437531,
+      "width": 28.665825,
+      "angle": -116.5,
+      "contrailSize": 28.665825,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [-47.5, -9.5],
+      "length": 35.976047,
+      "width": 7.542928,
+      "angle": -172,
+      "contrailSize": 7.542928,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-47.5, 9.5],
+      "length": 35.976047,
+      "width": 7.542928,
+      "angle": 172,
+      "contrailSize": 7.542928,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-34.5, -45],
+      "length": 42.144543,
+      "width": 4.934562,
+      "angle": 152,
+      "contrailSize": 4.934562,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-34.5, 45],
+      "length": 42.144543,
+      "width": 4.934562,
+      "angle": -152,
+      "contrailSize": 4.934562,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-33.5, -56],
+      "length": 27.82317,
+      "width": 6.362758,
+      "angle": 174.5,
+      "contrailSize": 6.362758,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-33.5, 56],
+      "length": 27.82317,
+      "width": 6.362758,
+      "angle": -174.5,
+      "contrailSize": 6.362758,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-18, -74],
+      "length": 20.787718,
+      "width": 6.040137,
+      "angle": -136.5,
+      "contrailSize": 6.040137,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-18, 74],
+      "length": 20.787718,
+      "width": 6.040137,
+      "angle": 136.5,
+      "contrailSize": 6.040137,
+      "style": "PRB_TECH_QUAD"
+    }
+  ],
+  "bounds": [
+    -18.5, 3.5,
+    -29, 12,
+    -40.5, 10,
+    -33, 25.5,
+    -5, 30.5,
+    19, 51,
+    6.5, 69,
+    -1, 70.5,
+    -31.5, 33,
+    -35.5, 36.5,
+    -15, 58,
+    -15, 64,
+    -4.5, 77.5,
+    14.5, 74.5,
+    17, 82,
+    25, 49.5,
+    22.5, 18.5,
+    20.5, 20.5,
+    19.5, 47.5,
+    -2, 28.5,
+    6, 17.5,
+    20, 24,
+    19.5, 23,
+    4.5, 14.5,
+    0.5, 21.5,
+    -18, 24.5,
+    -21, 14,
+    -11.5, 3.5,
+    -11.5, -3.5,
+    -21, -14,
+    -18, -24.5,
+    0.5, -21.5,
+    4.5, -14.5,
+    19.5, -23,
+    20, -24,
+    6, -17.5,
+    -2, -28.5,
+    19.5, -47.5,
+    20.5, -20.5,
+    22.5, -18.5,
+    25, -49.5,
+    17, -82,
+    14.5, -74.5,
+    -4.5, -77.5,
+    -15, -64,
+    -15, -58,
+    -35.5, -36.5,
+    -31.5, -33,
+    -1, -70.5,
+    6.5, -69,
+    19, -51,
+    -5, -30.5,
+    -33, -25.5,
+    -40.5, -10,
+    -29, -12,
+    -18.5, -3.5
+  ]
+}

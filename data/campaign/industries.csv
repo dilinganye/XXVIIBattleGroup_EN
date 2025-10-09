@@ -5,7 +5,7 @@ This militarization frenzy has granted Shackles overwhelming manpower reserves -
 SGB_TheLastWorkStation,Military-Industrial Orbital Base - Shackles Armaments,200,180,,5,,,"station, starfortress, unraidable, structure","{
 radius:70,
 variant:SGB_station4_Holder,
-fleetName:军事工业轨道基地
+fleetName:Military Industrial Rail Base
 }",graphics/icons/industry/SGB_TheLastWorkStation.png,data.scripts.world.econ.industries.SGB_TheLastWorkStation,"A colossal industrial station designed by Shackles military engineers, capable of independently producing and maintaining entire fleets.\n\nPurported to have been originally planned for a direct assault on the Hegemony capital, but ultimately abandoned due to prohibitive costs and the extreme instability of mega-structures during hyperspace transitions. Now sits immobilized above Shackles' new capital as an impregnable defensive installation - at least according to historical archives.
 
 Its presence nullifies any orbital bombardment attempts.",,EXTREME

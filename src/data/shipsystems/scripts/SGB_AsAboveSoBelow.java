@@ -5,6 +5,7 @@ import com.fs.starfarer.api.combat.*;
 import com.fs.starfarer.api.impl.combat.BaseShipSystemScript;
 import data.scripts.util.MagicLensFlare;
 import data.utils.sgb.I18nUtil;
+import data.utils.sgb.SGB_BoxBasedUtil;
 import org.lazywizard.lazylib.MathUtils;
 import org.lazywizard.lazylib.VectorUtils;
 import org.lwjgl.util.vector.Vector2f;
@@ -174,29 +175,62 @@ public class SGB_AsAboveSoBelow extends BaseShipSystemScript {
 					CoreColor = getRandomBlendColor(mainWeapon.getSpec().getGlowColor(),COLOR_BASE1);
 				}
 				if(Math.random()<=0.05){
-					MagicLensFlare.createSmoothFlare(engine, FluxWeapon.getShip(), FluxTarget, 10, 100, 0,
-							new Color(CoreColor.getRed(),CoreColor.getGreen(),CoreColor.getBlue(),100),COLOR_BASE1);
-					engine.spawnEmpArcVisual(FluxTarget,FluxWeapon.getShip(),empEndPozn,FluxWeapon.getShip(), MathUtils.getRandomNumberInRange(5f, (float) (15+(Math.random()*10f))), CoreColor,COLOR_BASE1);
+					if(SGB_BoxBasedUtil.hadBoxUtil()){
+						SGB_BoxBasedUtil.addSharpFlare(FluxTarget,0,100,10,
+								COLOR_BASE1, new Color(CoreColor.getRed(),CoreColor.getGreen(),CoreColor.getBlue(),100),
+								0.1f,0.9f,0.25f,
+								0.25f,0.1f);
+						engine.spawnEmpArcVisual(FluxTarget,FluxWeapon.getShip(),empEndPozn,FluxWeapon.getShip(), MathUtils.getRandomNumberInRange(5f, (float) (15+(Math.random()*10f))), CoreColor,COLOR_BASE1);
+					} else if (SGB_BoxBasedUtil.hadMagicLib()) {
+						MagicLensFlare.createSmoothFlare(engine, FluxWeapon.getShip(), FluxTarget, 10, 100, 0,
+								new Color(CoreColor.getRed(),CoreColor.getGreen(),CoreColor.getBlue(),100),COLOR_BASE1);
+						engine.spawnEmpArcVisual(FluxTarget,FluxWeapon.getShip(),empEndPozn,FluxWeapon.getShip(), MathUtils.getRandomNumberInRange(5f, (float) (15+(Math.random()*10f))), CoreColor,COLOR_BASE1);
+					}
+					else{
+						engine.spawnEmpArcVisual(FluxTarget,FluxWeapon.getShip(),empEndPozn,FluxWeapon.getShip(), MathUtils.getRandomNumberInRange(5f, (float) (15+(Math.random()*10f))), CoreColor,COLOR_BASE1);
+					}
 				}
 				if(Math.random()>=0.95){
-					engine.addNebulaParticle(
-							FluxTarget,
-							Speed,
-							MathUtils.getRandomNumberInRange(20,50f)*level,
-							0.5F,
-							0.25F,
-							MathUtils.getRandomNumberInRange(0.6F, 1.0F) * level,
-							0.15f,
-							new Color(CoreColor.getRed(),CoreColor.getGreen(),CoreColor.getBlue(),255));
+					if(SGB_BoxBasedUtil.hadBoxUtil()) {
+						SGB_BoxBasedUtil.addNebulaSmoothParticle(
+								FluxTarget,
+								Speed,
+								MathUtils.getRandomNumberInRange(20,50f)*level,
+								0.5F,
+								0.25F,
+								MathUtils.getRandomNumberInRange(0.6F, 1.0F) * level,
+								0.15f,
+								new Color(CoreColor.getRed(),CoreColor.getGreen(),CoreColor.getBlue(),255)
+						);
+						SGB_BoxBasedUtil.addSmoothParticle(
+								FluxTarget,
+								Speed,
+								60f,
+								1f,
+								0.15f,
+								CoreColor
+						);
+					}
+					else {
+						engine.addNebulaParticle(
+								FluxTarget,
+								Speed,
+								MathUtils.getRandomNumberInRange(20, 50f) * level,
+								0.5F,
+								0.25F,
+								MathUtils.getRandomNumberInRange(0.6F, 1.0F) * level,
+								0.15f,
+								new Color(CoreColor.getRed(), CoreColor.getGreen(), CoreColor.getBlue(), 255));
 
-					engine.addSmoothParticle(
-							FluxTarget,
-							Speed,
-							60f,
-							2f,
-							0.15f,
-							CoreColor);
-					//engine.spawnEmpArcVisual(FluxTarget,FluxWeapon.getShip(),empEndPozn,FluxWeapon.getShip(), MathUtils.getRandomNumberInRange(20f,50f), CoreColor,COLOR_BASE1);
+						engine.addSmoothParticle(
+								FluxTarget,
+								Speed,
+								60f,
+								1F,
+								0.15f,
+								CoreColor);
+						//engine.spawnEmpArcVisual(FluxTarget,FluxWeapon.getShip(),empEndPozn,FluxWeapon.getShip(), MathUtils.getRandomNumberInRange(20f,50f), CoreColor,COLOR_BASE1);
+					}
 				}
 
 			}
@@ -226,30 +260,61 @@ public class SGB_AsAboveSoBelow extends BaseShipSystemScript {
 					CoreColor = getRandomBlendColor(CoreColor,secWeapon.getSpec().getGlowColor());
 				}
 				if(Math.random()<=0.05){
-					MagicLensFlare.createSmoothFlare(engine, FluxWeapon.getShip(), FluxTarget, 10, 100, 0,
-							new Color(CoreColor.getRed(),CoreColor.getGreen(),CoreColor.getBlue(),100),COLOR_BASE1);
-					engine.spawnEmpArcVisual(FluxTarget,FluxWeapon.getShip(),empEndPozn,FluxWeapon.getShip(), MathUtils.getRandomNumberInRange(5f, (float) (15+(Math.random()*10f))), CoreColor,COLOR_BASE1);
+					if(SGB_BoxBasedUtil.hadBoxUtil()){
+						SGB_BoxBasedUtil.addSharpFlare(FluxTarget,0,100,10,
+								COLOR_BASE1, new Color(CoreColor.getRed(),CoreColor.getGreen(),CoreColor.getBlue(),100),
+								0.1f,0.9f,0.25f,
+								0.25f,0.1f);engine.spawnEmpArcVisual(FluxTarget,FluxWeapon.getShip(),empEndPozn,FluxWeapon.getShip(), MathUtils.getRandomNumberInRange(5f, (float) (15+(Math.random()*10f))), CoreColor,COLOR_BASE1);
+					} else if (SGB_BoxBasedUtil.hadMagicLib()) {
+						MagicLensFlare.createSmoothFlare(engine, FluxWeapon.getShip(), FluxTarget, 10, 100, 0,
+								new Color(CoreColor.getRed(),CoreColor.getGreen(),CoreColor.getBlue(),100),COLOR_BASE1);
+						engine.spawnEmpArcVisual(FluxTarget,FluxWeapon.getShip(),empEndPozn,FluxWeapon.getShip(), MathUtils.getRandomNumberInRange(5f, (float) (15+(Math.random()*10f))), CoreColor,COLOR_BASE1);
+					}
+					else{
+						MagicLensFlare.createSmoothFlare(engine, FluxWeapon.getShip(), FluxTarget, 10, 100, 0,
+								new Color(CoreColor.getRed(), CoreColor.getGreen(), CoreColor.getBlue(), 100), COLOR_BASE1);
+						engine.spawnEmpArcVisual(FluxTarget, FluxWeapon.getShip(), empEndPozn, FluxWeapon.getShip(), MathUtils.getRandomNumberInRange(5f, (float) (15 + (Math.random() * 10f))), CoreColor, COLOR_BASE1);
+					}
 				}
 				if(Math.random()>=0.95){
-					engine.addNebulaParticle(
-							FluxTarget,
-							Speed,
-							MathUtils.getRandomNumberInRange(40,70f)*level,
-							0.5F,
-							0.25F,
-							MathUtils.getRandomNumberInRange(0.6F, 1.0F) * level,
-							0.15f,
-							new Color(CoreColor.getRed(),CoreColor.getGreen(),CoreColor.getBlue(),255));
-					engine.addSmoothParticle(
-							FluxTarget,
-							I18nUtil.nv,
-							60f,
-							2f,
-							0.15f,
-							CoreColor);
+					if(SGB_BoxBasedUtil.hadBoxUtil()) {
+						SGB_BoxBasedUtil.addNebulaSmoothParticle(FluxTarget,Speed,
+								MathUtils.getRandomNumberInRange(20,50f)*level,
+								0.5F,
+								0.25F,
+								MathUtils.getRandomNumberInRange(0.6F, 1.0F) * level,
+								0.15f,
+								new Color(CoreColor.getRed(),CoreColor.getGreen(),CoreColor.getBlue(),255)
+						);
+						SGB_BoxBasedUtil.addSmoothParticle(
+								FluxTarget,
+								Speed,
+								60f,
+								1f,
+								0.15f,
+								CoreColor
+						);
+					}
+					else {
+						engine.addNebulaParticle(
+								FluxTarget,
+								Speed,
+								MathUtils.getRandomNumberInRange(40, 70f) * level,
+								0.5F,
+								0.25F,
+								MathUtils.getRandomNumberInRange(0.6F, 1.0F) * level,
+								0.15f,
+								new Color(CoreColor.getRed(), CoreColor.getGreen(), CoreColor.getBlue(), 255));
+						engine.addSmoothParticle(
+								FluxTarget,
+								I18nUtil.nv,
+								60f,
+								1f,
+								0.15f,
+								CoreColor);
+					}
 					//engine.spawnEmpArcVisual(FluxTarget,FluxWeapon.getShip(),empEndPozn,FluxWeapon.getShip(), MathUtils.getRandomNumberInRange(20f,50f), CoreColor,COLOR_BASE1);
 				}
-
 			}
 		}
 	}

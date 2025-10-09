@@ -18,6 +18,7 @@ import org.lwjgl.input.Keyboard;
 import org.lwjgl.util.vector.Vector2f;
 
 import static com.fs.starfarer.api.util.Misc.ZERO;
+import static com.fs.starfarer.api.util.Misc.random;
 
 public class SGB_ArcFurnace_EveryFrameEffect implements EveryFrameWeaponEffectPluginWithAdvanceAfter, OnFireEffectPlugin {
     float maxFiringAfterOverload = 30, armorWeaponAddMax = 30;
@@ -25,12 +26,19 @@ public class SGB_ArcFurnace_EveryFrameEffect implements EveryFrameWeaponEffectPl
     float ammoRecorder = 0;
     float lowAmmo = -1;
     float lowAmmoTimer = 0;
-    boolean noAmmo = false, fluxing = false;
+    boolean noAmmo = false, fluxing = false, isEnergy = false;
 
     @Override
     public void advance(float amount, CombatEngineAPI engine, WeaponAPI weapon) {
+        if(engine ==null){return;}
+        ShipAPI ship = weapon.getShip();
+        if (ship == null){return;}
         if (weapon.getCooldownRemaining() > CoolDown) {
             weapon.setRemainingCooldownTo(CoolDown);
+        }
+        if(weapon.getDamageType() == DamageType.ENERGY ||
+                weapon.getSpec().getWeaponId().equals("SGB_RailChain")){ //说明为粒子机炮或其他粒子机炮武器
+            isEnergy = true;
         }
         if (!noAmmo) {
             if (weapon.getAmmo() == 0) {
@@ -67,6 +75,12 @@ public class SGB_ArcFurnace_EveryFrameEffect implements EveryFrameWeaponEffectPl
         if (state == State.CLOSED) {
             if (reloadRate == -1 || weapon.getAmmo() > ammoRecorder) {
                 reloadRate = MathUtils.getRandomNumberInRange(4f, 10f);
+                if(weapon.getId().equals("SGB_Agrav_G")){
+                    reloadRate = MathUtils.getRandomNumberInRange(30f, 60f);
+                }
+                if (weapon.getId().equals("SGB_RailChain") && ship.getFluxTracker().isVenting()){
+                    reloadRate = MathUtils.getRandomNumberInRange(60f, 90f);
+                }
             }
             weapon.getAmmoTracker().setAmmoPerSecond(reloadRate);
         } else {
@@ -89,6 +103,7 @@ public class SGB_ArcFurnace_EveryFrameEffect implements EveryFrameWeaponEffectPl
     private static final float MOVE_DIST_Y_HARDPOINT = 12; //假设挂点武器回收的时候向下移动对应Px
 
     private boolean init = false;
+    boolean isAgrav = false;
     float facing = 0;
     float turnRate = 20; //转速 10
     int isLeft = 1; Boolean isMid = false;   //用来识别左右
@@ -132,6 +147,10 @@ public class SGB_ArcFurnace_EveryFrameEffect implements EveryFrameWeaponEffectPl
             updateFacing(weapon, ship);
             CoolDown = weapon.getCooldown();
             turnRate = weapon.getTurnRate();
+            isAgrav = weapon.getSpec().getWeaponId().equals("SGB_Agrav_G");
+        }
+        if(weapon.getSlot().isHardpoint() || weapon.getSpec().getWeaponId().equals("SGB_RailChain")){
+            isMid = true;
         }
         //进行 是否需要打开 的判定
         boolean shouldOpen = false;
@@ -220,7 +239,9 @@ public class SGB_ArcFurnace_EveryFrameEffect implements EveryFrameWeaponEffectPl
         //     sprite.setCenterX(moving * 0.5f * isLeft * spriteH);
         //    barrel.setCenterX(moving * 0.5f * isLeft * barrelH);
         float SlideMovX = MagicAnim.smoothNormalizeRange(moving, 0f, 1f);
-        float SlideMovY = MagicAnim.smoothNormalizeRange(moving, 0f, 0.67f);
+        float SlideMovY;
+        if(isEnergy){SlideMovY = MagicAnim.smoothNormalizeRange(moving, 0f, 0.67f);}
+        else{SlideMovY = MagicAnim.smoothNormalizeRange(moving, 0f, 0.43f);}
 
         if(weapon.getSlot().isHardpoint() || isMid) {
             sprite.setCenterY(-SlideMovY * MOVE_DIST_Y_HARDPOINT + spriteY);
@@ -355,17 +376,29 @@ public class SGB_ArcFurnace_EveryFrameEffect implements EveryFrameWeaponEffectPl
     @Override
     public void onFire(DamagingProjectileAPI projectile, WeaponAPI weapon, CombatEngineAPI engine) {
         fireLight = true;
+        if (isAgrav) {
+            decreaseCoolDownPerShot = 0.05f; //每发射弹降低射击间隔
+            minCoolDown = 0.0075f; //预设最小射击间隔
+        }
         CoolDown = Math.max(minCoolDown, CoolDown - decreaseCoolDownPerShot);
         float smoothCoolDown = MagicAnim.smoothToRange(CoolDown, 0f, weapon.getCooldown(), 0f, 1f);
-        Color finalLight = colorBlend(new Color(245, 210, 113),
-                new Color(255, 0, 0), smoothCoolDown);
+        Color finalLight, RadiBomb;
+        if (isEnergy) {
+            finalLight = colorBlend(new Color(137, 245, 113),
+                    new Color(0, 72, 255), smoothCoolDown);
+            RadiBomb = new Color(243, 162, 162, 255);
+        } else {
+            finalLight = colorBlend(new Color(245, 210, 113),
+                    new Color(255, 0, 0), smoothCoolDown);
+            RadiBomb = new Color(162, 236, 243, 255);
+        }
         if (CoolDown == minCoolDown) {
             overloadCounter++;
             float overloadMaxAmmo = maxFiringAfterOverload;
-            if(weapon.getShip().getVariant().hasHullMod("armoredweapons")){
+            if (weapon.getShip().getVariant().hasHullMod("armoredweapons") && !isEnergy) {
                 overloadMaxAmmo = maxFiringAfterOverload + maxFiringAfterOverload;
             }
-            if (overloadCounter > overloadMaxAmmo) {
+            if (overloadCounter > overloadMaxAmmo && !isAgrav && !isEnergy) {
                 weapon.disable();
                 float damage = 100;
                 float emp = 100;
@@ -410,7 +443,7 @@ public class SGB_ArcFurnace_EveryFrameEffect implements EveryFrameWeaponEffectPl
                         //angle,
                         360 * (float) Math.random(),
                         0,
-                        new Color(243, 162, 162, 255),
+                        RadiBomb,
                         true,
                         0.03f,
                         0.05f,
@@ -460,181 +493,85 @@ public class SGB_ArcFurnace_EveryFrameEffect implements EveryFrameWeaponEffectPl
         if (!weapon.getSlot().isHardpoint() && !isMid) {
             vectorAS = isLeft;
         }
-        Vector2f EmptyAmmoVector = new Vector2f(MathUtils.getRandomNumberInRange(-30,-10), vectorAS * 100f );
-        if(weapon.getSlot().isHardpoint() || isMid){
-            EmptyAmmoVector = new Vector2f(MathUtils.getRandomNumberInRange(-30,-10), MathUtils.getRandomNumberInRange(-120f,120f));
+        Vector2f EmptyAmmoVector = new Vector2f(MathUtils.getRandomNumberInRange(-30, -10), vectorAS * 100f);
+        if (weapon.getSlot().isHardpoint() || isMid) {
+            EmptyAmmoVector = new Vector2f(MathUtils.getRandomNumberInRange(-30, -10), MathUtils.getRandomNumberInRange(-120f, 120f));
         }
-        Vector2f ammoVector = MathUtils.getRandomPointInCircle(VectorUtils.rotate(EmptyAmmoVector,weapon.getCurrAngle()),10);
+        Vector2f ammoVector = MathUtils.getRandomPointInCircle(VectorUtils.rotate(EmptyAmmoVector, weapon.getCurrAngle()), 10);
 
-        Vector2f EmptySmokeVector = new Vector2f(MathUtils.getRandomNumberInRange(-7,7), vectorAS * 30f );
-        Vector2f smokeVector = MathUtils.getRandomPointInCircle(VectorUtils.rotate(EmptySmokeVector,weapon.getCurrAngle()),4f);
+        Vector2f EmptySmokeVector = new Vector2f(MathUtils.getRandomNumberInRange(-7, 7), vectorAS * 30f);
+        Vector2f smokeVector = MathUtils.getRandomPointInCircle(VectorUtils.rotate(EmptySmokeVector, weapon.getCurrAngle()), 4f);
 
-        Vector2f weaponAddVector = new Vector2f(0,vectorAS * 8f);
-        Vector2f USE_weaponVector = VectorUtils.rotate(weaponAddVector,weapon.getCurrAngle());
+        Vector2f weaponAddVector = new Vector2f(0, vectorAS * 8f);
+        Vector2f USE_weaponVector = VectorUtils.rotate(weaponAddVector, weapon.getCurrAngle());
         Vector2f ammoPositionVector = new Vector2f(weapon.getLocation().x + USE_weaponVector.x,
                 weapon.getLocation().y + USE_weaponVector.y);
-        float jitterRange = 3;
-        jitterRange--;
-        MagicRender.battlespace(
-                Global.getSettings().getSprite("fx", "SGB_Ammo"),
-                ammoPositionVector,
-                ammoVector,
-                new Vector2f(7, 7),
-                new Vector2f(-1, -1),
-                //angle,
-                360 * (float) Math.random(),
-                0,
-                new Color(255, 233, 190, 252),
-                true,
-                0.2f,
-                0.7f,
-                0.3f
-        );
-        Color finalSmoke = new Color(finalLight.getRed()/255f/1.5f,finalLight.getGreen()/255f/1.8f,finalLight.getBlue()/255f/2f,50f /255f);
-        MagicRender.battlespace(
-                Global.getSettings().getSprite("fx", "SGB_smoke_1"),
-                ammoPositionVector,
-                smokeVector,
-                new Vector2f(55, 55),
-                new Vector2f(60, 60),
-                //angle,
-                360 * (float) Math.random(),
-                0,
-                finalSmoke,
-                false,
-                0.1f,
-                0.5f,
-                1f
-        );
-        //Sound
-        Global.getSoundPlayer().playSound(
-                "SGB_Only_MG",
-                (float) (0.7+CoolDown), 1f,
-                weapon.getLocation(), ZERO);
 
+        Color finalSmoke = new Color(finalLight.getRed() / 255f / 1.5f, finalLight.getGreen() / 255f / 1.8f, finalLight.getBlue() / 255f / 2f, 50f / 255f);
+
+            if (isEnergy) {
+                finalSmoke = finalLight;
+            }
+            if (!isEnergy) {
+                MagicRender.battlespace(
+                        Global.getSettings().getSprite("fx", "SGB_Ammo"),
+                        ammoPositionVector,
+                        ammoVector,
+                        new Vector2f(7, 7),
+                        new Vector2f(-1, -1),
+                        //angle,
+                        360 * (float) Math.random(),
+                        0,
+                        new Color(255, 233, 190, 252),
+                        true,
+                        0.2f,
+                        0.7f,
+                        0.3f
+                );
+                if (Math.random() >= 0.95f) {
+                    MagicRender.battlespace(
+                            Global.getSettings().getSprite("fx", "SGB_smoke_1"),
+                            ammoPositionVector,
+                            smokeVector,
+                            new Vector2f(55, 55),
+                            new Vector2f(60, 60),
+                            //angle,
+                            360 * (float) Math.random(),
+                            0,
+                            finalSmoke,
+                            false,
+                            0.1f,
+                            0.5f,
+                            1f
+                    );
+                }
+                //Sound
+                Global.getSoundPlayer().playSound(
+                        "SGB_Only_MG",
+                        (float) (0.7 + CoolDown), 1f,
+                        weapon.getLocation(), ZERO);
+            } else {
+                    if (Math.random() >= 0.95f) {
+                        MagicRender.battlespace(
+                                Global.getSettings().getSprite("fx", "SGB_smoke_1"),
+                                ammoPositionVector,
+                                smokeVector,
+                                new Vector2f(55, 55),
+                                new Vector2f(-45, -45),
+                                //angle,
+                                360 * (float) Math.random(),
+                                0,
+                                finalSmoke,
+                                true,
+                                0.07f,
+                                0.2f,
+                                0.7f
+                        );
+                    }
+            }
     }
 
     //_____________
-    static boolean runOnce = false, firing = false, fired = false, midStoped = false;
-    public final String ArcL_ID = "WS0004", ArcR_ID = "WS0005";
-    private WeaponAPI ArcL, ArcR;
-    protected IntervalUtil AnmiBack_Interval = new IntervalUtil(1.25f, 1.25f);
-    float Arc_Height_L, Arc_Width_L;
-    float Arc_Height_R, Arc_Width_R;
-    //_____________
-
-    public void advanceOld(float amount, CombatEngineAPI engine, WeaponAPI weapon) { //	进行一个特效
-        if (engine.isPaused()) return;
-        if (weapon == null) return;
-
-        ShipAPI ship = weapon.getShip();
-        if (ship == null) return;
-        // Null判定-上 —————— 实际特效-下
-        if (!runOnce) {
-            runOnce = true;
-            if (weapon.getSlot().getId().equals(ArcL_ID)) {
-                ArcL = weapon;
-                Arc_Width_L = weapon.getSprite().getWidth();
-                Arc_Height_L = weapon.getSprite().getHeight();
-            }
-            if (weapon.getSlot().getId().equals(ArcR_ID)) {
-                ArcR = weapon;
-                Arc_Width_R = weapon.getSprite().getWidth();
-                Arc_Height_R = weapon.getSprite().getHeight();
-            }
-            return;
-        }
-        //_________IMPORTANT_Before_________
-        Vector2f muzzle, muzzleSpeed;
-        muzzle = MathUtils.getPoint(
-                weapon.getLocation(),
-                6, //	特效所需的相对武器核心位置
-                weapon.getCurrAngle()
-        );
-        muzzleSpeed = MathUtils.getPoint(
-                ZERO,
-                10, //	特效所需的相对武器核心位置
-                weapon.getCurrAngle()
-        );
-        //______Locations________
-        //if(firing && weapon.getChargeLevel()<1){
-        if (weapon.getChargeLevel() < 1) {
-            //midStoped = true;
-            //Add Fire Light & ammo out
-            I18nUtil.easyWaving(muzzle, muzzleSpeed, 50, 3, 10);
-            engine.addHitParticle(
-                    muzzle,
-                    weapon.getShip().getVelocity(),
-                    10,
-                    0.5f,
-                    1,
-                    new Color(239, 189, 139)
-            );
-            // 单独使用计时器的回收动画情况下[利用cargLv[CG]来实现补正效果]
-            AnmiBack_Interval.advance(amount);
-            float anmi_dura = AnmiBack_Interval.getIntervalDuration();
-            float cargLv = weapon.getChargeLevel();
-            float speedW = MagicAnim.smoothNormalizeRange(anmi_dura, 0f, 1f);
-            float speedH = MagicAnim.smoothNormalizeRange(anmi_dura, 0f, 0.67f);
-
-            float CurrLW = Arc_Width_L / 2 + speedW * 20f;
-            float CurrRW = Arc_Width_R / 2 - speedW * 20f;
-            float CurrLH = Arc_Height_L / 2 + speedH * 8f;
-            float CurrRH = Arc_Height_R / 2 + speedH * 8f;
-            ArcL.getSprite().setCenter(CurrLW, CurrLH);
-            ArcR.getSprite().setCenter(CurrRW, CurrRH);
-            //Anmi float
-            if (!AnmiBack_Interval.intervalElapsed()) {    // Anmi had not been set in to ZERO
-            }
-        } else if (weapon.getChargeLevel() == 1) {
-            fired = true;
-            if (weapon.getId().equals(ArcL_ID)) {    //确认左右-左
-                if ((weapon.getSprite().getWidth() != Arc_Width_L) ||    //确认武器动画到位/即不到位不许开火
-                        (weapon.getSprite().getHeight() != Arc_Width_L)) {
-                    SGB_differentSideWeapon_FireSpec(weapon, muzzle, muzzleSpeed);
-                }
-            }
-            if (weapon.getId().equals(ArcR_ID)) {    //确认左右-右
-                if ((weapon.getSprite().getWidth() != Arc_Width_R) ||    //确认武器动画到位/即不到位不许开火
-                        (weapon.getSprite().getHeight() != Arc_Width_R)) {
-                    SGB_differentSideWeapon_FireSpec(weapon, muzzle, muzzleSpeed);
-                }
-            }
-        } else if (weapon.getChargeLevel() == 0) {
-            firing = false;
-            midStoped = false;
-        }
-        //	N.O.T.E
-        //	开火后进入正常状态，当中止开火时，分为两个判定组，
-        //	·一个组利用计时器模拟回收（不和ChargeDown等绑定）
-        //	·另一个组使用新的ChargeUp进行判定
-        //	从上述两组中取最大数值来进行特效操作
-        //	综合最大值未归位时加快CG_UP的速度，武器不恢复弹药[归位时恢复好像更好做]
-        //
-
-        //	-=思维笔记=-
-        //	目标：尽量符合观感[酷]，且具备一定误差规避效果
-        //	已知中止开火时Charge会逐渐(后续简称CG)归零，即停止开火时会进行CG_DOWN的计时，并在继续开火时再跑一遍CG_UP
-        //	所以应让CG_DOWN默认为0[我甚至想让他是负数]，CG_UP为正常动画时间数值，组二使用同正常动画时间数值的计时器
-
-        //	Charge=0只代表武器间歇性停火，两组计时器的综合最大值才决定炮管实际动画位置
-        //	所以当动画位置未彻底归零[收归舱内]时，应加快CG_UP的速度 - 或者说减小数值来保证武器有一定程度上的误差规避效果
-
-        //	综合最大值未归零时武器不会恢复弹药，从而模拟必须收回才能装弹的效果
-        //_____
-        //	上述做完后再考虑烧烂枪管的事-
-
-        if (fired) {
-
-        }
-    }
-
-    public void SGB_differentSideWeapon_FireSpec(WeaponAPI weapon, Vector2f muzzle, Vector2f muzzleSpeed) {
-        weapon.setForceNoFireOneFrame(true);
-        firing = true;
-        midStoped = false;
-        I18nUtil.easyWaving(muzzle, muzzleSpeed, 28, 3, 8);
-    }
 
     public static Color colorBlend(Color a, Color b, float amount) {
         float conjAmount = 1f - amount;

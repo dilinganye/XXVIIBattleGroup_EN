@@ -1,0 +1,115 @@
+{
+  "hullName": "SGB_Argion_M_F",
+  "hullId": "SGB_Argion_M_F",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Mech/SGB_ArgionM_Body.png",
+  "style": "SGB_TECH",
+  "height": 31,
+  "width": 38,
+  "center": [19, 15.5],
+  "collisionRadius": 67.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 27.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0001": "SGB_blinker_red_S",
+    "WS0002": "SGB_M_ArgionM",
+    "WS0003": "SGB_M_ArgionR",
+    "WS0004": "SGB_M_ArgionL",
+    "WS0005": "SGB_M_ArgionH",
+    "WS0006": "SGB_blinker_green_Q"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-7, -8.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [0, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 46,
+      "angle": -8,
+      "locations": [-1, -11.5],
+      "renderOrderMod": 3
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 113,
+      "angle": 19,
+      "locations": [-1, 11.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 134,
+      "angle": -0,
+      "locations": [-1.5, -0],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-1.5, 8],
+      "renderOrderMod": 2
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-11, -0],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "SGB_TECH"
+    },
+    {
+      "location": [-10.5, 5.5],
+      "length": 16.122492,
+      "width": 5.124561,
+      "angle": -133.5,
+      "contrailSize": 5.124561,
+      "style": "SGB_TECH"
+    },
+    {
+      "location": [-10.5, -5.5],
+      "length": 16.122492,
+      "width": 5.124561,
+      "angle": 133.5,
+      "contrailSize": 5.124561,
+      "style": "SGB_TECH"
+    }
+  ],
+  "bounds": [
+    -7, -7.5,
+    -1, -11.5,
+    5.5, -7.5,
+    5.5, 7.5,
+    -1, 11.5,
+    -7, 7.5
+  ]
+}

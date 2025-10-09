@@ -1,0 +1,65 @@
+{
+  "id": "SGB_Reborn",
+  "specClass": "projectile",
+  "projectileSpecId": "SGB_Reborn_srm",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "everyFrameEffect": "data.weapons.SGB_Reborn_Effect",
+  "turretSprite": "graphics/None_64.png",
+  "hardpointSprite": "graphics/None_64.png",
+  "renderHints": [
+    RENDER_LOADED_MISSILES
+  ],
+  "turretOffsets": [
+    -3,
+    -7,
+    -3,
+    7,
+    4.5,
+    -6.5,
+    4.5,
+    6.5
+  ],
+  "turretAngleOffsets": [
+    -68,
+    68,
+    -35.5,
+    35.5
+  ],
+  "hardpointOffsets": [
+    -0.5,
+    4,
+    -0.5,
+    -4,
+    5.5,
+    -3,
+    5.5,
+    3
+  ],
+  "hardpointAngleOffsets": [
+    77.5,
+    -77.5,
+    -38.5,
+    38.5
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 6,
+    "particleSizeRange": 20,
+    "cloudParticleCount": 3,
+    "cloudDuration": 1,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 1,
+    "blowbackDuration": 2,
+    "blowbackLength": 20,
+    "blowbackSpread": 10,
+    "particleColor": [
+      170,
+      170,
+      170,
+      80
+    ]
+  },
+  #"fireSoundTwo": "SGB_Missile_L_fire"
+}

@@ -1,0 +1,31 @@
+{
+	"id":"SGB_DelayRupture",
+	"type":"STAT_MOD",
+	"aiType":"TEMPORAL_SHELL",
+	
+	"statsScript":"data.shipsystems.scripts.SGB_DelayRupture",
+
+	"engineGlowColor":[255,175,125,0],
+	"engineGlowWidthMult":1.5,
+	"engineGlowGlowMult":0.8,
+	
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.75,
+	"soundFilterGainHF":0.5,
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_temporalshell",
+	"loopSound":"system_temporalshell_loop",
+	"deactivateSound":"system_temporalshell_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"activeSpeedIncrease":100,  # not right since it's ship-dependent, but hopefully close enough
+		"burstMovementPotential":-50,
+		"averageSpeedMult":3,
+	}
+}
+
+
+
+

@@ -1,0 +1,64 @@
+{
+  "id": "PRB_Simpas",
+  "specClass": "beam",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/PRB/PRB_Simpas.png",
+  "turretGlowSprite": "graphics/weapons/PRB/PRB_Simpas_L.png",
+  "hardpointSprite": "graphics/weapons/PRB/PRB_Simpas.png",
+  "hardpointGlowSprite": "graphics/weapons/PRB/PRB_Simpas_L.png",
+  "glowColor": [
+    213,
+    173,
+    153,
+    225
+  ],
+  "hitGlowRadius": 50,
+  "turretOffsets": [
+    6,
+    0,
+    4.5,
+    -4,
+    4.5,
+    4
+  ],
+  "turretAngleOffsets": [
+    0,
+    3.5,
+    -3.5
+  ],
+  "hardpointOffsets": [
+    28,
+    0,
+    26.5,
+    4,
+    26.5,
+    -4
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    -3.5,
+    3.5
+  ],
+  "fringeColor": [
+    190,
+    250,
+    211,
+    193
+  ],
+  "coreColor": [
+    138,
+    170,
+    148,
+    255
+  ],
+  "width": 11,
+  "textureType": [
+    "graphics/fx/PRB_TimeBeam.png",
+    "graphics/fx/PRB_TimeBeam_OOut.png"
+  ],
+  "textureScrollSpeed": -800,
+  "pixelsPerTexel": 1
+}

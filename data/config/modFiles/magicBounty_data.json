@@ -303,7 +303,7 @@
         
         "job_name": "Death and Taxation",
         "job_description": "This bounty originates from interstellar freelancers crushed by debt, targeting a ==Tritachyon== collection squad - these debtors clearly can no longer sustain the obscene interest rates.\n\nAccording to their intel, this ==Tritachyon== team possesses ==exceptionally rare== prototype vessels. Upon accepting the contract, the hunters will arrange confrontations with these rare-ship commanders as your payment, leaving you only to destroy them.\n\nNotably, though driven to extremes by debt enforcement, these targets remain ==Tritachyon=='s ==accredited personnel==. You're strongly advised against compromising your operational security during this mission.",
-        "job_comm_reply": "Your comm channel immediately activates, revealing a figure whose aggressive gaze hurls demands: \"We had an agreement, $constellation. The final payment was due 30 minutes ago. You've delayed the initial ==1,000,000== credits for three months - transfer 30 times that amount NOW!\"\n\nThe Tritachyon representative\'s face contorts with rage at your silence. Through gritted teeth, he snarls something unintelligible before severing the connection - you almost believe he will physically attack you if not for the interstellar void between you.\n\nRegardless, you\'re certain your biometrics have been recorded.",
+        "job_comm_reply": "Your comm channel immediately activates, revealing a figure whose aggressive gaze hurls demands: \"We had an agreement, $constellation. The final payment was due 30 minutes ago. You've delayed the initial ==1,000,000== credits for three months - transfer 30 times that amount NOW!\"\n\nThe Tritachyon representative's face contorts with rage at your silence. Through gritted teeth, he snarls something unintelligible before severing the connection - you almost believe he will physically attack you if not for the interstellar void between you.\n\nRegardless, you're certain your biometrics have been recorded.",
         "job_intel_success": "The debtors' gratitude holds no value to you.\n\nBut from your current understanding - these unique ships appear to be Wolf-class concept designs, meaning absolute limited-edition prototypes that now rest in your possession.",
         "job_intel_expired": "Your gunners report finding several eviscerated corpses drifting through the void. Scanning the identification holos, you recognize some faces - debtors you've seen on previous bounty bulletins.",
         "job_forFaction": "independent",
@@ -404,7 +404,7 @@
         
         "job_name": "The Last Job",
         "job_description": "==Shackles officials== have established a high-value target, stating that one of their experimental weapon-equipped vessels has escaped the control of ==Shackles Garrison== . It is suspected that this escape was orchestrated by ==clandestine== , ==non-existent forces== operating in the shadows. Consequently, it is imperative to address this matter promptly to prevent further destabilizing influences.\n\nInvestigations have led ==Shackles== to believe that the perpetrators are associated with ==Profundity Industrial== . The bounty's objective is to ==destroy== the target ship, and ==Shackles== is keen to ensure that no individuals or organizations obtain any potentially recoverable information.",
-        "job_comm_reply": "The figure on the screen looks utterly ==peculiar==. While its attire resembles that of most Shackles Garrison officers, the visor design is unlike anything you've ever seen.\n\nBefore you can process this, the figure interrupts your thoughts: "Alright, I don't like idle talk. I saw you making a beeline for me from miles away... Those ==Shackles== fools are pathetic, completely oblivious to the value of these things. My backers are more than willing to pay ==five times== the price!"\n\nAfter a derisive snicker, it continues: "Moreover, if you initiate combat, I'll qualify for substantial risk funds - how delightfully convenient!"\n\nThe metallic surface of its face seems to quiver. Before you can observe further, it terminates the comm connection.\n\nRegardless, you're certain your facial data has been recorded by their sensors.",
+        "job_comm_reply": "The figure on the screen looks utterly ==peculiar==. While its attire resembles that of most Shackles Garrison officers, the visor design is unlike anything you've ever seen.\n\nBefore you can process this, the figure interrupts your thoughts: \"Alright, I don't like idle talk. I saw you making a beeline for me from miles away... Those ==Shackles== fools are pathetic, completely oblivious to the value of these things. My backers are more than willing to pay ==five times== the price!\"\n\nAfter a derisive snicker, it continues: \"Moreover, if you initiate combat, I'll qualify for substantial risk funds - how delightfully convenient!\"\n\nThe metallic surface of its face seems to quiver. Before you can observe further, it terminates the comm connection.\n\nRegardless, you're certain your facial data has been recorded by their sensors.",
         "job_intel_success": "You destroyed that ship, and now no matter which organization the other party was trying to obtain five-more about the funding from before, they can never get it again - but at least you can get yours.",
         "job_intel_failure": "Although you forged the destruction report of the ship, Shackles still relied on certain methods to discover the current condition of the ship - and they are very dissatisfied with this, so the credit points for this bounty will definitely not be credited to your account anymore.\n\nBut you are confident that the ship you salvaged is unique, which should still be worth it.\n\nIt should be.",
         "job_intel_expired": "Shackles officials ultimately did not have the patience to continue waiting for non power organizations to complete their tasks. After deploying a large number of teams for encirclement and suppression, according to them, Shackles had achieved their goal.",
@@ -597,4 +597,96 @@
 		"location_prioritizeUnexplored": true,
 		"location_defaultToAnyEntity": true
     },
+
+
+  "SGB_Tec_recharge_Bound":{
+    "trigger_weight_mult": 100,
+    "trigger_player_minLevel": 3,
+
+
+    #BOUNTY DESCRIPTION
+
+    "job_name": "Technology Recycling",
+    "job_description": "The relevant departments of Tritachyon strongly complained to the SGB, expressing their dissatisfaction with the Shackles' possession of some unexplained technology. However, perhaps due to the influence of public opinion from the previous war, Hegemony considered this to be acceptable.\nThis bounty, issued by the company's top management, but unlikely directly by the board of directors, was offered to TT mercenaries who support the free development of technology and bounty hunters who support the rational allocation of resources.\nAnd you are not quite sure how you were selected as one of them.\n\nThe bounty target is the destruction of a small fleet of Shackles Garrison. Recent data from Tritachyon indicates that all of this fleet's ships are unique experimental vessels.\n\nIt is clear that Tritachyon hopes to disguise this targeted attack as an unexpected act of piracy, with TT \"accidentally passing through\" the area and salvaging the wreckage and the technology contained within.",
+    "job_comm_reply": "\"This is the experimental team of the Shackles Garrison. Please do not interfere with our normal navigation.\"\n\nHe paused and continued:\"No offense, but your fleet has been searching non-stop since entering the system. I don't know what exactly you're looking for, but this will attract a lot of unnecessary attention.\"\n\n\"Unless... you have other purposes.\"\n\nIn any case, you are sure that your face has been recorded by the device on the other side.",
+    "job_intel_success": "You destroyed this fleet. Their ships were interesting, but not even close to yours.",
+    "job_intel_expired": "There is increasing private friction between SGB and TT, which seems to be caused by a pirate attack and salvage by TT, but this has nothing to do with you.",
+    "job_forFaction": "tritachyon",
+    "job_deadline": 60,
+    "job_credit_reward": 1000000,
+    "job_reward_scaling": 2,
+    "job_reputation_reward":10,
+    "job_type":"obliteration",
+    "job_show_type": true,
+    "job_show_captain": false,
+    "job_show_fleet": "text",
+    "job_show_distance": "system",
+    "job_show_arrow": true,
+    "job_difficultyDescription": "auto",
+    "job_pick_option": "Ante up",
+    "job_memKey":"$SGB_Tec_recharge_Bound",
+
+    #TARGET COMMANDER (OPTIONAL)
+    "target_portrait":"SGB_Medico",
+    "target_gender":"UNDEFINED",
+    "target_rank": "citizen",
+    "target_post": "spacer",
+    "target_personality": "aggressive",
+    "target_aiCoreId": null,
+    "target_level": 12,
+    "target_elite_skills":4,
+    "target_skill_preference": "YES_ENERGY_YES_BALLISTIC_YES_MISSILE_YES_DEFENSE",
+
+
+    "fleet_name":"Experimental Group",
+    "fleet_faction": "SGB",
+    "fleet_flagship_variant":"SGB_Souerifiner_Special",
+    "fleet_flagship_alwaysRecoverable": true,
+    "fleet_flagship_autofit": true,
+    "fleet_preset_ships": {
+    "SGB_Lanozinc_Special":2,
+    "SGB_Stibium_Special":4,
+    "SGB_Axiality_Normal":6,
+    "SGB_Pb_Assault":2
+    },
+    "fleet_preset_autofit": false,
+    "fleet_scaling_multiplier": 2,
+    "fleet_composition_faction": "SGB",
+    "fleet_min_FP": 120,
+    "fleet_composition_quality": 2,
+    "fleet_transponder": false,
+    "fleet_no_retreat": false,
+    "fleet_behavior": "AGGRESSIVE",
+    "fleet_musicSetId": "SGB_Annihilation_remix",
+
+    #LOCATION
+
+    #"location_entitiesID": ["location1",],
+    #"location_marketFactions": ["faction",],
+    "location_distance": "CLOSE",
+    "location_themes": [
+    "theme_interesting_minor",
+    "theme_ruins_secondary",
+    "theme_derelict_survey_ship",
+    "theme_derelict_probes",
+    "procgen_no_theme_pulsar_blackhole"
+    ],
+    "location_themes_blacklist":[
+    "theme_already_occupied",
+    "theme_already_colonized",
+    "theme_hidden"
+    ],
+    "location_entities": [
+    "gate",
+    "wreck",
+    "debris",
+    "stable_location",
+    "comm_relay",
+    "nav_buoy",
+    "sensor_array",
+    ],
+    "location_prioritizeUnexplored": true,
+    "location_defaultToAnyEntity": true
+  },
+
 }

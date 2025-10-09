@@ -1,6 +1,17 @@
 {
       "SGB": {
-            #newest,
+            #0.98
+
+      "HullMods_SGB_Cruser1": "It is a destroyer, but it has the size of a cruiser and the interface of a range-finding coordination system. The only thing to be thankful for is that it can only adapt to the modifications of destroyer-class ships, but many of the modifications of the latter seem to be deliberately limited.",
+      "HullMods_SGB_Cruser2": "Souerifiner-class... Such an excellent work also came from the same design institute that designed the Carving-class and Jolt-class... It really proves the old saying - there is only a fine line between genius and madness.",
+            #0.97,
+      "WorldSpawn_Austenite_Assault_In_Campain": "Damaged special ship",
+      "WorldSpawn_SGB_A": "Relay communication node",
+      "WorldSpawn_SGB_B": "Relay navigation buoy",
+      "WorldSpawn_SGB_C": "Relay sensor array",
+      "WorldSpawn_SGB_Gate": "Aoslot Gate",
+
+      "WorldSpawn_DustCloud": "Dust Cloud",
 
       "Econ_Industries_Fortess_No.": "No.",
       "Econ_Industries_Fortess_FreeScout_Formation_No.": "FreeScout Formation No.",

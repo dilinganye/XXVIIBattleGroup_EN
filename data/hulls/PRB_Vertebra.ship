@@ -1,0 +1,72 @@
+{
+  "hullName": "PRB_Vertebra",
+  "hullId": "PRB_Vertebra",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/PRB/Vertebra.png",
+  "style": "PRB_TECH",
+  "height": 39,
+  "width": 38,
+  "center": [19, 19.5],
+  "collisionRadius": 24.5,
+  "shieldCenter": [-7, -0],
+  "shieldRadius": 28.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "PRB_DeepBugs"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 31,
+      "angle": -6.5,
+      "locations": [5.5, -3]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 31,
+      "angle": 6.5,
+      "locations": [5.5, 3]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-14.5, -0],
+      "length": 36.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-14.5, -5.5],
+      "length": 15.727643,
+      "width": 4.854375,
+      "angle": 127.5,
+      "contrailSize": 4.854375,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-14.5, 5.5],
+      "length": 15.727643,
+      "width": 4.854375,
+      "angle": -127.5,
+      "contrailSize": 4.854375,
+      "style": "PRB_TECH_QUAD"
+    }
+  ],
+  "bounds": [
+    6, 2.5,
+    0, 4,
+    4, 12.5,
+    -12.5, -0,
+    4, -12.5,
+    0, -4,
+    6, -2.5
+  ]
+}

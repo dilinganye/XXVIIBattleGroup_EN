@@ -1,0 +1,50 @@
+{
+  "id": "SGB_RailChain",
+  "specClass": "projectile",
+  "projectileSpecId": "SGB_RailChain_shot",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "everyFrameEffect": "data.weapons.SGB_ArcFurnace_EveryFrameEffect",
+  "turretSprite": "graphics/weapons/SGB_Duplexing_ChainGun/SGB_Duplexing_ChainRifle.png",
+  "turretGlowSprite": "graphics/weapons/SGB_Duplexing_ChainGun/SGB_Duplexing_ChainRifle_L.png",
+  "turretGunSprite": "graphics/weapons/SGB_Duplexing_ChainGun/SGB_Duplexing_ChainRifle_C.png",
+  "hardpointSprite": "graphics/weapons/SGB_Duplexing_ChainGun/SGB_Duplexing_ChainRifle.png",
+  "hardpointGunSprite": "graphics/weapons/SGB_Duplexing_ChainGun/SGB_Duplexing_ChainGun_C.png",
+  "visualRecoil": 10,
+  "turretOffsets": [
+    46,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    68.5,
+    -6,
+    68.5,
+    6
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "interruptibleBurst": true,
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 120,
+    "spread": 24,
+    "particleSizeMin": 14,
+    "particleSizeRange": 20,
+    "particleDuration": 0.13,
+    "particleCount": 26,
+    "particleColor": [
+      100,
+      100,
+      225,
+      90
+    ]
+  },
+  "fireSoundTwo": "SGB_Lazer_Lmg_fire"
+}

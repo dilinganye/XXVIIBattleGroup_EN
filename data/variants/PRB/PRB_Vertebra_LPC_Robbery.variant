@@ -1,0 +1,23 @@
+{
+  "variantId": "PRB_Vertebra_LPC_Robbery",
+  "hullId": "PRB_Vertebra",
+  "displayName": "Robbery",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "SGB_Screws",
+        "WS0002": "SGB_Screws"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,225 @@
+{
+  "hullName": "SGB_GravTank",
+  "hullId": "SGB_GravTank",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Mech/SGB_GravTank.png",
+  "style": "SGB_TECH",
+  "height": 80,
+  "width": 97,
+  "center": [49, 35.5],
+  "collisionRadius": 79,
+  "shieldCenter": [4.5, -0],
+  "shieldRadius": 51.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "missleracks"
+  ],
+  "builtInWeapons": {
+    "WS0003": "SGB_blinker_green_S",
+    "WS0004": "SGB_blinker_green_S",
+    "WS0005": "SGB_blinker_green_Q",
+    "WS0006": "SGB_blinker_green_Q",
+    "WS0007": "SGB_blinker_green_S",
+    "WS0008": "SGB_blinker_green_S",
+    "WS0009": "SGB_blinker_red_Q",
+    "WS0010": "SGB_blinker_red_S",
+    "WS0011": "SGB_Screws",
+    "WS0012": "SGB_SGL",
+    "WS0013": "SGB_WingRail"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 124,
+      "angle": 0,
+      "locations": [-16.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [8.5, 1]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [17, -10.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [17, 10.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [26.5, -3.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [26.5, 3.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [27.5, -3.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [27.5, 3.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-1.5, 38.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-1.5, -38.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 75,
+      "angle": -3,
+      "locations": [30, -26.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": 0,
+      "locations": [32, -11]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 6,
+      "angle": -1.5,
+      "locations": [25.5, 19.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-17.5, -31.5],
+      "length": 6.46345,
+      "width": 11.040617,
+      "angle": -130.5,
+      "contrailSize": 11.040617,
+      "style": "SGB_TECH_GREEN"
+    },
+    {
+      "location": [-17.5, 31.5],
+      "length": 6.46345,
+      "width": 11.040617,
+      "angle": 130.5,
+      "contrailSize": 11.040617,
+      "style": "SGB_TECH_GREEN"
+    },
+    {
+      "location": [28.5, -19],
+      "length": 9.973312,
+      "width": 3.483124,
+      "angle": -23,
+      "contrailSize": 3.483124,
+      "style": "SGB_TECH_GREEN"
+    },
+    {
+      "location": [28.5, 19],
+      "length": 9.973312,
+      "width": 3.483124,
+      "angle": 23,
+      "contrailSize": 3.483124,
+      "style": "SGB_TECH_GREEN"
+    },
+    {
+      "location": [-18.5, -32.5],
+      "length": 22.721016,
+      "width": 3.87577,
+      "angle": -33,
+      "contrailSize": 3.87577,
+      "style": "SGB_TECH_GREEN"
+    },
+    {
+      "location": [-18.5, 32.5],
+      "length": 22.721016,
+      "width": 3.87577,
+      "angle": 33,
+      "contrailSize": 3.87577,
+      "style": "SGB_TECH_GREEN"
+    }
+  ],
+  "bounds": [
+    -29, -4,
+    -21, -11,
+    -1.5, -4.5,
+    -14, -27,
+    -11, -29.5,
+    8, -6,
+    24, -8,
+    23, -26,
+    8, -36.5,
+    16, -38,
+    30, -33,
+    26.5, -23,
+    26.5, 23,
+    30, 33,
+    16, 38,
+    8, 36.5,
+    23, 26,
+    24, 8,
+    8, 6,
+    -11, 29.5,
+    -14, 27,
+    -1.5, 4.5,
+    -21, 11,
+    -29, 4
+  ]
+}

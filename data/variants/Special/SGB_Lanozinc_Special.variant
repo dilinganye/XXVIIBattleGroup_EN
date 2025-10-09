@@ -1,0 +1,45 @@
+{
+  "variantId": "SGB_Lanozinc_Special",
+  "hullId": "SGB_Lanozinc",
+  "displayName": "Special",
+  "goalVariant": false,
+  "fluxCapacitors": 20,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "ballistic_rangefinder",
+    "converted_hangar",
+    "targetingunit",
+    "heavyarmor",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "SGB_Duplexing_ChainGun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "heavyneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "lightneedler",
+        "WS0008": "lightneedler"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "SGB_Agatha_wing"
+  ]
+}

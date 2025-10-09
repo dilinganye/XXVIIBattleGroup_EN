@@ -1,0 +1,23 @@
+{
+  "variantId": "PRB_CotaNes_Scout",
+  "hullId": "PRB_CotaNes",
+  "displayName": "Scout",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "PRB_Loesia",
+        "WS0003": "PRB_Loesia"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

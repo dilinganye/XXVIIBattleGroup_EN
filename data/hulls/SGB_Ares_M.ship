@@ -1,0 +1,137 @@
+{
+  "hullName": "SGB_Ares_M",
+  "hullId": "SGB_Ares_M",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Mech/SGB_AresM_Body.png",
+  "style": "SGB_TECH",
+  "height": 29,
+  "width": 39,
+  "center": [20, 14],
+  "collisionRadius": 40.5,
+  "shieldCenter": [0.5, -0],
+  "shieldRadius": 18.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0001": "SGB_M_AresH",
+    "WS0002": "SGB_M_AresR",
+    "WS0003": "SGB_M_AresL",
+    "WS0004": "SGB_Wings_Missile_s",
+    "WS0005": "SGB_Wings_Missile_s",
+    "WS0006": "SGB_blinker_red_Q",
+    "WS0007": "SGB_blinker_green_S",
+    "WS0008": "SGB_M_AresM"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 127,
+      "angle": 0,
+      "locations": [-1, 0],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 77,
+      "angle": -13,
+      "locations": [-1, -10]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 77,
+      "angle": 13,
+      "locations": [-1, 10]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [-1, -7]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [-5, -7]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [5, 5],
+      "renderOrderMod": 4
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-4.5, -9.5],
+      "renderOrderMod": 3
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 127,
+      "angle": 0,
+      "locations": [0.5, 0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-13, -0],
+      "length": 2.5,
+      "width": 33,
+      "angle": 180,
+      "contrailSize": 33,
+      "style": "SGB_LESS_SMOKE_TECH"
+    },
+    {
+      "location": [-10, 4],
+      "length": 33.877873,
+      "width": 6.492967,
+      "angle": 172,
+      "contrailSize": 6.492967,
+      "style": "SGB_LESS_GROW_TECH"
+    },
+    {
+      "location": [-10, -4],
+      "length": 33.877873,
+      "width": 6.492967,
+      "angle": -172,
+      "contrailSize": 6.492967,
+      "style": "SGB_LESS_GROW_TECH"
+    }
+  ],
+  "bounds": [
+    -7.5, -3,
+    -4.5, -5.5,
+    -2, -9.5,
+    5.5, -4.5,
+    5.5, 4.5,
+    -2, 9.5,
+    -4.5, 5.5,
+    -7.5, 3
+  ]
+}

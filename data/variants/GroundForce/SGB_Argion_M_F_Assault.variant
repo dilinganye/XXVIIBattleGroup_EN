@@ -1,0 +1,37 @@
+{
+  "variantId": "SGB_Argion_M_F_Assault",
+  "hullId": "SGB_Argion_M_F",
+  "displayName": "Mech",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "SGB_M_ArgionM",
+        "WS0003": "SGB_M_ArgionR"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "SGB_M_ArgionL"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "SGB_M_ArgionH"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

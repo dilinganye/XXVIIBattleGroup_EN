@@ -1,0 +1,48 @@
+{
+  "id": "SGB_M_ArgionR",
+  "specClass": "projectile",
+  "projectileSpecId": "XXVII_type_7_srm",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "everyFrameEffect": "data.weapons.SGB_Missile_SMS_Fire",
+  "turretSprite": "graphics/ships/Mech/SGB_ArgionM_RHand.png",
+  "hardpointSprite": "graphics/ships/SGB_Austenite/SGB_Austenite_Rocket_L.png",
+  "renderHints": [
+    RENDER_LOADED_MISSILES
+  ],
+  "turretOffsets": [
+    8.5,
+    -4.5,
+    6.5,
+    -1.5,
+    4.5,
+    1.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [],
+  "hardpointAngleOffsets": [],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 6,
+    "particleSizeRange": 20,
+    "cloudParticleCount": 3,
+    "cloudDuration": 1,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 1,
+    "blowbackDuration": 2,
+    "blowbackLength": 20,
+    "blowbackSpread": 10,
+    "particleColor": [
+      170,
+      170,
+      170,
+      80
+    ]
+  },
+  "fireSoundTwo": "SGB_Missile_L_fire"
+}

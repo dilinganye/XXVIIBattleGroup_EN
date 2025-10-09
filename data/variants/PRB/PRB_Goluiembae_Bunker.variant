@@ -1,0 +1,38 @@
+{
+  "variantId": "PRB_Goluiembae_Bunker",
+  "hullId": "PRB_Goluiembae",
+  "displayName": "Bunker",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "PRB_Simpas"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "PRB_Loesia",
+        "WS0004": "PRB_Loesia"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "PRB_Loesia",
+        "WS0002": "PRB_Loesia"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,8 +1,8 @@
 {
-    "plugins":{
-    },
-	
-    "designTypeColors":
+	"plugins":{
+	},
+
+	"designTypeColors":
 	{
 		"Shackles Garrison":[250,209,21,255],
 		"Redstone Crystal Taskforce":[255,12,71,255]
@@ -19,8 +19,8 @@
 		},
 		"characters": {
 			"SGB_Pharmacist":"graphics/portraits/SGB_Pharmacist.png",
-			"SGB_Sentry_SF":"graphics/portraits/SGB_Sentry_SF.png"
-
+			"SGB_Sentry_SF":"graphics/portraits/SGB_Sentry_SF.png",
+			"SGB_Medico":"graphics/portraits/SGB_Medico.png"
 		},
 		"intel":
 		{
@@ -30,106 +30,126 @@
 			"SGB_SF_Flag":"graphics/portraits/SGB_SF_Flag.png",
 			"TRI_ISS_Mercenaries":"graphics/portraits/TRI_ISS_Mercenaries.png",
 			"TRI_ISS_Leader":"graphics/portraits/TRI_ISS_Leader.png",
-			
+
+
+			"SGB_Medico":"graphics/portraits/SGB_Medico.png",
 			"SGB_Commando":"graphics/portraits/SGB_Commando.png",
 			"SGB_Sentry":"graphics/portraits/SGB_Sentry.png",
 			"SGB_Veteran":"graphics/portraits/SGB_Veteran.png",
 			"SGB_Commando_SF":"graphics/portraits/SGB_Commando_SF.png",
 			"SGB_Sentry_SF":"graphics/portraits/SGB_Sentry_SF.png",
-			"SGB_Veteran_SF":"graphics/portraits/SGB_Veteran_SF.png"
-			
+			"SGB_Veteran_SF":"graphics/portraits/SGB_Veteran_SF.png",
+			"SGB_Balender":"graphics/portraits/SGB_Balender.png"
+
 		},
 		"illustrations":{
-			"SGB_Bar":"graphics/illustrations/SGB_Bar.png"
+			"SGB_Bar":"graphics/illustrations/SGB_Bar.png",
+			"SGB_Flintstone_Commandos":"graphics/codex/Flintstone_Commandos.png",
+			"SGB_Photo_RunningCapture":"graphics/codex/Photo_RunningCapture_S.png",
+			"SGB_BluePrint":"graphics/codex/SGB_BluePrint.png",
+			"SGB_Kard":"graphics/codex/SGB_Kard.png",
+			"SGB_Sector":"graphics/codex/SGB_Sector.png",
+		},
+		"terrain":{
+			"nebula_dark":"graphics/terrain/nebula_dark.png",
+			"nebula_dark_map":"graphics/terrain/nebula_dark_map.png",
+
+			"SGB_nebula_storm":"graphics/terrain/SGB_nebula_storm.png",
+			"SGB_nebula_storm_glow":"graphics/terrain/SGB_nebula_storm_heavy_glow.png",
+			"SGB_nebula_storm_map":"graphics/terrain/SGB_nebula_storm_map.png",
+
+			"SGB_nebula_storm2":"graphics/terrain/SGB_nebula_storm2.png",
+			"SGB_nebula_storm2_glow":"graphics/terrain/SGB_nebula_storm_heavy_glow.png",
+			"SGB_nebula_storm2_map":"graphics/terrain/SGB_nebula_storm_map.png"
 		},
 		"industry":{
 			"SGB_CenterHub_Normal":"graphics/icons/industry/SGB_CenterHub.png",
 			"SGB_CenterHub_Mix":"graphics/icons/industry/SGB_CenterHub_Hard.png"
 		},
-	   "fx":{
-		   "SGB_Va_Explosion_ring":"graphics/fx/explosion_ring0.png",
-		   "SGB_Va_Explosion":"graphics/fx/explosion0.png",
-		   "SGB_Va_Smoke":"graphics/fx/particlealpha_textured.png",
+		"fx":{
+			"SGB_Va_Explosion_ring":"graphics/fx/explosion_ring0.png",
+			"SGB_Va_Explosion":"graphics/fx/explosion0.png",
+			"SGB_Va_Smoke":"graphics/fx/particlealpha_textured.png",
 
-		   "SGB_plasma_red":"graphics/fx/SGB_plasma_red.png",
-		   "SGB_Lightning_beam":"graphics/fx/SGB_Lightning_beam.png",
-		   "SGB_Cloud_64":"graphics/fx/SGB_Cloud_64.png",
-		   "SGB_Sub_trail":"graphics/fx/SGB_Sub_trail.png",
-		   "SGB_Spark01A":"graphics/fx/SGB_Spark01A.png",
-		   "SGB_Spark01B":"graphics/fx/SGB_Spark01B.png",
-		   "SGB_Spark17A":"graphics/fx/SGB_Spark17A.png",
+			"SGB_plasma_red":"graphics/fx/SGB_plasma_red.png",
+			"SGB_Lightning_beam":"graphics/fx/SGB_Lightning_beam.png",
+			"SGB_Cloud_64":"graphics/fx/SGB_Cloud_64.png",
+			"SGB_Sub_trail":"graphics/fx/SGB_Sub_trail.png",
+			"SGB_Spark01A":"graphics/fx/SGB_Spark01A.png",
+			"SGB_Spark01B":"graphics/fx/SGB_Spark01B.png",
+			"SGB_Spark17A":"graphics/fx/SGB_Spark17A.png",
 
-		   "SGB_smoke_01":"graphics/fx/SGB_smoke_01.png",
-		   "SGB_smoke_1":"graphics/fx/SGB_smoke_1.png",
-		   "SGB_smoke_2":"graphics/fx/SGB_smoke_2.png",
-		   "base_trail_light":"graphics/fx/base_trail_light.png",
-		   "base_trail_light_add":"graphics/fx/base_trail_light_add.png",
+			"SGB_smoke_01":"graphics/fx/SGB_smoke_01.png",
+			"SGB_smoke_1":"graphics/fx/SGB_smoke_1.png",
+			"SGB_smoke_2":"graphics/fx/SGB_smoke_2.png",
+			"base_trail_light":"graphics/fx/base_trail_light.png",
+			"base_trail_light_add":"graphics/fx/base_trail_light_add.png",
 
 
-		   "SGB_firestreak_1":"graphics/fx/Flame/firestreak1.png",
-		   "SGB_Fire_01":"graphics/fx/Flame/impact_flame_1.png",
-		   "SGB_Fire_02":"graphics/fx/Flame/impact_flame_2.png",
-		   "SGB_Fire_03":"graphics/fx/Flame/impact_flame_3.png",
-		   "SGB_Fire_04":"graphics/fx/Flame/impact_flame_4.png",
-		   "SGB_Tex_Fire05A":"graphics/fx/Flame/Tex_Fire05A.png",
-		   "SGB_Tex_Fire05C":"graphics/fx/Flame/Tex_Fire05C.png",
+			"SGB_firestreak_1":"graphics/fx/Flame/firestreak1.png",
+			"SGB_Fire_01":"graphics/fx/Flame/impact_flame_1.png",
+			"SGB_Fire_02":"graphics/fx/Flame/impact_flame_2.png",
+			"SGB_Fire_03":"graphics/fx/Flame/impact_flame_3.png",
+			"SGB_Fire_04":"graphics/fx/Flame/impact_flame_4.png",
+			"SGB_Tex_Fire05A":"graphics/fx/Flame/Tex_Fire05A.png",
+			"SGB_Tex_Fire05C":"graphics/fx/Flame/Tex_Fire05C.png",
 
-		   "SGB_AE_Wave":"graphics/fx/SGB_AE_Wave.png",
-		   "SGB_Wave":"graphics/fx/SGB_Wave.png",
+			"SGB_AE_Wave":"graphics/fx/SGB_AE_Wave.png",
+			"SGB_Wave":"graphics/fx/SGB_Wave.png",
 
-		   "SGB_fx_clouds_EX":"graphics/fx/SGB_fx_clouds_EX.png",
-		   "SGB_fx_clouds01":"graphics/fx/SGB_fx_clouds01.png",
-		   "SGB_fx_clouds02":"graphics/fx/SGB_fx_clouds02.png",
-		   "SGB_fx_clouds03":"graphics/fx/SGB_fx_clouds03.png",
-		   "SGB_fx_cloudsClrd":"graphics/fx/SGB_fx_cloudsClrd.png",
-		   "SGB_fx_clouds01_mix":"graphics/fx/SGB_fx_clouds01_mix.png",
-		   "SGB_Ammo":"graphics/fx/SGB_Ammo.png"
-	   },
-       "blueprint_packages":{
+			"SGB_fx_clouds_EX":"graphics/fx/SGB_fx_clouds_EX.png",
+			"SGB_fx_clouds01":"graphics/fx/SGB_fx_clouds01.png",
+			"SGB_fx_clouds02":"graphics/fx/SGB_fx_clouds02.png",
+			"SGB_fx_clouds03":"graphics/fx/SGB_fx_clouds03.png",
+			"SGB_fx_cloudsClrd":"graphics/fx/SGB_fx_cloudsClrd.png",
+			"SGB_fx_clouds01_mix":"graphics/fx/SGB_fx_clouds01_mix.png",
+			"SGB_Ammo":"graphics/fx/SGB_Ammo.png"
+		},
+		"blueprint_packages":{
 			"SGB_package":"graphics/icons/cargo/SGB_package.png"
-		},		
+		},
 		# ———————— ] LPC skins [ ————————
-		"fighterSkinsPlayerAndNPC":{
-			"wasp_SGB_TECH":"graphics/ships/fighters_skins/wasp_sgb.png",
-			"wasp_SGB_TECH_XXVII":"graphics/ships/fighters_skins/wasp_sgb.png",
-			"warthog_SGB_TECH":"graphics/ships/fighters_skins/warthog_sgb.png",
-			"warthog_SGB_TECH_XXVII":"graphics/ships/fighters_skins/warthog_sgb.png",
-			"talon_SGB_TECH":"graphics/ships/fighters_skins/talon_sgb.png",
-			"talon_SGB_TECH_XXVII":"graphics/ships/fighters_skins/talon_sgb.png",
-			"claw_SGB_TECH":"graphics/ships/fighters_skins/claw_sgb.png",
-			"claw_SGB_TECH_XXVII":"graphics/ships/fighters_skins/claw_sgb.png",
-			
-			"xyphos_SGB_TECH":"graphics/ships/fighters/xyphos_midline.png",
-			"xyphos_SGB_TECH_XXVII":"graphics/ships/fighters/xyphos_midline.png",
-			"sarissa_SGB_TECH":"graphics/ships/fighters/sarissa_midline.png",
-			"sarissa_SGB_TECH_XXVII":"graphics/ships/fighters/sarissa_midline.png",
-			"mining_drone_SGB_TECH":"graphics/ships/fighters/mining_drone_midline.png",
-			"mining_drone_SGB_TECH_XXVII":"graphics/ships/fighters/mining_drone_midline.png",
-			
-			
-		},
-		"fighterSkinsPlayerOnly":{
-		},
-		
-		# Unless listed in fighterSkinsExcludeFromSharing, fighter skins may show up on
-		# ships of other tech types that do not have a fighter skin defined specifically for them.
-		# In that case, the closest average-color matching scheme is used.
-		"fighterSkinsExcludeFromSharing":{
-			"wasp_SGB_TECH":"graphics/ships/fighters_skins/wasp_sgb.png",
-			"wasp_SGB_TECH_XXVII":"graphics/ships/fighters_skins/wasp_sgb.png",
-			#"warthog_SGB_TECH":"graphics/ships/fighters_skins/warthog_sgb.png",
-			#"warthog_SGB_TECH_XXVII":"graphics/ships/fighters_skins/warthog_sgb.png",
-			"talon_SGB_TECH":"graphics/ships/fighters_skins/talon_sgb.png",
-			"talon_SGB_TECH_XXVII":"graphics/ships/fighters_skins/talon_sgb.png",
-			#"claw_SGB_TECH":"graphics/ships/fighters/claw_sgb.png",
-			#"claw_SGB_TECH_XXVII":"graphics/ships/fighters/claw_sgb.png",
-			
-			"xyphos_SGB_TECH":"graphics/ships/fighters/xyphos_midline.png",
-			"xyphos_SGB_TECH_XXVII":"graphics/ships/fighters/xyphos_midline.png",
-			"sarissa_SGB_TECH":"graphics/ships/fighters/sarissa_midline.png",
-			"sarissa_SGB_TECH_XXVII":"graphics/ships/fighters/sarissa_midline.png",
-			"mining_drone_SGB_TECH":"graphics/ships/fighters/mining_drone_midline.png",
-			"mining_drone_SGB_TECH_XXVII":"graphics/ships/fighters/mining_drone_midline.png",
-		},
-	}
+"fighterSkinsPlayerAndNPC":{
+"wasp_SGB_TECH":"graphics/ships/fighters_skins/wasp_sgb.png",
+"wasp_SGB_TECH_XXVII":"graphics/ships/fighters_skins/wasp_sgb.png",
+"warthog_SGB_TECH":"graphics/ships/fighters_skins/warthog_sgb.png",
+"warthog_SGB_TECH_XXVII":"graphics/ships/fighters_skins/warthog_sgb.png",
+"talon_SGB_TECH":"graphics/ships/fighters_skins/talon_sgb.png",
+"talon_SGB_TECH_XXVII":"graphics/ships/fighters_skins/talon_sgb.png",
+"claw_SGB_TECH":"graphics/ships/fighters_skins/claw_sgb.png",
+"claw_SGB_TECH_XXVII":"graphics/ships/fighters_skins/claw_sgb.png",
+
+"xyphos_SGB_TECH":"graphics/ships/fighters/xyphos_midline.png",
+"xyphos_SGB_TECH_XXVII":"graphics/ships/fighters/xyphos_midline.png",
+"sarissa_SGB_TECH":"graphics/ships/fighters/sarissa_midline.png",
+"sarissa_SGB_TECH_XXVII":"graphics/ships/fighters/sarissa_midline.png",
+"mining_drone_SGB_TECH":"graphics/ships/fighters/mining_drone_midline.png",
+"mining_drone_SGB_TECH_XXVII":"graphics/ships/fighters/mining_drone_midline.png",
+
+
+},
+"fighterSkinsPlayerOnly":{
+},
+
+# Unless listed in fighterSkinsExcludeFromSharing, fighter skins may show up on
+# ships of other tech types that do not have a fighter skin defined specifically for them.
+# In that case, the closest average-color matching scheme is used.
+"fighterSkinsExcludeFromSharing":{
+"wasp_SGB_TECH":"graphics/ships/fighters_skins/wasp_sgb.png",
+"wasp_SGB_TECH_XXVII":"graphics/ships/fighters_skins/wasp_sgb.png",
+#"warthog_SGB_TECH":"graphics/ships/fighters_skins/warthog_sgb.png",
+#"warthog_SGB_TECH_XXVII":"graphics/ships/fighters_skins/warthog_sgb.png",
+"talon_SGB_TECH":"graphics/ships/fighters_skins/talon_sgb.png",
+"talon_SGB_TECH_XXVII":"graphics/ships/fighters_skins/talon_sgb.png",
+#"claw_SGB_TECH":"graphics/ships/fighters/claw_sgb.png",
+#"claw_SGB_TECH_XXVII":"graphics/ships/fighters/claw_sgb.png",
+
+"xyphos_SGB_TECH":"graphics/ships/fighters/xyphos_midline.png",
+"xyphos_SGB_TECH_XXVII":"graphics/ships/fighters/xyphos_midline.png",
+"sarissa_SGB_TECH":"graphics/ships/fighters/sarissa_midline.png",
+"sarissa_SGB_TECH_XXVII":"graphics/ships/fighters/sarissa_midline.png",
+"mining_drone_SGB_TECH":"graphics/ships/fighters/mining_drone_midline.png",
+"mining_drone_SGB_TECH_XXVII":"graphics/ships/fighters/mining_drone_midline.png",
+},
+}
 }

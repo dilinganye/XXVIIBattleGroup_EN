@@ -1,0 +1,41 @@
+{
+	"id":"SGB_Reborn_srm_energy",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"onHitEffect":"data.weapons.SGB_Missile_Weapon_SMS",
+	"sprite":"graphics/missiles/SGB_Serpentine_Bomb.png",
+	"glowSprite":"graphics/missiles/phase_charge_glow.png",
+	"glowColor":[60,255,175,255],
+	"size":[10,20],
+	"center":[5,10],
+	"collisionRadius":11,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,165,50,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":87, # purely visual
+	"maxFlightTime":20,
+	"fadeTime":1, # fadeout duration
+	"engineSpec":{"turnAcc":100,
+				  "turnRate":90,
+				  "acc":100,
+				  "dec":50},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-6, 0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[75,255,145,255],
+						"contrailDuration":.5,
+						"contrailWidthMult":2,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":15, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":.5, # how far away from engine it starts
+						"contrailColor":[100,100,100,150],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":4.0,
+				    "length":20.0,
+				    "angle":180.0}]
+}

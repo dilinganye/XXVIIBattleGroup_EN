@@ -191,54 +191,90 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 				api.addToFleet(FleetSide.PLAYER, "SGB_Austenite_Assault", FleetMemberType.SHIP, false);
 				api.addToFleet(FleetSide.PLAYER, "SGB_Austenite_Carrier", FleetMemberType.SHIP, false);
 
+				api.addToFleet(FleetSide.PLAYER, "SGB_Test_Common", FleetMemberType.SHIP, false);
+
+				api.addToFleet(FleetSide.PLAYER, "SGB_wolf_Assault", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_wolf_Hunter", FleetMemberType.SHIP, false);
 				api.addToFleet(FleetSide.PLAYER, "SGB_station4_Holder", FleetMemberType.SHIP, false);
 				api.addToFleet(FleetSide.PLAYER, "SGB_station4_ITS_MOVING_Holder", FleetMemberType.SHIP, false);
 
 				break;
 			case 4:
+				api.initFleet(FleetSide.PLAYER, "PDF", FleetGoal.ATTACK, false);
+				api.setFleetTagline(FleetSide.PLAYER, "行星近地防卫军");
+
+				api.addToFleet(FleetSide.PLAYER, "SGB_Ares_M_F_Assault", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Ares_M_F_Assault", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Ares_M_F_Assault", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Ares_M_F_Assault", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Ares_M_F_Assault", FleetMemberType.SHIP, false);
+
+				api.addToFleet(FleetSide.PLAYER, "SGB_Argion_M_F_Assault", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Argion_M_F_Assault", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Argion_M_F_Assault", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Argion_M_F_Assault", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Argion_M_F_Assault", FleetMemberType.SHIP, false);
+
+				api.addToFleet(FleetSide.PLAYER, "SGB_Agrav_Convoy", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Agrav_Convoy", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Agrav_Convoy", FleetMemberType.SHIP, false);
+
+				api.addToFleet(FleetSide.PLAYER, "SGB_Suprav_Rav", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Suprav_Rav", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Suprav_Rav", FleetMemberType.SHIP, false);
+
+				api.addToFleet(FleetSide.PLAYER, "SGB_GravTank_Hover", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_GravTank_Hover", FleetMemberType.SHIP, false);
+
+				//	如果有单位引擎熄火，就会被逐渐施加向下的力，速度达到300以上后就立刻将其血量归为1且强制过载，并生成一次爆炸将其摧毁。
+				//	同时对一切Hulk周围生成持续时间为2s的渐变云雾特效，模拟火焰
+
+				//	必须参考航电弹幕游戏，锁定视野，这样来强制高速载具相对战场定位的入场和退场。
+
+				//	大陆架依靠空间站逻辑实现，会释放大量很缓慢的导弹来自我防御，同时会有机兵紧急升空继续拦截。
+				//	此时的单位引擎熄火向下力效果关闭。熄火单位会在2s后于附近生成一次伤害为500的爆炸，并于额外1s后修复引擎。
+				//	大陆架入场自转时，地表也以同样的速度缓慢自转，来模拟玩家机体在不断绕飞的效果。
+				//	大陆架摧毁后，画面逐渐加速，画面逐渐向前推进（撤离），速度足够快时在后方生成大量特效，持续5s，宣布任务胜利
+
+				break;
+			case 5:
 
 				api.initFleet(FleetSide.PLAYER, "???", FleetGoal.ATTACK, false);
-				api.setFleetTagline(FleetSide.PLAYER, "Hide_Code");
-		api.addToFleet(FleetSide.PLAYER, "SGB_Undervoltage_AntiShield", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.PLAYER, "SGB_Undervoltage_Attack", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.PLAYER, "SGB_Undervoltage_Missile", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.PLAYER, "SGB_Undervoltage_Support", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.PLAYER, "SGB_Undervoltage_AntiArmor", FleetMemberType.SHIP, false);
+				api.setFleetTagline(FleetSide.PLAYER, "未知目标");
 
-		api.addToFleet(FleetSide.PLAYER, "SGB_Overcurrent_AntiShield", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.PLAYER, "SGB_Overcurrent_Attack", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.PLAYER, "SGB_Overcurrent_Missile", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.PLAYER, "SGB_Overcurrent_Support", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Undervoltage_AntiShield", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Undervoltage_Attack", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Undervoltage_Missile", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Undervoltage_Support", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Undervoltage_AntiArmor", FleetMemberType.SHIP, false);
 
-		api.addToFleet(FleetSide.PLAYER, "SGB_Misalignment_AntiShield", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.PLAYER, "SGB_Misalignment_Attack", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.PLAYER, "SGB_Misalignment_Missile", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.PLAYER, "SGB_Misalignment_Support", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Overcurrent_AntiShield", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Overcurrent_Attack", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Overcurrent_Missile", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Overcurrent_Support", FleetMemberType.SHIP, false);
 
-		api.addToFleet(FleetSide.PLAYER, "SGB_LargeGrain_AntiShield", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.PLAYER, "SGB_LargeGrain_Attack", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.PLAYER, "SGB_LargeGrain_Missile", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.PLAYER, "SGB_LargeGrain_Support", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.PLAYER, "SGB_LargeGrain_AntiArmor", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Misalignment_AntiShield", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Misalignment_Attack", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Misalignment_Missile", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Misalignment_Support", FleetMemberType.SHIP, false);
+
+				api.addToFleet(FleetSide.PLAYER, "SGB_LargeGrain_AntiShield", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_LargeGrain_Attack", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_LargeGrain_Missile", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_LargeGrain_Support", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_LargeGrain_AntiArmor", FleetMemberType.SHIP, false);
 
 
-		api.addToFleet(FleetSide.PLAYER, "SGB_Carbonization_AntiShield_wing", FleetMemberType.FIGHTER_WING, false);
-		api.addToFleet(FleetSide.PLAYER, "SGB_Carbonization_Attack_wing", FleetMemberType.FIGHTER_WING, false);
-		api.addToFleet(FleetSide.PLAYER, "SGB_Carbonization_Missile_wing", FleetMemberType.FIGHTER_WING, false);
-		api.addToFleet(FleetSide.PLAYER, "SGB_Carbonization_Support_wing", FleetMemberType.FIGHTER_WING, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Carbonization_AntiShield_wing", FleetMemberType.FIGHTER_WING, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Carbonization_Attack_wing", FleetMemberType.FIGHTER_WING, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Carbonization_Missile_wing", FleetMemberType.FIGHTER_WING, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Carbonization_Support_wing", FleetMemberType.FIGHTER_WING, false);
 
-		api.addToFleet(FleetSide.PLAYER, "NMS_Interceptor_01_Common", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.PLAYER, "NMS_Interceptor_01_Common", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.PLAYER, "NMS_Interceptor_01_Common", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.PLAYER, "NMS_Interceptor_01_Common", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "NMS_Interceptor_01_Common", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "NMS_Interceptor_01_Common", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "NMS_Interceptor_01_Common", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "NMS_Interceptor_01_Common", FleetMemberType.SHIP, false);
 
-				api.addToFleet(FleetSide.PLAYER, "SGB_Transmutation_Attack", FleetMemberType.SHIP, false);
-				api.addToFleet(FleetSide.PLAYER, "SGB_Homunculus_Magical", FleetMemberType.SHIP, false);
-
-				api.addToFleet(FleetSide.PLAYER, "SGB_Test_Common", FleetMemberType.SHIP, false);
-
-				api.addToFleet(FleetSide.PLAYER, "SGB_wolf_Assault", FleetMemberType.SHIP, false);
-				api.addToFleet(FleetSide.PLAYER, "SGB_wolf_Hunter", FleetMemberType.SHIP, false);
 				api.addToFleet(FleetSide.PLAYER, "SGB_Microhierax_Attack", FleetMemberType.SHIP, false);
 				api.addToFleet(FleetSide.PLAYER, "SGB_Microhierax_Attack", FleetMemberType.SHIP, false);
 
@@ -250,6 +286,36 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 				api.addToFleet(FleetSide.PLAYER, "SGB_Toaa_Assault", FleetMemberType.SHIP, false);
 				api.addToFleet(FleetSide.PLAYER, "SGB_Harmonic_Assault", FleetMemberType.SHIP, false);
 
+				api.addToFleet(FleetSide.PLAYER, "SGB_Transmutation_Attack", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Homunculus_Magical", FleetMemberType.SHIP, false);
+
+
+				api.addToFleet(FleetSide.PLAYER, "SGB_Axiality_Normal", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Axiality_Normal", FleetMemberType.SHIP, false);
+
+				api.addToFleet(FleetSide.PLAYER, "SGB_Souerifiner_Special", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Lanozinc_Special", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Stibium_Special", FleetMemberType.SHIP, false);
+				api.addToFleet(FleetSide.PLAYER, "SGB_Pb_Assault", FleetMemberType.SHIP, false);
+
+
+				if(Global.getSettings().isDevMode()) {
+
+					api.addToFleet(FleetSide.PLAYER, "PRB_CotaNes_Scout", FleetMemberType.SHIP, false);
+					api.addToFleet(FleetSide.PLAYER, "PRB_CotaNes_Scout", FleetMemberType.SHIP, false);
+					api.addToFleet(FleetSide.PLAYER, "PRB_CotaNes_Scout", FleetMemberType.SHIP, false);
+					api.addToFleet(FleetSide.PLAYER, "PRB_Alosytie_Support", FleetMemberType.SHIP, false);
+					api.addToFleet(FleetSide.PLAYER, "PRB_Alosytie_Support", FleetMemberType.SHIP, false);
+					api.addToFleet(FleetSide.PLAYER, "PRB_Basiedo_Assault", FleetMemberType.SHIP, false);
+					api.addToFleet(FleetSide.PLAYER, "PRB_Basiedo_Assault", FleetMemberType.SHIP, false);
+					api.addToFleet(FleetSide.PLAYER, "PRB_Zosneuteo_Assault", FleetMemberType.SHIP, false);
+					api.addToFleet(FleetSide.PLAYER, "PRB_Zosneuteo_Assault", FleetMemberType.SHIP, false);
+					api.addToFleet(FleetSide.PLAYER, "PRB_Zosneuteo_Assault", FleetMemberType.SHIP, false);
+					api.addToFleet(FleetSide.PLAYER, "PRB_Goluiembae_Bunker", FleetMemberType.SHIP, false);
+					api.addToFleet(FleetSide.PLAYER, "PRB_Goluiembae_Bunker", FleetMemberType.SHIP, false);
+					api.addToFleet(FleetSide.PLAYER, "PRB_Masticataw_Assault", FleetMemberType.SHIP, false);
+					api.addToFleet(FleetSide.PLAYER, "PRB_Masticataw_Assault", FleetMemberType.SHIP, false);
+				}
 
 				break;
 			default:
@@ -282,7 +348,7 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 
 		api.addNebula(-400, 2100, 200f);
 		missionType++;
-		if (missionType > 4) {
+		if (missionType > 5) {
 			missionType = 0;}
 	}
 }

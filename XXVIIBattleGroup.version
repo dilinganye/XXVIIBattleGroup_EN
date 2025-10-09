@@ -1,3 +1,4 @@
+@ -1,38 +0,0 @@
 {
     # Points toward the master .version file online. This mod works by comparing
     # the local and online version to see if there is a newer version available.
@@ -31,8 +32,8 @@
     # If you use major.minor notation you can just leave patch as 0
     "modVersion":
     {
-        "major":0,
-        "minor":9,
-        "patch":3 # Can be a number, character or string (1, 2, a, b, "-RC2", etc)
+        "major":1,
+        "minor":1,
+        "patch":0 # Can be a number, character or string (1, 2, a, b, "-RC2", etc)
     }
 }

@@ -5,6 +5,10 @@
 			"graphics/portraits/SGB_Commando_1.png",
 			"graphics/portraits/SGB_Commando_2.png",
 			"graphics/portraits/SGB_Sentry.png",
+			"graphics/portraits/SGB_Medico.png",
+			"graphics/portraits/SGB_Balender.png",
+			"graphics/portraits/SGB_Sniper.png",
+			"graphics/portraits/SGB_Shrimp.png",
 		],
 		"standard_female":[
 			"graphics/portraits/SGB_Spectror.png",

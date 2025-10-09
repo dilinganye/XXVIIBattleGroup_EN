@@ -1,6 +1,46 @@
 id,type,text1,text2,text3,notes,Column 07
-,,,,,,
-#最新版本专属,,,,,,
+SGB_Sector,GALLERY,The Son of Nebula,"This galaxy was discovered during the escape of Shackles Garrison. Its stars are surrounded by a vast amount of nebula, a combination that not only creates a very unique landscape but also affects hyperspace to a certain extent. At least according to the detector, this galaxy is in a state of overlap between hyperspace and the real world.",unlocked,,
+SGB_Kard,GALLERY,SGB Collection Kard,"This card is popular among some Shackles garrison officers. No one knows who issued it, and no one cares. This card usually doesn't mean anything, but some people like to collect it.",unlocked,,,
+SGB_BluePrint,GALLERY,Broken Garrison Data,"Many of the XXVII Army's blueprints and ships were lost before reaching Perseus. Some say it was due to improper storage, others believe it was attacked by demons, and even more so, due to a civil war within the group. Regardless of the specific cause, the remnants of the battle group have now lost most of their strength.",unlocked,,,
+SGB_Flintstone_Commandos,GALLERY,"Code Name ""Flintstone""","According to most current accounts, Shackles Garrison, or the XXVII Army, was a fleet dedicated to raiding missions during the Human Dominion era. Most of its members underwent extensive military training, excelling in ship and weapon maintenance, piloting, aircraft operation, ground attack, and land operations. Historians theorize that its primary combat method was to forcibly penetrate enemy lines and advance in formation, with the vanguard advancing relentlessly toward tactical objectives. However, this is clearly no longer verifiable. Shackles Garrison, the only remnant of the once-mighty XXVII Fleet, was no longer capable of supporting such spearhead tactics.",unlocked,,,
+SGB_Bar,GALLERY,Shackles Garrison Spacer Bar,"Heavy metal dust in the air, mixed with the vibrant colors of neon, refracted through the heavy windows that protected the clean air you breathe from contamination, casting a shadow onto the sparsely populated bar. This small area was where several groups of Shackles Garrison officers gathered to discuss their experiences. The bartender prepared a highly toxic drink for one of the officers, one that wasn't sold to the public. Considering the military conditioning XXVII underwent during his time at The Domain had suppressed most of their senses, this was the only way the officers could pursue the stimulation they were now barely able to perceive. In other words, this behavior was commonplace within Shackles Garrison.",,,,
+#近地更新-未完成
+SGB_Ares_M_F,SHIP,"这种机兵之所以和星舰版的LPC同名，正是由于二者完全相同的定位，以及完全通用的武备生产线；这种机兵外骨骼具备于郊野环境中进行追踪猎杀的能力 - 并能迅速对非军事目标造成大量附带损害。"
+SGB_Argion_M_F,SHIP,"这种机兵之所以和星舰版的LPC同名，正是由于二者完全相同的定位，以及完全通用的武备生产线；这种机兵外骨骼具备于复杂巷战环境中进行威慑性报复行动的能力 - 并能迅速对非军事目标造成大量附带损害。"
+SGB_Agrav,SHIP,"行星防卫队常用的一种防空机炮平台，其具备追击目标的能力，链戍黑衫军经常使用这种舰艇追踪政治犯，并将后者的穿梭艇在空中肢解。"
+SGB_M_AresH,WEAPON,"机兵的核心，这种类似头颅的模块通常承担额外的雷达功能，但并非必需品。"
+SGB_M_AresL,WEAPON,"行星PDF防卫队常用的治安口径机炮，只需一套外骨骼来搭载，就能迅速成为不错的火力投射源。"
+SGB_M_AresR,WEAPON,"行星PDF防卫队常用的治安口径机炮，只需一套外骨骼来搭载，就能迅速成为不错的火力投射源。"
+SGB_M_ArgionM,WEAPON,"将链戍内常用的导弹安置于机甲之上，并配备自动装填机，你就获得了地表部队的噩梦 - 一支行走的火力网。"
+SGB_M_ArgionR,WEAPON,"将链戍内常用的导弹安置于机甲之上，并配备自动装填机，你就获得了地表部队的噩梦 - 一支行走的火力网。"
+SGB_M_ArgionL,WEAPON,"一种特制的介质转凝器，能令其发射具备蒸发大量轻甲目标的威力 - 但这种轻甲只是相对地面目标而言。"
+SGB_Agrav_G,WEAPON,"一种强大的联装机枪，能够发射大量炽热的穿甲弹迅速击坠近地目标，但这种为行星治安防卫而设计的穿甲弹在面对星舰级别的防护时，就迅速变得和普通的弹丸没什么区别。"
+#正式版
+#0.98新
+SGB_Pb,SHIP,"A rare ship in shackles garrison, codenamed Lead diastatite, whose core technology doesn't appear to be a Phaser Coil, but rather a device called a Phase Node. It appears to be a prototype—after all, it lacks a very sophisticated internal system."
+SGB_DelayRupture,SHIP_SYSTEM,"When activated, the ship will gain a high-speed time flow effect for 3+2+3 seconds; in the last three seconds, the device will be tuned and no longer affect weapons, allowing normal firing."
+SGB_Stibium,SHIP_SYSTEM,"When activated, the ship will fire six Lupus and retreat slightly, then the built-in electrodes will fire a large number of arcs at all enemies within 1k range; if the ship has Unstable Thrusters - Ship Insertion, the retreat range will be greatly increased.",,,
+SGB_Stibium,SHIP,"The Stibium-class is a specialized control frigate. When engaged in a tangle with a large number of similar-class ships, the high-energy particle beams it emits from its tip can transmit to all nearby enemies. The Stibium-class will also quickly retreat to avoid being torn apart by fire drawn by its excessive forward pressure.
+
+Some believe the prototype of this ship likely originated from a certain association's manufacturing plant, but it's clear that after Chain Guard's redesign, the ship's appearance, positioning, internal structure, and actual configuration have been completely redesigned."
+SGB_Lanozinc,SHIP,"The Lanozinc-class's exterior doesn't resemble a human design, but this is all due to the space-time distortion device it carries. When activated, this device can push the ship's maneuvering speed to its limit, while also distorting the speed of surrounding space and time—effectively stopping everything simultaneously.
+
+Historians believe that TT's persecution of Shackles Garrison in the early years was intended to obtain some specialized technology, and this may be one of them. This has sparked considerable interest among spacemen in the ship's background."
+SGB_Axiality,SHIP,"A seemingly ordinary frigate, yet requiring minimal maintenance. Furthermore, the Axiality-class boasts rapid maneuverability. Records of this vessel are scarce in the star system.
+
+According to records, this vessel doesn't appear to be particularly exceptional—its primary strength is its low maintenance requirements, and that's about it. This is perhaps the main reason why this type of vessel hasn't gained widespread adoption within the Chain Guard."
+SGB_Souerifiner,SHIP,"A ship with a similar layout to the Arc Furnace-class, but boasting more luxurious equipment, a superior radio network, more durable armor, and a more powerful weapon system, the Souerifiner-class possesses exceptional harassment capabilities. This ship can exploit the radio pressure inflicted upon it by the enemy to counterattack, forcing the enemy to pay double—as long as it isn't destroyed in the first round of fire.
+
+The Souerifiner-class project is quite old, and generally considered designed for decapitation, making it extremely rare to see its true form in the galaxy. Its prototype is believed to have been inspired by more than just the Arc Furnace-class; some conspiracy theorists believe it also incorporates fantasy technology. However, to date, Chain Guard has not provided any concrete response to this question.
+
+You can probably glimpse this in its irresponsible ship classification — this ship was designed by the same ship design bureau as the Carving-class. Even more ridiculously, despite being a destroyer, it still features the range-finding system of a cruiser-class ship."
+SGB_Reborn,WEAPON,"The special flux weapon built into the hull is equipped with a sufficient flux storage system and a quick release device that does not consider secondary utilization; its usage is as simple as the nature of the weapon, throwing its own flux into the enemy's flux network!"
+SGB_RailChain,WEAPON,"A variant weapon likely derived from the Duplex Cannon prototype, this weapon fires energy-based rounds instead, eliminating the need to replace damaged barrels during high-intensity fire, though this also significantly increases R&D costs. The only limitations on this weapon's firepower are its energy and the weapon's own overheating, which can be overcome by a well-timed burst."
+SGB_star_Qosurom,CUSTOM,"A dim yellow dwarf star nestled amidst the sea of stars is the core reason for this star system's unique landscape. The interaction between this star and the surrounding, light-impermeable nebulae creates a weak field that causes this region of stars to appear closer to hyperspace than other regions.
+
+Most people currently believe that the nebulae will eventually be devoured by the yellow dwarf, with dire consequences for the region. However, a small minority, less inclined to gossip, claims that this scenario is unlikely to occur anytime soon. After all, the timescale assumed by this theory is so vast that no one knows what the Perseus constellation will look like by then.
+Perseus's inhabitants may have already been decimated by internal strife by then.",,,
+#097版本专属,,,,,,
 SGB_station4,SHIP,"A space station designed inline with the carrier strike doctrine, and the revenge weapon of the Shackles Garrison - The Undefeatable Citidel possesses terrifying fighter projection abilities, and massive batteries of various kinetic weapon can place a huge flux pressure on all enemy ships, before the fighter swarm shread them all.
 
 The ludicrous desing of this station was shocking: radical Shackle Garrison commanders wanted to use graviton sling to launch the station into the Hegemony capital, and use this as the forward base for their reprisal. However, given the cost and technological challenge involved, the plan was put on halt - but never fully rejected.
@@ -24,9 +64,10 @@ SGB_Danburite,SHIP,"The name is imposing but serving on this ship is often consi
 The ship is not able to travel far on its own, so usually used as small firebase in fleet with some logistical abilities. 
 ",,,,
 SGB_Penetrator,SHIP,"Not really useful in a fight, but thanks to their stable shield generator, these petite drones can sometime absorb massive singe shot firepower by sheer luck - like eating one reaper torpedo as it overloads. 
-没什么作战能力，但得益于稳定的护盾发生器，这种小巧的无人机可以在某些时刻撞大运般在过载前吃下巨大的单发火力 - 例如一发将它砸过载的死神鱼雷。",,,,
-SGB_wolf,SHIP,"Very similar to the wolf, but the Alpha Wolf is actually a re-imagining of the Wolf concept drawing. Lavish spending on apperance did not only improve the ship's looks, its spec across the board is also slightly superior. On the other hand, as it never entered mass production, it is fairly rare to find one.
-",,,,
+Without much combat capability, but thanks to a stable shield generator, this type of drone can withstand massive single shot firepower at certain moments before overloading - such as a Torpedo hit.",,,,
+SGB_wolf,SHIP,"Very similar to the wolf, but the Head Wolf is actually a re-imagining of the Wolf concept drawing. Lavish spending on apperance did not only improve the ship's looks, its spec across the board is also slightly superior. On the other hand, as it never entered mass production, it is fairly rare to find one.
+
+Version before simplification.",,,,
 SGB_Graviton_pulse,WEAPON,"A very rare find in the sector that shares the same design philosophy of the ion beam. Though compared to sustained suppresion, this weapon overloads its rate of fire to massively increase the force applied by particles on the shield....its probably easier to just think of it as a burst ion beam.",,,,
 SGB_Tutia,WEAPON,"The only thing stronger than missiles is more missiles. Following this logic, the Tutia MIRC have a terrifying damage potential. Poorly 
 guided rockets are strpped enmass ona  drone, which carries out target locking. The barrage of rocket fire will shread the poor drone, and whatever target is in front of them. ",,,,

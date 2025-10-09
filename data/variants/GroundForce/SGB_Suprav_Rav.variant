@@ -1,0 +1,43 @@
+{
+  "variantId": "SGB_Suprav_Rav",
+  "hullId": "SGB_Suprav",
+  "displayName": "Rav",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "pulselaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "SGB_Ship_Red_Missile"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "SGB_Barb"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "SGB_Pin"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

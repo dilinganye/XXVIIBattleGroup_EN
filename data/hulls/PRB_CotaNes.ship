@@ -1,0 +1,163 @@
+{
+  "hullName": "PRB_CotaNes",
+  "hullId": "PRB_CotaNes",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/PRB/CotaNes.png",
+  "style": "PRB_TECH",
+  "height": 154,
+  "width": 160,
+  "center": [80, 79.5],
+  "collisionRadius": 69,
+  "shieldCenter": [-2.5, 0],
+  "shieldRadius": 62,
+  "viewOffset": 0,
+  "builtInMods": [
+    "PRB_DeepBugs"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 2,
+      "angle": 0,
+      "locations": [-2, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 112,
+      "angle": 50.5,
+      "locations": [-18, 12]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 112,
+      "angle": -50.5,
+      "locations": [-18, -12]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-30, -41.5],
+      "length": 7.927896,
+      "width": 14.092334,
+      "angle": 146.5,
+      "contrailSize": 14.092334,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [-30, 41.5],
+      "length": 7.927896,
+      "width": 14.092334,
+      "angle": -146.5,
+      "contrailSize": 14.092334,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [-39, 22],
+      "length": 30,
+      "width": 10,
+      "angle": -135,
+      "contrailSize": 30,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-39, -22],
+      "length": 30,
+      "width": 10,
+      "angle": 135,
+      "contrailSize": 30,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-32, 40.5],
+      "length": 33.202389,
+      "width": 3.225808,
+      "angle": -131,
+      "contrailSize": 3.225808,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-32, -40.5],
+      "length": 33.202389,
+      "width": 3.225808,
+      "angle": 131,
+      "contrailSize": 3.225808,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-18.5, 46],
+      "length": 18.267254,
+      "width": 8.380322,
+      "angle": 121,
+      "contrailSize": 8.380322,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-18.5, -46],
+      "length": 18.267254,
+      "width": 8.380322,
+      "angle": -121,
+      "contrailSize": 8.380322,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-11.5, 51.5],
+      "length": 26.070059,
+      "width": 7.16996,
+      "angle": 121,
+      "contrailSize": 7.16996,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-11.5, -51.5],
+      "length": 26.070059,
+      "width": 7.16996,
+      "angle": -121,
+      "contrailSize": 7.16996,
+      "style": "PRB_TECH_QUAD"
+    }
+  ],
+  "bounds": [
+    -36, 5.5,
+    -43, 4.5,
+    -35, 11.5,
+    -27, 4.5,
+    -22.5, 6.5,
+    -34.5, 23,
+    -27, 23,
+    -18.5, 15.5,
+    -15, 26,
+    -15, 32.5,
+    -18.5, 34,
+    4.5, 49,
+    14.5, 47.5,
+    -8.5, 26.5,
+    -11.5, 27.5,
+    -15.5, 16.5,
+    -15.5, -16.5,
+    -11.5, -27.5,
+    -8.5, -26.5,
+    14.5, -47.5,
+    4.5, -49,
+    -18.5, -34,
+    -15, -32.5,
+    -15, -26,
+    -18.5, -15.5,
+    -27, -23,
+    -34.5, -23,
+    -22.5, -6.5,
+    -27, -4.5,
+    -35, -11.5,
+    -43, -4.5,
+    -36, -5.5,
+    -28.5, 0
+  ]
+}

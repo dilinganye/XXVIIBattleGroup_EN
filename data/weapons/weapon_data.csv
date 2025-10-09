@@ -1,4 +1,26 @@
 name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip
+#098
+SGB_Soueifiner_L,SGB_Soueifiner_L,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,
+SGB_Soueifiner_R,SGB_Soueifiner_R,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,
+SGB_Soueifiner_LI,SGB_Soueifiner_LI,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,
+SGB_Soueifiner_RI,SGB_Soueifiner_RI,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,
+SGB_Soueifiner_LO,SGB_Soueifiner_LO,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,
+SGB_Soueifiner_RO,SGB_Soueifiner_RO,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,
+SGB_Soueifiner_Top,SGB_Soueifiner_Top,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,
+SGB_Soueifiner_Shield,SGB_Soueifiner_Shield,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,
+Reincarnation Charging Silo,SGB_Reborn,,0,,2000,,150,,100,0,,20,0.15,,ENERGY,-200,,0,0.5,4,0.15,25,25,5,0,,90,5,6,500,"DO_NOT_CONSERVE, DO_NOT_AIM, STRIKE, USE_VS_FRIGATES, SYSTEM","strike20, missile2",,Shackles Garrison,,Strike,Fast,Excellent,,,"After launch, a vertical launch missile with %s HP and capable of dealing %s energy damage will automatically lock onto the enemy and deal %s upon impact.
+
+ %s : Injects a hard energy value equal to the remaining health of the projectile.
+When hitting a shield, the value of the energy effect will %s, and the hard energy effect is converted to a soft energy effect.",100 points | 50 points | Empower Damage | Empower Damage | half cutting,"When the ship is venting, the vertical launchers will automatically fire during the entire spread and will fire %s of ammunition after spreading.
+
+Unlike the automatic launch system when venting, the splitting will produce two additional missiles when manually launching.
+
+* %s *",replenishment fast | Effects related to venting can only be triggered when the ship's flux is above 25%.,TRUE
+Energy Particle Rapid-Cannon,SGB_RailChain,,0,,700,,150,,-30,20,,60,8,,ENERGY,50,,0.05,0.5,1,,0,10,1,7,,2000,,,50,SYSTEM,energy12,,Shackles Garrison,,General,,,,,"Fire rate increases with each shot, but the fire rate bonus resets after the weapon is stored.
+
+The weapon will consume %s ammunition while the ship is venting.",replenishment fast,"The weapon is automatically stored when its group is not selected or auto-fire is not enabled; it cannot be fired directly when reloading
+
+* %s *",DPS display has been disabled as it does not apply to its special fire mode.,TRUE
 #灯光
 Blinker_green_F,SGB_blinker_green_Q,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,
 Blinker_green_S,SGB_blinker_green_S,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,
@@ -10,6 +32,15 @@ Graviton Pulse,SGB_Graviton_pulse,,0,1500,750,400,,,,60,9,6,0.5,3,KINETIC,,300,,
 
 Generates identical effects to %s : Temporarily disrupts target shields, increasing all incoming damage by %s when hit by one graviton beam, %s when hit by two simultaneous beams, and %s when struck by three or more converging beams.",Hard Flux | Gravitational beam | 5% | 8% | 10%,,,,,
 #无人机/飞行器
+阿瑞斯 机兵核心,SGB_M_AresH,,0,,500,100,,,,75,,20,0.75,5,FRAGMENTATION,,25,,,0.23,0.02,,,,,100000,,,,,"ANTI_FTR, PD_ONLY, SYSTEM","pd9",,链戍集团军,,点防御,,,,,激光变为黄色时激光伤害将转化为 %s 伤害。,硬幅能, %s 进行点防御,只能,,,
+头钉型-机兵短枪,SGB_M_AresL,,0,,250,,25,,1,100,1,,,,FRAGMENTATION,1,,0,0.05,1,,0,10,1,20,,1500,,,10,"PD, SYSTEM","pd7, SR",,Shackles Garrison,,PD,,,,,,,,,
+头钉型-机兵短枪,SGB_M_AresR,,0,,250,,25,,1,100,1,,,,FRAGMENTATION,1,,0,0.05,1,,0,10,1,20,,1500,,,10,"PD, SYSTEM","pd7, SR",,Shackles Garrison,,PD,,,,,,,,,
+阿瑞斯 机兵身体,SGB_M_AresM,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,
+阿尔贞 机体挂点,SGB_M_ArgionM,,0,,1500,,75,,15,0,,6,0.87777,3,HIGH_EXPLOSIVE,,0,0,0,3,0.25,0,8,2,180,,1000,0,5,50,"DO_NOT_CONSERVE, DO_NOT_AIM, SYSTEM","missile12, strike9",,链戍集团军,,打击,极快,优秀,,,,,,,
+阿尔贞 右臂挂点,SGB_M_ArgionR,,0,,1500,,75,,15,60,,6,0.87777,3,HIGH_EXPLOSIVE,,0,0,0,3,0.25,0,8,2,180,,1000,0,5,50,"DO_NOT_CONSERVE, DO_NOT_AIM, SYSTEM","missile12, strike9",,链戍集团军,,打击,极快,优秀,,,,,,,
+突击型-机兵光炮,SGB_M_ArgionL,,0,,500,50,,,,125,,20,0.75,5,ENERGY,,50,,,0.23,0.02,,,,,100000,,,,,"ANTI_FTR, PD_ONLY, SYSTEM","pd9",,链戍集团军,,点防御,,,,,激光变为黄色时激光伤害将转化为 %s 伤害。,硬幅能, %s 进行点防御,只能,,,
+阿尔贞 机兵核心,SGB_M_ArgionH,,0,,1000,0,,,,75,,,,5,FRAGMENTATION,,25,,,0.23,0.02,,,,,100000,,,,,"SYSTEM","pd9",,链戍集团军,,定位,,,,,,
+四联防空风暴,SGB_Agrav_G,,0,,700,,250,,50,30,,100,,,FRAGMENTATION,10,,0.05,0.5,1,,0,10,1,7,,2000,,,50,SYSTEM,he12,,Shackles Garrison,,通用,,,,,射速会随着开火次数而增加，理论上 %s 约为最高常态射速，射速加成会在武器收纳后重置；,0.075s/每发,* %s *,由于DPS不适用其特殊开火模式，故DPS显示已被禁用。,TRUE
 Repair Laser,SGB_Repair_Laser,,0,,400,0,,,,60,,,,,ENERGY,,0,0,0,,,,,,,3000,,,,,,,,Shackles Garrison,Repair Target,Reapir
 Argion Missile Pod,SGB_Argion_Rocket,,0,,1500,,75,,15,0,,12,1.75,6,HIGH_EXPLOSIVE,,0,0,0,6,0.2,0,8,2,180,,1000,0,5,50,"DO_NOT_AIM, SYSTEM","missile12, strike9",,Shackles Garrison,,Strike,Very Fast,Good,,,
 Argion Fuselage,SGB_Argion_Top,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,
@@ -30,7 +61,7 @@ Lupus MRM Pod,SGB_Ship_Red_Missile,,0,,1500,,750,,,,,10,0.1,5,HIGH_EXPLOSIVE,0,,
 Barb - Rapidfire Cannon,SGB_Barb,,0,,600,,100,,20,30,1,,,,HIGH_EXPLOSIVE,80,,0,1,,,0,10,3,5,,750,,,50,"SYSTEM, FIRE_WHEN_INEFFICIENT,DO_NOT_CONSERVE",he0,,Shackles Garrison,,Anti Shield,
 Reheat - Fusion beam,SGB_Temperom,,0,,500,2143.16330904375,,,0,20,1,1,,,HIGH_EXPLOSIVE,,,0.25,0.25,1,,,,,,100000,,,,,"STRIKE,SYSTEM","energy14, strike8",,Shackles Garrison,,Infusion,,,,,"When hitting shield, this weapon will cause hard flux damage, and the weapon damage may %s significantly.
 
-·Damage will fluctuate between %s and %s ",浮动 | 0.5倍 | 2.0倍,,,TRUE
+·Damage will fluctuate between %s and %s ",Float | 0.5x | 2.0x,,,TRUE
 Iron Oxide - Dilapidator,SGB_FerricOxide,,0,,700,40,,50,,,,,,,ENERGY,,50,0.05,0.15,,,,,,,100000,,,,,"SYSTEM, FIRE_WHEN_INEFFICIENT",beam14,,Shackles Garrison,,Disable,,,,,"When hitting the hull or armor, generates an emp arc that continuously strikes the weapon and engine of the target, causing additional EMP and energy damage. When the shield is hit, has a chance to randomly generate a shield piercing arc based on enemy hard flux level.",,,,
 Vibration Blade - Airborne Unstable Energy load Instrument,SGB_ShockerShade,,0,,600,,400,250,200,20,2,2,,,ENERGY,,0,0.5,5,2,0.75,0,2,2,1,,1000,,,300,SYSTEM,"energy18, strike8",,Shackles Garrison,,Shock Disable,,,,,"When the ion projectile hits the target, the target has high flux, or is hit directly on the hull, creates an shield piercing emp arc, and causes emp damage. "
 Edge Curler - Kinetic Needler,SGB_Curlor,,0,,800,,25,,1,30,,,,,KINETIC,15,,0,3,20,0.025,0,10,0.66,5,,1500,,,10,SYSTEM,kinetic8,,Shackles Garrison,,Anti Shield,,,,,,,
@@ -50,6 +81,8 @@ Serpentine Resonance Aerial Bomb,SGB_Serpentine,,0,,1000,,1000,,100,15,,1,0,,KIN
 #bauxite
 #菲力克斯
 Proximity SPF Unit,XXVII_flak_Felix,,0,,600,,80,80,50,,,,0,,ENERGY,0,,0,0.1,20,0.025,300,300,0,0,,500,800,1,100,SYSTEM,,,,,,,,,,
+Gas bath launch chamber,SGB_Airbath,,0,,1000,,1000,,300,15,,1,0,,FRAGMENTATION,0,,0.1,10,,,0,0,0,0,,550,200,5,200,SYSTEM,restricted,,Shackles Garrison,,xxxx,,,,,,,,,TRUE
+Gas bath launch chamber,SGB_Airbath_energy,,0,,1000,,50,,-100,15,,1,0,,ENERGY,0,,0.1,10,,,0,0,0,0,,375,50,30,100,SYSTEM,restricted,,Shackles Garrison,,xxxx,,,,,,,,,TRUE
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Den SRM Unit,XXVII_den_Felix_L,,0,,2000,,100,,15,0,,200,,,HIGH_EXPLOSIVE,0,,0,5,10,0.2,0,50,6,360,,200,100,8,50,"ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE, SYSTEM","rocket7, strike0",,Shackles Garrison,,Anti Small Ships,Average,Good,,,,,,,
 Den SRM Unit,XXVII_den_Felix_R,,0,,2000,,100,,15,0,,200,,,HIGH_EXPLOSIVE,0,,0,5,10,0.2,0,50,6,360,,200,100,8,50,"ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE, SYSTEM","rocket7, strike0",,Shackles Garrison,,Anti Small Ships,Average,Good,,
@@ -200,3 +233,8 @@ Projectile remains active while within %s range.",About 3s | 10% ~ 30% | About 1
 Plasma Disc Generator,SGB_PlasDicGener,3,,40000,850,,200,50,,50,15,50,2,40,ENERGY,120,,0,0.4,5,0.15,50,90,3,11,,1000,200,30,500,"STRIKE,DO_NOT_AIM, DO_NOT_CONSERVE","utility10, missile6, strike7, omega, SGB_Omega_Watcher, restricted",,Unknown,,Anti Small Ships,Very Fast,Good,,,"The projectile will not detonante on collision within %s of firing.
 
 The projectile will not disappear as long as it remains within %s .",1s | Weapon Range,
+#骨
+Loesia,PRB_Loesia,,2,,850,,100,,10,50,,50,1.5,5,KINETIC,75,,0.225,0.05,2,0.5,0,4,3,2,,1000,,,65,,"kinetic9, restricted",,未知,,自卫,,,,,,,,,
+Meniscus,PRB_Meniscus,,2,,700,,75,,30,30,,,,,KINETIC,35,,0,0.7633,7,0.111,3,40,3,25,,800,,,100,,"kinetic9, restricted",,未知,,自卫,,,,,在击中敌舰体时有 %s 概率产生一次穿甲效益，效果为随机造成 %s 点的结构损伤。,75% | 150~200,,
+昔日射流,PRB_Simpas,,0,,1000,1000,,,100,25,,,,,KINETIC,,500,0.5,3.5,1,,,,,,3000,,,,,,"kinetic14, restricted",,未知,,精炼,,,
+逆运流导出口,PRB_Temperbeam,,0,,2000,3000,,,70,20,,,0.0125,,HIGH_EXPLOSIVE,,,3,5,6,,,,,,800,,,,,"STRIKE,SYSTEM","energy14, strike8, restricted",,未知,,加工,,,,,,,,,TRUE

@@ -8,6 +8,8 @@ import com.fs.starfarer.api.campaign.AsteroidAPI;
 import com.fs.starfarer.api.combat.*;
 import com.fs.starfarer.api.loading.DamagingExplosionSpec;
 import data.scripts.util.MagicRender;
+import data.utils.sgb.SGB_BoxBasedUtil;
+import org.boxutil.units.standard.entity.SpriteEntity;
 import org.lwjgl.util.vector.Vector2f;
 
 import com.fs.starfarer.api.combat.listeners.ApplyDamageResultAPI;
@@ -28,7 +30,6 @@ public class SGB_Acidslay_AcidHit implements OnHitEffectPlugin {
 		Speedo2.setY(Speedo.getY()/8+SpeedT.getY()/4*3.75f);
 
 		float Angle =projectile.getFacing();
-
 		MagicRender.battlespace(
 				Global.getSettings().getSprite("fx","SGB_smoke_2"),
 				point,
@@ -74,12 +75,18 @@ public class SGB_Acidslay_AcidHit implements OnHitEffectPlugin {
 				0.0f,
 				0.3f
 		);
-
-		engine.addHitParticle(point, new Vector2f(), 120, 2f, 0.5f, new Color(229, 253, 183,255));
-		engine.addHitParticle(point, Speedo2, 100, 2f, 0.25f, new Color(254, 255, 231,255));
-		engine.addSmoothParticle(point, new Vector2f(), 120, 2f, 0.1f, projectile.getProjectileSpec().getCoreColor());
-		engine.spawnExplosion(point, new Vector2f(), new Color(133, 183, 143), 80 + (float)Math.random()*5, 0.25f);
-
+		if(SGB_BoxBasedUtil.hadBoxUtil()){
+			SGB_BoxBasedUtil.addNebulaParticle(point, new Vector2f(), 120, 1.8f, 0.34f,0.87f,0.5f, new Color(229, 253, 183, 255));
+			SGB_BoxBasedUtil.addNebulaParticle(point, Speedo2, 100, 0.23f, 0.41f,0.33f, 0.25f, new Color(254, 255, 231, 255));
+			SGB_BoxBasedUtil.addSmoothParticle(point, new Vector2f(), 120, 2f, 0.1f, projectile.getProjectileSpec().getCoreColor());
+			SGB_BoxBasedUtil.spawnExplosion(point, new Vector2f(), new Color(133, 183, 143), 80 + (float) Math.random() * 5, 0.25f);
+		}
+		else {
+			engine.addHitParticle(point, new Vector2f(), 120, 2f, 0.5f, new Color(229, 253, 183, 255));
+			engine.addHitParticle(point, Speedo2, 100, 2f, 0.25f, new Color(254, 255, 231, 255));
+			engine.addSmoothParticle(point, new Vector2f(), 120, 2f, 0.1f, projectile.getProjectileSpec().getCoreColor());
+			engine.spawnExplosion(point, new Vector2f(), new Color(133, 183, 143), 80 + (float) Math.random() * 5, 0.25f);
+		}
 		//if(target instanceof AsteroidAPI)return;
 
 		//	引爆

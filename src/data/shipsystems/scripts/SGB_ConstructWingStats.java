@@ -9,6 +9,7 @@ import com.fs.starfarer.api.impl.combat.BaseShipSystemScript;
 import com.fs.starfarer.api.loading.DamagingExplosionSpec;
 import com.fs.starfarer.api.loading.FighterWingSpecAPI;
 import com.fs.starfarer.api.util.Misc;
+import data.utils.sgb.SGB_BoxBasedUtil;
 import org.lazywizard.lazylib.MathUtils;
 import org.lwjgl.util.vector.Vector2f;
 
@@ -294,17 +295,25 @@ public class SGB_ConstructWingStats extends BaseShipSystemScript {
                 Color colorShake = getRandomBlendColor(new Color(255, 245, 204, 255),
                         colorWing);
 
-                engine.addSmoothParticle(
-                        bay_Dec_Loc,
-                        ship.getVelocity(),
-                        40 * effectLevel,
-                        2f * Math.max(effectLevel, 0.5f),
-                        0.1f,
-                        colorShake);
-
-
+                if(SGB_BoxBasedUtil.hadBoxUtil()){
+                    SGB_BoxBasedUtil.addSmoothParticle(
+                            bay_Dec_Loc,
+                            ship.getVelocity(),
+                            40 * effectLevel,
+                            2f * Math.max(effectLevel, 0.5f),
+                            0.1f,
+                            colorShake);
+                }
+                else{
+                    engine.addSmoothParticle(
+                            bay_Dec_Loc,
+                            ship.getVelocity(),
+                            40 * effectLevel,
+                            2f * Math.max(effectLevel, 0.5f),
+                            0.1f,
+                            colorShake);
+                }
             }
-
         }
     }
 

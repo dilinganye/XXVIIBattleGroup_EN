@@ -1,66 +1,66 @@
 {
-#ALL USED WEAPON SOUND
+	#ALL USED WEAPON SOUND
 "SGB_NONE":
 [
 {"file":"sounds/SGB_Assault_Gun_fire.wav","pitch":0.25,"volume":0.0},
 ],
-	"SGB_Assault_Gun_fire":
-	[
-		{"file":"sounds/SGB_Assault_Gun_fire.wav","pitch":0.95,"volume":0.2},
-		{"file":"sounds/SGB_Assault_Gun_fire.wav","pitch":0.9,"volume":0.2},
-		{"file":"sounds/SGB_Assault_Gun_fire.wav","pitch":0.85,"volume":0.2},
-	],
-	"SGB_Assault_Gun_reload":
-	[
-		{"file":"sounds/SGB_Assault_Gun_reload.ogg","pitch":1,"volume":0.2},
-		{"file":"sounds/SGB_Assault_Gun_reload.ogg","pitch":0.96,"volume":0.2},
-		{"file":"sounds/SGB_Assault_Gun_reload.ogg","pitch":0.92,"volume":0.2},
-	],
-	"SGB_Assault_Gun_reload_Only":
-	[
-		{"file":"sounds/SGB_Assault_Gun_reload.ogg","pitch":1,"volume":0.5},
-	],
-	"SGB_Blast_fire":
-	[
-		{"file":"sounds/SGB_Blast_fire.wav","pitch":1,"volume":0.2},
-		{"file":"sounds/SGB_Blast_fire.wav","pitch":0.97,"volume":0.2},
-		{"file":"sounds/SGB_Blast_fire.wav","pitch":0.94,"volume":0.2},
-		{"file":"sounds/SGB_Blast_fire.wav","pitch":0.9,"volume":0.2},
-	],
-	"SGB_Downer_time":
-	[
-		{"file":"sounds/SGB_Downer_time_01.ogg","pitch":1,"volume":0.3},
-		{"file":"sounds/SGB_Downer_time_01.ogg","pitch":0.98,"volume":0.3},
-		{"file":"sounds/SGB_Downer_time_01.ogg","pitch":0.95,"volume":0.3},
-		{"file":"sounds/SGB_Downer_time_01.ogg","pitch":0.9,"volume":0.3},
-	],
-	"SGB_Missile_L_fire":
-	[
-		{"file":"sounds/SGB_Missile_L_fire.wav","pitch":1,"volume":0.3},
-		{"file":"sounds/SGB_Missile_L_fire.wav","pitch":0.85,"volume":0.3},
-		{"file":"sounds/SGB_Missile_L_fire.wav","pitch":0.95,"volume":0.3},
-		{"file":"sounds/SGB_Missile_L_fire.wav","pitch":0.8,"volume":0.3},
-	],
-	"SGB_Missile_L_reload":
-	[
-		{"file":"sounds/SGB_Missile_L_reload.wav","pitch":1,"volume":0.3},
-		{"file":"sounds/SGB_Missile_L_reload.wav","pitch":0.8,"volume":0.3},
-		{"file":"sounds/SGB_Missile_L_reload.wav","pitch":0.9,"volume":0.3},
-	],
-	"SGB_Missile_NL_fire":
-	[
-		{"file":"sounds/SGB_Missile_NL_fire.wav","pitch":1,"volume":0.3},
-		{"file":"sounds/SGB_Missile_NL_fire.wav","pitch":0.85,"volume":0.3},
-		{"file":"sounds/SGB_Missile_NL_fire.wav","pitch":0.95,"volume":0.3},
-		{"file":"sounds/SGB_Missile_NL_fire.wav","pitch":0.8,"volume":0.3},
-	],
-	"SGB_No_Smoke_Energy":
-	[
-		{"file":"sounds/SGB_No_Smoke_Energy_01.wav","pitch":1,"volume":0.3},
-		{"file":"sounds/SGB_No_Smoke_Energy_02.wav","pitch":0.85,"volume":0.3},
-		{"file":"sounds/SGB_No_Smoke_Energy_03.wav","pitch":0.95,"volume":0.3},
-		{"file":"sounds/SGB_No_Smoke_Energy_04.wav","pitch":0.8,"volume":0.3},
-	],
+"SGB_Assault_Gun_fire":
+[
+{"file":"sounds/SGB_Assault_Gun_fire.wav","pitch":0.95,"volume":0.2},
+{"file":"sounds/SGB_Assault_Gun_fire.wav","pitch":0.9,"volume":0.2},
+{"file":"sounds/SGB_Assault_Gun_fire.wav","pitch":0.85,"volume":0.2},
+],
+"SGB_Assault_Gun_reload":
+[
+{"file":"sounds/SGB_Assault_Gun_reload.ogg","pitch":1,"volume":0.2},
+{"file":"sounds/SGB_Assault_Gun_reload.ogg","pitch":0.96,"volume":0.2},
+{"file":"sounds/SGB_Assault_Gun_reload.ogg","pitch":0.92,"volume":0.2},
+],
+"SGB_Assault_Gun_reload_Only":
+[
+{"file":"sounds/SGB_Assault_Gun_reload.ogg","pitch":1,"volume":0.5},
+],
+"SGB_Blast_fire":
+[
+{"file":"sounds/SGB_Blast_fire.wav","pitch":1,"volume":0.2},
+{"file":"sounds/SGB_Blast_fire.wav","pitch":0.97,"volume":0.2},
+{"file":"sounds/SGB_Blast_fire.wav","pitch":0.94,"volume":0.2},
+{"file":"sounds/SGB_Blast_fire.wav","pitch":0.9,"volume":0.2},
+],
+"SGB_Downer_time":
+[
+{"file":"sounds/SGB_Downer_time_01.ogg","pitch":1,"volume":0.3},
+{"file":"sounds/SGB_Downer_time_01.ogg","pitch":0.98,"volume":0.3},
+{"file":"sounds/SGB_Downer_time_01.ogg","pitch":0.95,"volume":0.3},
+{"file":"sounds/SGB_Downer_time_01.ogg","pitch":0.9,"volume":0.3},
+],
+"SGB_Missile_L_fire":
+[
+{"file":"sounds/SGB_Missile_L_fire.wav","pitch":1,"volume":0.3},
+{"file":"sounds/SGB_Missile_L_fire.wav","pitch":0.85,"volume":0.3},
+{"file":"sounds/SGB_Missile_L_fire.wav","pitch":0.95,"volume":0.3},
+{"file":"sounds/SGB_Missile_L_fire.wav","pitch":0.8,"volume":0.3},
+],
+"SGB_Missile_L_reload":
+[
+{"file":"sounds/SGB_Missile_L_reload.wav","pitch":1,"volume":0.3},
+{"file":"sounds/SGB_Missile_L_reload.wav","pitch":0.8,"volume":0.3},
+{"file":"sounds/SGB_Missile_L_reload.wav","pitch":0.9,"volume":0.3},
+],
+"SGB_Missile_NL_fire":
+[
+{"file":"sounds/SGB_Missile_NL_fire.wav","pitch":1,"volume":0.3},
+{"file":"sounds/SGB_Missile_NL_fire.wav","pitch":0.85,"volume":0.3},
+{"file":"sounds/SGB_Missile_NL_fire.wav","pitch":0.95,"volume":0.3},
+{"file":"sounds/SGB_Missile_NL_fire.wav","pitch":0.8,"volume":0.3},
+],
+"SGB_No_Smoke_Energy":
+[
+{"file":"sounds/SGB_No_Smoke_Energy_01.wav","pitch":1,"volume":0.3},
+{"file":"sounds/SGB_No_Smoke_Energy_02.wav","pitch":0.85,"volume":0.3},
+{"file":"sounds/SGB_No_Smoke_Energy_03.wav","pitch":0.95,"volume":0.3},
+{"file":"sounds/SGB_No_Smoke_Energy_04.wav","pitch":0.8,"volume":0.3},
+],
 "SGB_AsAboveSoBelow":
 [
 {"file":"sounds/SGB_AsAboveSoBelow.wav","pitch":1,"volume":0.45},
@@ -127,126 +127,136 @@
 {"file":"sounds/SGB_Tank_Fire_Light.wav","pitch":0.8,"volume":0.23},
 {"file":"sounds/SGB_Tank_Fire_Light.wav","pitch":0.69,"volume":0.23},
 ],
+"SGB_Lazer_Lmg_fire":
+[
+{"file":"sounds/SGB_Lmg_fire2.wav","pitch":0.95,"volume":0.2},
+{"file":"sounds/SGB_Lmg_fire1.wav","pitch":0.9,"volume":0.2},
+{"file":"sounds/SGB_Lmg_fire2.wav","pitch":0.72,"volume":0.24},
+{"file":"sounds/SGB_Lmg_fire1.wav","pitch":0.76,"volume":0.22},
+{"file":"sounds/SGB_Lmg_fire2.wav","pitch":0.75,"volume":0.23},
+{"file":"sounds/SGB_Lmg_fire1.wav","pitch":0.8,"volume":0.23},
+{"file":"sounds/SGB_Lmg_fire2.wav","pitch":0.69,"volume":0.23},
+],
 
 #FACTION BGM
-	"music":{
-		"faction_sbg_encounter_hostile":
-		[
-			{
-			"source":"sounds/bgm",
-			"file":"Garrsion_blackLegion.ogg",
-			"volume":0.75,
-			"randomStart":false, 
-			},
-		],
-		"faction_sbg_encounter_neutral":
-		[
-			{
-			"source":"sounds/bgm",
-			"file":"Garrsion_oldDays.ogg",
-			"volume":0.62,
-			"randomStart":false, 
-			},
-		],
-		"faction_sbg_encounter_friendly":
-		[
-			{
-			"source":"sounds/bgm",
-			"file":"Garrsion_blackLegion_2.ogg",
-			"volume":0.76,
-			"randomStart":false, 
-			},
-		],
-		"faction_sbg_market_hostile":
-				# Wait For Light
-		[
-			{
-			"source":"sounds/bgm",
-			"file":"Garrson_Sick_To_Despair_02.ogg",
-			"volume":0.65,
-			"randomStart":false, 
-			},
-		],
-		"faction_sbg_market_neutral":
-		[
-			{
-			"source":"sounds/bgm",
-			"file":"Garrsion_dayAfterDay.ogg",
-			"volume":0.67,
-			"randomStart":false, 
-			},
-		],
-		"faction_sbg_market_friendly":
-				# Wait For Light
-		[
-			{
-			"source":"sounds/bgm",
-			"file":"Garrson_Sick_To_Despair.ogg",
-			"volume":0.65,
-			"randomStart":false, 
-			},
-		],
-		"XXVII_SP_Momentum":
-		[
-			{
-			"source":"sounds/bgm",
-			"file":"XXVII_SP_Momentum.ogg",
-			"volume":0.5,
-			"randomStart":false, 
-			},
-		],
-		"XXVII_EnemyWings":
-		[
-			{
-			"source":"sounds/bgm",
-			"file":"XXVII_EnemyWings.ogg",
-			"volume":0.5,
-			"randomStart":false,
-			},
-		],
-		"faction_sbg_sf_encounter_neutral":
-		[
-			{
-				"source":"sounds/bgm",
-				"volume":0.5,
-				"file":"XXVII_SP_BTL_var01.ogg",
-				"randomStart":true, 
-			},
-		],
-		"faction_sbg_sf_encounter_hostile":
-		[
-			{
-				"source":"sounds/bgm",
-				"volume":0.5,
-				"file":"XXVII_SP_BTL_var02.ogg",
-				"randomStart":true, 
-			},
-		],
-		"faction_sbg_sf_encounter_hostile_2":
-		[
-			{
-				"source":"sounds/bgm/",
-				"volume":0.5,
-				"files":[
-					"XXVII_SP_RTL_var02.ogg",
-					"XXVII_SP_RTL_var01.ogg",
-					"XXVII_SP_RTL_var03.ogg",
-				],
-				"randomStart":true, 
-			},
-		],
-		"faction_sbg_sf_encounter_hostile_3":
-		[
-			{
-				"source":"sounds/bgm/",
-				"volume":0.5,
-				"files":[
-					"XXVII_SP_BTL_var01.ogg",
-					"XXVII_SP_BTL_var02.ogg",
-				],
-				"randomStart":true, 
-			},
-		],
+"music":{
+"faction_sbg_encounter_hostile":
+[
+{
+"source":"sounds/bgm",
+"file":"Garrsion_blackLegion.ogg",
+"volume":0.75,
+"randomStart":false,
+},
+],
+"faction_sbg_encounter_neutral":
+[
+{
+"source":"sounds/bgm",
+"file":"Garrsion_oldDays.ogg",
+"volume":0.62,
+"randomStart":false,
+},
+],
+"faction_sbg_encounter_friendly":
+[
+{
+"source":"sounds/bgm",
+"file":"Garrsion_blackLegion_2.ogg",
+"volume":0.76,
+"randomStart":false,
+},
+],
+"faction_sbg_market_hostile":
+# Wait For Light
+[
+{
+"source":"sounds/bgm",
+"file":"Garrson_Sick_To_Despair_02.ogg",
+"volume":0.65,
+"randomStart":false,
+},
+],
+"faction_sbg_market_neutral":
+[
+{
+"source":"sounds/bgm",
+"file":"Garrsion_dayAfterDay.ogg",
+"volume":0.67,
+"randomStart":false,
+},
+],
+"faction_sbg_market_friendly":
+# Wait For Light
+[
+{
+"source":"sounds/bgm",
+"file":"Garrson_Sick_To_Despair.ogg",
+"volume":0.65,
+"randomStart":false,
+},
+],
+"XXVII_SP_Momentum":
+[
+{
+"source":"sounds/bgm",
+"file":"XXVII_SP_Momentum.ogg",
+"volume":0.5,
+"randomStart":false,
+},
+],
+"XXVII_EnemyWings":
+[
+{
+"source":"sounds/bgm",
+"file":"XXVII_EnemyWings.ogg",
+"volume":0.5,
+"randomStart":false,
+},
+],
+"faction_sbg_sf_encounter_neutral":
+[
+{
+"source":"sounds/bgm",
+"volume":0.5,
+"file":"XXVII_SP_BTL_var01.ogg",
+"randomStart":true,
+},
+],
+"faction_sbg_sf_encounter_hostile":
+[
+{
+"source":"sounds/bgm",
+"volume":0.5,
+"file":"XXVII_SP_BTL_var02.ogg",
+"randomStart":true,
+},
+],
+"faction_sbg_sf_encounter_hostile_2":
+[
+{
+"source":"sounds/bgm/",
+"volume":0.5,
+"files":[
+"XXVII_SP_RTL_var02.ogg",
+"XXVII_SP_RTL_var01.ogg",
+"XXVII_SP_RTL_var03.ogg",
+],
+"randomStart":true,
+},
+],
+"faction_sbg_sf_encounter_hostile_3":
+[
+{
+"source":"sounds/bgm/",
+"volume":0.5,
+"files":[
+"XXVII_SP_BTL_var01.ogg",
+"XXVII_SP_BTL_var02.ogg",
+],
+"randomStart":true,
+},
+],
 
 
 "IFC_Overall_Control":
@@ -290,6 +300,29 @@
 "volume":0.4,
 "files":[
 "SGB_Omega_Battle.ogg",
+],
+"randomStart":true,
+},
+],
+"SGB_Annihilation_remix":
+[
+{
+"source":"sounds/bgm/",
+"volume":0.5,
+"files":[
+"SGB_Annihilation_remix.ogg",
+],
+"randomStart":true,
+},
+],
+"SGB_StrangeBedfellowsExtended_remix":
+[
+{
+"source":"sounds/bgm/",
+"volume":0.5,
+"files":[
+"SGB_StrangeBedfellowsExtended_remix.ogg",
+"SGB_Strange_Bedfellows.ogg"
 ],
 "randomStart":true,
 },

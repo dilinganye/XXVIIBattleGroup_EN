@@ -1,0 +1,364 @@
+{
+  "hullName": "PRB_Goluiembae",
+  "hullId": "PRB_Goluiembae",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/PRB/Goluiembae.png",
+  "style": "PRB_TECH",
+  "height": 231,
+  "width": 211,
+  "center": [105.5, 115.5],
+  "collisionRadius": 146,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 136,
+  "viewOffset": 0,
+  "builtInMods": [
+    "PRB_DeepBugs"
+  ],
+  "builtInWings": [
+    "PRB_Vertebra_LPC_Robbery_wing",
+    "PRB_Vertebra_LPC_Robbery_wing",
+    "PRB_Vertebra_LPC_Robbery_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-27.5, -11]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-27.5, 9]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-13, -0.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 121,
+      "angle": -37,
+      "locations": [-10, -20]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 121,
+      "angle": 37,
+      "locations": [-10, 20]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 121,
+      "angle": 37,
+      "locations": [54, 24.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 121,
+      "angle": -37,
+      "locations": [54, -24.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 68,
+      "angle": 0,
+      "locations": [46, -0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-34, -0.5],
+      "length": 17.5,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [-30, 15.5],
+      "length": 23.867317,
+      "width": 11.463184,
+      "angle": 170,
+      "contrailSize": 11.463184,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [-30, -15.5],
+      "length": 23.867317,
+      "width": 11.463184,
+      "angle": -170,
+      "contrailSize": 11.463184,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [74, 89.5],
+      "length": 78.150002,
+      "width": 8.58,
+      "angle": -161,
+      "contrailSize": 8.58,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [74, -89.5],
+      "length": 78.150002,
+      "width": 8.58,
+      "angle": 161,
+      "contrailSize": 8.58,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [77, 79],
+      "length": 65.099998,
+      "width": 6.88,
+      "angle": -160,
+      "contrailSize": 6.88,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [77, -79],
+      "length": 65.099998,
+      "width": 6.88,
+      "angle": 160,
+      "contrailSize": 6.88,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [76.5, 69],
+      "length": 62.299999,
+      "width": 6.82,
+      "angle": -161.5,
+      "contrailSize": 6.82,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [76.5, -69],
+      "length": 62.299999,
+      "width": 6.82,
+      "angle": 161.5,
+      "contrailSize": 6.82,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [79, -69.5],
+      "length": 17.5,
+      "width": 14,
+      "angle": 168.5,
+      "contrailSize": 14,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [79, 69.5],
+      "length": 17.5,
+      "width": 14,
+      "angle": -168.5,
+      "contrailSize": 14,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [78, -79.5],
+      "length": 17.5,
+      "width": 14,
+      "angle": 159,
+      "contrailSize": 14,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [78, 79.5],
+      "length": 17.5,
+      "width": 14,
+      "angle": -159,
+      "contrailSize": 14,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [74.5, -90],
+      "length": 17.5,
+      "width": 14,
+      "angle": 159.5,
+      "contrailSize": 14,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [74.5, 90],
+      "length": 17.5,
+      "width": 14,
+      "angle": -159.5,
+      "contrailSize": 14,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [-33, -41.5],
+      "length": 22.179476,
+      "width": 27.152967,
+      "angle": -165,
+      "contrailSize": 27.152967,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [-33, 41.5],
+      "length": 22.179476,
+      "width": 27.152967,
+      "angle": 165,
+      "contrailSize": 27.152967,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [-36, -42],
+      "length": 38.391273,
+      "width": 7.774374,
+      "angle": -127,
+      "contrailSize": 7.774374,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-36, 42],
+      "length": 38.391273,
+      "width": 7.774374,
+      "angle": 127,
+      "contrailSize": 7.774374,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-37, -42],
+      "length": 38.391273,
+      "width": 7.774374,
+      "angle": 152.5,
+      "contrailSize": 7.774374,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-37, 42],
+      "length": 38.391273,
+      "width": 7.774374,
+      "angle": -152.5,
+      "contrailSize": 7.774374,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-93, -15.5],
+      "length": 39.750172,
+      "width": 15.287072,
+      "angle": -143.5,
+      "contrailSize": 15.287072,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [-93, 15.5],
+      "length": 39.750172,
+      "width": 15.287072,
+      "angle": 143.5,
+      "contrailSize": 15.287072,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [-95.5, -20.5],
+      "length": 23.21711,
+      "width": 27.800417,
+      "angle": 133,
+      "contrailSize": 27.800417,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [-95.5, 20.5],
+      "length": 23.21711,
+      "width": 27.800417,
+      "angle": -133,
+      "contrailSize": 27.800417,
+      "style": "PRB_TECH"
+    },
+    {
+      "location": [-99, -22],
+      "length": 29.132181,
+      "width": 6.185805,
+      "angle": 146.5,
+      "contrailSize": 6.185805,
+      "style": "PRB_TECH_QUAD"
+    },
+    {
+      "location": [-99, 22],
+      "length": 29.132181,
+      "width": 6.185805,
+      "angle": -146.5,
+      "contrailSize": 6.185805,
+      "style": "PRB_TECH_QUAD"
+    }
+  ],
+  "bounds": [
+    -104, 2,
+    -93, 3,
+    -87, 16.5,
+    -99, 35.5,
+    -95.5, 50,
+    -73, 60,
+    -79.5, 36,
+    -74.5, 17.5,
+    -24.5, 44,
+    -37.5, 71,
+    -28.5, 70,
+    -17.5, 50.5,
+    17, 31,
+    7.5, 10.5,
+    39.5, 14,
+    61, 31.5,
+    45, 37,
+    49, 47.5,
+    65.5, 46,
+    78, 69,
+    73, 97.5,
+    81.5, 100.5,
+    104.5, 15.5,
+    97.5, 9,
+    97.5, -9,
+    104.5, -15.5,
+    81.5, -100.5,
+    73, -97.5,
+    78, -69,
+    65.5, -46,
+    49, -47.5,
+    45, -37,
+    61, -31.5,
+    39.5, -14,
+    7.5, -10.5,
+    17, -31,
+    -17.5, -50.5,
+    -28.5, -70,
+    -37.5, -71,
+    -24.5, -44,
+    -74.5, -17.5,
+    -79.5, -36,
+    -73, -60,
+    -95.5, -50,
+    -99, -35.5,
+    -87, -16.5,
+    -93, -3,
+    -104, -2
+  ]
+}

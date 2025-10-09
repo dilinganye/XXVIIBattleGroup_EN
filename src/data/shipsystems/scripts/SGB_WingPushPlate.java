@@ -91,18 +91,18 @@ public class SGB_WingPushPlate extends BaseShipSystemScript {
 		
 		public float shapedExplosionOffset = 50f;
 		public float shapedExplosionEndSizeMin = 0.5f;
-		public float shapedExplosionEndSizeMax = 1.25f;
-		public Color shapedExplosionColor = new Color(255, 155,25,155);
+		public float shapedExplosionEndSizeMax = 1.01f;
+		public Color shapedExplosionColor = new Color(190, 255,25,155);
 		public int shapedExplosionNumParticles = 15;
 		public float shapedExplosionMinParticleSize = 20f;
 		public float shapedExplosionMaxParticleSize = 30f;
-		public float shapedExplosionScatter = 50f;
-		public float shapedExplosionMinParticleVel = 35f;
-		public float shapedExplosionMaxParticleVel = 70f;
+		public float shapedExplosionScatter = 25f;
+		public float shapedExplosionMinParticleVel = 16f;
+		public float shapedExplosionMaxParticleVel = 35f;
 		public float shapedExplosionMinParticleDur = 0.8f;
 		public float shapedExplosionMaxParticleDur = 1.5f;
 		public float shapedExplosionArc = 45f;
-		public Color jitterColor = new Color(255, 25, 25,55);
+		public Color jitterColor = new Color(255, 148, 25,55);
 		public float maxJitterDur = 2f;
 		
 		public float pusherPlateMaxOffset = 8f;
